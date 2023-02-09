@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classBoard_1_1JSONBoardConverter" xml:lang="en-US">
+<title>Board.JSONBoardConverter Class Reference</title>
+<indexterm><primary>Board.JSONBoardConverter</primary></indexterm>
+Collaboration diagram for Board.JSONBoardConverter:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1JSONBoardConverter__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>String <link linkend="_classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108">buildJSONBoard</link> (<link linkend="_classBoard_1_1Board">Board</link> board)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classBoard_1_1JSONBoardConverter_1aebf37df2fbd903e07e8edb9349976e0a">addContent</link> (String content)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final StringBuilder <link linkend="_classBoard_1_1JSONBoardConverter_1a8be0f98f60cb305bab26c69c0d31e007">jsonBuilder</link> = new StringBuilder()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Converts a board to a JSON String which can be sent to clients by the server. Can be turned back to <link linkend="_classBoard_1_1Board">Board</link> by <link linkend="_classBoard_1_1JSONBoardConverter">JSONBoardConverter</link>. </para>
+<para>
+Definition at line 10 of file JSONBoardConverter.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classBoard_1_1JSONBoardConverter_1aebf37df2fbd903e07e8edb9349976e0a"/>    <section>
+    <title>addContent()</title>
+<indexterm><primary>addContent</primary><secondary>Board.JSONBoardConverter</secondary></indexterm>
+<indexterm><primary>Board.JSONBoardConverter</primary><secondary>addContent</secondary></indexterm>
+<para><computeroutput>void Board.JSONBoardConverter.addContent (String content)</computeroutput></para>
+<para>Ads data to the JSON String 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>content</entry>
+                                <entry>
+<para>data to add </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 45 of file JSONBoardConverter.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1JSONBoardConverter_aebf37df2fbd903e07e8edb9349976e0a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108"/>    <section>
+    <title>buildJSONBoard()</title>
+<indexterm><primary>buildJSONBoard</primary><secondary>Board.JSONBoardConverter</secondary></indexterm>
+<indexterm><primary>Board.JSONBoardConverter</primary><secondary>buildJSONBoard</secondary></indexterm>
+<para><computeroutput>String Board.JSONBoardConverter.buildJSONBoard (<link linkend="_classBoard_1_1Board">Board</link> board)</computeroutput></para>
+<para>Converts a board to a JSON String</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>board</entry>
+                                <entry>
+<para>board we want to convert </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>JSON String that stores board data </para>
+</formalpara>
+</para>
+<para>
+Definition at line 20 of file JSONBoardConverter.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1JSONBoardConverter_a98038a40196e2a072ca99710b877a108_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1JSONBoardConverter_a98038a40196e2a072ca99710b877a108_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classBoard_1_1JSONBoardConverter_1a8be0f98f60cb305bab26c69c0d31e007"/>    <section>
+    <title>jsonBuilder</title>
+<indexterm><primary>jsonBuilder</primary><secondary>Board.JSONBoardConverter</secondary></indexterm>
+<indexterm><primary>Board.JSONBoardConverter</primary><secondary>jsonBuilder</secondary></indexterm>
+<para><computeroutput>final StringBuilder Board.JSONBoardConverter.jsonBuilder = new StringBuilder()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 11 of file JSONBoardConverter.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaServer/src/main/java/Board/<link linkend="_TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java">JSONBoardConverter.java</link></section>
+</section>

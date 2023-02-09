@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classsocketServer_1_1Trylma" kind="class" language="Java" prot="public">
+    <compoundname>socketServer::Trylma</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsocketServer_1_1Trylma_1a92e9e14a7ea583b5bf444449285823b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void socketServer.Trylma.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <exceptions> throws Exception </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/Trylma.java" line="4" column="24" bodyfile="TrylmaServer/src/main/java/socketServer/Trylma.java" bodystart="4" bodyend="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>socketServer.Trylma</label>
+        <link refid="classsocketServer_1_1Trylma"/>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaServer/src/main/java/socketServer/Trylma.java" line="3" column="7" bodyfile="TrylmaServer/src/main/java/socketServer/Trylma.java" bodystart="3" bodyend="7"/>
+    <listofallmembers>
+      <member refid="classsocketServer_1_1Trylma_1a92e9e14a7ea583b5bf444449285823b5" prot="public" virt="non-virtual"><scope>socketServer::Trylma</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

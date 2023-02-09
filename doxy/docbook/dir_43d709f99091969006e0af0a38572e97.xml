@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_43d709f99091969006e0af0a38572e97" xml:lang="en-US">
+<title>TrylmaServer Directory Reference</title>
+<indexterm><primary>TrylmaServer Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_b5684d15a2c94423b21230d2686b9dc0">src</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

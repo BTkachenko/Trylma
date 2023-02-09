@@ -1,0 +1,176 @@
+.TH "socketServer.Player" 3 "Thu Jan 27 2022" "Trylma" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+socketServer.Player
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Runnable\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPlayer\fP (Socket \fBsocket\fP, int \fBplayerId\fP)"
+.br
+.ti -1c
+.RI "void \fBrun\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetGame\fP (\fBGame\fP \fBgame\fP)"
+.br
+.ti -1c
+.RI "int \fBgetPlayerId\fP ()"
+.br
+.ti -1c
+.RI "void \fBsendMessage\fP (String message)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "PrintWriter \fBoutput\fP"
+.br
+.in -1c
+.SS "Package Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBGame\fP \fBgame\fP"
+.br
+.ti -1c
+.RI "Socket \fBsocket\fP"
+.br
+.ti -1c
+.RI "Scanner \fBinput\fP"
+.br
+.ti -1c
+.RI "DataOutputStream \fBoutputStream\fP"
+.br
+.ti -1c
+.RI "int \fBplayerId\fP"
+.br
+.ti -1c
+.RI "int \fBstartMoveField\fP"
+.br
+.ti -1c
+.RI "int \fBendMoveField\fP"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBsetup\fP ()  throws IOException "
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBPlayer\fP is associated to a client\&. It sends and receives information from client and performs suitable actions on server 
+.PP
+Definition at line 17 of file Player\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "socketServer\&.Player\&.Player (Socket socket, int playerId)"
+Basic constructor 
+.PP
+\fBParameters\fP
+.RS 4
+\fIsocket\fP server socket 
+.br
+\fIplayerId\fP this player id 
+.RE
+.PP
+
+.PP
+Definition at line 33 of file Player\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "int socketServer\&.Player\&.getPlayerId ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+returns this player ID 
+.RE
+.PP
+
+.PP
+Definition at line 102 of file Player\&.java\&.
+.SS "void socketServer\&.Player\&.run ()"
+Takes suitable actions according to data received from the client 
+.PP
+Definition at line 50 of file Player\&.java\&.
+.SS "void socketServer\&.Player\&.sendMessage (String message)"
+Sends given message to the player 
+.PP
+\fBParameters\fP
+.RS 4
+\fImessage\fP given message 
+.RE
+.PP
+
+.PP
+Definition at line 111 of file Player\&.java\&.
+.SS "void socketServer\&.Player\&.setGame (\fBGame\fP game)"
+Assigns game to the player\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIgame\fP the game assigned to this player 
+.RE
+.PP
+
+.PP
+Definition at line 94 of file Player\&.java\&.
+.SS "void socketServer\&.Player\&.setup () throws IOException\fC [private]\fP"
+Sets up all necessary tools 
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIOException\fP exception 
+.RE
+.PP
+
+.PP
+Definition at line 83 of file Player\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "int socketServer\&.Player\&.endMoveField\fC [package]\fP"
+
+.PP
+Definition at line 25 of file Player\&.java\&.
+.SS "\fBGame\fP socketServer\&.Player\&.game\fC [package]\fP"
+
+.PP
+Definition at line 18 of file Player\&.java\&.
+.SS "Scanner socketServer\&.Player\&.input\fC [package]\fP"
+
+.PP
+Definition at line 20 of file Player\&.java\&.
+.SS "PrintWriter socketServer\&.Player\&.output"
+
+.PP
+Definition at line 22 of file Player\&.java\&.
+.SS "DataOutputStream socketServer\&.Player\&.outputStream\fC [package]\fP"
+
+.PP
+Definition at line 21 of file Player\&.java\&.
+.SS "int socketServer\&.Player\&.playerId\fC [package]\fP"
+
+.PP
+Definition at line 23 of file Player\&.java\&.
+.SS "Socket socketServer\&.Player\&.socket\fC [package]\fP"
+
+.PP
+Definition at line 19 of file Player\&.java\&.
+.SS "int socketServer\&.Player\&.startMoveField\fC [package]\fP"
+
+.PP
+Definition at line 24 of file Player\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Trylma from the source code\&.

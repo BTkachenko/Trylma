@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_8b9a349ad13800ba900fbb7168e4e300" kind="dir">
+    <compoundname>TrylmaClient/src/main/java/board</compoundname>
+    <innerfile refid="TrylmaClient_2src_2main_2java_2board_2Board_8java">Board.java</innerfile>
+    <innerfile refid="TrylmaClient_2src_2main_2java_2board_2BoardBuilder_8java">BoardBuilder.java</innerfile>
+    <innerfile refid="TrylmaClient_2src_2main_2java_2board_2BoardField_8java">BoardField.java</innerfile>
+    <innerfile refid="TrylmaClient_2src_2main_2java_2board_2DefaultBoard_8java">DefaultBoard.java</innerfile>
+    <innerfile refid="TrylmaClient_2src_2main_2java_2board_2DefaultBoardBuilder_8java">DefaultBoardBuilder.java</innerfile>
+    <innerfile refid="TrylmaClient_2src_2main_2java_2board_2JSONBoardConverter_8java">JSONBoardConverter.java</innerfile>
+    <innerfile refid="TrylmaClient_2src_2main_2java_2board_2PlayerColor_8java">PlayerColor.java</innerfile>
+    <innerfile refid="TrylmaClient_2src_2main_2java_2board_2StatusColor_8java">StatusColor.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TrylmaClient/src/main/java/board/"/>
+  </compounddef>
+</doxygen>

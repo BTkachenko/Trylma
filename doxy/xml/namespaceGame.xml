@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespaceGame" kind="namespace" language="Java">
+    <compoundname>Game</compoundname>
+    <innerclass refid="classGame_1_1Game" prot="public">Game::Game</innerclass>
+    <innerclass refid="interfaceGame_1_1Rules" prot="public">Game::Rules</innerclass>
+    <innerclass refid="classGame_1_1TrylmaRules" prot="public">Game::TrylmaRules</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TrylmaServer/src/main/java/Game/Game.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,265 @@
+.TH "Board.BoardField" 3 "Thu Jan 27 2022" "Trylma" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Board.BoardField
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBBoardField\fP (int \fBrow\fP, int \fBcolumn\fP, double \fBxPosition\fP, double \fByPosition\fP, int playerColorID, int statusColorID)"
+.br
+.ti -1c
+.RI "int \fBgetRow\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetRow\fP (int \fBrow\fP)"
+.br
+.ti -1c
+.RI "int \fBgetColumn\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetColumn\fP (int \fBcolumn\fP)"
+.br
+.ti -1c
+.RI "\fBPlayerColor\fP \fBgetPlayerColor\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPlayerColor\fP (\fBPlayerColor\fP \fBplayerColor\fP)"
+.br
+.ti -1c
+.RI "\fBStatusColor\fP \fBgetStatusColor\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetStatusColor\fP (\fBStatusColor\fP \fBstatusColor\fP)"
+.br
+.ti -1c
+.RI "double \fBgetXPosition\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetXPosition\fP (double \fBxPosition\fP)"
+.br
+.ti -1c
+.RI "double \fBgetYPosition\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetYPosition\fP (double \fByPosition\fP)"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBPlayerColor\fP \fBplayerColor\fP"
+.br
+.ti -1c
+.RI "\fBStatusColor\fP \fBstatusColor\fP"
+.br
+.ti -1c
+.RI "double \fBxPosition\fP"
+.br
+.ti -1c
+.RI "double \fByPosition\fP"
+.br
+.ti -1c
+.RI "int \fBrow\fP"
+.br
+.ti -1c
+.RI "int \fBcolumn\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A single field of a board, it stores information about its color, status and position 
+.PP
+Definition at line 9 of file BoardField\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Board\&.BoardField\&.BoardField (int row, int column, double xPosition, double yPosition, int playerColorID, int statusColorID)"
+\fBBoardField\fP constructor, the board is made based on an int[][] array the field can be identified based on its position in that array
+.PP
+\fBParameters\fP
+.RS 4
+\fIrow\fP - the row of an array associated to this field 
+.br
+\fIcolumn\fP - the column of an array associated to this field 
+.br
+\fIxPosition\fP - X axis position on the screen 
+.br
+\fIyPosition\fP - Y axis position on the screen 
+.br
+\fIplayerColorID\fP - field current color 
+.br
+\fIstatusColorID\fP - field current status 
+.RE
+.PP
+
+.PP
+Definition at line 30 of file BoardField\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "int Board\&.BoardField\&.getColumn ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+returns field column 
+.RE
+.PP
+
+.PP
+Definition at line 62 of file BoardField\&.java\&.
+.SS "\fBPlayerColor\fP Board\&.BoardField\&.getPlayerColor ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+returns fields current color 
+.RE
+.PP
+
+.PP
+Definition at line 79 of file BoardField\&.java\&.
+.SS "int Board\&.BoardField\&.getRow ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+returns field row 
+.RE
+.PP
+
+.PP
+Definition at line 45 of file BoardField\&.java\&.
+.SS "\fBStatusColor\fP Board\&.BoardField\&.getStatusColor ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+returns what is current field status 
+.RE
+.PP
+
+.PP
+Definition at line 96 of file BoardField\&.java\&.
+.SS "double Board\&.BoardField\&.getXPosition ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+returns field X axis position 
+.RE
+.PP
+
+.PP
+Definition at line 113 of file BoardField\&.java\&.
+.SS "double Board\&.BoardField\&.getYPosition ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+returns field Y axis position 
+.RE
+.PP
+
+.PP
+Definition at line 130 of file BoardField\&.java\&.
+.SS "void Board\&.BoardField\&.setColumn (int column)"
+Sets field column 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcolumn\fP column that the field is in 
+.RE
+.PP
+
+.PP
+Definition at line 71 of file BoardField\&.java\&.
+.SS "void Board\&.BoardField\&.setPlayerColor (\fBPlayerColor\fP playerColor)"
+Sets the field color 
+.PP
+\fBParameters\fP
+.RS 4
+\fIplayerColor\fP a new player color 
+.RE
+.PP
+
+.PP
+Definition at line 88 of file BoardField\&.java\&.
+.SS "void Board\&.BoardField\&.setRow (int row)"
+Sets field row 
+.PP
+\fBParameters\fP
+.RS 4
+\fIrow\fP row the field is in 
+.RE
+.PP
+
+.PP
+Definition at line 54 of file BoardField\&.java\&.
+.SS "void Board\&.BoardField\&.setStatusColor (\fBStatusColor\fP statusColor)"
+Sets the field status 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstatusColor\fP a new field status 
+.RE
+.PP
+
+.PP
+Definition at line 105 of file BoardField\&.java\&.
+.SS "void Board\&.BoardField\&.setXPosition (double xPosition)"
+Sets field X axis position 
+.PP
+\fBParameters\fP
+.RS 4
+\fIxPosition\fP field X axis position 
+.RE
+.PP
+
+.PP
+Definition at line 122 of file BoardField\&.java\&.
+.SS "void Board\&.BoardField\&.setYPosition (double yPosition)"
+Sets field Y axis position 
+.PP
+\fBParameters\fP
+.RS 4
+\fIyPosition\fP field Y axis position 
+.RE
+.PP
+
+.PP
+Definition at line 139 of file BoardField\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "int Board\&.BoardField\&.column\fC [private]\fP"
+
+.PP
+Definition at line 15 of file BoardField\&.java\&.
+.SS "\fBPlayerColor\fP Board\&.BoardField\&.playerColor\fC [private]\fP"
+
+.PP
+Definition at line 10 of file BoardField\&.java\&.
+.SS "int Board\&.BoardField\&.row\fC [private]\fP"
+
+.PP
+Definition at line 14 of file BoardField\&.java\&.
+.SS "\fBStatusColor\fP Board\&.BoardField\&.statusColor\fC [private]\fP"
+
+.PP
+Definition at line 11 of file BoardField\&.java\&.
+.SS "double Board\&.BoardField\&.xPosition\fC [private]\fP"
+
+.PP
+Definition at line 12 of file BoardField\&.java\&.
+.SS "double Board\&.BoardField\&.yPosition\fC [private]\fP"
+
+.PP
+Definition at line 13 of file BoardField\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Trylma from the source code\&.

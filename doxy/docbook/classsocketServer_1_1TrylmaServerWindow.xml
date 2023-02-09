@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classsocketServer_1_1TrylmaServerWindow" xml:lang="en-US">
+<title>socketServer.TrylmaServerWindow Class Reference</title>
+<indexterm><primary>socketServer.TrylmaServerWindow</primary></indexterm>
+Inheritance diagram for socketServer.TrylmaServerWindow:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classsocketServer_1_1TrylmaServerWindow__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for socketServer.TrylmaServerWindow:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classsocketServer_1_1TrylmaServerWindow__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classsocketServer_1_1TrylmaServerWindow_1a60342d9a2135f789ed53bcec2e8327c4">actionPerformed</link> (ActionEvent e)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Package Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classsocketServer_1_1TrylmaServerWindow_1aa01fd7014c8ce60824fe46b8dc6a0714">TrylmaServerWindow</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Package Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classsocketServer_1_1SocketServer">SocketServer</link> <link linkend="_classsocketServer_1_1TrylmaServerWindow_1a3e12bb72b333a65b7e61619be0dff370">server</link></para>
+</listitem>
+            <listitem><para>JPanel <link linkend="_classsocketServer_1_1TrylmaServerWindow_1a8a11043bb72c821d15af4a34c4aa174d">container</link></para>
+</listitem>
+            <listitem><para>JButton <link linkend="_classsocketServer_1_1TrylmaServerWindow_1a6cb46ae15f130ebd89cf6b6c0c3f61f2">startTheServer</link></para>
+</listitem>
+            <listitem><para>JTextField <link linkend="_classsocketServer_1_1TrylmaServerWindow_1a147ee0a1022178940c57df82ff040cf9">portSetter</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_classsocketServer_1_1TrylmaServerWindow_1ae360bfc61897442de200efdfd19655d9">port</link> = 1111</para>
+</listitem>
+            <listitem><para>ButtonGroup <link linkend="_classsocketServer_1_1TrylmaServerWindow_1a05195438340005258e57a4544b833dbf">numOfPlayers</link></para>
+</listitem>
+            <listitem><para>JRadioButton <link linkend="_classsocketServer_1_1TrylmaServerWindow_1aa4461d7eca92be41266d6449105c96cb">players2</link></para>
+</listitem>
+            <listitem><para>JRadioButton <link linkend="_classsocketServer_1_1TrylmaServerWindow_1ae0d20962451057d6624b2ec05b2b112a">players3</link></para>
+</listitem>
+            <listitem><para>JRadioButton <link linkend="_classsocketServer_1_1TrylmaServerWindow_1a304428aa6865a085ae494d3ec9825228">players4</link></para>
+</listitem>
+            <listitem><para>JRadioButton <link linkend="_classsocketServer_1_1TrylmaServerWindow_1ae92703780bbcca388833b2110d066190">players6</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_classsocketServer_1_1TrylmaServerWindow_1a21558b2099d96caaace5634cf88b4a0c">numberOfPlayers</link> = 2</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Server GUI Gathers information necessary to run the socket server such as server port, amount of players, size of the board. After that it runs socket server. </para>
+<para>
+Definition at line 16 of file TrylmaServerWindow.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classsocketServer_1_1TrylmaServerWindow_1aa01fd7014c8ce60824fe46b8dc6a0714"/>    <section>
+    <title>TrylmaServerWindow()</title>
+<indexterm><primary>TrylmaServerWindow</primary><secondary>socketServer.TrylmaServerWindow</secondary></indexterm>
+<indexterm><primary>socketServer.TrylmaServerWindow</primary><secondary>TrylmaServerWindow</secondary></indexterm>
+<para><computeroutput>socketServer.TrylmaServerWindow.TrylmaServerWindow ( )<computeroutput>[package]</computeroutput></computeroutput></para>
+<para>Basic constructor. Sets all components and adds listener to them. </para>
+<para>
+Definition at line 40 of file TrylmaServerWindow.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classsocketServer_1_1TrylmaServerWindow_1a60342d9a2135f789ed53bcec2e8327c4"/>    <section>
+    <title>actionPerformed()</title>
+<indexterm><primary>actionPerformed</primary><secondary>socketServer.TrylmaServerWindow</secondary></indexterm>
+<indexterm><primary>socketServer.TrylmaServerWindow</primary><secondary>actionPerformed</secondary></indexterm>
+<para><computeroutput>void socketServer.TrylmaServerWindow.actionPerformed (ActionEvent e)</computeroutput></para><para>
+Definition at line 97 of file TrylmaServerWindow.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classsocketServer_1_1TrylmaServerWindow_a60342d9a2135f789ed53bcec2e8327c4_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classsocketServer_1_1TrylmaServerWindow_1a8a11043bb72c821d15af4a34c4aa174d"/>    <section>
+    <title>container</title>
+<indexterm><primary>container</primary><secondary>socketServer.TrylmaServerWindow</secondary></indexterm>
+<indexterm><primary>socketServer.TrylmaServerWindow</primary><secondary>container</secondary></indexterm>
+<para><computeroutput>JPanel socketServer.TrylmaServerWindow.container<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file TrylmaServerWindow.java.</para>
+    </section><anchor xml:id="_classsocketServer_1_1TrylmaServerWindow_1a21558b2099d96caaace5634cf88b4a0c"/>    <section>
+    <title>numberOfPlayers</title>
+<indexterm><primary>numberOfPlayers</primary><secondary>socketServer.TrylmaServerWindow</secondary></indexterm>
+<indexterm><primary>socketServer.TrylmaServerWindow</primary><secondary>numberOfPlayers</secondary></indexterm>
+<para><computeroutput>int socketServer.TrylmaServerWindow.numberOfPlayers = 2<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 29 of file TrylmaServerWindow.java.</para>
+    </section><anchor xml:id="_classsocketServer_1_1TrylmaServerWindow_1a05195438340005258e57a4544b833dbf"/>    <section>
+    <title>numOfPlayers</title>
+<indexterm><primary>numOfPlayers</primary><secondary>socketServer.TrylmaServerWindow</secondary></indexterm>
+<indexterm><primary>socketServer.TrylmaServerWindow</primary><secondary>numOfPlayers</secondary></indexterm>
+<para><computeroutput>ButtonGroup socketServer.TrylmaServerWindow.numOfPlayers<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 24 of file TrylmaServerWindow.java.</para>
+    </section><anchor xml:id="_classsocketServer_1_1TrylmaServerWindow_1aa4461d7eca92be41266d6449105c96cb"/>    <section>
+    <title>players2</title>
+<indexterm><primary>players2</primary><secondary>socketServer.TrylmaServerWindow</secondary></indexterm>
+<indexterm><primary>socketServer.TrylmaServerWindow</primary><secondary>players2</secondary></indexterm>
+<para><computeroutput>JRadioButton socketServer.TrylmaServerWindow.players2<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 25 of file TrylmaServerWindow.java.</para>
+    </section><anchor xml:id="_classsocketServer_1_1TrylmaServerWindow_1ae0d20962451057d6624b2ec05b2b112a"/>    <section>
+    <title>players3</title>
+<indexterm><primary>players3</primary><secondary>socketServer.TrylmaServerWindow</secondary></indexterm>
+<indexterm><primary>socketServer.TrylmaServerWindow</primary><secondary>players3</secondary></indexterm>
+<para><computeroutput>JRadioButton socketServer.TrylmaServerWindow.players3<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 26 of file TrylmaServerWindow.java.</para>
+    </section><anchor xml:id="_classsocketServer_1_1TrylmaServerWindow_1a304428aa6865a085ae494d3ec9825228"/>    <section>
+    <title>players4</title>
+<indexterm><primary>players4</primary><secondary>socketServer.TrylmaServerWindow</secondary></indexterm>
+<indexterm><primary>socketServer.TrylmaServerWindow</primary><secondary>players4</secondary></indexterm>
+<para><computeroutput>JRadioButton socketServer.TrylmaServerWindow.players4<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 27 of file TrylmaServerWindow.java.</para>
+    </section><anchor xml:id="_classsocketServer_1_1TrylmaServerWindow_1ae92703780bbcca388833b2110d066190"/>    <section>
+    <title>players6</title>
+<indexterm><primary>players6</primary><secondary>socketServer.TrylmaServerWindow</secondary></indexterm>
+<indexterm><primary>socketServer.TrylmaServerWindow</primary><secondary>players6</secondary></indexterm>
+<para><computeroutput>JRadioButton socketServer.TrylmaServerWindow.players6<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 28 of file TrylmaServerWindow.java.</para>
+    </section><anchor xml:id="_classsocketServer_1_1TrylmaServerWindow_1ae360bfc61897442de200efdfd19655d9"/>    <section>
+    <title>port</title>
+<indexterm><primary>port</primary><secondary>socketServer.TrylmaServerWindow</secondary></indexterm>
+<indexterm><primary>socketServer.TrylmaServerWindow</primary><secondary>port</secondary></indexterm>
+<para><computeroutput>int socketServer.TrylmaServerWindow.port = 1111<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 22 of file TrylmaServerWindow.java.</para>
+    </section><anchor xml:id="_classsocketServer_1_1TrylmaServerWindow_1a147ee0a1022178940c57df82ff040cf9"/>    <section>
+    <title>portSetter</title>
+<indexterm><primary>portSetter</primary><secondary>socketServer.TrylmaServerWindow</secondary></indexterm>
+<indexterm><primary>socketServer.TrylmaServerWindow</primary><secondary>portSetter</secondary></indexterm>
+<para><computeroutput>JTextField socketServer.TrylmaServerWindow.portSetter<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 21 of file TrylmaServerWindow.java.</para>
+    </section><anchor xml:id="_classsocketServer_1_1TrylmaServerWindow_1a3e12bb72b333a65b7e61619be0dff370"/>    <section>
+    <title>server</title>
+<indexterm><primary>server</primary><secondary>socketServer.TrylmaServerWindow</secondary></indexterm>
+<indexterm><primary>socketServer.TrylmaServerWindow</primary><secondary>server</secondary></indexterm>
+<para><computeroutput><link linkend="_classsocketServer_1_1SocketServer">SocketServer</link> socketServer.TrylmaServerWindow.server<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file TrylmaServerWindow.java.</para>
+    </section><anchor xml:id="_classsocketServer_1_1TrylmaServerWindow_1a6cb46ae15f130ebd89cf6b6c0c3f61f2"/>    <section>
+    <title>startTheServer</title>
+<indexterm><primary>startTheServer</primary><secondary>socketServer.TrylmaServerWindow</secondary></indexterm>
+<indexterm><primary>socketServer.TrylmaServerWindow</primary><secondary>startTheServer</secondary></indexterm>
+<para><computeroutput>JButton socketServer.TrylmaServerWindow.startTheServer<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file TrylmaServerWindow.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaServer/src/main/java/socketServer/<link linkend="_TrylmaServerWindow_8java">TrylmaServerWindow.java</link></section>
+</section>

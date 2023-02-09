@@ -1,0 +1,496 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classGame_1_1TrylmaRules" xml:lang="en-US">
+<title>Game.TrylmaRules Class Reference</title>
+<indexterm><primary>Game.TrylmaRules</primary></indexterm>
+Inheritance diagram for Game.TrylmaRules:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1TrylmaRules__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Game.TrylmaRules:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1TrylmaRules__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classGame_1_1TrylmaRules_1a233a6e53fd28bee0847a7299dfa3a7b5">TrylmaRules</link> (int <link linkend="_classGame_1_1TrylmaRules_1a01fcb15500f8ba6355afe9ee380ca77f">playersCount</link>)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classGame_1_1TrylmaRules_1af71efc71f4bddcdf6b0c6f57ac2428c7">isStartingFieldInTargetTriangle</link> (<link linkend="_classBoard_1_1Board">Board</link> board, int startMoveField, int currentPlayer)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classGame_1_1TrylmaRules_1a55879e1618908a076e85a070f0e663ee">isWinner</link> (<link linkend="_classGame_1_1Game">Game</link> game, int currentPlayer)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classGame_1_1TrylmaRules_1a4d577a2fab20ea399e0fc4d841ed7368">moveIsCorrect</link> (<link linkend="_classBoard_1_1Board">Board</link> board, int endMoveField)</para>
+</listitem>
+            <listitem><para>synchronized void <link linkend="_classGame_1_1TrylmaRules_1a32f46dac6ee73fa063f7dfc5764c560b">setAvailableFields</link> (<link linkend="_classBoard_1_1Board">Board</link> board, <link linkend="_classBoard_1_1BoardField">BoardField</link> currField, boolean isFirstCheck)</para>
+</listitem>
+            <listitem><para>synchronized void <link linkend="_classGame_1_1TrylmaRules_1a23fb6382701182dc68e46b1e95e35c2a">tryToJump</link> (<link linkend="_classBoard_1_1Board">Board</link> board, <link linkend="_classBoard_1_1BoardField">BoardField</link> currField, <link linkend="_classBoard_1_1BoardField">BoardField</link> fieldToPass)</para>
+</listitem>
+            <listitem><para>synchronized ArrayList&lt; <link linkend="_classBoard_1_1BoardField">BoardField</link> &gt; <link linkend="_classGame_1_1TrylmaRules_1a078d521001938827f20ed77c37fd7214">findNeighbors</link> (<link linkend="_classBoard_1_1Board">Board</link> board, <link linkend="_classBoard_1_1BoardField">BoardField</link> currField)</para>
+</listitem>
+            <listitem><para>ArrayList&lt; Integer &gt; <link linkend="_classGame_1_1TrylmaRules_1abfde316b36c770c3a87e4fd1ea3106b1">getAvailableFields</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classGame_1_1TrylmaRules_1aae5899212a0543a4b13af4da2f7b3ad3">resetAvailableFields</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>ArrayList&lt; Integer &gt; <link linkend="_classGame_1_1TrylmaRules_1a9f93a67dc38f15837ddec9bb62f79bcb">availableFields</link> = new ArrayList&lt;&gt;()</para>
+</listitem>
+            <listitem><para>final int <link linkend="_classGame_1_1TrylmaRules_1a01fcb15500f8ba6355afe9ee380ca77f">playersCount</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classGame_1_1Game">Game</link> rules After current player first click it maps all available fields player can move to from the field he selected. Based on that, after second click it checks if the move is correct. It also can check if player won. </para>
+<para>
+Definition at line 16 of file TrylmaRules.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classGame_1_1TrylmaRules_1a233a6e53fd28bee0847a7299dfa3a7b5"/>    <section>
+    <title>TrylmaRules()</title>
+<indexterm><primary>TrylmaRules</primary><secondary>Game.TrylmaRules</secondary></indexterm>
+<indexterm><primary>Game.TrylmaRules</primary><secondary>TrylmaRules</secondary></indexterm>
+<para><computeroutput>Game.TrylmaRules.TrylmaRules (int playersCount)</computeroutput></para>
+<para>Basic constructor 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>playersCount</entry>
+                                <entry>
+<para>amount of players playing the game </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 25 of file TrylmaRules.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classGame_1_1TrylmaRules_1a078d521001938827f20ed77c37fd7214"/>    <section>
+    <title>findNeighbors()</title>
+<indexterm><primary>findNeighbors</primary><secondary>Game.TrylmaRules</secondary></indexterm>
+<indexterm><primary>Game.TrylmaRules</primary><secondary>findNeighbors</secondary></indexterm>
+<para><computeroutput>synchronized ArrayList&lt;<link linkend="_classBoard_1_1BoardField">BoardField</link>&gt; Game.TrylmaRules.findNeighbors (<link linkend="_classBoard_1_1Board">Board</link> board, <link linkend="_classBoard_1_1BoardField">BoardField</link> currField)</computeroutput></para>
+<para>Finds all neighbors of given field and returns them in form of an array list</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>board</entry>
+                                <entry>
+<para>current board </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>currField</entry>
+                                <entry>
+<para>field we are on </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>all fields that are neighbors to currField </para>
+</formalpara>
+</para>
+<para>
+Definition at line 288 of file TrylmaRules.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1TrylmaRules_a078d521001938827f20ed77c37fd7214_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1TrylmaRules_a078d521001938827f20ed77c37fd7214_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classGame_1_1TrylmaRules_1abfde316b36c770c3a87e4fd1ea3106b1"/>    <section>
+    <title>getAvailableFields()</title>
+<indexterm><primary>getAvailableFields</primary><secondary>Game.TrylmaRules</secondary></indexterm>
+<indexterm><primary>Game.TrylmaRules</primary><secondary>getAvailableFields</secondary></indexterm>
+<para><computeroutput>ArrayList&lt;Integer&gt; Game.TrylmaRules.getAvailableFields ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>returns all available fields </para>
+</formalpara>
+</para>
+<para>
+Definition at line 324 of file TrylmaRules.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1TrylmaRules_abfde316b36c770c3a87e4fd1ea3106b1_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classGame_1_1TrylmaRules_1af71efc71f4bddcdf6b0c6f57ac2428c7"/>    <section>
+    <title>isStartingFieldInTargetTriangle()</title>
+<indexterm><primary>isStartingFieldInTargetTriangle</primary><secondary>Game.TrylmaRules</secondary></indexterm>
+<indexterm><primary>Game.TrylmaRules</primary><secondary>isStartingFieldInTargetTriangle</secondary></indexterm>
+<para><computeroutput>boolean Game.TrylmaRules.isStartingFieldInTargetTriangle (<link linkend="_classBoard_1_1Board">Board</link> board, int startMoveField, int currentPlayer)</computeroutput></para>
+<para>Checks if given field is in target area 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>board</entry>
+                                <entry>
+<para>current board </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>startMoveField</entry>
+                                <entry>
+<para>the field player is on </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>currentPlayer</entry>
+                                <entry>
+<para>id of the current player </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true if field is in target area </para>
+</formalpara>
+</para>
+<para>
+Definition at line 37 of file TrylmaRules.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1TrylmaRules_af71efc71f4bddcdf6b0c6f57ac2428c7_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classGame_1_1TrylmaRules_1a55879e1618908a076e85a070f0e663ee"/>    <section>
+    <title>isWinner()</title>
+<indexterm><primary>isWinner</primary><secondary>Game.TrylmaRules</secondary></indexterm>
+<indexterm><primary>Game.TrylmaRules</primary><secondary>isWinner</secondary></indexterm>
+<para><computeroutput>boolean Game.TrylmaRules.isWinner (<link linkend="_classGame_1_1Game">Game</link> game, int playerID)</computeroutput></para>
+<para>Rule set that determines if given player won the game</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>game</entry>
+                                <entry>
+<para>the game that is being played </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>playerID</entry>
+                                <entry>
+<para>id of player being checked </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true if player won the game </para>
+</formalpara>
+</para>
+<para>
+Implements <link linkend="_interfaceGame_1_1Rules_1ada70dae02515a3905cb5651d2ef3236f">Game.Rules</link>.</para>
+<para>
+Definition at line 126 of file TrylmaRules.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1TrylmaRules_a55879e1618908a076e85a070f0e663ee_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1TrylmaRules_a55879e1618908a076e85a070f0e663ee_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classGame_1_1TrylmaRules_1a4d577a2fab20ea399e0fc4d841ed7368"/>    <section>
+    <title>moveIsCorrect()</title>
+<indexterm><primary>moveIsCorrect</primary><secondary>Game.TrylmaRules</secondary></indexterm>
+<indexterm><primary>Game.TrylmaRules</primary><secondary>moveIsCorrect</secondary></indexterm>
+<para><computeroutput>boolean Game.TrylmaRules.moveIsCorrect (<link linkend="_classBoard_1_1Board">Board</link> board, int endMoveField)</computeroutput></para>
+<para>Rule set that determines if given move is correct. Checks if selected field is in Available fields. It is checked after second click by current player.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>board</entry>
+                                <entry>
+<para>the game board in current state </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>endMoveField</entry>
+                                <entry>
+<para>the field player is trying to move to </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true if move is correct </para>
+</formalpara>
+</para>
+<para>
+Implements <link linkend="_interfaceGame_1_1Rules_1adfee9cf337908d6aa926e70a089c5041">Game.Rules</link>.</para>
+<para>
+Definition at line 213 of file TrylmaRules.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1TrylmaRules_a4d577a2fab20ea399e0fc4d841ed7368_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classGame_1_1TrylmaRules_1aae5899212a0543a4b13af4da2f7b3ad3"/>    <section>
+    <title>resetAvailableFields()</title>
+<indexterm><primary>resetAvailableFields</primary><secondary>Game.TrylmaRules</secondary></indexterm>
+<indexterm><primary>Game.TrylmaRules</primary><secondary>resetAvailableFields</secondary></indexterm>
+<para><computeroutput>void Game.TrylmaRules.resetAvailableFields ( )</computeroutput></para>
+<para>Resets available fields after each move </para>
+<para>
+Definition at line 332 of file TrylmaRules.java.</para>
+    </section><anchor xml:id="_classGame_1_1TrylmaRules_1a32f46dac6ee73fa063f7dfc5764c560b"/>    <section>
+    <title>setAvailableFields()</title>
+<indexterm><primary>setAvailableFields</primary><secondary>Game.TrylmaRules</secondary></indexterm>
+<indexterm><primary>Game.TrylmaRules</primary><secondary>setAvailableFields</secondary></indexterm>
+<para><computeroutput>synchronized void Game.TrylmaRules.setAvailableFields (<link linkend="_classBoard_1_1Board">Board</link> board, <link linkend="_classBoard_1_1BoardField">BoardField</link> startField, boolean isFirstCheck)</computeroutput></para>
+<para>Rule set that maps legal fields that you can move to from selected field. It is checked after first click by current player.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>board</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>startField</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>isFirstCheck</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interfaceGame_1_1Rules_1a1c2f44b6942e772b25cf0b39113b8751">Game.Rules</link>.</para>
+<para>
+Definition at line 218 of file TrylmaRules.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1TrylmaRules_a32f46dac6ee73fa063f7dfc5764c560b_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1TrylmaRules_a32f46dac6ee73fa063f7dfc5764c560b_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classGame_1_1TrylmaRules_1a23fb6382701182dc68e46b1e95e35c2a"/>    <section>
+    <title>tryToJump()</title>
+<indexterm><primary>tryToJump</primary><secondary>Game.TrylmaRules</secondary></indexterm>
+<indexterm><primary>Game.TrylmaRules</primary><secondary>tryToJump</secondary></indexterm>
+<para><computeroutput>synchronized void Game.TrylmaRules.tryToJump (<link linkend="_classBoard_1_1Board">Board</link> board, <link linkend="_classBoard_1_1BoardField">BoardField</link> currField, <link linkend="_classBoard_1_1BoardField">BoardField</link> fieldToPass)</computeroutput></para>
+<para><link linkend="_interfaceGame_1_1Rules">Rules</link> responsible for jumping Adds fields you can jump on to available fields</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>board</entry>
+                                <entry>
+<para>current board </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>currField</entry>
+                                <entry>
+<para>field we are on </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>fieldToPass</entry>
+                                <entry>
+<para>field we want to jump over </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 251 of file TrylmaRules.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1TrylmaRules_a23fb6382701182dc68e46b1e95e35c2a_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1TrylmaRules_a23fb6382701182dc68e46b1e95e35c2a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classGame_1_1TrylmaRules_1a9f93a67dc38f15837ddec9bb62f79bcb"/>    <section>
+    <title>availableFields</title>
+<indexterm><primary>availableFields</primary><secondary>Game.TrylmaRules</secondary></indexterm>
+<indexterm><primary>Game.TrylmaRules</primary><secondary>availableFields</secondary></indexterm>
+<para><computeroutput>ArrayList&lt;Integer&gt; Game.TrylmaRules.availableFields = new ArrayList&lt;&gt;()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file TrylmaRules.java.</para>
+    </section><anchor xml:id="_classGame_1_1TrylmaRules_1a01fcb15500f8ba6355afe9ee380ca77f"/>    <section>
+    <title>playersCount</title>
+<indexterm><primary>playersCount</primary><secondary>Game.TrylmaRules</secondary></indexterm>
+<indexterm><primary>Game.TrylmaRules</primary><secondary>playersCount</secondary></indexterm>
+<para><computeroutput>final int Game.TrylmaRules.playersCount<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file TrylmaRules.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaServer/src/main/java/Game/<link linkend="_TrylmaRules_8java">TrylmaRules.java</link></section>
+</section>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classsocketServer_1_1Trylma" xml:lang="en-US">
+<title>socketServer.Trylma Class Reference</title>
+<indexterm><primary>socketServer.Trylma</primary></indexterm>
+Collaboration diagram for socketServer.Trylma:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classsocketServer_1_1Trylma__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classsocketServer_1_1Trylma_1a92e9e14a7ea583b5bf444449285823b5">main</link> (String[] args)  throws Exception </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 3 of file Trylma.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classsocketServer_1_1Trylma_1a92e9e14a7ea583b5bf444449285823b5"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>socketServer.Trylma</secondary></indexterm>
+<indexterm><primary>socketServer.Trylma</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void socketServer.Trylma.main (String[] args) throws Exception<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 4 of file Trylma.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaServer/src/main/java/socketServer/<link linkend="_Trylma_8java">Trylma.java</link></section>
+</section>

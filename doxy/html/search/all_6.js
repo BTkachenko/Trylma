@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['game_55',['Game',['../namespaceGame.html',1,'Game'],['../classGame_1_1Game.html#aa46f609ad611296b511b9f53786171e4',1,'Game.Game.Game()']]],
+  ['game_56',['game',['../classsocketServer_1_1Player.html#aca3eee0ab1c5f44477f1f2a9dbb375ae',1,'socketServer.Player.game()'],['../classsocketServer_1_1SocketServer.html#aa41315dc288bef33ea1beb6eaf0b7c36',1,'socketServer.SocketServer.game()']]],
+  ['game_57',['Game',['../classGame_1_1Game.html',1,'Game']]],
+  ['game_2ejava_58',['Game.java',['../Game_8java.html',1,'']]],
+  ['getavailablefields_59',['getAvailableFields',['../classGame_1_1TrylmaRules.html#abfde316b36c770c3a87e4fd1ea3106b1',1,'Game::TrylmaRules']]],
+  ['getboard_60',['getBoard',['../classfrontend_1_1ApplicationWindow.html#a53c66dc8d104d123b94facb67fa8c2c7',1,'frontend.ApplicationWindow.getBoard()'],['../classGame_1_1Game.html#a1ce050e2e13256e85aee38dbf4f295f2',1,'Game.Game.getBoard()']]],
+  ['getcolor_61',['getColor',['../classfrontend_1_1PlayerInfoPanel.html#aa52cea9dec3ef27f44e10997de6b5b83',1,'frontend::PlayerInfoPanel']]],
+  ['getcolumn_62',['getColumn',['../classboard_1_1BoardField.html#a2097426a3602e0f6bd8abf8a7dbfa0aa',1,'board.BoardField.getColumn()'],['../classBoard_1_1BoardField.html#a88c6a9aa9373a12036a0abbd1a82ba54',1,'Board.BoardField.getColumn()']]],
+  ['getdefaultboard_63',['getDefaultBoard',['../classboard_1_1DefaultBoardBuilder.html#acaf94bffaa020b14cf34083a8df22409',1,'board.DefaultBoardBuilder.getDefaultBoard()'],['../classBoard_1_1DefaultBoardBuilder.html#a505ceac6a855457fb75b9e676943a4f3',1,'Board.DefaultBoardBuilder.getDefaultBoard()']]],
+  ['getinitializationdata_64',['getInitializationData',['../classGame_1_1Game.html#a84764f4bdc74e4c2038e2057fdd19259',1,'Game::Game']]],
+  ['getmouseflag_65',['getMouseFlag',['../classboard_1_1DefaultBoard.html#a8adb81dad61b1ccc43b8d5bad465518c',1,'board::DefaultBoard']]],
+  ['getplayer_66',['getPlayer',['../classboard_1_1Board.html#a1854c2921dfc04de726c341626a20aa0',1,'board::Board']]],
+  ['getplayercolor_67',['getPlayerColor',['../classboard_1_1BoardField.html#a53d2fe8c77fbc8ecf042f647bafc128b',1,'board.BoardField.getPlayerColor()'],['../classsocketClient_1_1SocketClient.html#a64e02aa77165bfb17581fb4d03c4e925',1,'socketClient.SocketClient.getPlayerColor()'],['../classBoard_1_1BoardField.html#a2ac8140fa52b0a3dde51f687be216eee',1,'Board.BoardField.getPlayerColor()']]],
+  ['getplayercolor_5f_68',['getPlayerColor_',['../classboard_1_1BoardField.html#ac656cac83cebf6cf4ca862fc5d00f007',1,'board::BoardField']]],
+  ['getplayerid_69',['getPlayerId',['../classsocketServer_1_1Player.html#adaef45e9396f4b51bc6b63322c366df2',1,'socketServer::Player']]],
+  ['getrow_70',['getRow',['../classboard_1_1BoardField.html#af83cb194e108e3eb60986fd3660261f3',1,'board.BoardField.getRow()'],['../classBoard_1_1BoardField.html#aaaa65e9f7b85480bd0f838224c4c60c2',1,'Board.BoardField.getRow()']]],
+  ['getrules_71',['getRules',['../classGame_1_1Game.html#a50ff6cd6f73b8a6f6942e4c1d6397357',1,'Game::Game']]],
+  ['getselectedboard_72',['getSelectedBoard',['../classBoard_1_1BoardShapes.html#acb743bffabf17515838f9f7cf4702b1e',1,'Board::BoardShapes']]],
+  ['getstatuscolor_73',['getStatusColor',['../classboard_1_1BoardField.html#aa90a8716b2949ca420ee4daf93e72ec7',1,'board.BoardField.getStatusColor()'],['../classBoard_1_1BoardField.html#abb3ff54f22a70f86ccba76cc0550a66f',1,'Board.BoardField.getStatusColor()']]],
+  ['getstatuscolor_5f_74',['getStatusColor_',['../classboard_1_1BoardField.html#a676a951884b07f1ea8e7b76aa1f1db3c',1,'board::BoardField']]],
+  ['getxposition_75',['getXPosition',['../classBoard_1_1BoardField.html#a63cce4a999a6732b19ca6e57468482a7',1,'Board::BoardField']]],
+  ['getyposition_76',['getYPosition',['../classBoard_1_1BoardField.html#a25182ff0063167bc18733e2121fea3ee',1,'Board::BoardField']]],
+  ['green_77',['GREEN',['../enumboard_1_1PlayerColor.html#ae0498132f9196ee8c2cc1a1fb0585f58',1,'board.PlayerColor.GREEN()'],['../enumBoard_1_1PlayerColor.html#a8c3ed928ca81302192b825ba25a6dfce',1,'Board.PlayerColor.GREEN()']]],
+  ['trylma_78',['Trylma',['../namespaceGames_1_1Trylma.html',1,'Games']]]
+];

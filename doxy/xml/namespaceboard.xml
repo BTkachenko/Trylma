@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespaceBoard" kind="namespace" language="Java">
+    <compoundname>Board</compoundname>
+    <innerclass refid="classBoard_1_1Board" prot="public">Board::Board</innerclass>
+    <innerclass refid="interfaceBoard_1_1BoardBuilder" prot="public">Board::BoardBuilder</innerclass>
+    <innerclass refid="classBoard_1_1BoardField" prot="public">Board::BoardField</innerclass>
+    <innerclass refid="classBoard_1_1BoardShapes" prot="public">Board::BoardShapes</innerclass>
+    <innerclass refid="classBoard_1_1DefaultBoard" prot="public">Board::DefaultBoard</innerclass>
+    <innerclass refid="classBoard_1_1DefaultBoardBuilder" prot="public">Board::DefaultBoardBuilder</innerclass>
+    <innerclass refid="classBoard_1_1DefaultStartFields" prot="public">Board::DefaultStartFields</innerclass>
+    <innerclass refid="classBoard_1_1JSONBoardConverter" prot="public">Board::JSONBoardConverter</innerclass>
+    <innerclass refid="enumBoard_1_1PlayerColor" prot="public">Board::PlayerColor</innerclass>
+    <innerclass refid="enumBoard_1_1StatusColor" prot="public">Board::StatusColor</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TrylmaServer/src/main/java/Board/Board.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

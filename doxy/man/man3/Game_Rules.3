@@ -1,0 +1,85 @@
+.TH "Game.Rules" 3 "Thu Jan 27 2022" "Trylma" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Game.Rules
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBGame\&.TrylmaRules\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "boolean \fBisWinner\fP (\fBGame\fP game, int playerID)"
+.br
+.ti -1c
+.RI "boolean \fBmoveIsCorrect\fP (\fBBoard\fP board, int endMoveField)"
+.br
+.ti -1c
+.RI "void \fBsetAvailableFields\fP (\fBBoard\fP board, \fBBoardField\fP startField, boolean isFirstCheck)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Interface of game rules 
+.PP
+Definition at line 9 of file Rules\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "boolean Game\&.Rules\&.isWinner (\fBGame\fP game, int playerID)"
+Rule set that determines if given player won the game
+.PP
+\fBParameters\fP
+.RS 4
+\fIgame\fP the game that is being played 
+.br
+\fIplayerID\fP id of player being checked 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if player won the game 
+.RE
+.PP
+
+.PP
+Implemented in \fBGame\&.TrylmaRules\fP\&.
+.SS "boolean Game\&.Rules\&.moveIsCorrect (\fBBoard\fP board, int endMoveField)"
+Rule set that determines if given move is correct\&. Checks if selected field is in Available fields\&. It is checked after second click by current player\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIboard\fP the game board in current state 
+.br
+\fIendMoveField\fP the field player is trying to move to 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if move is correct 
+.RE
+.PP
+
+.PP
+Implemented in \fBGame\&.TrylmaRules\fP\&.
+.SS "void Game\&.Rules\&.setAvailableFields (\fBBoard\fP board, \fBBoardField\fP startField, boolean isFirstCheck)"
+Rule set that maps legal fields that you can move to from selected field\&. It is checked after first click by current player\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIboard\fP 
+.br
+\fIstartField\fP 
+.br
+\fIisFirstCheck\fP 
+.RE
+.PP
+
+.PP
+Implemented in \fBGame\&.TrylmaRules\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Trylma from the source code\&.

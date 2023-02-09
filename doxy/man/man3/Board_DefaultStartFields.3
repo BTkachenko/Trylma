@@ -1,0 +1,101 @@
+.TH "Board.DefaultStartFields" 3 "Thu Jan 27 2022" "Trylma" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Board.DefaultStartFields
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBaddField\fP (\fBBoardField\fP field, int fieldCharacteristic)"
+.br
+.ti -1c
+.RI "void \fBsetPlayerColors\fP (int numOfPlayers)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "ArrayList< \fBBoardField\fP > \fBtopFields\fP = new ArrayList<>()"
+.br
+.ti -1c
+.RI "ArrayList< \fBBoardField\fP > \fBtopLeftFields\fP = new ArrayList<>()"
+.br
+.ti -1c
+.RI "ArrayList< \fBBoardField\fP > \fBtopRightFields\fP = new ArrayList<>()"
+.br
+.ti -1c
+.RI "ArrayList< \fBBoardField\fP > \fBbottomFields\fP = new ArrayList<>()"
+.br
+.ti -1c
+.RI "ArrayList< \fBBoardField\fP > \fBbottomLeftFields\fP = new ArrayList<>()"
+.br
+.ti -1c
+.RI "ArrayList< \fBBoardField\fP > \fBbottomRightFields\fP = new ArrayList<>()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Stores references to start fields\&. Start fields are important part of the \fBBoard\fP, they determine where players start their games and allow checking if one of the players won\&. 
+.PP
+Definition at line 12 of file DefaultStartFields\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Board\&.DefaultStartFields\&.addField (\fBBoardField\fP field, int fieldCharacteristic)"
+Adds field to the right starting fields
+.PP
+\fBParameters\fP
+.RS 4
+\fIfield\fP the field we are adding 
+.br
+\fIfieldCharacteristic\fP field characteristic number in int[][] array 
+.RE
+.PP
+
+.PP
+Definition at line 27 of file DefaultStartFields\&.java\&.
+.SS "void Board\&.DefaultStartFields\&.setPlayerColors (int numOfPlayers)"
+Assigns start fields to players at the start of the game 
+.PP
+\fBParameters\fP
+.RS 4
+\fInumOfPlayers\fP number of players in the game 
+.RE
+.PP
+
+.PP
+Definition at line 62 of file DefaultStartFields\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "ArrayList<\fBBoardField\fP> Board\&.DefaultStartFields\&.bottomFields = new ArrayList<>()"
+
+.PP
+Definition at line 16 of file DefaultStartFields\&.java\&.
+.SS "ArrayList<\fBBoardField\fP> Board\&.DefaultStartFields\&.bottomLeftFields = new ArrayList<>()"
+
+.PP
+Definition at line 17 of file DefaultStartFields\&.java\&.
+.SS "ArrayList<\fBBoardField\fP> Board\&.DefaultStartFields\&.bottomRightFields = new ArrayList<>()"
+
+.PP
+Definition at line 18 of file DefaultStartFields\&.java\&.
+.SS "ArrayList<\fBBoardField\fP> Board\&.DefaultStartFields\&.topFields = new ArrayList<>()"
+
+.PP
+Definition at line 13 of file DefaultStartFields\&.java\&.
+.SS "ArrayList<\fBBoardField\fP> Board\&.DefaultStartFields\&.topLeftFields = new ArrayList<>()"
+
+.PP
+Definition at line 14 of file DefaultStartFields\&.java\&.
+.SS "ArrayList<\fBBoardField\fP> Board\&.DefaultStartFields\&.topRightFields = new ArrayList<>()"
+
+.PP
+Definition at line 15 of file DefaultStartFields\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Trylma from the source code\&.

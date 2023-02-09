@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classsocketServer_1_1Player" kind="class" language="Java" prot="public">
+    <compoundname>socketServer::Player</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Runnable</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classsocketServer_1_1Player_1aca3eee0ab1c5f44477f1f2a9dbb375ae" prot="package" static="no" mutable="no">
+        <type><ref refid="classGame_1_1Game" kindref="compound">Game</ref></type>
+        <definition>Game socketServer.Player.game</definition>
+        <argsstring></argsstring>
+        <name>game</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/Player.java" line="18" column="10" bodyfile="TrylmaServer/src/main/java/socketServer/Player.java" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1Player_1af55e634d1cd1f215c7cf73024e06b2aa" compoundref="Player_8java" startline="50" endline="76">socketServer.Player.run</referencedby>
+        <referencedby refid="classsocketServer_1_1Player_1a2014b638ed67ee82d696a4ff713fdfd3" compoundref="Player_8java" startline="94" endline="96">socketServer.Player.setGame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1Player_1a3c939ab07c19c2c6b9e30027bdacaa92" prot="package" static="no" mutable="no">
+        <type>Socket</type>
+        <definition>Socket socketServer.Player.socket</definition>
+        <argsstring></argsstring>
+        <name>socket</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/Player.java" line="19" column="12" bodyfile="TrylmaServer/src/main/java/socketServer/Player.java" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1Player_1ab4e6d3bb1524a1e397d4ac36cb1096d2" compoundref="Player_8java" startline="33" endline="42">socketServer.Player.Player</referencedby>
+        <referencedby refid="classsocketServer_1_1Player_1ab5b86acca33e0b32e62a9be6148fbffc" compoundref="Player_8java" startline="83" endline="87">socketServer.Player.setup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1Player_1af988e56551784b4d6b7da8f5893a1df8" prot="package" static="no" mutable="no">
+        <type>Scanner</type>
+        <definition>Scanner socketServer.Player.input</definition>
+        <argsstring></argsstring>
+        <name>input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/Player.java" line="20" column="9" bodyfile="TrylmaServer/src/main/java/socketServer/Player.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1Player_1af55e634d1cd1f215c7cf73024e06b2aa" compoundref="Player_8java" startline="50" endline="76">socketServer.Player.run</referencedby>
+        <referencedby refid="classsocketServer_1_1Player_1ab5b86acca33e0b32e62a9be6148fbffc" compoundref="Player_8java" startline="83" endline="87">socketServer.Player.setup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1Player_1a673578fbd6944e55041695ab6f3f1ce5" prot="package" static="no" mutable="no">
+        <type>DataOutputStream</type>
+        <definition>DataOutputStream socketServer.Player.outputStream</definition>
+        <argsstring></argsstring>
+        <name>outputStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/Player.java" line="21" column="18" bodyfile="TrylmaServer/src/main/java/socketServer/Player.java" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1Player_1ab5b86acca33e0b32e62a9be6148fbffc" compoundref="Player_8java" startline="83" endline="87">socketServer.Player.setup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1Player_1a4d28dd8f883034a890b0fc9ad479e588" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int socketServer.Player.playerId</definition>
+        <argsstring></argsstring>
+        <name>playerId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/Player.java" line="23" column="9" bodyfile="TrylmaServer/src/main/java/socketServer/Player.java" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1Player_1adaef45e9396f4b51bc6b63322c366df2" compoundref="Player_8java" startline="102" endline="104">socketServer.Player.getPlayerId</referencedby>
+        <referencedby refid="classsocketServer_1_1Player_1ab4e6d3bb1524a1e397d4ac36cb1096d2" compoundref="Player_8java" startline="33" endline="42">socketServer.Player.Player</referencedby>
+        <referencedby refid="classsocketServer_1_1Player_1af55e634d1cd1f215c7cf73024e06b2aa" compoundref="Player_8java" startline="50" endline="76">socketServer.Player.run</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1Player_1a123bf9eb1ec576516b41b3a2c39ed3ec" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int socketServer.Player.startMoveField</definition>
+        <argsstring></argsstring>
+        <name>startMoveField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/Player.java" line="24" column="9" bodyfile="TrylmaServer/src/main/java/socketServer/Player.java" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1Player_1af55e634d1cd1f215c7cf73024e06b2aa" compoundref="Player_8java" startline="50" endline="76">socketServer.Player.run</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1Player_1a66437da23e442513334c8b8d4840b334" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int socketServer.Player.endMoveField</definition>
+        <argsstring></argsstring>
+        <name>endMoveField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/Player.java" line="25" column="9" bodyfile="TrylmaServer/src/main/java/socketServer/Player.java" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1Player_1af55e634d1cd1f215c7cf73024e06b2aa" compoundref="Player_8java" startline="50" endline="76">socketServer.Player.run</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsocketServer_1_1Player_1a111a98101b888120fbfdb2f37228f9c7" prot="public" static="no" mutable="no">
+        <type>PrintWriter</type>
+        <definition>PrintWriter socketServer.Player.output</definition>
+        <argsstring></argsstring>
+        <name>output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/Player.java" line="22" column="20" bodyfile="TrylmaServer/src/main/java/socketServer/Player.java" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1Player_1aa90b2a4174fe43cbf80a1651f66d3369" compoundref="Player_8java" startline="111" endline="114">socketServer.Player.sendMessage</referencedby>
+        <referencedby refid="classsocketServer_1_1Player_1ab5b86acca33e0b32e62a9be6148fbffc" compoundref="Player_8java" startline="83" endline="87">socketServer.Player.setup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsocketServer_1_1Player_1ab4e6d3bb1524a1e397d4ac36cb1096d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>socketServer.Player.Player</definition>
+        <argsstring>(Socket socket, int playerId)</argsstring>
+        <name>Player</name>
+        <param>
+          <type>Socket</type>
+          <declname>socket</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>playerId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Basic constructor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>socket</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>server socket </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>playerId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>this player id </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/Player.java" line="33" column="8" bodyfile="TrylmaServer/src/main/java/socketServer/Player.java" bodystart="33" bodyend="42"/>
+        <references refid="classsocketServer_1_1Player_1a4d28dd8f883034a890b0fc9ad479e588" compoundref="Player_8java" startline="23">socketServer.Player.playerId</references>
+        <references refid="classsocketServer_1_1Player_1ab5b86acca33e0b32e62a9be6148fbffc" compoundref="Player_8java" startline="83" endline="87">socketServer.Player.setup</references>
+        <references refid="classsocketServer_1_1Player_1a3c939ab07c19c2c6b9e30027bdacaa92" compoundref="Player_8java" startline="19">socketServer.Player.socket</references>
+      </memberdef>
+      <memberdef kind="function" id="classsocketServer_1_1Player_1af55e634d1cd1f215c7cf73024e06b2aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void socketServer.Player.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Takes suitable actions according to data received from the client </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/Player.java" line="50" column="18" bodyfile="TrylmaServer/src/main/java/socketServer/Player.java" bodystart="50" bodyend="76"/>
+        <references refid="classsocketServer_1_1Player_1a66437da23e442513334c8b8d4840b334" compoundref="Player_8java" startline="25">socketServer.Player.endMoveField</references>
+        <references refid="classsocketServer_1_1Player_1aca3eee0ab1c5f44477f1f2a9dbb375ae" compoundref="Player_8java" startline="18">socketServer.Player.game</references>
+        <references refid="classsocketServer_1_1Player_1af988e56551784b4d6b7da8f5893a1df8" compoundref="Player_8java" startline="20">socketServer.Player.input</references>
+        <references refid="classGame_1_1Game_1a72e34b794ec9b462e79e10e1ea325e3e" compoundref="Game_8java" startline="104" endline="136">Game.Game.move</references>
+        <references refid="classsocketServer_1_1Player_1a4d28dd8f883034a890b0fc9ad479e588" compoundref="Player_8java" startline="23">socketServer.Player.playerId</references>
+        <references refid="classGame_1_1Game_1a40a0dc857f18efe225d440b8e1da251f" compoundref="Game_8java" startline="74" endline="92">Game.Game.showPossibilities</references>
+        <references refid="classsocketServer_1_1Player_1a123bf9eb1ec576516b41b3a2c39ed3ec" compoundref="Player_8java" startline="24">socketServer.Player.startMoveField</references>
+      </memberdef>
+      <memberdef kind="function" id="classsocketServer_1_1Player_1a2014b638ed67ee82d696a4ff713fdfd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void socketServer.Player.setGame</definition>
+        <argsstring>(Game game)</argsstring>
+        <name>setGame</name>
+        <param>
+          <type><ref refid="classGame_1_1Game" kindref="compound">Game</ref></type>
+          <declname>game</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns game to the player. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>game</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the game assigned to this player </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/Player.java" line="94" column="18" bodyfile="TrylmaServer/src/main/java/socketServer/Player.java" bodystart="94" bodyend="96"/>
+        <references refid="classsocketServer_1_1Player_1aca3eee0ab1c5f44477f1f2a9dbb375ae" compoundref="Player_8java" startline="18">socketServer.Player.game</references>
+      </memberdef>
+      <memberdef kind="function" id="classsocketServer_1_1Player_1adaef45e9396f4b51bc6b63322c366df2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int socketServer.Player.getPlayerId</definition>
+        <argsstring>()</argsstring>
+        <name>getPlayerId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns this player ID </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/Player.java" line="102" column="16" bodyfile="TrylmaServer/src/main/java/socketServer/Player.java" bodystart="102" bodyend="104"/>
+        <references refid="classsocketServer_1_1Player_1a4d28dd8f883034a890b0fc9ad479e588" compoundref="Player_8java" startline="23">socketServer.Player.playerId</references>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a65cab29b4063681f2b35d536ade65be2" compoundref="ServerTest_8java" startline="88" endline="112">Games.Trylma.ServerTest.ifPlayerCouldMove</referencedby>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a91aaad205da873a8f85219b216469303" compoundref="ServerTest_8java" startline="115" endline="141">Games.Trylma.ServerTest.setAvailableFields</referencedby>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a3a8928b2ac890edb5b41bc819bfb472c" compoundref="ServerTest_8java" startline="50" endline="85">Games.Trylma.ServerTest.whoWinTheGame</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsocketServer_1_1Player_1aa90b2a4174fe43cbf80a1651f66d3369" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void socketServer.Player.sendMessage</definition>
+        <argsstring>(String message)</argsstring>
+        <name>sendMessage</name>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sends given message to the player <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>given message </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/Player.java" line="111" column="17" bodyfile="TrylmaServer/src/main/java/socketServer/Player.java" bodystart="111" bodyend="114"/>
+        <references refid="classsocketServer_1_1Player_1a111a98101b888120fbfdb2f37228f9c7" compoundref="Player_8java" startline="22">socketServer.Player.output</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsocketServer_1_1Player_1ab5b86acca33e0b32e62a9be6148fbffc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void socketServer.Player.setup</definition>
+        <argsstring>()</argsstring>
+        <name>setup</name>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets up all necessary tools <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>exception </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/Player.java" line="83" column="18" bodyfile="TrylmaServer/src/main/java/socketServer/Player.java" bodystart="83" bodyend="87"/>
+        <references refid="classsocketServer_1_1Player_1af988e56551784b4d6b7da8f5893a1df8" compoundref="Player_8java" startline="20">socketServer.Player.input</references>
+        <references refid="classsocketServer_1_1Player_1a111a98101b888120fbfdb2f37228f9c7" compoundref="Player_8java" startline="22">socketServer.Player.output</references>
+        <references refid="classsocketServer_1_1Player_1a673578fbd6944e55041695ab6f3f1ce5" compoundref="Player_8java" startline="21">socketServer.Player.outputStream</references>
+        <references refid="classsocketServer_1_1Player_1a3c939ab07c19c2c6b9e30027bdacaa92" compoundref="Player_8java" startline="19">socketServer.Player.socket</references>
+        <referencedby refid="classsocketServer_1_1Player_1ab4e6d3bb1524a1e397d4ac36cb1096d2" compoundref="Player_8java" startline="33" endline="42">socketServer.Player.Player</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classsocketServer_1_1Player" kindref="compound">Player</ref> is associated to a client. It sends and receives information from client and performs suitable actions on server </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>socketServer.Player</label>
+        <link refid="classsocketServer_1_1Player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Runnable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>PrintWriter</label>
+      </node>
+      <node id="3">
+        <label>Scanner</label>
+      </node>
+      <node id="7">
+        <label>Board.Board</label>
+        <link refid="classBoard_1_1Board"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+startFields</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>List&lt; socketServer.Player &gt;</label>
+      </node>
+      <node id="9">
+        <label>Board.DefaultStartFields</label>
+        <link refid="classBoard_1_1DefaultStartFields"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+bottomFields</edgelabel>
+          <edgelabel>+bottomLeftFields</edgelabel>
+          <edgelabel>+bottomRightFields</edgelabel>
+          <edgelabel>+topFields</edgelabel>
+          <edgelabel>+topLeftFields</edgelabel>
+          <edgelabel>+topRightFields</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>ArrayList&lt; Integer &gt;</label>
+      </node>
+      <node id="8">
+        <label>ArrayList&lt; Board.BoardField &gt;</label>
+      </node>
+      <node id="14">
+        <label>DataOutputStream</label>
+      </node>
+      <node id="10">
+        <label>List&lt; Integer &gt;</label>
+      </node>
+      <node id="6">
+        <label>Board.JSONBoardConverter</label>
+        <link refid="classBoard_1_1JSONBoardConverter"/>
+      </node>
+      <node id="1">
+        <label>socketServer.Player</label>
+        <link refid="classsocketServer_1_1Player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>~input</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>~game</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>~outputStream</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>~socket</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>+output</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Game.Rules</label>
+        <link refid="interfaceGame_1_1Rules"/>
+      </node>
+      <node id="11">
+        <label>Game.TrylmaRules</label>
+        <link refid="classGame_1_1TrylmaRules"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>-availableFields</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Socket</label>
+      </node>
+      <node id="2">
+        <label>Runnable</label>
+      </node>
+      <node id="4">
+        <label>Game.Game</label>
+        <link refid="classGame_1_1Game"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+players</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>~converter</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>~board</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+winners</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>~rules</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaServer/src/main/java/socketServer/Player.java" line="17" column="7" bodyfile="TrylmaServer/src/main/java/socketServer/Player.java" bodystart="17" bodyend="115"/>
+    <listofallmembers>
+      <member refid="classsocketServer_1_1Player_1a66437da23e442513334c8b8d4840b334" prot="package" virt="non-virtual"><scope>socketServer::Player</scope><name>endMoveField</name></member>
+      <member refid="classsocketServer_1_1Player_1aca3eee0ab1c5f44477f1f2a9dbb375ae" prot="package" virt="non-virtual"><scope>socketServer::Player</scope><name>game</name></member>
+      <member refid="classsocketServer_1_1Player_1adaef45e9396f4b51bc6b63322c366df2" prot="public" virt="non-virtual"><scope>socketServer::Player</scope><name>getPlayerId</name></member>
+      <member refid="classsocketServer_1_1Player_1af988e56551784b4d6b7da8f5893a1df8" prot="package" virt="non-virtual"><scope>socketServer::Player</scope><name>input</name></member>
+      <member refid="classsocketServer_1_1Player_1a111a98101b888120fbfdb2f37228f9c7" prot="public" virt="non-virtual"><scope>socketServer::Player</scope><name>output</name></member>
+      <member refid="classsocketServer_1_1Player_1a673578fbd6944e55041695ab6f3f1ce5" prot="package" virt="non-virtual"><scope>socketServer::Player</scope><name>outputStream</name></member>
+      <member refid="classsocketServer_1_1Player_1ab4e6d3bb1524a1e397d4ac36cb1096d2" prot="public" virt="non-virtual"><scope>socketServer::Player</scope><name>Player</name></member>
+      <member refid="classsocketServer_1_1Player_1a4d28dd8f883034a890b0fc9ad479e588" prot="package" virt="non-virtual"><scope>socketServer::Player</scope><name>playerId</name></member>
+      <member refid="classsocketServer_1_1Player_1af55e634d1cd1f215c7cf73024e06b2aa" prot="public" virt="non-virtual"><scope>socketServer::Player</scope><name>run</name></member>
+      <member refid="classsocketServer_1_1Player_1aa90b2a4174fe43cbf80a1651f66d3369" prot="public" virt="non-virtual"><scope>socketServer::Player</scope><name>sendMessage</name></member>
+      <member refid="classsocketServer_1_1Player_1a2014b638ed67ee82d696a4ff713fdfd3" prot="public" virt="non-virtual"><scope>socketServer::Player</scope><name>setGame</name></member>
+      <member refid="classsocketServer_1_1Player_1ab5b86acca33e0b32e62a9be6148fbffc" prot="private" virt="non-virtual"><scope>socketServer::Player</scope><name>setup</name></member>
+      <member refid="classsocketServer_1_1Player_1a3c939ab07c19c2c6b9e30027bdacaa92" prot="package" virt="non-virtual"><scope>socketServer::Player</scope><name>socket</name></member>
+      <member refid="classsocketServer_1_1Player_1a123bf9eb1ec576516b41b3a2c39ed3ec" prot="package" virt="non-virtual"><scope>socketServer::Player</scope><name>startMoveField</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

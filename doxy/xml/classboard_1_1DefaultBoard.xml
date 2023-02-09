@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classBoard_1_1DefaultBoard" kind="class" language="Java" prot="public">
+    <compoundname>Board::DefaultBoard</compoundname>
+    <basecompoundref refid="classBoard_1_1Board" prot="public" virt="non-virtual">Board.Board</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classBoard_1_1DefaultBoard_1a0075b96d6bee842a24d225fb537a66cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Board.DefaultBoard.setFields</definition>
+        <argsstring>(ArrayList&lt; BoardField &gt; fields)</argsstring>
+        <name>setFields</name>
+        <reimplements refid="classBoard_1_1Board_1af477dd58dcdecf37cc0bddcdabb916f3">setFields</reimplements>
+        <param>
+          <type>ArrayList&lt; <ref refid="classBoard_1_1BoardField" kindref="compound">BoardField</ref> &gt;</type>
+          <declname>fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the array list of board fields <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fields</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fields that will replace current ones </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/DefaultBoard.java" line="13" column="17" bodyfile="TrylmaServer/src/main/java/Board/DefaultBoard.java" bodystart="13" bodyend="15"/>
+        <references refid="classBoard_1_1Board_1aec13d18133935d66bca02bd162e1d1a0" compoundref="TrylmaServer_2src_2main_2java_2Board_2Board_8java" startline="11">Board.Board.fields</references>
+        <referencedby refid="classBoard_1_1DefaultBoardBuilder_1a692703ff83daba5d45552532254bf8ce" compoundref="TrylmaServer_2src_2main_2java_2Board_2DefaultBoardBuilder_8java" startline="17" endline="45">Board.DefaultBoardBuilder.initializeBoardFields</referencedby>
+        <referencedby refid="classBoard_1_1DefaultBoardBuilder_1a2c9e73e23fd12000bf1be9c76fa00b39" compoundref="TrylmaServer_2src_2main_2java_2Board_2DefaultBoardBuilder_8java" startline="48" endline="64">Board.DefaultBoardBuilder.setBoardFields</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classBoard_1_1DefaultBoard_1afc985bf622c2e06941d9b695e7f78f9c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Board.DefaultBoard.setStartFields</definition>
+        <argsstring>(DefaultStartFields startFields)</argsstring>
+        <name>setStartFields</name>
+        <reimplements refid="classBoard_1_1Board_1a3b5d7e7b16cf9f5d395ddf0934b59511">setStartFields</reimplements>
+        <param>
+          <type><ref refid="classBoard_1_1DefaultStartFields" kindref="compound">DefaultStartFields</ref></type>
+          <declname>startFields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the start fields of the board <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startFields</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start fields of the board </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/DefaultBoard.java" line="18" column="10" bodyfile="TrylmaServer/src/main/java/Board/DefaultBoard.java" bodystart="18" bodyend="20"/>
+        <references refid="classBoard_1_1Board_1a5b37ec69315b603312e1f979967c98ae" compoundref="TrylmaServer_2src_2main_2java_2Board_2Board_8java" startline="12">Board.Board.startFields</references>
+        <referencedby refid="classBoard_1_1DefaultBoardBuilder_1a692703ff83daba5d45552532254bf8ce" compoundref="TrylmaServer_2src_2main_2java_2Board_2DefaultBoardBuilder_8java" startline="17" endline="45">Board.DefaultBoardBuilder.initializeBoardFields</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The game board stores data about the fields and players positions </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Board.DefaultBoard</label>
+        <link refid="classBoard_1_1DefaultBoard"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Board.Board</label>
+        <link refid="classBoard_1_1Board"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Board.DefaultBoard</label>
+        <link refid="classBoard_1_1DefaultBoard"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Board.Board</label>
+        <link refid="classBoard_1_1Board"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+startFields</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Board.DefaultStartFields</label>
+        <link refid="classBoard_1_1DefaultStartFields"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+bottomFields</edgelabel>
+          <edgelabel>+bottomLeftFields</edgelabel>
+          <edgelabel>+bottomRightFields</edgelabel>
+          <edgelabel>+topFields</edgelabel>
+          <edgelabel>+topLeftFields</edgelabel>
+          <edgelabel>+topRightFields</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ArrayList&lt; Board.BoardField &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaServer/src/main/java/Board/DefaultBoard.java" line="10" column="7" bodyfile="TrylmaServer/src/main/java/Board/DefaultBoard.java" bodystart="10" bodyend="21"/>
+    <listofallmembers>
+      <member refid="classBoard_1_1Board_1aec13d18133935d66bca02bd162e1d1a0" prot="public" virt="non-virtual"><scope>Board::DefaultBoard</scope><name>fields</name></member>
+      <member refid="classBoard_1_1DefaultBoard_1a0075b96d6bee842a24d225fb537a66cd" prot="public" virt="non-virtual"><scope>Board::DefaultBoard</scope><name>setFields</name></member>
+      <member refid="classBoard_1_1DefaultBoard_1afc985bf622c2e06941d9b695e7f78f9c" prot="package" virt="non-virtual"><scope>Board::DefaultBoard</scope><name>setStartFields</name></member>
+      <member refid="classBoard_1_1Board_1a5b37ec69315b603312e1f979967c98ae" prot="public" virt="non-virtual"><scope>Board::DefaultBoard</scope><name>startFields</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

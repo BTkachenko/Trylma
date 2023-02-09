@@ -1,0 +1,69 @@
+.TH "Board.JSONBoardConverter" 3 "Thu Jan 27 2022" "Trylma" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Board.JSONBoardConverter
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "String \fBbuildJSONBoard\fP (\fBBoard\fP board)"
+.br
+.ti -1c
+.RI "void \fBaddContent\fP (String content)"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "final StringBuilder \fBjsonBuilder\fP = new StringBuilder()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Converts a board to a JSON String which can be sent to clients by the server\&. Can be turned back to \fBBoard\fP by \fBJSONBoardConverter\fP\&. 
+.PP
+Definition at line 10 of file JSONBoardConverter\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Board\&.JSONBoardConverter\&.addContent (String content)"
+Ads data to the JSON String 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcontent\fP data to add 
+.RE
+.PP
+
+.PP
+Definition at line 45 of file JSONBoardConverter\&.java\&.
+.SS "String Board\&.JSONBoardConverter\&.buildJSONBoard (\fBBoard\fP board)"
+Converts a board to a JSON String
+.PP
+\fBParameters\fP
+.RS 4
+\fIboard\fP board we want to convert 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+JSON String that stores board data 
+.RE
+.PP
+
+.PP
+Definition at line 20 of file JSONBoardConverter\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "final StringBuilder Board\&.JSONBoardConverter\&.jsonBuilder = new StringBuilder()\fC [private]\fP"
+
+.PP
+Definition at line 11 of file JSONBoardConverter\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Trylma from the source code\&.

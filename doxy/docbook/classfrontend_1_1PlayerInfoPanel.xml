@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classfrontend_1_1PlayerInfoPanel" xml:lang="en-US">
+<title>frontend.PlayerInfoPanel Class Reference</title>
+<indexterm><primary>frontend.PlayerInfoPanel</primary></indexterm>
+Inheritance diagram for frontend.PlayerInfoPanel:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classfrontend_1_1PlayerInfoPanel__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for frontend.PlayerInfoPanel:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classfrontend_1_1PlayerInfoPanel__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classfrontend_1_1PlayerInfoPanel_1af07c14d4e17006ff96713121899127a1">PlayerInfoPanel</link> (<link linkend="_enumboard_1_1PlayerColor">PlayerColor</link> playerColor)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classfrontend_1_1PlayerInfoPanel_1abfa2382b10e6fdb75dc8961cd9370eef">setCurrentPlayerInfo</link> (<link linkend="_enumboard_1_1PlayerColor">PlayerColor</link> currPlayerColor)</para>
+</listitem>
+            <listitem><para>Color <link linkend="_classfrontend_1_1PlayerInfoPanel_1aa52cea9dec3ef27f44e10997de6b5b83">getColor</link> (<link linkend="_enumboard_1_1PlayerColor">PlayerColor</link> playerColor)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Package Attributes    </title>
+        <itemizedlist>
+            <listitem><para>JLabel <link linkend="_classfrontend_1_1PlayerInfoPanel_1a68e46f3396a11ecded709d8a76e7300e">playerColorInfo</link></para>
+</listitem>
+            <listitem><para>JLabel <link linkend="_classfrontend_1_1PlayerInfoPanel_1a2c8d9a1f28a3540911cec3059f024738">descriptionPlayer</link></para>
+</listitem>
+            <listitem><para>JLabel <link linkend="_classfrontend_1_1PlayerInfoPanel_1a9089a6eee3d27b491f20a7d36e0b65d2">currentPlayerInfo</link></para>
+</listitem>
+            <listitem><para>JLabel <link linkend="_classfrontend_1_1PlayerInfoPanel_1a5fe1386a909461b1ce68711506d1a836">descriptionCurrent</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Panel that displays info about current player, and what player are we </para>
+<para>
+Definition at line 13 of file PlayerInfoPanel.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classfrontend_1_1PlayerInfoPanel_1af07c14d4e17006ff96713121899127a1"/>    <section>
+    <title>PlayerInfoPanel()</title>
+<indexterm><primary>PlayerInfoPanel</primary><secondary>frontend.PlayerInfoPanel</secondary></indexterm>
+<indexterm><primary>frontend.PlayerInfoPanel</primary><secondary>PlayerInfoPanel</secondary></indexterm>
+<para><computeroutput>frontend.PlayerInfoPanel.PlayerInfoPanel (<link linkend="_enumboard_1_1PlayerColor">PlayerColor</link> playerColor)</computeroutput></para>
+<para>Basic constructor Sets which player are we</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>playerColor</entry>
+                                <entry>
+<para>our id </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 26 of file PlayerInfoPanel.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classfrontend_1_1PlayerInfoPanel_af07c14d4e17006ff96713121899127a1_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classfrontend_1_1PlayerInfoPanel_1aa52cea9dec3ef27f44e10997de6b5b83"/>    <section>
+    <title>getColor()</title>
+<indexterm><primary>getColor</primary><secondary>frontend.PlayerInfoPanel</secondary></indexterm>
+<indexterm><primary>frontend.PlayerInfoPanel</primary><secondary>getColor</secondary></indexterm>
+<para><computeroutput>Color frontend.PlayerInfoPanel.getColor (<link linkend="_enumboard_1_1PlayerColor">PlayerColor</link> playerColor)</computeroutput></para>
+<para>Provides right color based on color enum 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>playerColor</entry>
+                                <entry>
+<para>enum of player color </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Color associated with the enum </para>
+</formalpara>
+</para>
+<para>
+Definition at line 74 of file PlayerInfoPanel.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classfrontend_1_1PlayerInfoPanel_aa52cea9dec3ef27f44e10997de6b5b83_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classfrontend_1_1PlayerInfoPanel_1abfa2382b10e6fdb75dc8961cd9370eef"/>    <section>
+    <title>setCurrentPlayerInfo()</title>
+<indexterm><primary>setCurrentPlayerInfo</primary><secondary>frontend.PlayerInfoPanel</secondary></indexterm>
+<indexterm><primary>frontend.PlayerInfoPanel</primary><secondary>setCurrentPlayerInfo</secondary></indexterm>
+<para><computeroutput>void frontend.PlayerInfoPanel.setCurrentPlayerInfo (<link linkend="_enumboard_1_1PlayerColor">PlayerColor</link> currPlayerColor)</computeroutput></para>
+<para>Changes displayed info about current player 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>currPlayerColor</entry>
+                                <entry>
+<para>color of a current player </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 61 of file PlayerInfoPanel.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classfrontend_1_1PlayerInfoPanel_abfa2382b10e6fdb75dc8961cd9370eef_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classfrontend_1_1PlayerInfoPanel_abfa2382b10e6fdb75dc8961cd9370eef_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classfrontend_1_1PlayerInfoPanel_1a9089a6eee3d27b491f20a7d36e0b65d2"/>    <section>
+    <title>currentPlayerInfo</title>
+<indexterm><primary>currentPlayerInfo</primary><secondary>frontend.PlayerInfoPanel</secondary></indexterm>
+<indexterm><primary>frontend.PlayerInfoPanel</primary><secondary>currentPlayerInfo</secondary></indexterm>
+<para><computeroutput>JLabel frontend.PlayerInfoPanel.currentPlayerInfo<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file PlayerInfoPanel.java.</para>
+    </section><anchor xml:id="_classfrontend_1_1PlayerInfoPanel_1a5fe1386a909461b1ce68711506d1a836"/>    <section>
+    <title>descriptionCurrent</title>
+<indexterm><primary>descriptionCurrent</primary><secondary>frontend.PlayerInfoPanel</secondary></indexterm>
+<indexterm><primary>frontend.PlayerInfoPanel</primary><secondary>descriptionCurrent</secondary></indexterm>
+<para><computeroutput>JLabel frontend.PlayerInfoPanel.descriptionCurrent<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file PlayerInfoPanel.java.</para>
+    </section><anchor xml:id="_classfrontend_1_1PlayerInfoPanel_1a2c8d9a1f28a3540911cec3059f024738"/>    <section>
+    <title>descriptionPlayer</title>
+<indexterm><primary>descriptionPlayer</primary><secondary>frontend.PlayerInfoPanel</secondary></indexterm>
+<indexterm><primary>frontend.PlayerInfoPanel</primary><secondary>descriptionPlayer</secondary></indexterm>
+<para><computeroutput>JLabel frontend.PlayerInfoPanel.descriptionPlayer<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file PlayerInfoPanel.java.</para>
+    </section><anchor xml:id="_classfrontend_1_1PlayerInfoPanel_1a68e46f3396a11ecded709d8a76e7300e"/>    <section>
+    <title>playerColorInfo</title>
+<indexterm><primary>playerColorInfo</primary><secondary>frontend.PlayerInfoPanel</secondary></indexterm>
+<indexterm><primary>frontend.PlayerInfoPanel</primary><secondary>playerColorInfo</secondary></indexterm>
+<para><computeroutput>JLabel frontend.PlayerInfoPanel.playerColorInfo<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file PlayerInfoPanel.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaClient/src/main/java/frontend/<link linkend="_PlayerInfoPanel_8java">PlayerInfoPanel.java</link></section>
+</section>

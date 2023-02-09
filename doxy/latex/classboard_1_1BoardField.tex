@@ -1,0 +1,436 @@
+\hypertarget{classBoard_1_1BoardField}{}\doxysection{Board.\+Board\+Field Class Reference}
+\label{classBoard_1_1BoardField}\index{Board.BoardField@{Board.BoardField}}
+
+
+Collaboration diagram for Board.\+Board\+Field\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{classBoard_1_1BoardField__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBoard_1_1BoardField_ae3a55dc93c5c6fb388cbee46cebd4551}{Board\+Field}} (int \mbox{\hyperlink{classBoard_1_1BoardField_ad9b9e52342f0192a3d56ab63cb7d149a}{row}}, int \mbox{\hyperlink{classBoard_1_1BoardField_ab219606a9fcd42e4f00e2711f78f99e9}{column}}, double \mbox{\hyperlink{classBoard_1_1BoardField_a2c70faa4920e2d3ee12906a52fcbd0ba}{x\+Position}}, double \mbox{\hyperlink{classBoard_1_1BoardField_aaebb8f67eb5f41ef8b4810081a0272d5}{y\+Position}}, int player\+Color\+ID, int status\+Color\+ID)
+\item 
+int \mbox{\hyperlink{classBoard_1_1BoardField_aaaa65e9f7b85480bd0f838224c4c60c2}{get\+Row}} ()
+\item 
+void \mbox{\hyperlink{classBoard_1_1BoardField_a41df0e6df452112593a7318e7d52f567}{set\+Row}} (int \mbox{\hyperlink{classBoard_1_1BoardField_ad9b9e52342f0192a3d56ab63cb7d149a}{row}})
+\item 
+int \mbox{\hyperlink{classBoard_1_1BoardField_a88c6a9aa9373a12036a0abbd1a82ba54}{get\+Column}} ()
+\item 
+void \mbox{\hyperlink{classBoard_1_1BoardField_abe3af2fdb20361b29ee50703281a3daa}{set\+Column}} (int \mbox{\hyperlink{classBoard_1_1BoardField_ab219606a9fcd42e4f00e2711f78f99e9}{column}})
+\item 
+\mbox{\hyperlink{enumBoard_1_1PlayerColor}{Player\+Color}} \mbox{\hyperlink{classBoard_1_1BoardField_a2ac8140fa52b0a3dde51f687be216eee}{get\+Player\+Color}} ()
+\item 
+void \mbox{\hyperlink{classBoard_1_1BoardField_ad9068a400cf1ef191f50b4762d23a86d}{set\+Player\+Color}} (\mbox{\hyperlink{enumBoard_1_1PlayerColor}{Player\+Color}} \mbox{\hyperlink{classBoard_1_1BoardField_a3a49193fdf3196afb96ff9657bac622f}{player\+Color}})
+\item 
+\mbox{\hyperlink{enumBoard_1_1StatusColor}{Status\+Color}} \mbox{\hyperlink{classBoard_1_1BoardField_abb3ff54f22a70f86ccba76cc0550a66f}{get\+Status\+Color}} ()
+\item 
+void \mbox{\hyperlink{classBoard_1_1BoardField_a01be54fb150ac721ede16a559a853506}{set\+Status\+Color}} (\mbox{\hyperlink{enumBoard_1_1StatusColor}{Status\+Color}} \mbox{\hyperlink{classBoard_1_1BoardField_a50c42f4a616a0280b109985f087e6ead}{status\+Color}})
+\item 
+double \mbox{\hyperlink{classBoard_1_1BoardField_a63cce4a999a6732b19ca6e57468482a7}{get\+XPosition}} ()
+\item 
+void \mbox{\hyperlink{classBoard_1_1BoardField_abca2dd63d11cf5c2c38dc3c438a547d1}{set\+XPosition}} (double \mbox{\hyperlink{classBoard_1_1BoardField_a2c70faa4920e2d3ee12906a52fcbd0ba}{x\+Position}})
+\item 
+double \mbox{\hyperlink{classBoard_1_1BoardField_a25182ff0063167bc18733e2121fea3ee}{get\+YPosition}} ()
+\item 
+void \mbox{\hyperlink{classBoard_1_1BoardField_a6a370f1de8b048a6fa67a8861c19f8ef}{set\+YPosition}} (double \mbox{\hyperlink{classBoard_1_1BoardField_aaebb8f67eb5f41ef8b4810081a0272d5}{y\+Position}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{enumBoard_1_1PlayerColor}{Player\+Color}} \mbox{\hyperlink{classBoard_1_1BoardField_a3a49193fdf3196afb96ff9657bac622f}{player\+Color}}
+\item 
+\mbox{\hyperlink{enumBoard_1_1StatusColor}{Status\+Color}} \mbox{\hyperlink{classBoard_1_1BoardField_a50c42f4a616a0280b109985f087e6ead}{status\+Color}}
+\item 
+double \mbox{\hyperlink{classBoard_1_1BoardField_a2c70faa4920e2d3ee12906a52fcbd0ba}{x\+Position}}
+\item 
+double \mbox{\hyperlink{classBoard_1_1BoardField_aaebb8f67eb5f41ef8b4810081a0272d5}{y\+Position}}
+\item 
+int \mbox{\hyperlink{classBoard_1_1BoardField_ad9b9e52342f0192a3d56ab63cb7d149a}{row}}
+\item 
+int \mbox{\hyperlink{classBoard_1_1BoardField_ab219606a9fcd42e4f00e2711f78f99e9}{column}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A single field of a board, it stores information about its color, status and position 
+
+Definition at line 9 of file Board\+Field.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classBoard_1_1BoardField_ae3a55dc93c5c6fb388cbee46cebd4551}\label{classBoard_1_1BoardField_ae3a55dc93c5c6fb388cbee46cebd4551}} 
+\index{Board.BoardField@{Board.BoardField}!BoardField@{BoardField}}
+\index{BoardField@{BoardField}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{BoardField()}{BoardField()}}
+{\footnotesize\ttfamily Board.\+Board\+Field.\+Board\+Field (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{column,  }\item[{double}]{x\+Position,  }\item[{double}]{y\+Position,  }\item[{int}]{player\+Color\+ID,  }\item[{int}]{status\+Color\+ID }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{classBoard_1_1BoardField}{Board\+Field}} constructor, the board is made based on an int\mbox{[}\mbox{]}\mbox{[}\mbox{]} array the field can be identified based on its position in that array
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & -\/ the row of an array associated to this field \\
+\hline
+{\em column} & -\/ the column of an array associated to this field \\
+\hline
+{\em x\+Position} & -\/ X axis position on the screen \\
+\hline
+{\em y\+Position} & -\/ Y axis position on the screen \\
+\hline
+{\em player\+Color\+ID} & -\/ field current color \\
+\hline
+{\em status\+Color\+ID} & -\/ field current status \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 30 of file Board\+Field.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1BoardField_ae3a55dc93c5c6fb388cbee46cebd4551_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBoard_1_1BoardField_a88c6a9aa9373a12036a0abbd1a82ba54}\label{classBoard_1_1BoardField_a88c6a9aa9373a12036a0abbd1a82ba54}} 
+\index{Board.BoardField@{Board.BoardField}!getColumn@{getColumn}}
+\index{getColumn@{getColumn}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{getColumn()}{getColumn()}}
+{\footnotesize\ttfamily int Board.\+Board\+Field.\+get\+Column (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+returns field column 
+\end{DoxyReturn}
+
+
+Definition at line 62 of file Board\+Field.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1BoardField_a88c6a9aa9373a12036a0abbd1a82ba54_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBoard_1_1BoardField_a2ac8140fa52b0a3dde51f687be216eee}\label{classBoard_1_1BoardField_a2ac8140fa52b0a3dde51f687be216eee}} 
+\index{Board.BoardField@{Board.BoardField}!getPlayerColor@{getPlayerColor}}
+\index{getPlayerColor@{getPlayerColor}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{getPlayerColor()}{getPlayerColor()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumBoard_1_1PlayerColor}{Player\+Color}} Board.\+Board\+Field.\+get\+Player\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+returns fields current color 
+\end{DoxyReturn}
+
+
+Definition at line 79 of file Board\+Field.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1BoardField_a2ac8140fa52b0a3dde51f687be216eee_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBoard_1_1BoardField_aaaa65e9f7b85480bd0f838224c4c60c2}\label{classBoard_1_1BoardField_aaaa65e9f7b85480bd0f838224c4c60c2}} 
+\index{Board.BoardField@{Board.BoardField}!getRow@{getRow}}
+\index{getRow@{getRow}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{getRow()}{getRow()}}
+{\footnotesize\ttfamily int Board.\+Board\+Field.\+get\+Row (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+returns field row 
+\end{DoxyReturn}
+
+
+Definition at line 45 of file Board\+Field.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1BoardField_aaaa65e9f7b85480bd0f838224c4c60c2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBoard_1_1BoardField_abb3ff54f22a70f86ccba76cc0550a66f}\label{classBoard_1_1BoardField_abb3ff54f22a70f86ccba76cc0550a66f}} 
+\index{Board.BoardField@{Board.BoardField}!getStatusColor@{getStatusColor}}
+\index{getStatusColor@{getStatusColor}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{getStatusColor()}{getStatusColor()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumBoard_1_1StatusColor}{Status\+Color}} Board.\+Board\+Field.\+get\+Status\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+returns what is current field status 
+\end{DoxyReturn}
+
+
+Definition at line 96 of file Board\+Field.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1BoardField_abb3ff54f22a70f86ccba76cc0550a66f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBoard_1_1BoardField_a63cce4a999a6732b19ca6e57468482a7}\label{classBoard_1_1BoardField_a63cce4a999a6732b19ca6e57468482a7}} 
+\index{Board.BoardField@{Board.BoardField}!getXPosition@{getXPosition}}
+\index{getXPosition@{getXPosition}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{getXPosition()}{getXPosition()}}
+{\footnotesize\ttfamily double Board.\+Board\+Field.\+get\+XPosition (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+returns field X axis position 
+\end{DoxyReturn}
+
+
+Definition at line 113 of file Board\+Field.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1BoardField_a63cce4a999a6732b19ca6e57468482a7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBoard_1_1BoardField_a25182ff0063167bc18733e2121fea3ee}\label{classBoard_1_1BoardField_a25182ff0063167bc18733e2121fea3ee}} 
+\index{Board.BoardField@{Board.BoardField}!getYPosition@{getYPosition}}
+\index{getYPosition@{getYPosition}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{getYPosition()}{getYPosition()}}
+{\footnotesize\ttfamily double Board.\+Board\+Field.\+get\+YPosition (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+returns field Y axis position 
+\end{DoxyReturn}
+
+
+Definition at line 130 of file Board\+Field.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1BoardField_a25182ff0063167bc18733e2121fea3ee_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBoard_1_1BoardField_abe3af2fdb20361b29ee50703281a3daa}\label{classBoard_1_1BoardField_abe3af2fdb20361b29ee50703281a3daa}} 
+\index{Board.BoardField@{Board.BoardField}!setColumn@{setColumn}}
+\index{setColumn@{setColumn}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{setColumn()}{setColumn()}}
+{\footnotesize\ttfamily void Board.\+Board\+Field.\+set\+Column (\begin{DoxyParamCaption}\item[{int}]{column }\end{DoxyParamCaption})}
+
+Sets field column 
+\begin{DoxyParams}{Parameters}
+{\em column} & column that the field is in \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 71 of file Board\+Field.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1BoardField_abe3af2fdb20361b29ee50703281a3daa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBoard_1_1BoardField_ad9068a400cf1ef191f50b4762d23a86d}\label{classBoard_1_1BoardField_ad9068a400cf1ef191f50b4762d23a86d}} 
+\index{Board.BoardField@{Board.BoardField}!setPlayerColor@{setPlayerColor}}
+\index{setPlayerColor@{setPlayerColor}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{setPlayerColor()}{setPlayerColor()}}
+{\footnotesize\ttfamily void Board.\+Board\+Field.\+set\+Player\+Color (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumBoard_1_1PlayerColor}{Player\+Color}}}]{player\+Color }\end{DoxyParamCaption})}
+
+Sets the field color 
+\begin{DoxyParams}{Parameters}
+{\em player\+Color} & a new player color \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 88 of file Board\+Field.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1BoardField_ad9068a400cf1ef191f50b4762d23a86d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBoard_1_1BoardField_a41df0e6df452112593a7318e7d52f567}\label{classBoard_1_1BoardField_a41df0e6df452112593a7318e7d52f567}} 
+\index{Board.BoardField@{Board.BoardField}!setRow@{setRow}}
+\index{setRow@{setRow}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{setRow()}{setRow()}}
+{\footnotesize\ttfamily void Board.\+Board\+Field.\+set\+Row (\begin{DoxyParamCaption}\item[{int}]{row }\end{DoxyParamCaption})}
+
+Sets field row 
+\begin{DoxyParams}{Parameters}
+{\em row} & row the field is in \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 54 of file Board\+Field.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1BoardField_a41df0e6df452112593a7318e7d52f567_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBoard_1_1BoardField_a01be54fb150ac721ede16a559a853506}\label{classBoard_1_1BoardField_a01be54fb150ac721ede16a559a853506}} 
+\index{Board.BoardField@{Board.BoardField}!setStatusColor@{setStatusColor}}
+\index{setStatusColor@{setStatusColor}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{setStatusColor()}{setStatusColor()}}
+{\footnotesize\ttfamily void Board.\+Board\+Field.\+set\+Status\+Color (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumBoard_1_1StatusColor}{Status\+Color}}}]{status\+Color }\end{DoxyParamCaption})}
+
+Sets the field status 
+\begin{DoxyParams}{Parameters}
+{\em status\+Color} & a new field status \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 105 of file Board\+Field.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1BoardField_a01be54fb150ac721ede16a559a853506_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBoard_1_1BoardField_abca2dd63d11cf5c2c38dc3c438a547d1}\label{classBoard_1_1BoardField_abca2dd63d11cf5c2c38dc3c438a547d1}} 
+\index{Board.BoardField@{Board.BoardField}!setXPosition@{setXPosition}}
+\index{setXPosition@{setXPosition}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{setXPosition()}{setXPosition()}}
+{\footnotesize\ttfamily void Board.\+Board\+Field.\+set\+XPosition (\begin{DoxyParamCaption}\item[{double}]{x\+Position }\end{DoxyParamCaption})}
+
+Sets field X axis position 
+\begin{DoxyParams}{Parameters}
+{\em x\+Position} & field X axis position \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 122 of file Board\+Field.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1BoardField_abca2dd63d11cf5c2c38dc3c438a547d1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBoard_1_1BoardField_a6a370f1de8b048a6fa67a8861c19f8ef}\label{classBoard_1_1BoardField_a6a370f1de8b048a6fa67a8861c19f8ef}} 
+\index{Board.BoardField@{Board.BoardField}!setYPosition@{setYPosition}}
+\index{setYPosition@{setYPosition}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{setYPosition()}{setYPosition()}}
+{\footnotesize\ttfamily void Board.\+Board\+Field.\+set\+YPosition (\begin{DoxyParamCaption}\item[{double}]{y\+Position }\end{DoxyParamCaption})}
+
+Sets field Y axis position 
+\begin{DoxyParams}{Parameters}
+{\em y\+Position} & field Y axis position \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 139 of file Board\+Field.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1BoardField_a6a370f1de8b048a6fa67a8861c19f8ef_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classBoard_1_1BoardField_ab219606a9fcd42e4f00e2711f78f99e9}\label{classBoard_1_1BoardField_ab219606a9fcd42e4f00e2711f78f99e9}} 
+\index{Board.BoardField@{Board.BoardField}!column@{column}}
+\index{column@{column}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{column}{column}}
+{\footnotesize\ttfamily int Board.\+Board\+Field.\+column\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 15 of file Board\+Field.\+java.
+
+\mbox{\Hypertarget{classBoard_1_1BoardField_a3a49193fdf3196afb96ff9657bac622f}\label{classBoard_1_1BoardField_a3a49193fdf3196afb96ff9657bac622f}} 
+\index{Board.BoardField@{Board.BoardField}!playerColor@{playerColor}}
+\index{playerColor@{playerColor}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{playerColor}{playerColor}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumBoard_1_1PlayerColor}{Player\+Color}} Board.\+Board\+Field.\+player\+Color\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 10 of file Board\+Field.\+java.
+
+\mbox{\Hypertarget{classBoard_1_1BoardField_ad9b9e52342f0192a3d56ab63cb7d149a}\label{classBoard_1_1BoardField_ad9b9e52342f0192a3d56ab63cb7d149a}} 
+\index{Board.BoardField@{Board.BoardField}!row@{row}}
+\index{row@{row}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{row}{row}}
+{\footnotesize\ttfamily int Board.\+Board\+Field.\+row\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 14 of file Board\+Field.\+java.
+
+\mbox{\Hypertarget{classBoard_1_1BoardField_a50c42f4a616a0280b109985f087e6ead}\label{classBoard_1_1BoardField_a50c42f4a616a0280b109985f087e6ead}} 
+\index{Board.BoardField@{Board.BoardField}!statusColor@{statusColor}}
+\index{statusColor@{statusColor}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{statusColor}{statusColor}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumBoard_1_1StatusColor}{Status\+Color}} Board.\+Board\+Field.\+status\+Color\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 11 of file Board\+Field.\+java.
+
+\mbox{\Hypertarget{classBoard_1_1BoardField_a2c70faa4920e2d3ee12906a52fcbd0ba}\label{classBoard_1_1BoardField_a2c70faa4920e2d3ee12906a52fcbd0ba}} 
+\index{Board.BoardField@{Board.BoardField}!xPosition@{xPosition}}
+\index{xPosition@{xPosition}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{xPosition}{xPosition}}
+{\footnotesize\ttfamily double Board.\+Board\+Field.\+x\+Position\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 12 of file Board\+Field.\+java.
+
+\mbox{\Hypertarget{classBoard_1_1BoardField_aaebb8f67eb5f41ef8b4810081a0272d5}\label{classBoard_1_1BoardField_aaebb8f67eb5f41ef8b4810081a0272d5}} 
+\index{Board.BoardField@{Board.BoardField}!yPosition@{yPosition}}
+\index{yPosition@{yPosition}!Board.BoardField@{Board.BoardField}}
+\doxysubsubsection{\texorpdfstring{yPosition}{yPosition}}
+{\footnotesize\ttfamily double Board.\+Board\+Field.\+y\+Position\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 13 of file Board\+Field.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Trylma\+Server/src/main/java/\+Board/\mbox{\hyperlink{TrylmaServer_2src_2main_2java_2Board_2BoardField_8java}{Board\+Field.\+java}}\end{DoxyCompactItemize}

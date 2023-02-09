@@ -1,0 +1,10 @@
+<map id="Board.PlayerColor.fromInteger" name="Board.PlayerColor.fromInteger">
+<area shape="rect" id="node1" title=" " alt="" coords="557,81,752,108"/>
+<area shape="rect" id="node2" href="$classBoard_1_1BoardField.html#ae3a55dc93c5c6fb388cbee46cebd4551" title=" " alt="" coords="321,5,509,32"/>
+<area shape="rect" id="node3" href="$classGame_1_1TrylmaRules.html#a55879e1618908a076e85a070f0e663ee" title=" " alt="" coords="321,56,509,83"/>
+<area shape="rect" id="node4" href="$classGames_1_1Trylma_1_1ServerTest.html#a3a8928b2ac890edb5b41bc819bfb472c" title=" " alt="" coords="40,49,239,90"/>
+<area shape="rect" id="node5" href="$classGame_1_1Game.html#a72e34b794ec9b462e79e10e1ea325e3e" title=" " alt="" coords="350,165,481,192"/>
+<area shape="rect" id="node6" href="$classGames_1_1Trylma_1_1ServerTest.html#a44d1b2cd6d8610631d04748a5ef0da6a" title=" " alt="" coords="5,115,273,141"/>
+<area shape="rect" id="node7" href="$classGames_1_1Trylma_1_1ServerTest.html#a65cab29b4063681f2b35d536ade65be2" title=" " alt="" coords="48,166,231,207"/>
+<area shape="rect" id="node8" href="$classsocketServer_1_1Player.html#af55e634d1cd1f215c7cf73024e06b2aa" title=" " alt="" coords="59,232,219,259"/>
+</map>

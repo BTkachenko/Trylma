@@ -1,0 +1,221 @@
+\hypertarget{classBoard_1_1BoardShapes}{}\doxysection{Board.\+Board\+Shapes Class Reference}
+\label{classBoard_1_1BoardShapes}\index{Board.BoardShapes@{Board.BoardShapes}}
+
+
+Collaboration diagram for Board.\+Board\+Shapes\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=189pt]{classBoard_1_1BoardShapes__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBoard_1_1BoardShapes_a794157ec719666a2cb5cbe519a80ad3f}{Board\+Shapes}} (int \mbox{\hyperlink{classBoard_1_1BoardShapes_a24de80544813204e89d8fde30cb8b072}{selected\+Board\+Id}})
+\item 
+int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classBoard_1_1BoardShapes_acb743bffabf17515838f9f7cf4702b1e}{get\+Selected\+Board}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final int \mbox{\hyperlink{classBoard_1_1BoardShapes_a24de80544813204e89d8fde30cb8b072}{selected\+Board\+Id}}
+\item 
+final int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classBoard_1_1BoardShapes_a2e2a623d2f87989686efef968704f077}{BIG\+\_\+\+BOARD}}
+\item 
+final int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classBoard_1_1BoardShapes_add3350fa9dbca2948e47454c95d48ea9}{DEFAULT\+\_\+\+BOARD}}
+\item 
+final int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classBoard_1_1BoardShapes_a22340aab0a679b8afde0e0646d1a2dde}{SMALL\+\_\+\+BOARD}}
+\item 
+final int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classBoard_1_1BoardShapes_a2f644153ca5d2aa1e86fa40bdd13fa12}{MINI\+\_\+\+BOARD}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A data class that stores possible board shapes in form of int\mbox{[}\mbox{]}\mbox{[}\mbox{]} arrays. \mbox{\hyperlink{classBoard_1_1Board}{Board}} is made based on them. 
+
+Definition at line 9 of file Board\+Shapes.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classBoard_1_1BoardShapes_a794157ec719666a2cb5cbe519a80ad3f}\label{classBoard_1_1BoardShapes_a794157ec719666a2cb5cbe519a80ad3f}} 
+\index{Board.BoardShapes@{Board.BoardShapes}!BoardShapes@{BoardShapes}}
+\index{BoardShapes@{BoardShapes}!Board.BoardShapes@{Board.BoardShapes}}
+\doxysubsubsection{\texorpdfstring{BoardShapes()}{BoardShapes()}}
+{\footnotesize\ttfamily Board.\+Board\+Shapes.\+Board\+Shapes (\begin{DoxyParamCaption}\item[{int}]{selected\+Board\+Id }\end{DoxyParamCaption})}
+
+Basic constructor. We have to choose one of boards when creating new instance of this class
+
+
+\begin{DoxyParams}{Parameters}
+{\em selected\+Board\+Id} & the board we selected \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 21 of file Board\+Shapes.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBoard_1_1BoardShapes_acb743bffabf17515838f9f7cf4702b1e}\label{classBoard_1_1BoardShapes_acb743bffabf17515838f9f7cf4702b1e}} 
+\index{Board.BoardShapes@{Board.BoardShapes}!getSelectedBoard@{getSelectedBoard}}
+\index{getSelectedBoard@{getSelectedBoard}!Board.BoardShapes@{Board.BoardShapes}}
+\doxysubsubsection{\texorpdfstring{getSelectedBoard()}{getSelectedBoard()}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} Board.\+Board\+Shapes.\+get\+Selected\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+returns the board we selected 
+\end{DoxyReturn}
+
+
+Definition at line 97 of file Board\+Shapes.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1BoardShapes_acb743bffabf17515838f9f7cf4702b1e_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classBoard_1_1BoardShapes_a2e2a623d2f87989686efef968704f077}\label{classBoard_1_1BoardShapes_a2e2a623d2f87989686efef968704f077}} 
+\index{Board.BoardShapes@{Board.BoardShapes}!BIG\_BOARD@{BIG\_BOARD}}
+\index{BIG\_BOARD@{BIG\_BOARD}!Board.BoardShapes@{Board.BoardShapes}}
+\doxysubsubsection{\texorpdfstring{BIG\_BOARD}{BIG\_BOARD}}
+{\footnotesize\ttfamily final int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} Board.\+Board\+Shapes.\+BIG\+\_\+\+BOARD\hspace{0.3cm}{\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{            \{\{0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{             \{0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{             \{0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{             \{0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{             \{0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{             \{6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 2, 2, 2, 2, 2\},}
+\DoxyCodeLine{             \{0, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 2, 2, 2, 2\},}
+\DoxyCodeLine{             \{0, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 2, 2, 2, 0\},}
+\DoxyCodeLine{             \{0, 0, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 2, 2, 0\},}
+\DoxyCodeLine{             \{0, 0, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 2, 0, 0\},}
+\DoxyCodeLine{             \{0, 0, 0, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 0, 0\},}
+\DoxyCodeLine{             \{0, 0, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 0, 0\},}
+\DoxyCodeLine{             \{0, 0, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 0\},}
+\DoxyCodeLine{             \{0, 5, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 3, 0\},}
+\DoxyCodeLine{             \{0, 5, 5, 5, 5, 7, 7, 7, 7, 7, 7, 7, 3, 3, 3, 3\},}
+\DoxyCodeLine{             \{5, 5, 5, 5, 5, 7, 7, 7, 7, 7, 7, 3, 3, 3, 3, 3\},}
+\DoxyCodeLine{             \{0, 0, 0, 0, 0, 0, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{             \{0, 0, 0, 0, 0, 0, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{             \{0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{             \{0, 0, 0, 0, 0, 0, 0, 4, 4, 0, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{             \{0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0\}\}}
+
+\end{DoxyCode}
+
+
+Definition at line 25 of file Board\+Shapes.\+java.
+
+\mbox{\Hypertarget{classBoard_1_1BoardShapes_add3350fa9dbca2948e47454c95d48ea9}\label{classBoard_1_1BoardShapes_add3350fa9dbca2948e47454c95d48ea9}} 
+\index{Board.BoardShapes@{Board.BoardShapes}!DEFAULT\_BOARD@{DEFAULT\_BOARD}}
+\index{DEFAULT\_BOARD@{DEFAULT\_BOARD}!Board.BoardShapes@{Board.BoardShapes}}
+\doxysubsubsection{\texorpdfstring{DEFAULT\_BOARD}{DEFAULT\_BOARD}}
+{\footnotesize\ttfamily final int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} Board.\+Board\+Shapes.\+DEFAULT\+\_\+\+BOARD\hspace{0.3cm}{\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{           \{\{0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{            \{0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{            \{0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{            \{0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{            \{6, 6, 6, 6, 7, 7, 7, 7, 7, 2, 2, 2, 2\},}
+\DoxyCodeLine{            \{6, 6, 6, 7, 7, 7, 7, 7, 7, 2, 2, 2, 0\},}
+\DoxyCodeLine{            \{0, 6, 6, 7, 7, 7, 7, 7, 7, 7, 2, 2, 0\},}
+\DoxyCodeLine{            \{0, 6, 7, 7, 7, 7, 7, 7, 7, 7, 2, 0, 0\},}
+\DoxyCodeLine{            \{0, 0, 7, 7, 7, 7, 7, 7, 7, 7, 7, 0, 0\},}
+\DoxyCodeLine{            \{0, 5, 7, 7, 7, 7, 7, 7, 7, 7, 3, 0, 0\},}
+\DoxyCodeLine{            \{0, 5, 5, 7, 7, 7, 7, 7, 7, 7, 3, 3, 0\},}
+\DoxyCodeLine{            \{5, 5, 5, 7, 7, 7, 7, 7, 7, 3, 3, 3, 0\},}
+\DoxyCodeLine{            \{5, 5, 5, 5, 7, 7, 7, 7, 7, 3, 3, 3, 3\},}
+\DoxyCodeLine{            \{0, 0, 0, 0, 4, 4, 4, 4, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{            \{0, 0, 0, 0, 0, 4, 4, 4, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{            \{0, 0, 0, 0, 0, 4, 4, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{            \{0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0\}\}}
+
+\end{DoxyCode}
+
+
+Definition at line 48 of file Board\+Shapes.\+java.
+
+\mbox{\Hypertarget{classBoard_1_1BoardShapes_a2f644153ca5d2aa1e86fa40bdd13fa12}\label{classBoard_1_1BoardShapes_a2f644153ca5d2aa1e86fa40bdd13fa12}} 
+\index{Board.BoardShapes@{Board.BoardShapes}!MINI\_BOARD@{MINI\_BOARD}}
+\index{MINI\_BOARD@{MINI\_BOARD}!Board.BoardShapes@{Board.BoardShapes}}
+\doxysubsubsection{\texorpdfstring{MINI\_BOARD}{MINI\_BOARD}}
+{\footnotesize\ttfamily final int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} Board.\+Board\+Shapes.\+MINI\+\_\+\+BOARD\hspace{0.3cm}{\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{          \{\{0, 0, 0, 1, 0, 0, 0\},}
+\DoxyCodeLine{           \{0, 0, 1, 1, 0, 0, 0\},}
+\DoxyCodeLine{           \{6, 6, 7, 7, 7, 2, 2\},}
+\DoxyCodeLine{           \{6, 7, 7, 7, 7, 2, 0\},}
+\DoxyCodeLine{           \{0, 7, 7, 7, 7, 7, 0\},}
+\DoxyCodeLine{           \{5, 7, 7, 7, 7, 3, 0\},}
+\DoxyCodeLine{           \{5, 5, 7, 7, 7, 3, 3\},}
+\DoxyCodeLine{           \{0, 0, 4, 4, 0, 0, 0\},}
+\DoxyCodeLine{           \{0, 0, 0, 4, 0, 0, 0\}\}}
+
+\end{DoxyCode}
+
+
+Definition at line 82 of file Board\+Shapes.\+java.
+
+\mbox{\Hypertarget{classBoard_1_1BoardShapes_a24de80544813204e89d8fde30cb8b072}\label{classBoard_1_1BoardShapes_a24de80544813204e89d8fde30cb8b072}} 
+\index{Board.BoardShapes@{Board.BoardShapes}!selectedBoardId@{selectedBoardId}}
+\index{selectedBoardId@{selectedBoardId}!Board.BoardShapes@{Board.BoardShapes}}
+\doxysubsubsection{\texorpdfstring{selectedBoardId}{selectedBoardId}}
+{\footnotesize\ttfamily final int Board.\+Board\+Shapes.\+selected\+Board\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 11 of file Board\+Shapes.\+java.
+
+\mbox{\Hypertarget{classBoard_1_1BoardShapes_a22340aab0a679b8afde0e0646d1a2dde}\label{classBoard_1_1BoardShapes_a22340aab0a679b8afde0e0646d1a2dde}} 
+\index{Board.BoardShapes@{Board.BoardShapes}!SMALL\_BOARD@{SMALL\_BOARD}}
+\index{SMALL\_BOARD@{SMALL\_BOARD}!Board.BoardShapes@{Board.BoardShapes}}
+\doxysubsubsection{\texorpdfstring{SMALL\_BOARD}{SMALL\_BOARD}}
+{\footnotesize\ttfamily final int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} Board.\+Board\+Shapes.\+SMALL\+\_\+\+BOARD\hspace{0.3cm}{\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{            \{\{0, 0, 0, 0, 0, 1, 0, 0, 0, 0\},}
+\DoxyCodeLine{             \{0, 0, 0, 0, 1, 1, 0, 0, 0, 0\},}
+\DoxyCodeLine{             \{0, 0, 0, 0, 1, 1, 1, 0, 0, 0\},}
+\DoxyCodeLine{             \{6, 6, 6, 7, 7, 7, 7, 2, 2, 2\},}
+\DoxyCodeLine{             \{0, 6, 6, 7, 7, 7, 7, 7, 2, 2\},}
+\DoxyCodeLine{             \{0, 6, 7, 7, 7, 7, 7, 7, 2, 0\},}
+\DoxyCodeLine{             \{0, 0, 7, 7, 7, 7, 7, 7, 7, 0\},}
+\DoxyCodeLine{             \{0, 5, 7, 7, 7, 7, 7, 7, 3, 0\},}
+\DoxyCodeLine{             \{0, 5, 5, 7, 7, 7, 7, 7, 3, 3\},}
+\DoxyCodeLine{             \{5, 5, 5, 7, 7, 7, 7, 3, 3, 3\},}
+\DoxyCodeLine{             \{0, 0, 0, 0, 4, 4, 4, 0, 0, 0\},}
+\DoxyCodeLine{             \{0, 0, 0, 0, 4, 4, 0, 0, 0, 0\},}
+\DoxyCodeLine{             \{0, 0, 0, 0, 0, 4, 0, 0, 0, 0\}\}}
+
+\end{DoxyCode}
+
+
+Definition at line 67 of file Board\+Shapes.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Trylma\+Server/src/main/java/\+Board/\mbox{\hyperlink{BoardShapes_8java}{Board\+Shapes.\+java}}\end{DoxyCompactItemize}

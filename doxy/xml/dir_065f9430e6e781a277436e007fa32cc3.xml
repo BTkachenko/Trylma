@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_065f9430e6e781a277436e007fa32cc3" kind="dir">
+    <compoundname>TrylmaServer/src/test/java/Games/Trylma</compoundname>
+    <innerfile refid="TrylmaServer_2src_2test_2java_2Games_2Trylma_2AppTest_8java">AppTest.java</innerfile>
+    <innerfile refid="ServerTest_8java">ServerTest.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TrylmaServer/src/test/java/Games/Trylma/"/>
+  </compounddef>
+</doxygen>

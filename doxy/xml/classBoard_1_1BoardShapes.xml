@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classBoard_1_1BoardShapes" kind="class" language="Java" prot="public">
+    <compoundname>Board::BoardShapes</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classBoard_1_1BoardShapes_1a24de80544813204e89d8fde30cb8b072" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int Board.BoardShapes.selectedBoardId</definition>
+        <argsstring></argsstring>
+        <name>selectedBoardId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardShapes.java" line="11" column="23" bodyfile="TrylmaServer/src/main/java/Board/BoardShapes.java" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1BoardShapes_1a794157ec719666a2cb5cbe519a80ad3f" compoundref="BoardShapes_8java" startline="21" endline="23">Board.BoardShapes.BoardShapes</referencedby>
+        <referencedby refid="classBoard_1_1BoardShapes_1acb743bffabf17515838f9f7cf4702b1e" compoundref="BoardShapes_8java" startline="97" endline="108">Board.BoardShapes.getSelectedBoard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classBoard_1_1BoardShapes_1a2e2a623d2f87989686efef968704f077" prot="private" static="no" mutable="no">
+        <type>final int[][]</type>
+        <definition>final int [][] Board.BoardShapes.BIG_BOARD</definition>
+        <argsstring></argsstring>
+        <name>BIG_BOARD</name>
+        <initializer>=
+            {{0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0},
+             {6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 2, 2, 2, 2, 2},
+             {0, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 2, 2, 2, 2},
+             {0, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 2, 2, 2, 0},
+             {0, 0, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 2, 2, 0},
+             {0, 0, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 2, 0, 0},
+             {0, 0, 0, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 0, 0},
+             {0, 0, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 0, 0},
+             {0, 0, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 0},
+             {0, 5, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 3, 0},
+             {0, 5, 5, 5, 5, 7, 7, 7, 7, 7, 7, 7, 3, 3, 3, 3},
+             {5, 5, 5, 5, 5, 7, 7, 7, 7, 7, 7, 3, 3, 3, 3, 3},
+             {0, 0, 0, 0, 0, 0, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 0, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 0, 0, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 0, 0, 4, 4, 0, 0, 0, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0}}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardShapes.java" line="25" column="23" bodyfile="TrylmaServer/src/main/java/Board/BoardShapes.java" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1BoardShapes_1acb743bffabf17515838f9f7cf4702b1e" compoundref="BoardShapes_8java" startline="97" endline="108">Board.BoardShapes.getSelectedBoard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classBoard_1_1BoardShapes_1add3350fa9dbca2948e47454c95d48ea9" prot="private" static="no" mutable="no">
+        <type>final int[][]</type>
+        <definition>final int [][] Board.BoardShapes.DEFAULT_BOARD</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_BOARD</name>
+        <initializer>=
+           {{0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0},
+            {6, 6, 6, 6, 7, 7, 7, 7, 7, 2, 2, 2, 2},
+            {6, 6, 6, 7, 7, 7, 7, 7, 7, 2, 2, 2, 0},
+            {0, 6, 6, 7, 7, 7, 7, 7, 7, 7, 2, 2, 0},
+            {0, 6, 7, 7, 7, 7, 7, 7, 7, 7, 2, 0, 0},
+            {0, 0, 7, 7, 7, 7, 7, 7, 7, 7, 7, 0, 0},
+            {0, 5, 7, 7, 7, 7, 7, 7, 7, 7, 3, 0, 0},
+            {0, 5, 5, 7, 7, 7, 7, 7, 7, 7, 3, 3, 0},
+            {5, 5, 5, 7, 7, 7, 7, 7, 7, 3, 3, 3, 0},
+            {5, 5, 5, 5, 7, 7, 7, 7, 7, 3, 3, 3, 3},
+            {0, 0, 0, 0, 4, 4, 4, 4, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 4, 4, 4, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 4, 4, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0}}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardShapes.java" line="48" column="23" bodyfile="TrylmaServer/src/main/java/Board/BoardShapes.java" bodystart="48" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1BoardShapes_1acb743bffabf17515838f9f7cf4702b1e" compoundref="BoardShapes_8java" startline="97" endline="108">Board.BoardShapes.getSelectedBoard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classBoard_1_1BoardShapes_1a22340aab0a679b8afde0e0646d1a2dde" prot="private" static="no" mutable="no">
+        <type>final int[][]</type>
+        <definition>final int [][] Board.BoardShapes.SMALL_BOARD</definition>
+        <argsstring></argsstring>
+        <name>SMALL_BOARD</name>
+        <initializer>=
+            {{0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
+             {0, 0, 0, 0, 1, 1, 0, 0, 0, 0},
+             {0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
+             {6, 6, 6, 7, 7, 7, 7, 2, 2, 2},
+             {0, 6, 6, 7, 7, 7, 7, 7, 2, 2},
+             {0, 6, 7, 7, 7, 7, 7, 7, 2, 0},
+             {0, 0, 7, 7, 7, 7, 7, 7, 7, 0},
+             {0, 5, 7, 7, 7, 7, 7, 7, 3, 0},
+             {0, 5, 5, 7, 7, 7, 7, 7, 3, 3},
+             {5, 5, 5, 7, 7, 7, 7, 3, 3, 3},
+             {0, 0, 0, 0, 4, 4, 4, 0, 0, 0},
+             {0, 0, 0, 0, 4, 4, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 4, 0, 0, 0, 0}}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardShapes.java" line="67" column="23" bodyfile="TrylmaServer/src/main/java/Board/BoardShapes.java" bodystart="67" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1BoardShapes_1acb743bffabf17515838f9f7cf4702b1e" compoundref="BoardShapes_8java" startline="97" endline="108">Board.BoardShapes.getSelectedBoard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classBoard_1_1BoardShapes_1a2f644153ca5d2aa1e86fa40bdd13fa12" prot="private" static="no" mutable="no">
+        <type>final int[][]</type>
+        <definition>final int [][] Board.BoardShapes.MINI_BOARD</definition>
+        <argsstring></argsstring>
+        <name>MINI_BOARD</name>
+        <initializer>=
+          {{0, 0, 0, 1, 0, 0, 0},
+           {0, 0, 1, 1, 0, 0, 0},
+           {6, 6, 7, 7, 7, 2, 2},
+           {6, 7, 7, 7, 7, 2, 0},
+           {0, 7, 7, 7, 7, 7, 0},
+           {5, 7, 7, 7, 7, 3, 0},
+           {5, 5, 7, 7, 7, 3, 3},
+           {0, 0, 4, 4, 0, 0, 0},
+           {0, 0, 0, 4, 0, 0, 0}}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardShapes.java" line="82" column="23" bodyfile="TrylmaServer/src/main/java/Board/BoardShapes.java" bodystart="82" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1BoardShapes_1acb743bffabf17515838f9f7cf4702b1e" compoundref="BoardShapes_8java" startline="97" endline="108">Board.BoardShapes.getSelectedBoard</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classBoard_1_1BoardShapes_1a794157ec719666a2cb5cbe519a80ad3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Board.BoardShapes.BoardShapes</definition>
+        <argsstring>(int selectedBoardId)</argsstring>
+        <name>BoardShapes</name>
+        <param>
+          <type>int</type>
+          <declname>selectedBoardId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Basic constructor. We have to choose one of boards when creating new instance of this class</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selectedBoardId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the board we selected </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardShapes.java" line="21" column="12" bodyfile="TrylmaServer/src/main/java/Board/BoardShapes.java" bodystart="21" bodyend="23"/>
+        <references refid="classBoard_1_1BoardShapes_1a24de80544813204e89d8fde30cb8b072" compoundref="BoardShapes_8java" startline="11">Board.BoardShapes.selectedBoardId</references>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1BoardShapes_1acb743bffabf17515838f9f7cf4702b1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int[][]</type>
+        <definition>int [][] Board.BoardShapes.getSelectedBoard</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedBoard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns the board we selected </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardShapes.java" line="97" column="16" bodyfile="TrylmaServer/src/main/java/Board/BoardShapes.java" bodystart="97" bodyend="108"/>
+        <references refid="classBoard_1_1BoardShapes_1a2e2a623d2f87989686efef968704f077" compoundref="BoardShapes_8java" startline="25">Board.BoardShapes.BIG_BOARD</references>
+        <references refid="classBoard_1_1BoardShapes_1add3350fa9dbca2948e47454c95d48ea9" compoundref="BoardShapes_8java" startline="48">Board.BoardShapes.DEFAULT_BOARD</references>
+        <references refid="classBoard_1_1BoardShapes_1a2f644153ca5d2aa1e86fa40bdd13fa12" compoundref="BoardShapes_8java" startline="82">Board.BoardShapes.MINI_BOARD</references>
+        <references refid="classBoard_1_1BoardShapes_1a24de80544813204e89d8fde30cb8b072" compoundref="BoardShapes_8java" startline="11">Board.BoardShapes.selectedBoardId</references>
+        <references refid="classBoard_1_1BoardShapes_1a22340aab0a679b8afde0e0646d1a2dde" compoundref="BoardShapes_8java" startline="67">Board.BoardShapes.SMALL_BOARD</references>
+        <referencedby refid="classGame_1_1Game_1aa46f609ad611296b511b9f53786171e4" compoundref="Game_8java" startline="32" endline="50">Game.Game.Game</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A data class that stores possible board shapes in form of int[][] arrays. <ref refid="classBoard_1_1Board" kindref="compound">Board</ref> is made based on them. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Board.BoardShapes</label>
+        <link refid="classBoard_1_1BoardShapes"/>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaServer/src/main/java/Board/BoardShapes.java" line="9" column="7" bodyfile="TrylmaServer/src/main/java/Board/BoardShapes.java" bodystart="9" bodyend="110"/>
+    <listofallmembers>
+      <member refid="classBoard_1_1BoardShapes_1a2e2a623d2f87989686efef968704f077" prot="private" virt="non-virtual"><scope>Board::BoardShapes</scope><name>BIG_BOARD</name></member>
+      <member refid="classBoard_1_1BoardShapes_1a794157ec719666a2cb5cbe519a80ad3f" prot="public" virt="non-virtual"><scope>Board::BoardShapes</scope><name>BoardShapes</name></member>
+      <member refid="classBoard_1_1BoardShapes_1add3350fa9dbca2948e47454c95d48ea9" prot="private" virt="non-virtual"><scope>Board::BoardShapes</scope><name>DEFAULT_BOARD</name></member>
+      <member refid="classBoard_1_1BoardShapes_1acb743bffabf17515838f9f7cf4702b1e" prot="public" virt="non-virtual"><scope>Board::BoardShapes</scope><name>getSelectedBoard</name></member>
+      <member refid="classBoard_1_1BoardShapes_1a2f644153ca5d2aa1e86fa40bdd13fa12" prot="private" virt="non-virtual"><scope>Board::BoardShapes</scope><name>MINI_BOARD</name></member>
+      <member refid="classBoard_1_1BoardShapes_1a24de80544813204e89d8fde30cb8b072" prot="private" virt="non-virtual"><scope>Board::BoardShapes</scope><name>selectedBoardId</name></member>
+      <member refid="classBoard_1_1BoardShapes_1a22340aab0a679b8afde0e0646d1a2dde" prot="private" virt="non-virtual"><scope>Board::BoardShapes</scope><name>SMALL_BOARD</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

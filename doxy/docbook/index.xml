@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="en-US">
+    <info>
+    <title>Trylma</title>
+    </info>
+<chapter>
+    <title>Namespace Documentation</title>
+<xi:include href="namespaceboard.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceBoard.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceclientServer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacefrontend.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceGame.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceGames_1_1Trylma.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacesocketClient.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacesocketServer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Class Documentation</title>
+    <xi:include href="classfrontend_1_1ApplicationWindow.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classclientServer_1_1AppTest.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classGames_1_1Trylma_1_1AppTest.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classboard_1_1Board.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classBoard_1_1Board.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfaceboard_1_1BoardBuilder.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfaceBoard_1_1BoardBuilder.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classboard_1_1BoardField.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classBoard_1_1BoardField.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classBoard_1_1BoardShapes.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classclientServer_1_1ClientTest.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classboard_1_1DefaultBoard.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classBoard_1_1DefaultBoard.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classboard_1_1DefaultBoardBuilder.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classBoard_1_1DefaultBoardBuilder.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classBoard_1_1DefaultStartFields.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classGame_1_1Game.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classboard_1_1JSONBoardConverter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classBoard_1_1JSONBoardConverter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classsocketServer_1_1Player.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enumboard_1_1PlayerColor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enumBoard_1_1PlayerColor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classfrontend_1_1PlayerInfoPanel.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfaceGame_1_1Rules.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classGames_1_1Trylma_1_1ServerTest.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classsocketClient_1_1SocketClient.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classsocketServer_1_1SocketServer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enumBoard_1_1StatusColor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enumboard_1_1StatusColor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classsocketServer_1_1Trylma.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classsocketClient_1_1TrylmaClient.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classGame_1_1TrylmaRules.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classsocketServer_1_1TrylmaServerWindow.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>File Documentation</title>
+    <xi:include href="TrylmaClient_2src_2main_2java_2board_2Board_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaServer_2src_2main_2java_2Board_2Board_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaClient_2src_2main_2java_2board_2BoardBuilder_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaServer_2src_2main_2java_2Board_2BoardBuilder_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaClient_2src_2main_2java_2board_2BoardField_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaClient_2src_2main_2java_2board_2DefaultBoard_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaServer_2src_2main_2java_2Board_2DefaultBoard_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaClient_2src_2main_2java_2board_2DefaultBoardBuilder_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaServer_2src_2main_2java_2Board_2DefaultBoardBuilder_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaClient_2src_2main_2java_2board_2JSONBoardConverter_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaClient_2src_2main_2java_2board_2PlayerColor_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaServer_2src_2main_2java_2Board_2PlayerColor_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaClient_2src_2main_2java_2board_2StatusColor_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaServer_2src_2main_2java_2Board_2StatusColor_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ApplicationWindow_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="PlayerInfoPanel_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="SocketClient_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaClient_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaClient_2src_2test_2java_2clientServer_2AppTest_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaServer_2src_2test_2java_2Games_2Trylma_2AppTest_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ClientTest_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="BoardShapes_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="DefaultStartFields_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="Game_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="Rules_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaRules_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="Player_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="SocketServer_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="Trylma_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TrylmaServerWindow_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ServerTest_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

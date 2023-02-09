@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classBoard_1_1DefaultBoardBuilder" xml:lang="en-US">
+<title>Board.DefaultBoardBuilder Class Reference</title>
+<indexterm><primary>Board.DefaultBoardBuilder</primary></indexterm>
+Inheritance diagram for Board.DefaultBoardBuilder:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1DefaultBoardBuilder__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Board.DefaultBoardBuilder:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1DefaultBoardBuilder__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classBoard_1_1DefaultBoardBuilder_1a692703ff83daba5d45552532254bf8ce">initializeBoardFields</link> (int[][] boardShape)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classBoard_1_1DefaultBoardBuilder_1a2c9e73e23fd12000bf1be9c76fa00b39">setBoardFields</link> (String JSONBoard)  throws JSONException </para>
+</listitem>
+            <listitem><para>void <link linkend="_classBoard_1_1DefaultBoardBuilder_1a08e35f755f48f1e9cc5276c113f1b3de">assignFields</link> (int numberOfPlayers)</para>
+</listitem>
+            <listitem><para><link linkend="_classBoard_1_1DefaultBoard">DefaultBoard</link> <link linkend="_classBoard_1_1DefaultBoardBuilder_1a505ceac6a855457fb75b9e676943a4f3">getDefaultBoard</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Package Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classBoard_1_1DefaultBoard">DefaultBoard</link> <link linkend="_classBoard_1_1DefaultBoardBuilder_1ac98c1a3fe4ae68724c3bdc4f410ce3f5">board</link> = new <link linkend="_classBoard_1_1DefaultBoard">DefaultBoard</link>()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Builds board based on one of int[][] arrays that are stored in <link linkend="_classBoard_1_1BoardShapes">BoardShapes</link> </para>
+<para>
+Definition at line 13 of file DefaultBoardBuilder.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classBoard_1_1DefaultBoardBuilder_1a08e35f755f48f1e9cc5276c113f1b3de"/>    <section>
+    <title>assignFields()</title>
+<indexterm><primary>assignFields</primary><secondary>Board.DefaultBoardBuilder</secondary></indexterm>
+<indexterm><primary>Board.DefaultBoardBuilder</primary><secondary>assignFields</secondary></indexterm>
+<para><computeroutput>void Board.DefaultBoardBuilder.assignFields (int numberOfPlayers)</computeroutput></para>
+<para>Assigns board fields to players according to they number</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>numberOfPlayers</entry>
+                                <entry>
+<para>number of players in the game </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interfaceBoard_1_1BoardBuilder_1a4ce73aab949398a70102084f6c5f3bf4">Board.BoardBuilder</link>.</para>
+<para>
+Definition at line 67 of file DefaultBoardBuilder.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1DefaultBoardBuilder_a08e35f755f48f1e9cc5276c113f1b3de_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1DefaultBoardBuilder_a08e35f755f48f1e9cc5276c113f1b3de_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1DefaultBoardBuilder_1a505ceac6a855457fb75b9e676943a4f3"/>    <section>
+    <title>getDefaultBoard()</title>
+<indexterm><primary>getDefaultBoard</primary><secondary>Board.DefaultBoardBuilder</secondary></indexterm>
+<indexterm><primary>Board.DefaultBoardBuilder</primary><secondary>getDefaultBoard</secondary></indexterm>
+<para><computeroutput><link linkend="_classBoard_1_1DefaultBoard">DefaultBoard</link> Board.DefaultBoardBuilder.getDefaultBoard ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>returns a board created by the builder </para>
+</formalpara>
+</para>
+<para>
+Definition at line 75 of file DefaultBoardBuilder.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1DefaultBoardBuilder_a505ceac6a855457fb75b9e676943a4f3_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1DefaultBoardBuilder_1a692703ff83daba5d45552532254bf8ce"/>    <section>
+    <title>initializeBoardFields()</title>
+<indexterm><primary>initializeBoardFields</primary><secondary>Board.DefaultBoardBuilder</secondary></indexterm>
+<indexterm><primary>Board.DefaultBoardBuilder</primary><secondary>initializeBoardFields</secondary></indexterm>
+<para><computeroutput>void Board.DefaultBoardBuilder.initializeBoardFields (int boardShape[][])</computeroutput></para>
+<para>Initializes game board (its fields) based on given int[][] array</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>boardShape</entry>
+                                <entry>
+<para>an array describing fields positions </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interfaceBoard_1_1BoardBuilder_1a579e552d426f471bffafe025a6853150">Board.BoardBuilder</link>.</para>
+<para>
+Definition at line 17 of file DefaultBoardBuilder.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1DefaultBoardBuilder_a692703ff83daba5d45552532254bf8ce_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1DefaultBoardBuilder_a692703ff83daba5d45552532254bf8ce_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1DefaultBoardBuilder_1a2c9e73e23fd12000bf1be9c76fa00b39"/>    <section>
+    <title>setBoardFields()</title>
+<indexterm><primary>setBoardFields</primary><secondary>Board.DefaultBoardBuilder</secondary></indexterm>
+<indexterm><primary>Board.DefaultBoardBuilder</primary><secondary>setBoardFields</secondary></indexterm>
+<para><computeroutput>void Board.DefaultBoardBuilder.setBoardFields (String JSONBoard) throws JSONException</computeroutput></para>
+<para>builds a board based on String json</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>JSONBoard</entry>
+                                <entry>
+<para>json that contains data about the board </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Exceptions                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>JSONException</entry>
+                                <entry>
+<para>exception when parsing json </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interfaceBoard_1_1BoardBuilder_1a184cf1d0acf9ebcd7739f1cba048de1e">Board.BoardBuilder</link>.</para>
+<para>
+Definition at line 48 of file DefaultBoardBuilder.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1DefaultBoardBuilder_a2c9e73e23fd12000bf1be9c76fa00b39_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classBoard_1_1DefaultBoardBuilder_1ac98c1a3fe4ae68724c3bdc4f410ce3f5"/>    <section>
+    <title>board</title>
+<indexterm><primary>board</primary><secondary>Board.DefaultBoardBuilder</secondary></indexterm>
+<indexterm><primary>Board.DefaultBoardBuilder</primary><secondary>board</secondary></indexterm>
+<para><computeroutput><link linkend="_classBoard_1_1DefaultBoard">DefaultBoard</link> Board.DefaultBoardBuilder.board = new <link linkend="_classBoard_1_1DefaultBoard">DefaultBoard</link>()<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file DefaultBoardBuilder.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaServer/src/main/java/Board/<link linkend="_TrylmaServer_2src_2main_2java_2Board_2DefaultBoardBuilder_8java">DefaultBoardBuilder.java</link></section>
+</section>

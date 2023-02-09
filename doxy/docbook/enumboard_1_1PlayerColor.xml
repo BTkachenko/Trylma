@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enumBoard_1_1PlayerColor" xml:lang="en-US">
+<title>Board.PlayerColor Enum Reference</title>
+<indexterm><primary>Board.PlayerColor</primary></indexterm>
+Collaboration diagram for Board.PlayerColor:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="enumBoard_1_1PlayerColor__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enumBoard_1_1PlayerColor_1af8df92b85ef0abdb0e5e223ffec9c7f2">PlayerColor</link> (int <link linkend="_enumBoard_1_1PlayerColor_1a52a214c4cfed04049920c3a3003d23e1">playerColorID</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_enumBoard_1_1PlayerColor">PlayerColor</link> <link linkend="_enumBoard_1_1PlayerColor_1a88ebe864711719896c9ae253c09950c9">fromInteger</link> (int x)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enumBoard_1_1PlayerColor_1a5b9b17d03d7e8d72e49536da09cec047">BLUE</link> =(1)</para>
+</listitem>
+            <listitem><para><link linkend="_enumBoard_1_1PlayerColor_1a8c3ed928ca81302192b825ba25a6dfce">GREEN</link> =(2)</para>
+</listitem>
+            <listitem><para><link linkend="_enumBoard_1_1PlayerColor_1a817aedcf5f1d4dea2443b490341dd39b">YELLOW</link> =(3)</para>
+</listitem>
+            <listitem><para><link linkend="_enumBoard_1_1PlayerColor_1a0d776fc98195559a3fc10f2689391cd7">ORANGE</link> =(4)</para>
+</listitem>
+            <listitem><para><link linkend="_enumBoard_1_1PlayerColor_1a9f63d4f0ddaf258e594aedb8f904d294">PINK</link> =(5)</para>
+</listitem>
+            <listitem><para><link linkend="_enumBoard_1_1PlayerColor_1a8b96a94c4eb4fb934bb2178bedd6021f">PURPLE</link> =(6)</para>
+</listitem>
+            <listitem><para><link linkend="_enumBoard_1_1PlayerColor_1a0855ad5b9620cfccc6d946f5faeb8cb2">NO_PLAYER</link> =(7)</para>
+</listitem>
+            <listitem><para>final int <link linkend="_enumBoard_1_1PlayerColor_1a52a214c4cfed04049920c3a3003d23e1">playerColorID</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Enum with possible player colors </para>
+<para>
+Definition at line 7 of file PlayerColor.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_enumBoard_1_1PlayerColor_1af8df92b85ef0abdb0e5e223ffec9c7f2"/>    <section>
+    <title>PlayerColor()</title>
+<indexterm><primary>PlayerColor</primary><secondary>Board.PlayerColor</secondary></indexterm>
+<indexterm><primary>Board.PlayerColor</primary><secondary>PlayerColor</secondary></indexterm>
+<para><computeroutput>Board.PlayerColor.PlayerColor (int playerColorID)</computeroutput></para>
+<para>Each color is associated with a number (id) 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>playerColorID</entry>
+                                <entry>
+<para>color id </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 23 of file PlayerColor.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_enumBoard_1_1PlayerColor_1a88ebe864711719896c9ae253c09950c9"/>    <section>
+    <title>fromInteger()</title>
+<indexterm><primary>fromInteger</primary><secondary>Board.PlayerColor</secondary></indexterm>
+<indexterm><primary>Board.PlayerColor</primary><secondary>fromInteger</secondary></indexterm>
+<para><computeroutput>static <link linkend="_enumBoard_1_1PlayerColor">PlayerColor</link> Board.PlayerColor.fromInteger (int x)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Converts a number to a color 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>x</entry>
+                                <entry>
+<para>number given to convert </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>color associated with a given number </para>
+</formalpara>
+</para>
+<para>
+Definition at line 33 of file PlayerColor.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="enumBoard_1_1PlayerColor_a88ebe864711719896c9ae253c09950c9_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_enumBoard_1_1PlayerColor_1a5b9b17d03d7e8d72e49536da09cec047"/>    <section>
+    <title>BLUE</title>
+<indexterm><primary>BLUE</primary><secondary>Board.PlayerColor</secondary></indexterm>
+<indexterm><primary>Board.PlayerColor</primary><secondary>BLUE</secondary></indexterm>
+<para><computeroutput>Board.PlayerColor.BLUE =(1)</computeroutput></para><para>
+Definition at line 8 of file PlayerColor.java.</para>
+    </section><anchor xml:id="_enumBoard_1_1PlayerColor_1a8c3ed928ca81302192b825ba25a6dfce"/>    <section>
+    <title>GREEN</title>
+<indexterm><primary>GREEN</primary><secondary>Board.PlayerColor</secondary></indexterm>
+<indexterm><primary>Board.PlayerColor</primary><secondary>GREEN</secondary></indexterm>
+<para><computeroutput>Board.PlayerColor.GREEN =(2)</computeroutput></para><para>
+Definition at line 9 of file PlayerColor.java.</para>
+    </section><anchor xml:id="_enumBoard_1_1PlayerColor_1a0855ad5b9620cfccc6d946f5faeb8cb2"/>    <section>
+    <title>NO_PLAYER</title>
+<indexterm><primary>NO_PLAYER</primary><secondary>Board.PlayerColor</secondary></indexterm>
+<indexterm><primary>Board.PlayerColor</primary><secondary>NO_PLAYER</secondary></indexterm>
+<para><computeroutput>Board.PlayerColor.NO_PLAYER =(7)</computeroutput></para><para>
+Definition at line 14 of file PlayerColor.java.</para>
+    </section><anchor xml:id="_enumBoard_1_1PlayerColor_1a0d776fc98195559a3fc10f2689391cd7"/>    <section>
+    <title>ORANGE</title>
+<indexterm><primary>ORANGE</primary><secondary>Board.PlayerColor</secondary></indexterm>
+<indexterm><primary>Board.PlayerColor</primary><secondary>ORANGE</secondary></indexterm>
+<para><computeroutput>Board.PlayerColor.ORANGE =(4)</computeroutput></para><para>
+Definition at line 11 of file PlayerColor.java.</para>
+    </section><anchor xml:id="_enumBoard_1_1PlayerColor_1a9f63d4f0ddaf258e594aedb8f904d294"/>    <section>
+    <title>PINK</title>
+<indexterm><primary>PINK</primary><secondary>Board.PlayerColor</secondary></indexterm>
+<indexterm><primary>Board.PlayerColor</primary><secondary>PINK</secondary></indexterm>
+<para><computeroutput>Board.PlayerColor.PINK =(5)</computeroutput></para><para>
+Definition at line 12 of file PlayerColor.java.</para>
+    </section><anchor xml:id="_enumBoard_1_1PlayerColor_1a52a214c4cfed04049920c3a3003d23e1"/>    <section>
+    <title>playerColorID</title>
+<indexterm><primary>playerColorID</primary><secondary>Board.PlayerColor</secondary></indexterm>
+<indexterm><primary>Board.PlayerColor</primary><secondary>playerColorID</secondary></indexterm>
+<para><computeroutput>final int Board.PlayerColor.playerColorID</computeroutput></para><para>
+Definition at line 16 of file PlayerColor.java.</para>
+    </section><anchor xml:id="_enumBoard_1_1PlayerColor_1a8b96a94c4eb4fb934bb2178bedd6021f"/>    <section>
+    <title>PURPLE</title>
+<indexterm><primary>PURPLE</primary><secondary>Board.PlayerColor</secondary></indexterm>
+<indexterm><primary>Board.PlayerColor</primary><secondary>PURPLE</secondary></indexterm>
+<para><computeroutput>Board.PlayerColor.PURPLE =(6)</computeroutput></para><para>
+Definition at line 13 of file PlayerColor.java.</para>
+    </section><anchor xml:id="_enumBoard_1_1PlayerColor_1a817aedcf5f1d4dea2443b490341dd39b"/>    <section>
+    <title>YELLOW</title>
+<indexterm><primary>YELLOW</primary><secondary>Board.PlayerColor</secondary></indexterm>
+<indexterm><primary>Board.PlayerColor</primary><secondary>YELLOW</secondary></indexterm>
+<para><computeroutput>Board.PlayerColor.YELLOW =(3)</computeroutput></para><para>
+Definition at line 10 of file PlayerColor.java.</para>
+</section>
+<para>
+The documentation for this enum was generated from the following file:</para>
+TrylmaServer/src/main/java/Board/<link linkend="_TrylmaServer_2src_2main_2java_2Board_2PlayerColor_8java">PlayerColor.java</link></section>
+</section>

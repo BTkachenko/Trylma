@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classBoard_1_1BoardShapes" xml:lang="en-US">
+<title>Board.BoardShapes Class Reference</title>
+<indexterm><primary>Board.BoardShapes</primary></indexterm>
+Collaboration diagram for Board.BoardShapes:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1BoardShapes__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classBoard_1_1BoardShapes_1a794157ec719666a2cb5cbe519a80ad3f">BoardShapes</link> (int <link linkend="_classBoard_1_1BoardShapes_1a24de80544813204e89d8fde30cb8b072">selectedBoardId</link>)</para>
+</listitem>
+            <listitem><para>int[][] <link linkend="_classBoard_1_1BoardShapes_1acb743bffabf17515838f9f7cf4702b1e">getSelectedBoard</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final int <link linkend="_classBoard_1_1BoardShapes_1a24de80544813204e89d8fde30cb8b072">selectedBoardId</link></para>
+</listitem>
+            <listitem><para>final int[][] <link linkend="_classBoard_1_1BoardShapes_1a2e2a623d2f87989686efef968704f077">BIG_BOARD</link></para>
+</listitem>
+            <listitem><para>final int[][] <link linkend="_classBoard_1_1BoardShapes_1add3350fa9dbca2948e47454c95d48ea9">DEFAULT_BOARD</link></para>
+</listitem>
+            <listitem><para>final int[][] <link linkend="_classBoard_1_1BoardShapes_1a22340aab0a679b8afde0e0646d1a2dde">SMALL_BOARD</link></para>
+</listitem>
+            <listitem><para>final int[][] <link linkend="_classBoard_1_1BoardShapes_1a2f644153ca5d2aa1e86fa40bdd13fa12">MINI_BOARD</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>A data class that stores possible board shapes in form of int[][] arrays. <link linkend="_classBoard_1_1Board">Board</link> is made based on them. </para>
+<para>
+Definition at line 9 of file BoardShapes.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classBoard_1_1BoardShapes_1a794157ec719666a2cb5cbe519a80ad3f"/>    <section>
+    <title>BoardShapes()</title>
+<indexterm><primary>BoardShapes</primary><secondary>Board.BoardShapes</secondary></indexterm>
+<indexterm><primary>Board.BoardShapes</primary><secondary>BoardShapes</secondary></indexterm>
+<para><computeroutput>Board.BoardShapes.BoardShapes (int selectedBoardId)</computeroutput></para>
+<para>Basic constructor. We have to choose one of boards when creating new instance of this class</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>selectedBoardId</entry>
+                                <entry>
+<para>the board we selected </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 21 of file BoardShapes.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classBoard_1_1BoardShapes_1acb743bffabf17515838f9f7cf4702b1e"/>    <section>
+    <title>getSelectedBoard()</title>
+<indexterm><primary>getSelectedBoard</primary><secondary>Board.BoardShapes</secondary></indexterm>
+<indexterm><primary>Board.BoardShapes</primary><secondary>getSelectedBoard</secondary></indexterm>
+<para><computeroutput>int [][] Board.BoardShapes.getSelectedBoard ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>returns the board we selected </para>
+</formalpara>
+</para>
+<para>
+Definition at line 97 of file BoardShapes.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1BoardShapes_acb743bffabf17515838f9f7cf4702b1e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classBoard_1_1BoardShapes_1a2e2a623d2f87989686efef968704f077"/>    <section>
+    <title>BIG_BOARD</title>
+<indexterm><primary>BIG_BOARD</primary><secondary>Board.BoardShapes</secondary></indexterm>
+<indexterm><primary>Board.BoardShapes</primary><secondary>BIG_BOARD</secondary></indexterm>
+<para><computeroutput>final int [][] Board.BoardShapes.BIG_BOARD<computeroutput>[private]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting>=
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;1,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;1,&#32;1,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;1,&#32;1,&#32;1,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;1,&#32;1,&#32;1,&#32;1,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;1,&#32;1,&#32;1,&#32;1,&#32;1,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{6,&#32;6,&#32;6,&#32;6,&#32;6,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;2,&#32;2,&#32;2,&#32;2,&#32;2},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;6,&#32;6,&#32;6,&#32;6,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;2,&#32;2,&#32;2,&#32;2},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;6,&#32;6,&#32;6,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;2,&#32;2,&#32;2,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;6,&#32;6,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;2,&#32;2,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;6,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;2,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;5,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;3,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;5,&#32;5,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;3,&#32;3,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;5,&#32;5,&#32;5,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;3,&#32;3,&#32;3,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;5,&#32;5,&#32;5,&#32;5,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;3,&#32;3,&#32;3,&#32;3},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{5,&#32;5,&#32;5,&#32;5,&#32;5,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;3,&#32;3,&#32;3,&#32;3,&#32;3},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;4,&#32;4,&#32;4,&#32;4,&#32;4,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;4,&#32;4,&#32;4,&#32;4,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;4,&#32;4,&#32;4,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;4,&#32;4,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;4,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0}}
+</programlisting><para>
+Definition at line 25 of file BoardShapes.java.</para>
+    </section><anchor xml:id="_classBoard_1_1BoardShapes_1add3350fa9dbca2948e47454c95d48ea9"/>    <section>
+    <title>DEFAULT_BOARD</title>
+<indexterm><primary>DEFAULT_BOARD</primary><secondary>Board.BoardShapes</secondary></indexterm>
+<indexterm><primary>Board.BoardShapes</primary><secondary>DEFAULT_BOARD</secondary></indexterm>
+<para><computeroutput>final int [][] Board.BoardShapes.DEFAULT_BOARD<computeroutput>[private]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting>=
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;1,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;1,&#32;1,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;1,&#32;1,&#32;1,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;1,&#32;1,&#32;1,&#32;1,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{6,&#32;6,&#32;6,&#32;6,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;2,&#32;2,&#32;2,&#32;2},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{6,&#32;6,&#32;6,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;2,&#32;2,&#32;2,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;6,&#32;6,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;2,&#32;2,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;6,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;2,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;5,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;3,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;5,&#32;5,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;3,&#32;3,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{5,&#32;5,&#32;5,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;3,&#32;3,&#32;3,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{5,&#32;5,&#32;5,&#32;5,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;3,&#32;3,&#32;3,&#32;3},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;4,&#32;4,&#32;4,&#32;4,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;4,&#32;4,&#32;4,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;4,&#32;4,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;4,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;0}}
+</programlisting><para>
+Definition at line 48 of file BoardShapes.java.</para>
+    </section><anchor xml:id="_classBoard_1_1BoardShapes_1a2f644153ca5d2aa1e86fa40bdd13fa12"/>    <section>
+    <title>MINI_BOARD</title>
+<indexterm><primary>MINI_BOARD</primary><secondary>Board.BoardShapes</secondary></indexterm>
+<indexterm><primary>Board.BoardShapes</primary><secondary>MINI_BOARD</secondary></indexterm>
+<para><computeroutput>final int [][] Board.BoardShapes.MINI_BOARD<computeroutput>[private]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting>=
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{{0,&#32;0,&#32;0,&#32;1,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;1,&#32;1,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{6,&#32;6,&#32;7,&#32;7,&#32;7,&#32;2,&#32;2},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{6,&#32;7,&#32;7,&#32;7,&#32;7,&#32;2,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{5,&#32;7,&#32;7,&#32;7,&#32;7,&#32;3,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{5,&#32;5,&#32;7,&#32;7,&#32;7,&#32;3,&#32;3},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;4,&#32;4,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;4,&#32;0,&#32;0,&#32;0}}
+</programlisting><para>
+Definition at line 82 of file BoardShapes.java.</para>
+    </section><anchor xml:id="_classBoard_1_1BoardShapes_1a24de80544813204e89d8fde30cb8b072"/>    <section>
+    <title>selectedBoardId</title>
+<indexterm><primary>selectedBoardId</primary><secondary>Board.BoardShapes</secondary></indexterm>
+<indexterm><primary>Board.BoardShapes</primary><secondary>selectedBoardId</secondary></indexterm>
+<para><computeroutput>final int Board.BoardShapes.selectedBoardId<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 11 of file BoardShapes.java.</para>
+    </section><anchor xml:id="_classBoard_1_1BoardShapes_1a22340aab0a679b8afde0e0646d1a2dde"/>    <section>
+    <title>SMALL_BOARD</title>
+<indexterm><primary>SMALL_BOARD</primary><secondary>Board.BoardShapes</secondary></indexterm>
+<indexterm><primary>Board.BoardShapes</primary><secondary>SMALL_BOARD</secondary></indexterm>
+<para><computeroutput>final int [][] Board.BoardShapes.SMALL_BOARD<computeroutput>[private]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting>=
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;1,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;1,&#32;1,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;1,&#32;1,&#32;1,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{6,&#32;6,&#32;6,&#32;7,&#32;7,&#32;7,&#32;7,&#32;2,&#32;2,&#32;2},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;6,&#32;6,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;2,&#32;2},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;6,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;2,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;5,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;3,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;5,&#32;5,&#32;7,&#32;7,&#32;7,&#32;7,&#32;7,&#32;3,&#32;3},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{5,&#32;5,&#32;5,&#32;7,&#32;7,&#32;7,&#32;7,&#32;3,&#32;3,&#32;3},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;4,&#32;4,&#32;4,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;4,&#32;4,&#32;0,&#32;0,&#32;0,&#32;0},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{0,&#32;0,&#32;0,&#32;0,&#32;0,&#32;4,&#32;0,&#32;0,&#32;0,&#32;0}}
+</programlisting><para>
+Definition at line 67 of file BoardShapes.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaServer/src/main/java/Board/<link linkend="_BoardShapes_8java">BoardShapes.java</link></section>
+</section>

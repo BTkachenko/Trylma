@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfaceGame_1_1Rules" xml:lang="en-US">
+<title>Game.Rules Interface Reference</title>
+<indexterm><primary>Game.Rules</primary></indexterm>
+Inheritance diagram for Game.Rules:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfaceGame_1_1Rules__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Game.Rules:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfaceGame_1_1Rules__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>boolean <link linkend="_interfaceGame_1_1Rules_1ada70dae02515a3905cb5651d2ef3236f">isWinner</link> (<link linkend="_classGame_1_1Game">Game</link> game, int playerID)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_interfaceGame_1_1Rules_1adfee9cf337908d6aa926e70a089c5041">moveIsCorrect</link> (<link linkend="_classBoard_1_1Board">Board</link> board, int endMoveField)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interfaceGame_1_1Rules_1a1c2f44b6942e772b25cf0b39113b8751">setAvailableFields</link> (<link linkend="_classBoard_1_1Board">Board</link> board, <link linkend="_classBoard_1_1BoardField">BoardField</link> startField, boolean isFirstCheck)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Interface of game rules </para>
+<para>
+Definition at line 9 of file Rules.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interfaceGame_1_1Rules_1ada70dae02515a3905cb5651d2ef3236f"/>    <section>
+    <title>isWinner()</title>
+<indexterm><primary>isWinner</primary><secondary>Game.Rules</secondary></indexterm>
+<indexterm><primary>Game.Rules</primary><secondary>isWinner</secondary></indexterm>
+<para><computeroutput>boolean Game.Rules.isWinner (<link linkend="_classGame_1_1Game">Game</link> game, int playerID)</computeroutput></para>
+<para>Rule set that determines if given player won the game</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>game</entry>
+                                <entry>
+<para>the game that is being played </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>playerID</entry>
+                                <entry>
+<para>id of player being checked </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true if player won the game </para>
+</formalpara>
+</para>
+<para>
+Implemented in <link linkend="_classGame_1_1TrylmaRules_1a55879e1618908a076e85a070f0e663ee">Game.TrylmaRules</link>.</para>
+    </section><anchor xml:id="_interfaceGame_1_1Rules_1adfee9cf337908d6aa926e70a089c5041"/>    <section>
+    <title>moveIsCorrect()</title>
+<indexterm><primary>moveIsCorrect</primary><secondary>Game.Rules</secondary></indexterm>
+<indexterm><primary>Game.Rules</primary><secondary>moveIsCorrect</secondary></indexterm>
+<para><computeroutput>boolean Game.Rules.moveIsCorrect (<link linkend="_classBoard_1_1Board">Board</link> board, int endMoveField)</computeroutput></para>
+<para>Rule set that determines if given move is correct. Checks if selected field is in Available fields. It is checked after second click by current player.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>board</entry>
+                                <entry>
+<para>the game board in current state </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>endMoveField</entry>
+                                <entry>
+<para>the field player is trying to move to </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true if move is correct </para>
+</formalpara>
+</para>
+<para>
+Implemented in <link linkend="_classGame_1_1TrylmaRules_1a4d577a2fab20ea399e0fc4d841ed7368">Game.TrylmaRules</link>.</para>
+    </section><anchor xml:id="_interfaceGame_1_1Rules_1a1c2f44b6942e772b25cf0b39113b8751"/>    <section>
+    <title>setAvailableFields()</title>
+<indexterm><primary>setAvailableFields</primary><secondary>Game.Rules</secondary></indexterm>
+<indexterm><primary>Game.Rules</primary><secondary>setAvailableFields</secondary></indexterm>
+<para><computeroutput>void Game.Rules.setAvailableFields (<link linkend="_classBoard_1_1Board">Board</link> board, <link linkend="_classBoard_1_1BoardField">BoardField</link> startField, boolean isFirstCheck)</computeroutput></para>
+<para>Rule set that maps legal fields that you can move to from selected field. It is checked after first click by current player.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>board</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>startField</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>isFirstCheck</entry>
+                                <entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implemented in <link linkend="_classGame_1_1TrylmaRules_1a32f46dac6ee73fa063f7dfc5764c560b">Game.TrylmaRules</link>.</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+TrylmaServer/src/main/java/Game/<link linkend="_Rules_8java">Rules.java</link></section>
+</section>

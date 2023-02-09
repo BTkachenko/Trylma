@@ -1,0 +1,170 @@
+.TH "Board.BoardShapes" 3 "Thu Jan 27 2022" "Trylma" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Board.BoardShapes
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBBoardShapes\fP (int \fBselectedBoardId\fP)"
+.br
+.ti -1c
+.RI "int[][] \fBgetSelectedBoard\fP ()"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "final int \fBselectedBoardId\fP"
+.br
+.ti -1c
+.RI "final int[][] \fBBIG_BOARD\fP"
+.br
+.ti -1c
+.RI "final int[][] \fBDEFAULT_BOARD\fP"
+.br
+.ti -1c
+.RI "final int[][] \fBSMALL_BOARD\fP"
+.br
+.ti -1c
+.RI "final int[][] \fBMINI_BOARD\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A data class that stores possible board shapes in form of int[][] arrays\&. \fBBoard\fP is made based on them\&. 
+.PP
+Definition at line 9 of file BoardShapes\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Board\&.BoardShapes\&.BoardShapes (int selectedBoardId)"
+Basic constructor\&. We have to choose one of boards when creating new instance of this class
+.PP
+\fBParameters\fP
+.RS 4
+\fIselectedBoardId\fP the board we selected 
+.RE
+.PP
+
+.PP
+Definition at line 21 of file BoardShapes\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "int [][] Board\&.BoardShapes\&.getSelectedBoard ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+returns the board we selected 
+.RE
+.PP
+
+.PP
+Definition at line 97 of file BoardShapes\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "final int [][] Board\&.BoardShapes\&.BIG_BOARD\fC [private]\fP"
+\fBInitial value:\fP
+.PP
+.nf
+=
+            {{0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0},
+             {6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 2, 2, 2, 2, 2},
+             {0, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 2, 2, 2, 2},
+             {0, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 2, 2, 2, 0},
+             {0, 0, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 2, 2, 0},
+             {0, 0, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 2, 0, 0},
+             {0, 0, 0, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 0, 0},
+             {0, 0, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 0, 0},
+             {0, 0, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 0},
+             {0, 5, 5, 5, 7, 7, 7, 7, 7, 7, 7, 7, 3, 3, 3, 0},
+             {0, 5, 5, 5, 5, 7, 7, 7, 7, 7, 7, 7, 3, 3, 3, 3},
+             {5, 5, 5, 5, 5, 7, 7, 7, 7, 7, 7, 3, 3, 3, 3, 3},
+             {0, 0, 0, 0, 0, 0, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 0, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 0, 0, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 0, 0, 4, 4, 0, 0, 0, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0}}
+.fi
+.PP
+Definition at line 25 of file BoardShapes\&.java\&.
+.SS "final int [][] Board\&.BoardShapes\&.DEFAULT_BOARD\fC [private]\fP"
+\fBInitial value:\fP
+.PP
+.nf
+=
+           {{0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0},
+            {6, 6, 6, 6, 7, 7, 7, 7, 7, 2, 2, 2, 2},
+            {6, 6, 6, 7, 7, 7, 7, 7, 7, 2, 2, 2, 0},
+            {0, 6, 6, 7, 7, 7, 7, 7, 7, 7, 2, 2, 0},
+            {0, 6, 7, 7, 7, 7, 7, 7, 7, 7, 2, 0, 0},
+            {0, 0, 7, 7, 7, 7, 7, 7, 7, 7, 7, 0, 0},
+            {0, 5, 7, 7, 7, 7, 7, 7, 7, 7, 3, 0, 0},
+            {0, 5, 5, 7, 7, 7, 7, 7, 7, 7, 3, 3, 0},
+            {5, 5, 5, 7, 7, 7, 7, 7, 7, 3, 3, 3, 0},
+            {5, 5, 5, 5, 7, 7, 7, 7, 7, 3, 3, 3, 3},
+            {0, 0, 0, 0, 4, 4, 4, 4, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 4, 4, 4, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 4, 4, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0}}
+.fi
+.PP
+Definition at line 48 of file BoardShapes\&.java\&.
+.SS "final int [][] Board\&.BoardShapes\&.MINI_BOARD\fC [private]\fP"
+\fBInitial value:\fP
+.PP
+.nf
+=
+          {{0, 0, 0, 1, 0, 0, 0},
+           {0, 0, 1, 1, 0, 0, 0},
+           {6, 6, 7, 7, 7, 2, 2},
+           {6, 7, 7, 7, 7, 2, 0},
+           {0, 7, 7, 7, 7, 7, 0},
+           {5, 7, 7, 7, 7, 3, 0},
+           {5, 5, 7, 7, 7, 3, 3},
+           {0, 0, 4, 4, 0, 0, 0},
+           {0, 0, 0, 4, 0, 0, 0}}
+.fi
+.PP
+Definition at line 82 of file BoardShapes\&.java\&.
+.SS "final int Board\&.BoardShapes\&.selectedBoardId\fC [private]\fP"
+
+.PP
+Definition at line 11 of file BoardShapes\&.java\&.
+.SS "final int [][] Board\&.BoardShapes\&.SMALL_BOARD\fC [private]\fP"
+\fBInitial value:\fP
+.PP
+.nf
+=
+            {{0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
+             {0, 0, 0, 0, 1, 1, 0, 0, 0, 0},
+             {0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
+             {6, 6, 6, 7, 7, 7, 7, 2, 2, 2},
+             {0, 6, 6, 7, 7, 7, 7, 7, 2, 2},
+             {0, 6, 7, 7, 7, 7, 7, 7, 2, 0},
+             {0, 0, 7, 7, 7, 7, 7, 7, 7, 0},
+             {0, 5, 7, 7, 7, 7, 7, 7, 3, 0},
+             {0, 5, 5, 7, 7, 7, 7, 7, 3, 3},
+             {5, 5, 5, 7, 7, 7, 7, 3, 3, 3},
+             {0, 0, 0, 0, 4, 4, 4, 0, 0, 0},
+             {0, 0, 0, 0, 4, 4, 0, 0, 0, 0},
+             {0, 0, 0, 0, 0, 4, 0, 0, 0, 0}}
+.fi
+.PP
+Definition at line 67 of file BoardShapes\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Trylma from the source code\&.

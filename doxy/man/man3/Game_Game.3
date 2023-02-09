@@ -1,0 +1,255 @@
+.TH "Game.Game" 3 "Thu Jan 27 2022" "Trylma" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Game.Game
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGame\fP (List< \fBPlayer\fP > \fBplayers\fP, int boardSize)"
+.br
+.ti -1c
+.RI "String \fBgetInitializationData\fP (int playerID)"
+.br
+.ti -1c
+.RI "synchronized void \fBshowPossibilities\fP (int startMoveField, int playerId)"
+.br
+.ti -1c
+.RI "synchronized void \fBmove\fP (int startMoveField, int endMoveField, int playerId)"
+.br
+.ti -1c
+.RI "boolean \fBplayerStillPlaying\fP (int playerId)"
+.br
+.ti -1c
+.RI "void \fBresetFieldsStatus\fP ()"
+.br
+.ti -1c
+.RI "void \fBsendToPlayers\fP (String message)"
+.br
+.ti -1c
+.RI "void \fBsendToPlayer\fP (int id, String message)"
+.br
+.ti -1c
+.RI "\fBBoard\fP \fBgetBoard\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetCurrentPlayer\fP (int id)"
+.br
+.ti -1c
+.RI "\fBTrylmaRules\fP \fBgetRules\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "List< Integer > \fBwinners\fP"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static List< \fBPlayer\fP > \fBplayers\fP"
+.br
+.in -1c
+.SS "Package Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBplayersCount\fP"
+.br
+.ti -1c
+.RI "int \fBcurrentPlayer\fP"
+.br
+.ti -1c
+.RI "\fBTrylmaRules\fP \fBrules\fP"
+.br
+.ti -1c
+.RI "\fBBoard\fP \fBboard\fP"
+.br
+.ti -1c
+.RI "\fBJSONBoardConverter\fP \fBconverter\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The game class manages the game flow\&. It determines player queue, sends messages to right players, checks if move is correct, updates the game board 
+.PP
+Definition at line 14 of file Game\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Game\&.Game\&.Game (List< \fBPlayer\fP > players, int boardSize)"
+Constructor Sets all necessary variables, sends board and other info to players at the start of the game 
+.PP
+\fBParameters\fP
+.RS 4
+\fIplayers\fP list of players who play this game 
+.br
+\fIboardSize\fP selected size of a game board 
+.RE
+.PP
+
+.PP
+Definition at line 32 of file Game\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBBoard\fP Game\&.Game\&.getBoard ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+returns this game board 
+.RE
+.PP
+
+.PP
+Definition at line 195 of file Game\&.java\&.
+.SS "String Game\&.Game\&.getInitializationData (int playerID)"
+Creates all necessary data that needs to be delivered to player when starting the game
+.PP
+\fBParameters\fP
+.RS 4
+\fIplayerID\fP id of player we are sending the data 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+all the data in form of a String 
+.RE
+.PP
+
+.PP
+Definition at line 60 of file Game\&.java\&.
+.SS "\fBTrylmaRules\fP Game\&.Game\&.getRules ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+returns ruleset of this game 
+.RE
+.PP
+
+.PP
+Definition at line 212 of file Game\&.java\&.
+.SS "synchronized void Game\&.Game\&.move (int startMoveField, int endMoveField, int playerId)"
+Method being used after player second click, based on the field he/she selected, it checks if the move is legal and if someone won\&. After move sends updated board to all players
+.PP
+\fBParameters\fP
+.RS 4
+\fIstartMoveField\fP the field selected on first click 
+.br
+\fIendMoveField\fP the field selected on second click 
+.br
+\fIplayerId\fP id of a player who is trying to move 
+.RE
+.PP
+
+.PP
+Definition at line 104 of file Game\&.java\&.
+.SS "boolean Game\&.Game\&.playerStillPlaying (int playerId)"
+Checks if given player is still playing the game 
+.PP
+\fBParameters\fP
+.RS 4
+\fIplayerId\fP player we are checking 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if player is still in the game 
+.RE
+.PP
+
+.PP
+Definition at line 144 of file Game\&.java\&.
+.SS "void Game\&.Game\&.resetFieldsStatus ()"
+Resets all board fields status (Sets it to inactive) 
+.PP
+Definition at line 161 of file Game\&.java\&.
+.SS "void Game\&.Game\&.sendToPlayer (int id, String message)"
+Sends message only to given player 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP player id 
+.br
+\fImessage\fP message we want to send 
+.RE
+.PP
+
+.PP
+Definition at line 183 of file Game\&.java\&.
+.SS "void Game\&.Game\&.sendToPlayers (String message)"
+Sends the message to all players 
+.PP
+\fBParameters\fP
+.RS 4
+\fImessage\fP message we want to send 
+.RE
+.PP
+
+.PP
+Definition at line 172 of file Game\&.java\&.
+.SS "void Game\&.Game\&.setCurrentPlayer (int id)"
+Sets id of current player to id of given player 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP given player id 
+.RE
+.PP
+
+.PP
+Definition at line 204 of file Game\&.java\&.
+.SS "synchronized void Game\&.Game\&.showPossibilities (int startMoveField, int playerId)"
+Method being used after player first click, based on the field he/she selected it maps available fields in game rules and sends them to player\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstartMoveField\fP the field selected on first click 
+.br
+\fIplayerId\fP id of a player who is trying to move 
+.RE
+.PP
+
+.PP
+Definition at line 74 of file Game\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBBoard\fP Game\&.Game\&.board\fC [package]\fP"
+
+.PP
+Definition at line 20 of file Game\&.java\&.
+.SS "\fBJSONBoardConverter\fP Game\&.Game\&.converter\fC [package]\fP"
+
+.PP
+Definition at line 21 of file Game\&.java\&.
+.SS "int Game\&.Game\&.currentPlayer\fC [package]\fP"
+
+.PP
+Definition at line 16 of file Game\&.java\&.
+.SS "List<\fBPlayer\fP> Game\&.Game\&.players\fC [static]\fP"
+
+.PP
+Definition at line 18 of file Game\&.java\&.
+.SS "int Game\&.Game\&.playersCount\fC [package]\fP"
+
+.PP
+Definition at line 15 of file Game\&.java\&.
+.SS "\fBTrylmaRules\fP Game\&.Game\&.rules\fC [package]\fP"
+
+.PP
+Definition at line 19 of file Game\&.java\&.
+.SS "List<Integer> Game\&.Game\&.winners"
+
+.PP
+Definition at line 17 of file Game\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Trylma from the source code\&.

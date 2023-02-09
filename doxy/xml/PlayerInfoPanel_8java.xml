@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="PlayerInfoPanel_8java" kind="file" language="Java">
+    <compoundname>PlayerInfoPanel.java</compoundname>
+    <innerclass refid="classfrontend_1_1PlayerInfoPanel" prot="public">frontend::PlayerInfoPanel</innerclass>
+    <innernamespace refid="namespacefrontend">frontend</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">frontend;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespaceboard" kindref="compound">board</ref>.<ref refid="enumboard_1_1PlayerColor" kindref="compound">PlayerColor</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javax.swing.*;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.awt.*;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classfrontend_1_1PlayerInfoPanel" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classfrontend_1_1PlayerInfoPanel" kindref="compound">PlayerInfoPanel</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>JPanel<sp/>{</highlight></codeline>
+<codeline lineno="14" refid="classfrontend_1_1PlayerInfoPanel_1a68e46f3396a11ecded709d8a76e7300e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>JLabel<sp/><ref refid="classfrontend_1_1PlayerInfoPanel_1a68e46f3396a11ecded709d8a76e7300e" kindref="member">playerColorInfo</ref>;</highlight></codeline>
+<codeline lineno="15" refid="classfrontend_1_1PlayerInfoPanel_1a2c8d9a1f28a3540911cec3059f024738" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>JLabel<sp/><ref refid="classfrontend_1_1PlayerInfoPanel_1a2c8d9a1f28a3540911cec3059f024738" kindref="member">descriptionPlayer</ref>;</highlight></codeline>
+<codeline lineno="16" refid="classfrontend_1_1PlayerInfoPanel_1a9089a6eee3d27b491f20a7d36e0b65d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>JLabel<sp/><ref refid="classfrontend_1_1PlayerInfoPanel_1a9089a6eee3d27b491f20a7d36e0b65d2" kindref="member">currentPlayerInfo</ref>;</highlight></codeline>
+<codeline lineno="17" refid="classfrontend_1_1PlayerInfoPanel_1a5fe1386a909461b1ce68711506d1a836" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>JLabel<sp/><ref refid="classfrontend_1_1PlayerInfoPanel_1a5fe1386a909461b1ce68711506d1a836" kindref="member">descriptionCurrent</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classfrontend_1_1PlayerInfoPanel_1af07c14d4e17006ff96713121899127a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classfrontend_1_1PlayerInfoPanel_1af07c14d4e17006ff96713121899127a1" kindref="member">PlayerInfoPanel</ref>(<ref refid="enumboard_1_1PlayerColor" kindref="compound">PlayerColor</ref><sp/>playerColor)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.setOpaque(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.descriptionPlayer<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>JLabel(</highlight><highlight class="stringliteral">&quot;YOU<sp/>ARE<sp/>PLAYING<sp/>WITH<sp/>:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.descriptionPlayer.setFont(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Font(Font.SERIF,<sp/>Font.PLAIN,<sp/>12));</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.descriptionPlayer.setForeground(Color.WHITE);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.playerColorInfo<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>JLabel(playerColor.toString());</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.playerColorInfo.setFont(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Font(Font.SERIF,<sp/>Font.BOLD,<sp/>35));</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.playerColorInfo.setForeground(this.<ref refid="classfrontend_1_1PlayerInfoPanel_1aa52cea9dec3ef27f44e10997de6b5b83" kindref="member">getColor</ref>(playerColor));</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.descriptionCurrent<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>JLabel(</highlight><highlight class="stringliteral">&quot;CURRENT<sp/>PLAYER<sp/>IS<sp/>:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.descriptionCurrent.setFont(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Font(Font.SERIF,<sp/>Font.PLAIN,<sp/>12));</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.descriptionCurrent.setForeground(Color.WHITE);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.currentPlayerInfo<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>JLabel();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.currentPlayerInfo.setFont(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Font(Font.SERIF,<sp/>Font.BOLD,<sp/>35));</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.currentPlayerInfo.setForeground(Color.WHITE);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.setLayout(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>BoxLayout(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>BoxLayout.PAGE_AXIS));</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.setPreferredSize(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Dimension(200,0));</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.add(Box.createRigidArea(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Dimension(50,<sp/>50)));</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.add(<ref refid="classfrontend_1_1PlayerInfoPanel_1a2c8d9a1f28a3540911cec3059f024738" kindref="member">descriptionPlayer</ref>);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.add(Box.createRigidArea(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Dimension(50,<sp/>12)));</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.add(<ref refid="classfrontend_1_1PlayerInfoPanel_1a68e46f3396a11ecded709d8a76e7300e" kindref="member">playerColorInfo</ref>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.add(Box.createRigidArea(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Dimension(50,<sp/>50)));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.add(<ref refid="classfrontend_1_1PlayerInfoPanel_1a5fe1386a909461b1ce68711506d1a836" kindref="member">descriptionCurrent</ref>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.add(Box.createRigidArea(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Dimension(50,<sp/>12)));</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.add(<ref refid="classfrontend_1_1PlayerInfoPanel_1a9089a6eee3d27b491f20a7d36e0b65d2" kindref="member">currentPlayerInfo</ref>);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.setBackground(Color.gray);<sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="classfrontend_1_1PlayerInfoPanel_1abfa2382b10e6fdb75dc8961cd9370eef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classfrontend_1_1PlayerInfoPanel_1abfa2382b10e6fdb75dc8961cd9370eef" kindref="member">setCurrentPlayerInfo</ref>(<ref refid="enumboard_1_1PlayerColor" kindref="compound">PlayerColor</ref><sp/>currPlayerColor)<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/>player<sp/>=<sp/>currPlayerColor.toString();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.currentPlayerInfo.setText(player);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.currentPlayerInfo.setForeground(this.<ref refid="classfrontend_1_1PlayerInfoPanel_1aa52cea9dec3ef27f44e10997de6b5b83" kindref="member">getColor</ref>(currPlayerColor));</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.repaint();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="classfrontend_1_1PlayerInfoPanel_1aa52cea9dec3ef27f44e10997de6b5b83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Color<sp/><ref refid="classfrontend_1_1PlayerInfoPanel_1aa52cea9dec3ef27f44e10997de6b5b83" kindref="member">getColor</ref>(<ref refid="enumboard_1_1PlayerColor" kindref="compound">PlayerColor</ref><sp/>playerColor)<sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(playerColor)<sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>BLUE:</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><sp/>Color.blue;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>GREEN:</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Color.green;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>YELLOW:</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Color.yellow;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>ORANGE:</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Color.orange;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>PINK:</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Color.pink;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>CYAN:</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Color.CYAN;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Color(196,195,208);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java"/>
+  </compounddef>
+</doxygen>

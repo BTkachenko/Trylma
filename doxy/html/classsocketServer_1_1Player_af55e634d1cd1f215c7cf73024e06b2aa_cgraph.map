@@ -1,0 +1,16 @@
+<map id="socketServer.Player.run" name="socketServer.Player.run">
+<area shape="rect" id="node1" title=" " alt="" coords="5,163,165,190"/>
+<area shape="rect" id="node2" href="$classGame_1_1Game.html#a72e34b794ec9b462e79e10e1ea325e3e" title=" " alt="" coords="248,134,379,161"/>
+<area shape="rect" id="node13" href="$classGame_1_1Game.html#a40a0dc857f18efe225d440b8e1da251f" title=" " alt="" coords="213,189,413,215"/>
+<area shape="rect" id="node3" href="$classBoard_1_1JSONBoardConverter.html#a98038a40196e2a072ca99710b877a108" title=" " alt="" coords="464,181,677,223"/>
+<area shape="rect" id="node11" href="$enumBoard_1_1PlayerColor.html#a88ebe864711719896c9ae253c09950c9" title=" " alt="" coords="473,79,668,106"/>
+<area shape="rect" id="node12" href="$classGame_1_1TrylmaRules.html#a4d577a2fab20ea399e0fc4d841ed7368" title=" " alt="" coords="461,130,680,157"/>
+<area shape="rect" id="node4" href="$classBoard_1_1JSONBoardConverter.html#aebf37df2fbd903e07e8edb9349976e0a" title=" " alt="" coords="728,5,935,47"/>
+<area shape="rect" id="node5" href="$classBoard_1_1BoardField.html#a88c6a9aa9373a12036a0abbd1a82ba54" title=" " alt="" coords="737,71,925,98"/>
+<area shape="rect" id="node6" href="$classBoard_1_1BoardField.html#a2ac8140fa52b0a3dde51f687be216eee" title=" " alt="" coords="741,123,922,164"/>
+<area shape="rect" id="node7" href="$classBoard_1_1BoardField.html#aaaa65e9f7b85480bd0f838224c4c60c2" title=" " alt="" coords="747,189,916,215"/>
+<area shape="rect" id="node8" href="$classBoard_1_1BoardField.html#abb3ff54f22a70f86ccba76cc0550a66f" title=" " alt="" coords="740,240,923,281"/>
+<area shape="rect" id="node9" href="$classBoard_1_1BoardField.html#a63cce4a999a6732b19ca6e57468482a7" title=" " alt="" coords="732,306,931,333"/>
+<area shape="rect" id="node10" href="$classBoard_1_1BoardField.html#a25182ff0063167bc18733e2121fea3ee" title=" " alt="" coords="731,357,931,383"/>
+<area shape="rect" id="node14" href="$classBoard_1_1BoardField.html#a01be54fb150ac721ede16a559a853506" title=" " alt="" coords="479,247,662,288"/>
+</map>

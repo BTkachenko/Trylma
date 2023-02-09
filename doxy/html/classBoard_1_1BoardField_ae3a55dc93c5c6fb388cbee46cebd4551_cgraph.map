@@ -1,0 +1,11 @@
+<map id="Board.BoardField.BoardField" name="Board.BoardField.BoardField">
+<area shape="rect" id="node1" title=" " alt="" coords="5,195,193,221"/>
+<area shape="rect" id="node2" href="$enumBoard_1_1PlayerColor.html#a88ebe864711719896c9ae253c09950c9" title=" " alt="" coords="244,5,439,32"/>
+<area shape="rect" id="node3" href="$enumBoard_1_1StatusColor.html#a175dcc331ec76dbf74aeecd565f50d2d" title=" " alt="" coords="243,56,439,83"/>
+<area shape="rect" id="node4" href="$classBoard_1_1BoardField.html#abe3af2fdb20361b29ee50703281a3daa" title=" " alt="" coords="247,107,435,133"/>
+<area shape="rect" id="node5" href="$classBoard_1_1BoardField.html#ad9068a400cf1ef191f50b4762d23a86d" title=" " alt="" coords="251,158,432,199"/>
+<area shape="rect" id="node6" href="$classBoard_1_1BoardField.html#a41df0e6df452112593a7318e7d52f567" title=" " alt="" coords="257,224,426,251"/>
+<area shape="rect" id="node7" href="$classBoard_1_1BoardField.html#a01be54fb150ac721ede16a559a853506" title=" " alt="" coords="250,275,433,317"/>
+<area shape="rect" id="node8" href="$classBoard_1_1BoardField.html#abca2dd63d11cf5c2c38dc3c438a547d1" title=" " alt="" coords="242,341,441,368"/>
+<area shape="rect" id="node9" href="$classBoard_1_1BoardField.html#a6a370f1de8b048a6fa67a8861c19f8ef" title=" " alt="" coords="241,392,441,419"/>
+</map>

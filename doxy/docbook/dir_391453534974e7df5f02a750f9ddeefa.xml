@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_391453534974e7df5f02a750f9ddeefa" xml:lang="en-US">
+<title>TrylmaServer/src/main/java/socketServer Directory Reference</title>
+<indexterm><primary>TrylmaServer/src/main/java/socketServer Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_Player_8java">Player.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_SocketServer_8java">SocketServer.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_Trylma_8java">Trylma.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_TrylmaServerWindow_8java">TrylmaServerWindow.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classGame_1_1TrylmaRules" kind="class" language="Java" prot="public">
+    <compoundname>Game::TrylmaRules</compoundname>
+    <basecompoundref refid="interfaceGame_1_1Rules" prot="public" virt="non-virtual">Game.Rules</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classGame_1_1TrylmaRules_1a9f93a67dc38f15837ddec9bb62f79bcb" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; Integer &gt;</type>
+        <definition>ArrayList&lt;Integer&gt; Game.TrylmaRules.availableFields</definition>
+        <argsstring></argsstring>
+        <name>availableFields</name>
+        <initializer>= new ArrayList&lt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/TrylmaRules.java" line="17" column="23" bodyfile="TrylmaServer/src/main/java/Game/TrylmaRules.java" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classGame_1_1TrylmaRules_1abfde316b36c770c3a87e4fd1ea3106b1" compoundref="TrylmaRules_8java" startline="324" endline="326">Game.TrylmaRules.getAvailableFields</referencedby>
+        <referencedby refid="classGame_1_1TrylmaRules_1a4d577a2fab20ea399e0fc4d841ed7368" compoundref="TrylmaRules_8java" startline="213" endline="215">Game.TrylmaRules.moveIsCorrect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classGame_1_1TrylmaRules_1a01fcb15500f8ba6355afe9ee380ca77f" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int Game.TrylmaRules.playersCount</definition>
+        <argsstring></argsstring>
+        <name>playersCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/TrylmaRules.java" line="18" column="23" bodyfile="TrylmaServer/src/main/java/Game/TrylmaRules.java" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classGame_1_1TrylmaRules_1af71efc71f4bddcdf6b0c6f57ac2428c7" compoundref="TrylmaRules_8java" startline="37" endline="123">Game.TrylmaRules.isStartingFieldInTargetTriangle</referencedby>
+        <referencedby refid="classGame_1_1TrylmaRules_1a55879e1618908a076e85a070f0e663ee" compoundref="TrylmaRules_8java" startline="126" endline="210">Game.TrylmaRules.isWinner</referencedby>
+        <referencedby refid="classGame_1_1TrylmaRules_1a233a6e53fd28bee0847a7299dfa3a7b5" compoundref="TrylmaRules_8java" startline="25" endline="27">Game.TrylmaRules.TrylmaRules</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGame_1_1TrylmaRules_1a233a6e53fd28bee0847a7299dfa3a7b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Game.TrylmaRules.TrylmaRules</definition>
+        <argsstring>(int playersCount)</argsstring>
+        <name>TrylmaRules</name>
+        <param>
+          <type>int</type>
+          <declname>playersCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Basic constructor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>playersCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>amount of players playing the game </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/TrylmaRules.java" line="25" column="12" bodyfile="TrylmaServer/src/main/java/Game/TrylmaRules.java" bodystart="25" bodyend="27"/>
+        <references refid="classGame_1_1TrylmaRules_1a01fcb15500f8ba6355afe9ee380ca77f" compoundref="TrylmaRules_8java" startline="18">Game.TrylmaRules.playersCount</references>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1TrylmaRules_1af71efc71f4bddcdf6b0c6f57ac2428c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean Game.TrylmaRules.isStartingFieldInTargetTriangle</definition>
+        <argsstring>(Board board, int startMoveField, int currentPlayer)</argsstring>
+        <name>isStartingFieldInTargetTriangle</name>
+        <param>
+          <type><ref refid="classBoard_1_1Board" kindref="compound">Board</ref></type>
+          <declname>board</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startMoveField</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>currentPlayer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if given field is in target area <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>board</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>current board </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startMoveField</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the field player is on </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>currentPlayer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of the current player </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if field is in target area </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/TrylmaRules.java" line="37" column="20" bodyfile="TrylmaServer/src/main/java/Game/TrylmaRules.java" bodystart="37" bodyend="123"/>
+        <references refid="classBoard_1_1BoardField_1a88c6a9aa9373a12036a0abbd1a82ba54" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="62" endline="64">Board.BoardField.getColumn</references>
+        <references refid="classBoard_1_1BoardField_1aaaa65e9f7b85480bd0f838224c4c60c2" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="45" endline="47">Board.BoardField.getRow</references>
+        <references refid="classGame_1_1TrylmaRules_1a01fcb15500f8ba6355afe9ee380ca77f" compoundref="TrylmaRules_8java" startline="18">Game.TrylmaRules.playersCount</references>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1TrylmaRules_1a55879e1618908a076e85a070f0e663ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean Game.TrylmaRules.isWinner</definition>
+        <argsstring>(Game game, int currentPlayer)</argsstring>
+        <name>isWinner</name>
+        <reimplements refid="interfaceGame_1_1Rules_1ada70dae02515a3905cb5651d2ef3236f">isWinner</reimplements>
+        <param>
+          <type><ref refid="classGame_1_1Game" kindref="compound">Game</ref></type>
+          <declname>game</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>playerID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rule set that determines if given player won the game</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>game</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the game that is being played </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>playerID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of player being checked </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if player won the game </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/TrylmaRules.java" line="126" column="20" bodyfile="TrylmaServer/src/main/java/Game/TrylmaRules.java" bodystart="126" bodyend="210"/>
+        <references refid="enumBoard_1_1PlayerColor_1a88ebe864711719896c9ae253c09950c9" compoundref="TrylmaServer_2src_2main_2java_2Board_2PlayerColor_8java" startline="33" endline="50">Board.PlayerColor.fromInteger</references>
+        <references refid="classGame_1_1TrylmaRules_1a01fcb15500f8ba6355afe9ee380ca77f" compoundref="TrylmaRules_8java" startline="18">Game.TrylmaRules.playersCount</references>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a3a8928b2ac890edb5b41bc819bfb472c" compoundref="ServerTest_8java" startline="50" endline="85">Games.Trylma.ServerTest.whoWinTheGame</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1TrylmaRules_1a4d577a2fab20ea399e0fc4d841ed7368" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean Game.TrylmaRules.moveIsCorrect</definition>
+        <argsstring>(Board board, int endMoveField)</argsstring>
+        <name>moveIsCorrect</name>
+        <reimplements refid="interfaceGame_1_1Rules_1adfee9cf337908d6aa926e70a089c5041">moveIsCorrect</reimplements>
+        <param>
+          <type><ref refid="classBoard_1_1Board" kindref="compound">Board</ref></type>
+          <declname>board</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>endMoveField</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rule set that determines if given move is correct. Checks if selected field is in Available fields. It is checked after second click by current player.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>board</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the game board in current state </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endMoveField</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the field player is trying to move to </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if move is correct </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/TrylmaRules.java" line="213" column="20" bodyfile="TrylmaServer/src/main/java/Game/TrylmaRules.java" bodystart="213" bodyend="215"/>
+        <references refid="classGame_1_1TrylmaRules_1a9f93a67dc38f15837ddec9bb62f79bcb" compoundref="TrylmaRules_8java" startline="17">Game.TrylmaRules.availableFields</references>
+        <referencedby refid="classGame_1_1Game_1a72e34b794ec9b462e79e10e1ea325e3e" compoundref="Game_8java" startline="104" endline="136">Game.Game.move</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1TrylmaRules_1a32f46dac6ee73fa063f7dfc5764c560b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void Game.TrylmaRules.setAvailableFields</definition>
+        <argsstring>(Board board, BoardField currField, boolean isFirstCheck)</argsstring>
+        <name>setAvailableFields</name>
+        <reimplements refid="interfaceGame_1_1Rules_1a1c2f44b6942e772b25cf0b39113b8751">setAvailableFields</reimplements>
+        <param>
+          <type><ref refid="classBoard_1_1Board" kindref="compound">Board</ref></type>
+          <declname>board</declname>
+        </param>
+        <param>
+          <type><ref refid="classBoard_1_1BoardField" kindref="compound">BoardField</ref></type>
+          <declname>startField</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>isFirstCheck</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rule set that maps legal fields that you can move to from selected field. It is checked after first click by current player.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>board</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startField</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isFirstCheck</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/TrylmaRules.java" line="218" column="30" bodyfile="TrylmaServer/src/main/java/Game/TrylmaRules.java" bodystart="218" bodyend="240"/>
+        <references refid="classGame_1_1TrylmaRules_1a078d521001938827f20ed77c37fd7214" compoundref="TrylmaRules_8java" startline="288" endline="318">Game.TrylmaRules.findNeighbors</references>
+        <references refid="enumBoard_1_1PlayerColor_1a0855ad5b9620cfccc6d946f5faeb8cb2" compoundref="TrylmaServer_2src_2main_2java_2Board_2PlayerColor_8java" startline="14">Board.PlayerColor.NO_PLAYER</references>
+        <references refid="classGame_1_1TrylmaRules_1a23fb6382701182dc68e46b1e95e35c2a" compoundref="TrylmaRules_8java" startline="251" endline="277">Game.TrylmaRules.tryToJump</references>
+        <referencedby refid="classGame_1_1TrylmaRules_1a23fb6382701182dc68e46b1e95e35c2a" compoundref="TrylmaRules_8java" startline="251" endline="277">Game.TrylmaRules.tryToJump</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1TrylmaRules_1a23fb6382701182dc68e46b1e95e35c2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void Game.TrylmaRules.tryToJump</definition>
+        <argsstring>(Board board, BoardField currField, BoardField fieldToPass)</argsstring>
+        <name>tryToJump</name>
+        <param>
+          <type><ref refid="classBoard_1_1Board" kindref="compound">Board</ref></type>
+          <declname>board</declname>
+        </param>
+        <param>
+          <type><ref refid="classBoard_1_1BoardField" kindref="compound">BoardField</ref></type>
+          <declname>currField</declname>
+        </param>
+        <param>
+          <type><ref refid="classBoard_1_1BoardField" kindref="compound">BoardField</ref></type>
+          <declname>fieldToPass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="interfaceGame_1_1Rules" kindref="compound">Rules</ref> responsible for jumping Adds fields you can jump on to available fields</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>board</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>current board </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>currField</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>field we are on </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fieldToPass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>field we want to jump over </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/TrylmaRules.java" line="251" column="30" bodyfile="TrylmaServer/src/main/java/Game/TrylmaRules.java" bodystart="251" bodyend="277"/>
+        <references refid="classGame_1_1TrylmaRules_1a078d521001938827f20ed77c37fd7214" compoundref="TrylmaRules_8java" startline="288" endline="318">Game.TrylmaRules.findNeighbors</references>
+        <references refid="classBoard_1_1BoardField_1a88c6a9aa9373a12036a0abbd1a82ba54" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="62" endline="64">Board.BoardField.getColumn</references>
+        <references refid="classBoard_1_1BoardField_1aaaa65e9f7b85480bd0f838224c4c60c2" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="45" endline="47">Board.BoardField.getRow</references>
+        <references refid="enumBoard_1_1PlayerColor_1a0855ad5b9620cfccc6d946f5faeb8cb2" compoundref="TrylmaServer_2src_2main_2java_2Board_2PlayerColor_8java" startline="14">Board.PlayerColor.NO_PLAYER</references>
+        <references refid="classGame_1_1TrylmaRules_1a32f46dac6ee73fa063f7dfc5764c560b" compoundref="TrylmaRules_8java" startline="218" endline="240">Game.TrylmaRules.setAvailableFields</references>
+        <referencedby refid="classGame_1_1TrylmaRules_1a32f46dac6ee73fa063f7dfc5764c560b" compoundref="TrylmaRules_8java" startline="218" endline="240">Game.TrylmaRules.setAvailableFields</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1TrylmaRules_1a078d521001938827f20ed77c37fd7214" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized ArrayList&lt; <ref refid="classBoard_1_1BoardField" kindref="compound">BoardField</ref> &gt;</type>
+        <definition>synchronized ArrayList&lt;BoardField&gt; Game.TrylmaRules.findNeighbors</definition>
+        <argsstring>(Board board, BoardField currField)</argsstring>
+        <name>findNeighbors</name>
+        <param>
+          <type><ref refid="classBoard_1_1Board" kindref="compound">Board</ref></type>
+          <declname>board</declname>
+        </param>
+        <param>
+          <type><ref refid="classBoard_1_1BoardField" kindref="compound">BoardField</ref></type>
+          <declname>currField</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds all neighbors of given field and returns them in form of an array list</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>board</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>current board </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>currField</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>field we are on </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>all fields that are neighbors to currField </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/TrylmaRules.java" line="288" column="35" bodyfile="TrylmaServer/src/main/java/Game/TrylmaRules.java" bodystart="288" bodyend="318"/>
+        <references refid="classBoard_1_1BoardField_1a88c6a9aa9373a12036a0abbd1a82ba54" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="62" endline="64">Board.BoardField.getColumn</references>
+        <references refid="classBoard_1_1BoardField_1aaaa65e9f7b85480bd0f838224c4c60c2" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="45" endline="47">Board.BoardField.getRow</references>
+        <referencedby refid="classGame_1_1TrylmaRules_1a32f46dac6ee73fa063f7dfc5764c560b" compoundref="TrylmaRules_8java" startline="218" endline="240">Game.TrylmaRules.setAvailableFields</referencedby>
+        <referencedby refid="classGame_1_1TrylmaRules_1a23fb6382701182dc68e46b1e95e35c2a" compoundref="TrylmaRules_8java" startline="251" endline="277">Game.TrylmaRules.tryToJump</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1TrylmaRules_1abfde316b36c770c3a87e4fd1ea3106b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; Integer &gt;</type>
+        <definition>ArrayList&lt;Integer&gt; Game.TrylmaRules.getAvailableFields</definition>
+        <argsstring>()</argsstring>
+        <name>getAvailableFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns all available fields </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/TrylmaRules.java" line="324" column="22" bodyfile="TrylmaServer/src/main/java/Game/TrylmaRules.java" bodystart="324" bodyend="326"/>
+        <references refid="classGame_1_1TrylmaRules_1a9f93a67dc38f15837ddec9bb62f79bcb" compoundref="TrylmaRules_8java" startline="17">Game.TrylmaRules.availableFields</references>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a91aaad205da873a8f85219b216469303" compoundref="ServerTest_8java" startline="115" endline="141">Games.Trylma.ServerTest.setAvailableFields</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1TrylmaRules_1aae5899212a0543a4b13af4da2f7b3ad3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.TrylmaRules.resetAvailableFields</definition>
+        <argsstring>()</argsstring>
+        <name>resetAvailableFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets available fields after each move </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/TrylmaRules.java" line="332" column="17" bodyfile="TrylmaServer/src/main/java/Game/TrylmaRules.java" bodystart="332" bodyend="334"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classGame_1_1Game" kindref="compound">Game</ref> rules After current player first click it maps all available fields player can move to from the field he selected. Based on that, after second click it checks if the move is correct. It also can check if player won. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Game.Rules</label>
+        <link refid="interfaceGame_1_1Rules"/>
+      </node>
+      <node id="1">
+        <label>Game.TrylmaRules</label>
+        <link refid="classGame_1_1TrylmaRules"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>ArrayList&lt; Integer &gt;</label>
+      </node>
+      <node id="2">
+        <label>Game.Rules</label>
+        <link refid="interfaceGame_1_1Rules"/>
+      </node>
+      <node id="1">
+        <label>Game.TrylmaRules</label>
+        <link refid="classGame_1_1TrylmaRules"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-availableFields</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaServer/src/main/java/Game/TrylmaRules.java" line="16" column="7" bodyfile="TrylmaServer/src/main/java/Game/TrylmaRules.java" bodystart="16" bodyend="336"/>
+    <listofallmembers>
+      <member refid="classGame_1_1TrylmaRules_1a9f93a67dc38f15837ddec9bb62f79bcb" prot="private" virt="non-virtual"><scope>Game::TrylmaRules</scope><name>availableFields</name></member>
+      <member refid="classGame_1_1TrylmaRules_1a078d521001938827f20ed77c37fd7214" prot="public" virt="non-virtual"><scope>Game::TrylmaRules</scope><name>findNeighbors</name></member>
+      <member refid="classGame_1_1TrylmaRules_1abfde316b36c770c3a87e4fd1ea3106b1" prot="public" virt="non-virtual"><scope>Game::TrylmaRules</scope><name>getAvailableFields</name></member>
+      <member refid="classGame_1_1TrylmaRules_1af71efc71f4bddcdf6b0c6f57ac2428c7" prot="public" virt="non-virtual"><scope>Game::TrylmaRules</scope><name>isStartingFieldInTargetTriangle</name></member>
+      <member refid="classGame_1_1TrylmaRules_1a55879e1618908a076e85a070f0e663ee" prot="public" virt="non-virtual"><scope>Game::TrylmaRules</scope><name>isWinner</name></member>
+      <member refid="classGame_1_1TrylmaRules_1a4d577a2fab20ea399e0fc4d841ed7368" prot="public" virt="non-virtual"><scope>Game::TrylmaRules</scope><name>moveIsCorrect</name></member>
+      <member refid="classGame_1_1TrylmaRules_1a01fcb15500f8ba6355afe9ee380ca77f" prot="private" virt="non-virtual"><scope>Game::TrylmaRules</scope><name>playersCount</name></member>
+      <member refid="classGame_1_1TrylmaRules_1aae5899212a0543a4b13af4da2f7b3ad3" prot="public" virt="non-virtual"><scope>Game::TrylmaRules</scope><name>resetAvailableFields</name></member>
+      <member refid="classGame_1_1TrylmaRules_1a32f46dac6ee73fa063f7dfc5764c560b" prot="public" virt="non-virtual"><scope>Game::TrylmaRules</scope><name>setAvailableFields</name></member>
+      <member refid="classGame_1_1TrylmaRules_1a233a6e53fd28bee0847a7299dfa3a7b5" prot="public" virt="non-virtual"><scope>Game::TrylmaRules</scope><name>TrylmaRules</name></member>
+      <member refid="classGame_1_1TrylmaRules_1a23fb6382701182dc68e46b1e95e35c2a" prot="public" virt="non-virtual"><scope>Game::TrylmaRules</scope><name>tryToJump</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

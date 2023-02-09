@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classGame_1_1Game" kind="class" language="Java" prot="public">
+    <compoundname>Game::Game</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classGame_1_1Game_1af15bb5b49515c255d0560821f58a5389" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Game.Game.playersCount</definition>
+        <argsstring></argsstring>
+        <name>playersCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="15" column="9" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGame_1_1Game_1a1a057598b680afce8be97cb1ef0c8827" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Game.Game.currentPlayer</definition>
+        <argsstring></argsstring>
+        <name>currentPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="16" column="5" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGame_1_1Game_1a5ba6cb0359cbd9826bbce84d079a3faf" prot="package" static="no" mutable="no">
+        <type><ref refid="classGame_1_1TrylmaRules" kindref="compound">TrylmaRules</ref></type>
+        <definition>TrylmaRules Game.Game.rules</definition>
+        <argsstring></argsstring>
+        <name>rules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="19" column="17" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGame_1_1Game_1a23f91fa17059e9f985f184d0748283a0" prot="package" static="no" mutable="no">
+        <type><ref refid="classBoard_1_1Board" kindref="compound">Board</ref></type>
+        <definition>Board Game.Game.board</definition>
+        <argsstring></argsstring>
+        <name>board</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="20" column="11" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGame_1_1Game_1a3b47247e0d8a6bbb0c343c93dcb255a8" prot="package" static="no" mutable="no">
+        <type><ref refid="classBoard_1_1JSONBoardConverter" kindref="compound">JSONBoardConverter</ref></type>
+        <definition>JSONBoardConverter Game.Game.converter</definition>
+        <argsstring></argsstring>
+        <name>converter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="21" column="24" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classGame_1_1Game_1a9920bc251b5bfd1d52d9c7762ee7f2c0" prot="public" static="no" mutable="no">
+        <type>List&lt; Integer &gt;</type>
+        <definition>List&lt;Integer&gt; Game.Game.winners</definition>
+        <argsstring></argsstring>
+        <name>winners</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="17" column="17" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classGame_1_1Game_1ab43878dd56c2c492a8bca0a1d17da88b" prot="public" static="yes" mutable="no">
+        <type>List&lt; <ref refid="classsocketServer_1_1Player" kindref="compound">Player</ref> &gt;</type>
+        <definition>List&lt;Player&gt; Game.Game.players</definition>
+        <argsstring></argsstring>
+        <name>players</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="18" column="24" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGame_1_1Game_1aa46f609ad611296b511b9f53786171e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Game.Game.Game</definition>
+        <argsstring>(List&lt; Player &gt; players, int boardSize)</argsstring>
+        <name>Game</name>
+        <param>
+          <type>List&lt; <ref refid="classsocketServer_1_1Player" kindref="compound">Player</ref> &gt;</type>
+          <declname>players</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>boardSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor Sets all necessary variables, sends board and other info to players at the start of the game <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>players</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of players who play this game </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>boardSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>selected size of a game board </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="32" column="8" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="32" bodyend="50"/>
+        <references refid="classBoard_1_1DefaultBoardBuilder_1a08e35f755f48f1e9cc5276c113f1b3de" compoundref="TrylmaServer_2src_2main_2java_2Board_2DefaultBoardBuilder_8java" startline="67" endline="69">Board.DefaultBoardBuilder.assignFields</references>
+        <references refid="enumBoard_1_1PlayerColor_1a5b9b17d03d7e8d72e49536da09cec047" compoundref="TrylmaServer_2src_2main_2java_2Board_2PlayerColor_8java" startline="8">Board.PlayerColor.BLUE</references>
+        <references refid="classBoard_1_1DefaultBoardBuilder_1a505ceac6a855457fb75b9e676943a4f3" compoundref="TrylmaServer_2src_2main_2java_2Board_2DefaultBoardBuilder_8java" startline="75" endline="77">Board.DefaultBoardBuilder.getDefaultBoard</references>
+        <references refid="classBoard_1_1BoardShapes_1acb743bffabf17515838f9f7cf4702b1e" compoundref="BoardShapes_8java" startline="97" endline="108">Board.BoardShapes.getSelectedBoard</references>
+        <references refid="classBoard_1_1DefaultBoardBuilder_1a692703ff83daba5d45552532254bf8ce" compoundref="TrylmaServer_2src_2main_2java_2Board_2DefaultBoardBuilder_8java" startline="17" endline="45">Board.DefaultBoardBuilder.initializeBoardFields</references>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1Game_1a84764f4bdc74e4c2038e2057fdd19259" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Game.Game.getInitializationData</definition>
+        <argsstring>(int playerID)</argsstring>
+        <name>getInitializationData</name>
+        <param>
+          <type>int</type>
+          <declname>playerID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates all necessary data that needs to be delivered to player when starting the game</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>playerID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of player we are sending the data </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>all the data in form of a String </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="60" column="19" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="60" bodyend="63"/>
+        <references refid="classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108" compoundref="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java" startline="20" endline="38">Board.JSONBoardConverter.buildJSONBoard</references>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a44d1b2cd6d8610631d04748a5ef0da6a" compoundref="ServerTest_8java" startline="23" endline="48">Games.Trylma.ServerTest.calculatingMove</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1Game_1a40a0dc857f18efe225d440b8e1da251f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void Game.Game.showPossibilities</definition>
+        <argsstring>(int startMoveField, int playerId)</argsstring>
+        <name>showPossibilities</name>
+        <param>
+          <type>int</type>
+          <declname>startMoveField</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>playerId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method being used after player first click, based on the field he/she selected it maps available fields in game rules and sends them to player. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startMoveField</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the field selected on first click </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>playerId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of a player who is trying to move </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="74" column="30" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="74" bodyend="92"/>
+        <references refid="enumBoard_1_1StatusColor_1abd3b82d11f8e52197668f94e5c325d7e" compoundref="TrylmaServer_2src_2main_2java_2Board_2StatusColor_8java" startline="8">Board.StatusColor.ACTIVE</references>
+        <references refid="classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108" compoundref="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java" startline="20" endline="38">Board.JSONBoardConverter.buildJSONBoard</references>
+        <references refid="enumBoard_1_1StatusColor_1af5e9181f7eb06d510bd4988082477619" compoundref="TrylmaServer_2src_2main_2java_2Board_2StatusColor_8java" startline="10">Board.StatusColor.POSSIBLE_MOVE</references>
+        <references refid="classBoard_1_1BoardField_1a01be54fb150ac721ede16a559a853506" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="105" endline="107">Board.BoardField.setStatusColor</references>
+        <referencedby refid="classsocketServer_1_1Player_1af55e634d1cd1f215c7cf73024e06b2aa" compoundref="Player_8java" startline="50" endline="76">socketServer.Player.run</referencedby>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a91aaad205da873a8f85219b216469303" compoundref="ServerTest_8java" startline="115" endline="141">Games.Trylma.ServerTest.setAvailableFields</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1Game_1a72e34b794ec9b462e79e10e1ea325e3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void Game.Game.move</definition>
+        <argsstring>(int startMoveField, int endMoveField, int playerId)</argsstring>
+        <name>move</name>
+        <param>
+          <type>int</type>
+          <declname>startMoveField</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>endMoveField</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>playerId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method being used after player second click, based on the field he/she selected, it checks if the move is legal and if someone won. After move sends updated board to all players</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startMoveField</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the field selected on first click </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endMoveField</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the field selected on second click </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>playerId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of a player who is trying to move </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="104" column="31" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="104" bodyend="136"/>
+        <references refid="classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108" compoundref="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java" startline="20" endline="38">Board.JSONBoardConverter.buildJSONBoard</references>
+        <references refid="enumBoard_1_1PlayerColor_1a88ebe864711719896c9ae253c09950c9" compoundref="TrylmaServer_2src_2main_2java_2Board_2PlayerColor_8java" startline="33" endline="50">Board.PlayerColor.fromInteger</references>
+        <references refid="classGame_1_1TrylmaRules_1a4d577a2fab20ea399e0fc4d841ed7368" compoundref="TrylmaRules_8java" startline="213" endline="215">Game.TrylmaRules.moveIsCorrect</references>
+        <references refid="enumBoard_1_1PlayerColor_1a0855ad5b9620cfccc6d946f5faeb8cb2" compoundref="TrylmaServer_2src_2main_2java_2Board_2PlayerColor_8java" startline="14">Board.PlayerColor.NO_PLAYER</references>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a44d1b2cd6d8610631d04748a5ef0da6a" compoundref="ServerTest_8java" startline="23" endline="48">Games.Trylma.ServerTest.calculatingMove</referencedby>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a65cab29b4063681f2b35d536ade65be2" compoundref="ServerTest_8java" startline="88" endline="112">Games.Trylma.ServerTest.ifPlayerCouldMove</referencedby>
+        <referencedby refid="classsocketServer_1_1Player_1af55e634d1cd1f215c7cf73024e06b2aa" compoundref="Player_8java" startline="50" endline="76">socketServer.Player.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1Game_1a7705e31748eb1a158611209fa76faef5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean Game.Game.playerStillPlaying</definition>
+        <argsstring>(int playerId)</argsstring>
+        <name>playerStillPlaying</name>
+        <param>
+          <type>int</type>
+          <declname>playerId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if given player is still playing the game <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>playerId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>player we are checking </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if player is still in the game </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="144" column="20" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="144" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1Game_1a56851de7cabd60531f6b5ea54e231fe1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Game.resetFieldsStatus</definition>
+        <argsstring>()</argsstring>
+        <name>resetFieldsStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets all board fields status (Sets it to inactive) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="161" column="17" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="161" bodyend="165"/>
+        <references refid="enumBoard_1_1StatusColor_1ab9df24d30d5d0b5ea52891a9fdf84340" compoundref="TrylmaServer_2src_2main_2java_2Board_2StatusColor_8java" startline="9">Board.StatusColor.INACTIVE</references>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1Game_1a096123ff82fa2aee7b1173dd4a0b6b08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Game.sendToPlayers</definition>
+        <argsstring>(String message)</argsstring>
+        <name>sendToPlayers</name>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sends the message to all players <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>message we want to send </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="172" column="17" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="172" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1Game_1ad3a90fb5ef3c5c06ece9dc637f3c1cdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Game.sendToPlayer</definition>
+        <argsstring>(int id, String message)</argsstring>
+        <name>sendToPlayer</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sends message only to given player <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>player id </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>message we want to send </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="183" column="17" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="183" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1Game_1a1ce050e2e13256e85aee38dbf4f295f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classBoard_1_1Board" kindref="compound">Board</ref></type>
+        <definition>Board Game.Game.getBoard</definition>
+        <argsstring>()</argsstring>
+        <name>getBoard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns this game board </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="195" column="18" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="195" bodyend="197"/>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a44d1b2cd6d8610631d04748a5ef0da6a" compoundref="ServerTest_8java" startline="23" endline="48">Games.Trylma.ServerTest.calculatingMove</referencedby>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a3a8928b2ac890edb5b41bc819bfb472c" compoundref="ServerTest_8java" startline="50" endline="85">Games.Trylma.ServerTest.whoWinTheGame</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1Game_1af1a99549a6b14f57a730af91746169ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Game.setCurrentPlayer</definition>
+        <argsstring>(int id)</argsstring>
+        <name>setCurrentPlayer</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets id of current player to id of given player <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>given player id </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="204" column="17" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="204" bodyend="206"/>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a65cab29b4063681f2b35d536ade65be2" compoundref="ServerTest_8java" startline="88" endline="112">Games.Trylma.ServerTest.ifPlayerCouldMove</referencedby>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a91aaad205da873a8f85219b216469303" compoundref="ServerTest_8java" startline="115" endline="141">Games.Trylma.ServerTest.setAvailableFields</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGame_1_1Game_1a50ff6cd6f73b8a6f6942e4c1d6397357" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classGame_1_1TrylmaRules" kindref="compound">TrylmaRules</ref></type>
+        <definition>TrylmaRules Game.Game.getRules</definition>
+        <argsstring>()</argsstring>
+        <name>getRules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns ruleset of this game </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Game/Game.java" line="212" column="24" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="212" bodyend="214"/>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a91aaad205da873a8f85219b216469303" compoundref="ServerTest_8java" startline="115" endline="141">Games.Trylma.ServerTest.setAvailableFields</referencedby>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a3a8928b2ac890edb5b41bc819bfb472c" compoundref="ServerTest_8java" startline="50" endline="85">Games.Trylma.ServerTest.whoWinTheGame</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The game class manages the game flow. It determines player queue, sends messages to right players, checks if move is correct, updates the game board </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>Board.Board</label>
+        <link refid="classBoard_1_1Board"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+startFields</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>List&lt; socketServer.Player &gt;</label>
+      </node>
+      <node id="6">
+        <label>Board.DefaultStartFields</label>
+        <link refid="classBoard_1_1DefaultStartFields"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+bottomFields</edgelabel>
+          <edgelabel>+bottomLeftFields</edgelabel>
+          <edgelabel>+bottomRightFields</edgelabel>
+          <edgelabel>+topFields</edgelabel>
+          <edgelabel>+topLeftFields</edgelabel>
+          <edgelabel>+topRightFields</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>ArrayList&lt; Integer &gt;</label>
+      </node>
+      <node id="5">
+        <label>ArrayList&lt; Board.BoardField &gt;</label>
+      </node>
+      <node id="7">
+        <label>List&lt; Integer &gt;</label>
+      </node>
+      <node id="3">
+        <label>Board.JSONBoardConverter</label>
+        <link refid="classBoard_1_1JSONBoardConverter"/>
+      </node>
+      <node id="9">
+        <label>Game.Rules</label>
+        <link refid="interfaceGame_1_1Rules"/>
+      </node>
+      <node id="8">
+        <label>Game.TrylmaRules</label>
+        <link refid="classGame_1_1TrylmaRules"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>-availableFields</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Game.Game</label>
+        <link refid="classGame_1_1Game"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+players</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>~converter</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>~board</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+winners</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>~rules</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaServer/src/main/java/Game/Game.java" line="14" column="7" bodyfile="TrylmaServer/src/main/java/Game/Game.java" bodystart="14" bodyend="215"/>
+    <listofallmembers>
+      <member refid="classGame_1_1Game_1a23f91fa17059e9f985f184d0748283a0" prot="package" virt="non-virtual"><scope>Game::Game</scope><name>board</name></member>
+      <member refid="classGame_1_1Game_1a3b47247e0d8a6bbb0c343c93dcb255a8" prot="package" virt="non-virtual"><scope>Game::Game</scope><name>converter</name></member>
+      <member refid="classGame_1_1Game_1a1a057598b680afce8be97cb1ef0c8827" prot="package" virt="non-virtual"><scope>Game::Game</scope><name>currentPlayer</name></member>
+      <member refid="classGame_1_1Game_1aa46f609ad611296b511b9f53786171e4" prot="public" virt="non-virtual"><scope>Game::Game</scope><name>Game</name></member>
+      <member refid="classGame_1_1Game_1a1ce050e2e13256e85aee38dbf4f295f2" prot="public" virt="non-virtual"><scope>Game::Game</scope><name>getBoard</name></member>
+      <member refid="classGame_1_1Game_1a84764f4bdc74e4c2038e2057fdd19259" prot="public" virt="non-virtual"><scope>Game::Game</scope><name>getInitializationData</name></member>
+      <member refid="classGame_1_1Game_1a50ff6cd6f73b8a6f6942e4c1d6397357" prot="public" virt="non-virtual"><scope>Game::Game</scope><name>getRules</name></member>
+      <member refid="classGame_1_1Game_1a72e34b794ec9b462e79e10e1ea325e3e" prot="public" virt="non-virtual"><scope>Game::Game</scope><name>move</name></member>
+      <member refid="classGame_1_1Game_1ab43878dd56c2c492a8bca0a1d17da88b" prot="public" virt="non-virtual"><scope>Game::Game</scope><name>players</name></member>
+      <member refid="classGame_1_1Game_1af15bb5b49515c255d0560821f58a5389" prot="package" virt="non-virtual"><scope>Game::Game</scope><name>playersCount</name></member>
+      <member refid="classGame_1_1Game_1a7705e31748eb1a158611209fa76faef5" prot="public" virt="non-virtual"><scope>Game::Game</scope><name>playerStillPlaying</name></member>
+      <member refid="classGame_1_1Game_1a56851de7cabd60531f6b5ea54e231fe1" prot="public" virt="non-virtual"><scope>Game::Game</scope><name>resetFieldsStatus</name></member>
+      <member refid="classGame_1_1Game_1a5ba6cb0359cbd9826bbce84d079a3faf" prot="package" virt="non-virtual"><scope>Game::Game</scope><name>rules</name></member>
+      <member refid="classGame_1_1Game_1ad3a90fb5ef3c5c06ece9dc637f3c1cdc" prot="public" virt="non-virtual"><scope>Game::Game</scope><name>sendToPlayer</name></member>
+      <member refid="classGame_1_1Game_1a096123ff82fa2aee7b1173dd4a0b6b08" prot="public" virt="non-virtual"><scope>Game::Game</scope><name>sendToPlayers</name></member>
+      <member refid="classGame_1_1Game_1af1a99549a6b14f57a730af91746169ba" prot="public" virt="non-virtual"><scope>Game::Game</scope><name>setCurrentPlayer</name></member>
+      <member refid="classGame_1_1Game_1a40a0dc857f18efe225d440b8e1da251f" prot="public" virt="non-virtual"><scope>Game::Game</scope><name>showPossibilities</name></member>
+      <member refid="classGame_1_1Game_1a9920bc251b5bfd1d52d9c7762ee7f2c0" prot="public" virt="non-virtual"><scope>Game::Game</scope><name>winners</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

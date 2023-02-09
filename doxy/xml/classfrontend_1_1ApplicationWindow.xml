@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classfrontend_1_1ApplicationWindow" kind="class" language="Java" prot="public">
+    <compoundname>frontend::ApplicationWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfrontend_1_1ApplicationWindow_1a52408dc2f7bb745ca2c0442e0d808909" prot="package" static="no" mutable="no">
+        <type><ref refid="classboard_1_1DefaultBoardBuilder" kindref="compound">DefaultBoardBuilder</ref></type>
+        <definition>DefaultBoardBuilder frontend.ApplicationWindow.builder</definition>
+        <argsstring></argsstring>
+        <name>builder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" line="16" column="25" bodyfile="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classfrontend_1_1ApplicationWindow_1a8ce6ee6143346b6eca7e73661ba38638" compoundref="ApplicationWindow_8java" startline="90" endline="97">frontend.ApplicationWindow.setBoard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classfrontend_1_1ApplicationWindow_1ad5f37cc8d0abc610ceea99568a393561" prot="package" static="no" mutable="no">
+        <type><ref refid="classfrontend_1_1PlayerInfoPanel" kindref="compound">PlayerInfoPanel</ref></type>
+        <definition>PlayerInfoPanel frontend.ApplicationWindow.infoPanel</definition>
+        <argsstring></argsstring>
+        <name>infoPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" line="17" column="21" bodyfile="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classfrontend_1_1ApplicationWindow_1aea76d894f40e84cc2357f413edfdf447" compoundref="ApplicationWindow_8java" startline="29" endline="47">frontend.ApplicationWindow.ApplicationWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classfrontend_1_1ApplicationWindow_1a4b4922b82d6d5a91ee6cfd21eedf5c7b" prot="package" static="no" mutable="no">
+        <type><ref refid="enumboard_1_1PlayerColor" kindref="compound">PlayerColor</ref></type>
+        <definition>PlayerColor frontend.ApplicationWindow.playerColor</definition>
+        <argsstring></argsstring>
+        <name>playerColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" line="18" column="17" bodyfile="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classfrontend_1_1ApplicationWindow_1aea76d894f40e84cc2357f413edfdf447" compoundref="ApplicationWindow_8java" startline="29" endline="47">frontend.ApplicationWindow.ApplicationWindow</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classfrontend_1_1ApplicationWindow_1ae37772904c4a6417123e058d57ae5435" prot="public" static="no" mutable="no">
+        <type><ref refid="classboard_1_1DefaultBoard" kindref="compound">DefaultBoard</ref></type>
+        <definition>DefaultBoard frontend.ApplicationWindow.board</definition>
+        <argsstring></argsstring>
+        <name>board</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" line="19" column="25" bodyfile="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classfrontend_1_1ApplicationWindow_1a53c66dc8d104d123b94facb67fa8c2c7" compoundref="ApplicationWindow_8java" startline="79" endline="81">frontend.ApplicationWindow.getBoard</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfrontend_1_1ApplicationWindow_1aea76d894f40e84cc2357f413edfdf447" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>frontend.ApplicationWindow.ApplicationWindow</definition>
+        <argsstring>(PlayerColor playerColor, int currentPlayerID, String JSONBoard)</argsstring>
+        <name>ApplicationWindow</name>
+        <param>
+          <type><ref refid="enumboard_1_1PlayerColor" kindref="compound">PlayerColor</ref></type>
+          <declname>playerColor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>currentPlayerID</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>JSONBoard</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Basic Constructor</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>playerColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the color of our fields </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>currentPlayerID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of a current player </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>JSONBoard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>json board received from server </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" line="29" column="12" bodyfile="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" bodystart="29" bodyend="47"/>
+        <references refid="classfrontend_1_1ApplicationWindow_1ad5f37cc8d0abc610ceea99568a393561" compoundref="ApplicationWindow_8java" startline="17">frontend.ApplicationWindow.infoPanel</references>
+        <references refid="classfrontend_1_1ApplicationWindow_1a4b4922b82d6d5a91ee6cfd21eedf5c7b" compoundref="ApplicationWindow_8java" startline="18">frontend.ApplicationWindow.playerColor</references>
+        <references refid="classfrontend_1_1ApplicationWindow_1a8ce6ee6143346b6eca7e73661ba38638" compoundref="ApplicationWindow_8java" startline="90" endline="97">frontend.ApplicationWindow.setBoard</references>
+        <references refid="classfrontend_1_1ApplicationWindow_1a664ad50da7906d6c03c3fb3914a1de18" compoundref="ApplicationWindow_8java" startline="55" endline="59">frontend.ApplicationWindow.setCurrPlayer</references>
+      </memberdef>
+      <memberdef kind="function" id="classfrontend_1_1ApplicationWindow_1a664ad50da7906d6c03c3fb3914a1de18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void frontend.ApplicationWindow.setCurrPlayer</definition>
+        <argsstring>(int currPlayerID)</argsstring>
+        <name>setCurrPlayer</name>
+        <param>
+          <type>int</type>
+          <declname>currPlayerID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Changes data and displayed info about current player</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>currPlayerID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of a current player </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" line="55" column="17" bodyfile="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" bodystart="55" bodyend="59"/>
+        <references refid="enumboard_1_1PlayerColor_1ae75e3c064697bda71a5266d510f9f4bf" compoundref="TrylmaClient_2src_2main_2java_2board_2PlayerColor_8java" startline="33" endline="50">board.PlayerColor.fromInteger</references>
+        <references refid="classfrontend_1_1ApplicationWindow_1a76b6b84520cfbff6392808a4f9f7ebab" compoundref="ApplicationWindow_8java" startline="68" endline="73">frontend.ApplicationWindow.ifYouCurrentPlayer</references>
+        <references refid="classfrontend_1_1PlayerInfoPanel_1abfa2382b10e6fdb75dc8961cd9370eef" compoundref="PlayerInfoPanel_8java" startline="61" endline="66">frontend.PlayerInfoPanel.setCurrentPlayerInfo</references>
+        <referencedby refid="classfrontend_1_1ApplicationWindow_1aea76d894f40e84cc2357f413edfdf447" compoundref="ApplicationWindow_8java" startline="29" endline="47">frontend.ApplicationWindow.ApplicationWindow</referencedby>
+        <referencedby refid="classsocketClient_1_1SocketClient_1a150101982a9b659688980044854ec70f" compoundref="SocketClient_8java" startline="61" endline="84">socketClient.SocketClient.play</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfrontend_1_1ApplicationWindow_1a76b6b84520cfbff6392808a4f9f7ebab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void frontend.ApplicationWindow.ifYouCurrentPlayer</definition>
+        <argsstring>(int currPlayer)</argsstring>
+        <name>ifYouCurrentPlayer</name>
+        <param>
+          <type>int</type>
+          <declname>currPlayer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gives us ability to make a move if we are the current player</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>currPlayer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of a current player </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" line="68" column="17" bodyfile="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" bodystart="68" bodyend="73"/>
+        <references refid="enumboard_1_1PlayerColor_1ae75e3c064697bda71a5266d510f9f4bf" compoundref="TrylmaClient_2src_2main_2java_2board_2PlayerColor_8java" startline="33" endline="50">board.PlayerColor.fromInteger</references>
+        <references refid="classboard_1_1DefaultBoard_1aa0ef3c40a401e209d81baf796b960588" compoundref="TrylmaClient_2src_2main_2java_2board_2DefaultBoard_8java" startline="80" endline="82">board.DefaultBoard.setActive</references>
+        <referencedby refid="classfrontend_1_1ApplicationWindow_1a664ad50da7906d6c03c3fb3914a1de18" compoundref="ApplicationWindow_8java" startline="55" endline="59">frontend.ApplicationWindow.setCurrPlayer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfrontend_1_1ApplicationWindow_1a53c66dc8d104d123b94facb67fa8c2c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classboard_1_1Board" kindref="compound">Board</ref></type>
+        <definition>Board frontend.ApplicationWindow.getBoard</definition>
+        <argsstring>()</argsstring>
+        <name>getBoard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns app board </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" line="79" column="18" bodyfile="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" bodystart="79" bodyend="81"/>
+        <references refid="classfrontend_1_1ApplicationWindow_1ae37772904c4a6417123e058d57ae5435" compoundref="ApplicationWindow_8java" startline="19">frontend.ApplicationWindow.board</references>
+        <referencedby refid="classsocketClient_1_1SocketClient_1a02c5e0a84a2cdc5706e0df95b0955e19" compoundref="SocketClient_8java" startline="43" endline="54">socketClient.SocketClient.listenSocket</referencedby>
+        <referencedby refid="classsocketClient_1_1SocketClient_1a150101982a9b659688980044854ec70f" compoundref="SocketClient_8java" startline="61" endline="84">socketClient.SocketClient.play</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfrontend_1_1ApplicationWindow_1a8ce6ee6143346b6eca7e73661ba38638" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void frontend.ApplicationWindow.setBoard</definition>
+        <argsstring>(String jsonBoard)</argsstring>
+        <name>setBoard</name>
+        <param>
+          <type>String</type>
+          <declname>jsonBoard</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets and refreshes player board based on information from the server</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>jsonBoard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>json string with board from server </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" line="90" column="17" bodyfile="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" bodystart="90" bodyend="97"/>
+        <references refid="classfrontend_1_1ApplicationWindow_1a52408dc2f7bb745ca2c0442e0d808909" compoundref="ApplicationWindow_8java" startline="16">frontend.ApplicationWindow.builder</references>
+        <references refid="classboard_1_1DefaultBoardBuilder_1acaf94bffaa020b14cf34083a8df22409" compoundref="TrylmaClient_2src_2main_2java_2board_2DefaultBoardBuilder_8java" startline="40" endline="42">board.DefaultBoardBuilder.getDefaultBoard</references>
+        <references refid="classboard_1_1DefaultBoardBuilder_1acb76c72f177b8cb19e188b981e97ef5f" compoundref="TrylmaClient_2src_2main_2java_2board_2DefaultBoardBuilder_8java" startline="18" endline="34">board.DefaultBoardBuilder.setBoardFields</references>
+        <referencedby refid="classfrontend_1_1ApplicationWindow_1aea76d894f40e84cc2357f413edfdf447" compoundref="ApplicationWindow_8java" startline="29" endline="47">frontend.ApplicationWindow.ApplicationWindow</referencedby>
+        <referencedby refid="classsocketClient_1_1SocketClient_1a150101982a9b659688980044854ec70f" compoundref="SocketClient_8java" startline="61" endline="84">socketClient.SocketClient.play</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Displays and stores information about board, which player are we, who is current player. Main app window. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>frontend.ApplicationWindow</label>
+        <link refid="classfrontend_1_1ApplicationWindow"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>JFrame</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>JPanel</label>
+      </node>
+      <node id="12">
+        <label>PrintWriter</label>
+      </node>
+      <node id="1">
+        <label>frontend.ApplicationWindow</label>
+        <link refid="classfrontend_1_1ApplicationWindow"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>~builder</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+board</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>~playerColor</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>~infoPanel</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Scanner</label>
+      </node>
+      <node id="5">
+        <label>board.DefaultBoard</label>
+        <link refid="classboard_1_1DefaultBoard"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>board.BoardBuilder</label>
+        <link refid="interfaceboard_1_1BoardBuilder"/>
+      </node>
+      <node id="2">
+        <label>JFrame</label>
+      </node>
+      <node id="15">
+        <label>frontend.PlayerInfoPanel</label>
+        <link refid="classfrontend_1_1PlayerInfoPanel"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>board.DefaultBoardBuilder</label>
+        <link refid="classboard_1_1DefaultBoardBuilder"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>~board</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>ArrayList&lt; board.BoardField &gt;</label>
+      </node>
+      <node id="13">
+        <label>board.PlayerColor</label>
+        <link refid="enumboard_1_1PlayerColor"/>
+      </node>
+      <node id="8">
+        <label>socketClient.SocketClient</label>
+        <link refid="classsocketClient_1_1SocketClient"/>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+scanner</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+input</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>~socket</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>+out</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>-playerColor</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>~appWindow</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>board.Board</label>
+        <link refid="classboard_1_1Board"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>-player</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Socket</label>
+      </node>
+      <node id="10">
+        <label>DataInputStream</label>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" line="14" column="7" bodyfile="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" bodystart="14" bodyend="98"/>
+    <listofallmembers>
+      <member refid="classfrontend_1_1ApplicationWindow_1aea76d894f40e84cc2357f413edfdf447" prot="public" virt="non-virtual"><scope>frontend::ApplicationWindow</scope><name>ApplicationWindow</name></member>
+      <member refid="classfrontend_1_1ApplicationWindow_1ae37772904c4a6417123e058d57ae5435" prot="public" virt="non-virtual"><scope>frontend::ApplicationWindow</scope><name>board</name></member>
+      <member refid="classfrontend_1_1ApplicationWindow_1a52408dc2f7bb745ca2c0442e0d808909" prot="package" virt="non-virtual"><scope>frontend::ApplicationWindow</scope><name>builder</name></member>
+      <member refid="classfrontend_1_1ApplicationWindow_1a53c66dc8d104d123b94facb67fa8c2c7" prot="public" virt="non-virtual"><scope>frontend::ApplicationWindow</scope><name>getBoard</name></member>
+      <member refid="classfrontend_1_1ApplicationWindow_1a76b6b84520cfbff6392808a4f9f7ebab" prot="public" virt="non-virtual"><scope>frontend::ApplicationWindow</scope><name>ifYouCurrentPlayer</name></member>
+      <member refid="classfrontend_1_1ApplicationWindow_1ad5f37cc8d0abc610ceea99568a393561" prot="package" virt="non-virtual"><scope>frontend::ApplicationWindow</scope><name>infoPanel</name></member>
+      <member refid="classfrontend_1_1ApplicationWindow_1a4b4922b82d6d5a91ee6cfd21eedf5c7b" prot="package" virt="non-virtual"><scope>frontend::ApplicationWindow</scope><name>playerColor</name></member>
+      <member refid="classfrontend_1_1ApplicationWindow_1a8ce6ee6143346b6eca7e73661ba38638" prot="public" virt="non-virtual"><scope>frontend::ApplicationWindow</scope><name>setBoard</name></member>
+      <member refid="classfrontend_1_1ApplicationWindow_1a664ad50da7906d6c03c3fb3914a1de18" prot="public" virt="non-virtual"><scope>frontend::ApplicationWindow</scope><name>setCurrPlayer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

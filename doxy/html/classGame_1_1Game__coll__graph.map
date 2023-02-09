@@ -1,0 +1,12 @@
+<map id="Game.Game" name="Game.Game">
+<area shape="rect" id="node1" title=" " alt="" coords="403,645,558,884"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,447,188,524"/>
+<area shape="rect" id="node3" href="$classBoard_1_1JSONBoardConverter.html" title=" " alt="" coords="212,439,395,531"/>
+<area shape="rect" id="node4" href="$classBoard_1_1Board.html" title=" " alt="" coords="419,439,542,531"/>
+<area shape="rect" id="node5" title=" " alt="" coords="329,5,528,83"/>
+<area shape="rect" id="node6" href="$classBoard_1_1DefaultStartFields.html" title=" " alt="" coords="474,226,637,318"/>
+<area shape="rect" id="node7" title=" " alt="" coords="566,447,673,524"/>
+<area shape="rect" id="node8" href="$classGame_1_1TrylmaRules.html" title=" " alt="" coords="697,388,913,583"/>
+<area shape="rect" id="node9" href="$interfaceGame_1_1Rules.html" title=" " alt="" coords="707,219,854,325"/>
+<area shape="rect" id="node10" title=" " alt="" coords="879,233,1016,311"/>
+</map>

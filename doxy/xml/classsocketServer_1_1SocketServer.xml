@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classsocketServer_1_1SocketServer" kind="class" language="Java" prot="public">
+    <compoundname>socketServer::SocketServer</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsocketServer_1_1SocketServer_1ad9d5b293c7e725755942c574be5eb1eb" prot="public" static="yes" mutable="no">
+        <type>List&lt; <ref refid="classsocketServer_1_1Player" kindref="compound">Player</ref> &gt;</type>
+        <definition>List&lt;Player&gt; socketServer.SocketServer.players</definition>
+        <argsstring></argsstring>
+        <name>players</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/SocketServer.java" line="17" column="24" bodyfile="TrylmaServer/src/main/java/socketServer/SocketServer.java" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1SocketServer_1a295f34460cb984812549c0990a2ff512" compoundref="SocketServer_8java" startline="54" endline="67">socketServer.SocketServer.listenSocket</referencedby>
+        <referencedby refid="classsocketServer_1_1SocketServer_1aebd8750360e677755382d4a728e7a16c" compoundref="SocketServer_8java" startline="32" endline="46">socketServer.SocketServer.SocketServer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classsocketServer_1_1SocketServer_1a19d0104b8a07cbcb0159005a989bd0aa" prot="package" static="no" mutable="no">
+        <type>ServerSocket</type>
+        <definition>ServerSocket socketServer.SocketServer.server</definition>
+        <argsstring></argsstring>
+        <name>server</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/SocketServer.java" line="18" column="18" bodyfile="TrylmaServer/src/main/java/socketServer/SocketServer.java" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1SocketServer_1a295f34460cb984812549c0990a2ff512" compoundref="SocketServer_8java" startline="54" endline="67">socketServer.SocketServer.listenSocket</referencedby>
+        <referencedby refid="classsocketServer_1_1SocketServer_1aebd8750360e677755382d4a728e7a16c" compoundref="SocketServer_8java" startline="32" endline="46">socketServer.SocketServer.SocketServer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1SocketServer_1aa41315dc288bef33ea1beb6eaf0b7c36" prot="package" static="no" mutable="no">
+        <type><ref refid="classGame_1_1Game" kindref="compound">Game</ref></type>
+        <definition>Game socketServer.SocketServer.game</definition>
+        <argsstring></argsstring>
+        <name>game</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/SocketServer.java" line="19" column="10" bodyfile="TrylmaServer/src/main/java/socketServer/SocketServer.java" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1SocketServer_1a295f34460cb984812549c0990a2ff512" compoundref="SocketServer_8java" startline="54" endline="67">socketServer.SocketServer.listenSocket</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1SocketServer_1afcb5c0fbff2c0b288698a396fb93e6d1" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int socketServer.SocketServer.numberOfPlayers</definition>
+        <argsstring></argsstring>
+        <name>numberOfPlayers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/SocketServer.java" line="20" column="5" bodyfile="TrylmaServer/src/main/java/socketServer/SocketServer.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1SocketServer_1a295f34460cb984812549c0990a2ff512" compoundref="SocketServer_8java" startline="54" endline="67">socketServer.SocketServer.listenSocket</referencedby>
+        <referencedby refid="classsocketServer_1_1SocketServer_1aebd8750360e677755382d4a728e7a16c" compoundref="SocketServer_8java" startline="32" endline="46">socketServer.SocketServer.SocketServer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1SocketServer_1a587cb69e28cb277680cf2a2ec46a0c30" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int socketServer.SocketServer.boardSize</definition>
+        <argsstring></argsstring>
+        <name>boardSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/SocketServer.java" line="21" column="9" bodyfile="TrylmaServer/src/main/java/socketServer/SocketServer.java" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1SocketServer_1a295f34460cb984812549c0990a2ff512" compoundref="SocketServer_8java" startline="54" endline="67">socketServer.SocketServer.listenSocket</referencedby>
+        <referencedby refid="classsocketServer_1_1SocketServer_1aebd8750360e677755382d4a728e7a16c" compoundref="SocketServer_8java" startline="32" endline="46">socketServer.SocketServer.SocketServer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1SocketServer_1aa26a4b6dfae0ad6b5437e2e972382401" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int socketServer.SocketServer.port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/SocketServer.java" line="22" column="9" bodyfile="TrylmaServer/src/main/java/socketServer/SocketServer.java" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1SocketServer_1aebd8750360e677755382d4a728e7a16c" compoundref="SocketServer_8java" startline="32" endline="46">socketServer.SocketServer.SocketServer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsocketServer_1_1SocketServer_1aebd8750360e677755382d4a728e7a16c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>socketServer.SocketServer.SocketServer</definition>
+        <argsstring>(int port, int numberOfPlayers, int boardSize)</argsstring>
+        <name>SocketServer</name>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numberOfPlayers</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>boardSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Basic constructor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>server port </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>numberOfPlayers</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>amount of players </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>boardSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>size of game board </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/SocketServer.java" line="32" column="12" bodyfile="TrylmaServer/src/main/java/socketServer/SocketServer.java" bodystart="32" bodyend="46"/>
+        <references refid="classsocketServer_1_1SocketServer_1a587cb69e28cb277680cf2a2ec46a0c30" compoundref="SocketServer_8java" startline="21">socketServer.SocketServer.boardSize</references>
+        <references refid="classsocketServer_1_1SocketServer_1afcb5c0fbff2c0b288698a396fb93e6d1" compoundref="SocketServer_8java" startline="20">socketServer.SocketServer.numberOfPlayers</references>
+        <references refid="classsocketServer_1_1SocketServer_1ad9d5b293c7e725755942c574be5eb1eb" compoundref="SocketServer_8java" startline="17">socketServer.SocketServer.players</references>
+        <references refid="classsocketServer_1_1SocketServer_1aa26a4b6dfae0ad6b5437e2e972382401" compoundref="SocketServer_8java" startline="22">socketServer.SocketServer.port</references>
+        <references refid="classsocketServer_1_1SocketServer_1a19d0104b8a07cbcb0159005a989bd0aa" compoundref="SocketServer_8java" startline="18">socketServer.SocketServer.server</references>
+      </memberdef>
+      <memberdef kind="function" id="classsocketServer_1_1SocketServer_1a295f34460cb984812549c0990a2ff512" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void socketServer.SocketServer.listenSocket</definition>
+        <argsstring>()</argsstring>
+        <name>listenSocket</name>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Waits for players to join the server When all joined, starts the game <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>IOException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>exception </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/SocketServer.java" line="54" column="17" bodyfile="TrylmaServer/src/main/java/socketServer/SocketServer.java" bodystart="54" bodyend="67"/>
+        <references refid="classsocketServer_1_1SocketServer_1a587cb69e28cb277680cf2a2ec46a0c30" compoundref="SocketServer_8java" startline="21">socketServer.SocketServer.boardSize</references>
+        <references refid="classsocketServer_1_1SocketServer_1aa41315dc288bef33ea1beb6eaf0b7c36" compoundref="SocketServer_8java" startline="19">socketServer.SocketServer.game</references>
+        <references refid="classsocketServer_1_1SocketServer_1afcb5c0fbff2c0b288698a396fb93e6d1" compoundref="SocketServer_8java" startline="20">socketServer.SocketServer.numberOfPlayers</references>
+        <references refid="classsocketServer_1_1SocketServer_1ad9d5b293c7e725755942c574be5eb1eb" compoundref="SocketServer_8java" startline="17">socketServer.SocketServer.players</references>
+        <references refid="classsocketServer_1_1SocketServer_1a19d0104b8a07cbcb0159005a989bd0aa" compoundref="SocketServer_8java" startline="18">socketServer.SocketServer.server</references>
+        <referencedby refid="classsocketServer_1_1TrylmaServerWindow_1a60342d9a2135f789ed53bcec2e8327c4" compoundref="TrylmaServerWindow_8java" startline="97" endline="128">socketServer.TrylmaServerWindow.actionPerformed</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Defines a server&apos;s socket. Accepts players. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="6">
+        <label>Board.Board</label>
+        <link refid="classBoard_1_1Board"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+startFields</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>List&lt; socketServer.Player &gt;</label>
+      </node>
+      <node id="3">
+        <label>ServerSocket</label>
+      </node>
+      <node id="8">
+        <label>Board.DefaultStartFields</label>
+        <link refid="classBoard_1_1DefaultStartFields"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+bottomFields</edgelabel>
+          <edgelabel>+bottomLeftFields</edgelabel>
+          <edgelabel>+bottomRightFields</edgelabel>
+          <edgelabel>+topFields</edgelabel>
+          <edgelabel>+topLeftFields</edgelabel>
+          <edgelabel>+topRightFields</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>ArrayList&lt; Integer &gt;</label>
+      </node>
+      <node id="7">
+        <label>ArrayList&lt; Board.BoardField &gt;</label>
+      </node>
+      <node id="1">
+        <label>socketServer.SocketServer</label>
+        <link refid="classsocketServer_1_1SocketServer"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+players</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>~server</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>~game</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>List&lt; Integer &gt;</label>
+      </node>
+      <node id="5">
+        <label>Board.JSONBoardConverter</label>
+        <link refid="classBoard_1_1JSONBoardConverter"/>
+      </node>
+      <node id="11">
+        <label>Game.Rules</label>
+        <link refid="interfaceGame_1_1Rules"/>
+      </node>
+      <node id="10">
+        <label>Game.TrylmaRules</label>
+        <link refid="classGame_1_1TrylmaRules"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>-availableFields</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Game.Game</label>
+        <link refid="classGame_1_1Game"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+players</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>~converter</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>~board</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+winners</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>~rules</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaServer/src/main/java/socketServer/SocketServer.java" line="16" column="7" bodyfile="TrylmaServer/src/main/java/socketServer/SocketServer.java" bodystart="16" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classsocketServer_1_1SocketServer_1a587cb69e28cb277680cf2a2ec46a0c30" prot="package" virt="non-virtual"><scope>socketServer::SocketServer</scope><name>boardSize</name></member>
+      <member refid="classsocketServer_1_1SocketServer_1aa41315dc288bef33ea1beb6eaf0b7c36" prot="package" virt="non-virtual"><scope>socketServer::SocketServer</scope><name>game</name></member>
+      <member refid="classsocketServer_1_1SocketServer_1a295f34460cb984812549c0990a2ff512" prot="public" virt="non-virtual"><scope>socketServer::SocketServer</scope><name>listenSocket</name></member>
+      <member refid="classsocketServer_1_1SocketServer_1afcb5c0fbff2c0b288698a396fb93e6d1" prot="package" virt="non-virtual"><scope>socketServer::SocketServer</scope><name>numberOfPlayers</name></member>
+      <member refid="classsocketServer_1_1SocketServer_1ad9d5b293c7e725755942c574be5eb1eb" prot="public" virt="non-virtual"><scope>socketServer::SocketServer</scope><name>players</name></member>
+      <member refid="classsocketServer_1_1SocketServer_1aa26a4b6dfae0ad6b5437e2e972382401" prot="package" virt="non-virtual"><scope>socketServer::SocketServer</scope><name>port</name></member>
+      <member refid="classsocketServer_1_1SocketServer_1a19d0104b8a07cbcb0159005a989bd0aa" prot="package" virt="non-virtual"><scope>socketServer::SocketServer</scope><name>server</name></member>
+      <member refid="classsocketServer_1_1SocketServer_1aebd8750360e677755382d4a728e7a16c" prot="public" virt="non-virtual"><scope>socketServer::SocketServer</scope><name>SocketServer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

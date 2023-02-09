@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_a9214360f13cd9d6809c66b36935b36a" xml:lang="en-US">
+<title>TrylmaClient/src/main/java/socketClient Directory Reference</title>
+<indexterm><primary>TrylmaClient/src/main/java/socketClient Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_SocketClient_8java">SocketClient.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_TrylmaClient_8java">TrylmaClient.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

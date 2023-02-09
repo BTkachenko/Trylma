@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classclientServer_1_1AppTest" kind="class" language="Java" prot="public">
+    <compoundname>clientServer::AppTest</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classclientServer_1_1AppTest_1a4b514bd1270c14b15e125fdcedb16886" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void clientServer.AppTest.shouldAnswerWithTrue</definition>
+        <argsstring>()</argsstring>
+        <name>shouldAnswerWithTrue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rigorous Test :-) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/test/java/clientServer/AppTest.java" line="16" column="17" bodyfile="TrylmaClient/src/test/java/clientServer/AppTest.java" bodystart="16" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Unit test for simple App. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>clientServer.AppTest</label>
+        <link refid="classclientServer_1_1AppTest"/>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaClient/src/test/java/clientServer/AppTest.java" line="10" column="7" bodyfile="TrylmaClient/src/test/java/clientServer/AppTest.java" bodystart="11" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classclientServer_1_1AppTest_1a4b514bd1270c14b15e125fdcedb16886" prot="public" virt="non-virtual"><scope>clientServer::AppTest</scope><name>shouldAnswerWithTrue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

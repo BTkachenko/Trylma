@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="TrylmaServer_2src_2main_2java_2Board_2PlayerColor_8java" kind="file" language="Java">
+    <compoundname>PlayerColor.java</compoundname>
+    <innerclass refid="enumBoard_1_1PlayerColor" prot="public">Board::PlayerColor</innerclass>
+    <innernamespace refid="namespaceBoard">Board</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Board;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="enumBoard_1_1PlayerColor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enumBoard_1_1PlayerColor" kindref="compound">PlayerColor</ref><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="enumBoard_1_1PlayerColor_1a5b9b17d03d7e8d72e49536da09cec047" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumBoard_1_1PlayerColor_1a5b9b17d03d7e8d72e49536da09cec047" kindref="member">BLUE</ref>(1),</highlight></codeline>
+<codeline lineno="9" refid="enumBoard_1_1PlayerColor_1a8c3ed928ca81302192b825ba25a6dfce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumBoard_1_1PlayerColor_1a8c3ed928ca81302192b825ba25a6dfce" kindref="member">GREEN</ref>(2),</highlight></codeline>
+<codeline lineno="10" refid="enumBoard_1_1PlayerColor_1a817aedcf5f1d4dea2443b490341dd39b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumBoard_1_1PlayerColor_1a817aedcf5f1d4dea2443b490341dd39b" kindref="member">YELLOW</ref>(3),</highlight></codeline>
+<codeline lineno="11" refid="enumBoard_1_1PlayerColor_1a0d776fc98195559a3fc10f2689391cd7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumBoard_1_1PlayerColor_1a0d776fc98195559a3fc10f2689391cd7" kindref="member">ORANGE</ref>(4),</highlight></codeline>
+<codeline lineno="12" refid="enumBoard_1_1PlayerColor_1a9f63d4f0ddaf258e594aedb8f904d294" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumBoard_1_1PlayerColor_1a9f63d4f0ddaf258e594aedb8f904d294" kindref="member">PINK</ref>(5),</highlight></codeline>
+<codeline lineno="13" refid="enumBoard_1_1PlayerColor_1a8b96a94c4eb4fb934bb2178bedd6021f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumBoard_1_1PlayerColor_1a8b96a94c4eb4fb934bb2178bedd6021f" kindref="member">PURPLE</ref>(6),</highlight></codeline>
+<codeline lineno="14" refid="enumBoard_1_1PlayerColor_1a0855ad5b9620cfccc6d946f5faeb8cb2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumBoard_1_1PlayerColor_1a0855ad5b9620cfccc6d946f5faeb8cb2" kindref="member">NO_PLAYER</ref>(7);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="enumBoard_1_1PlayerColor_1a52a214c4cfed04049920c3a3003d23e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="enumBoard_1_1PlayerColor_1a52a214c4cfed04049920c3a3003d23e1" kindref="member">playerColorID</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="enumBoard_1_1PlayerColor_1af8df92b85ef0abdb0e5e223ffec9c7f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumBoard_1_1PlayerColor_1af8df92b85ef0abdb0e5e223ffec9c7f2" kindref="member">PlayerColor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>playerColorID){</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.playerColorID<sp/>=<sp/>playerColorID;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="enumBoard_1_1PlayerColor_1a88ebe864711719896c9ae253c09950c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="enumBoard_1_1PlayerColor" kindref="compound">PlayerColor</ref><sp/><ref refid="enumBoard_1_1PlayerColor_1a88ebe864711719896c9ae253c09950c9" kindref="member">fromInteger</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(x)<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BLUE;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GREEN;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>YELLOW;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ORANGE;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>5:</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PINK;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>6:</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PURPLE;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NO_PLAYER;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="TrylmaServer/src/main/java/Board/PlayerColor.java"/>
+  </compounddef>
+</doxygen>

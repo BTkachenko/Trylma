@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_TrylmaClient_2src_2test_2java_2clientServer_2AppTest_8java" xml:lang="en-US">
+<title>TrylmaClient/src/test/java/clientServer/AppTest.java File Reference</title>
+<indexterm><primary>TrylmaClient/src/test/java/clientServer/AppTest.java</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classclientServer_1_1AppTest">clientServer.AppTest</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespaceclientServer">clientServer</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

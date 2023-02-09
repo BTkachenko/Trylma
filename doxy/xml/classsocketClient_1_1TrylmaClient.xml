@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classsocketClient_1_1TrylmaClient" kind="class" language="Java" prot="public">
+    <compoundname>socketClient::TrylmaClient</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsocketClient_1_1TrylmaClient_1a2d705cfc4f8dd80c0156c603feb0d8e7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void socketClient.TrylmaClient.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Runs the app Server port must be passed as an argument <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>you have to pass the server port </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/socketClient/TrylmaClient.java" line="17" column="24" bodyfile="TrylmaClient/src/main/java/socketClient/TrylmaClient.java" bodystart="17" bodyend="35"/>
+        <references refid="classsocketClient_1_1SocketClient_1a02c5e0a84a2cdc5706e0df95b0955e19" compoundref="SocketClient_8java" startline="43" endline="54">socketClient.SocketClient.listenSocket</references>
+        <references refid="classsocketClient_1_1SocketClient_1a150101982a9b659688980044854ec70f" compoundref="SocketClient_8java" startline="61" endline="84">socketClient.SocketClient.play</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Client class that sets the socket and runs the app. It needs server port passed as an argument. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>socketClient.TrylmaClient</label>
+        <link refid="classsocketClient_1_1TrylmaClient"/>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaClient/src/main/java/socketClient/TrylmaClient.java" line="9" column="7" bodyfile="TrylmaClient/src/main/java/socketClient/TrylmaClient.java" bodystart="9" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classsocketClient_1_1TrylmaClient_1a2d705cfc4f8dd80c0156c603feb0d8e7" prot="public" virt="non-virtual"><scope>socketClient::TrylmaClient</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

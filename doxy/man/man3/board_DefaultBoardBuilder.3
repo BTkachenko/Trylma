@@ -1,0 +1,105 @@
+.TH "Board.DefaultBoardBuilder" 3 "Thu Jan 27 2022" "Trylma" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Board.DefaultBoardBuilder
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBBoard\&.BoardBuilder\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBinitializeBoardFields\fP (int[][] boardShape)"
+.br
+.ti -1c
+.RI "void \fBsetBoardFields\fP (String JSONBoard)  throws JSONException "
+.br
+.ti -1c
+.RI "void \fBassignFields\fP (int numberOfPlayers)"
+.br
+.ti -1c
+.RI "\fBDefaultBoard\fP \fBgetDefaultBoard\fP ()"
+.br
+.in -1c
+.SS "Package Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBDefaultBoard\fP \fBboard\fP = new \fBDefaultBoard\fP()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Builds board based on one of int[][] arrays that are stored in \fBBoardShapes\fP 
+.PP
+Definition at line 13 of file DefaultBoardBuilder\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Board\&.DefaultBoardBuilder\&.assignFields (int numberOfPlayers)"
+Assigns board fields to players according to they number
+.PP
+\fBParameters\fP
+.RS 4
+\fInumberOfPlayers\fP number of players in the game 
+.RE
+.PP
+
+.PP
+Implements \fBBoard\&.BoardBuilder\fP\&.
+.PP
+Definition at line 67 of file DefaultBoardBuilder\&.java\&.
+.SS "\fBDefaultBoard\fP Board\&.DefaultBoardBuilder\&.getDefaultBoard ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+returns a board created by the builder 
+.RE
+.PP
+
+.PP
+Definition at line 75 of file DefaultBoardBuilder\&.java\&.
+.SS "void Board\&.DefaultBoardBuilder\&.initializeBoardFields (int boardShape[][])"
+Initializes game board (its fields) based on given int[][] array
+.PP
+\fBParameters\fP
+.RS 4
+\fIboardShape\fP an array describing fields positions 
+.RE
+.PP
+
+.PP
+Implements \fBBoard\&.BoardBuilder\fP\&.
+.PP
+Definition at line 17 of file DefaultBoardBuilder\&.java\&.
+.SS "void Board\&.DefaultBoardBuilder\&.setBoardFields (String JSONBoard) throws JSONException"
+builds a board based on String json
+.PP
+\fBParameters\fP
+.RS 4
+\fIJSONBoard\fP json that contains data about the board 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIJSONException\fP exception when parsing json 
+.RE
+.PP
+
+.PP
+Implements \fBBoard\&.BoardBuilder\fP\&.
+.PP
+Definition at line 48 of file DefaultBoardBuilder\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBDefaultBoard\fP Board\&.DefaultBoardBuilder\&.board = new \fBDefaultBoard\fP()\fC [package]\fP"
+
+.PP
+Definition at line 14 of file DefaultBoardBuilder\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Trylma from the source code\&.

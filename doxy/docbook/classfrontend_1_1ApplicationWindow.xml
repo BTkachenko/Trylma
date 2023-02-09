@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classfrontend_1_1ApplicationWindow" xml:lang="en-US">
+<title>frontend.ApplicationWindow Class Reference</title>
+<indexterm><primary>frontend.ApplicationWindow</primary></indexterm>
+Inheritance diagram for frontend.ApplicationWindow:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classfrontend_1_1ApplicationWindow__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for frontend.ApplicationWindow:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classfrontend_1_1ApplicationWindow__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classfrontend_1_1ApplicationWindow_1aea76d894f40e84cc2357f413edfdf447">ApplicationWindow</link> (<link linkend="_enumboard_1_1PlayerColor">PlayerColor</link> <link linkend="_classfrontend_1_1ApplicationWindow_1a4b4922b82d6d5a91ee6cfd21eedf5c7b">playerColor</link>, int currentPlayerID, String JSONBoard)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classfrontend_1_1ApplicationWindow_1a664ad50da7906d6c03c3fb3914a1de18">setCurrPlayer</link> (int currPlayerID)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classfrontend_1_1ApplicationWindow_1a76b6b84520cfbff6392808a4f9f7ebab">ifYouCurrentPlayer</link> (int currPlayer)</para>
+</listitem>
+            <listitem><para><link linkend="_classboard_1_1Board">Board</link> <link linkend="_classfrontend_1_1ApplicationWindow_1a53c66dc8d104d123b94facb67fa8c2c7">getBoard</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classfrontend_1_1ApplicationWindow_1a8ce6ee6143346b6eca7e73661ba38638">setBoard</link> (String jsonBoard)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classboard_1_1DefaultBoard">DefaultBoard</link> <link linkend="_classfrontend_1_1ApplicationWindow_1ae37772904c4a6417123e058d57ae5435">board</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Package Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classboard_1_1DefaultBoardBuilder">DefaultBoardBuilder</link> <link linkend="_classfrontend_1_1ApplicationWindow_1a52408dc2f7bb745ca2c0442e0d808909">builder</link></para>
+</listitem>
+            <listitem><para><link linkend="_classfrontend_1_1PlayerInfoPanel">PlayerInfoPanel</link> <link linkend="_classfrontend_1_1ApplicationWindow_1ad5f37cc8d0abc610ceea99568a393561">infoPanel</link></para>
+</listitem>
+            <listitem><para><link linkend="_enumboard_1_1PlayerColor">PlayerColor</link> <link linkend="_classfrontend_1_1ApplicationWindow_1a4b4922b82d6d5a91ee6cfd21eedf5c7b">playerColor</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Displays and stores information about board, which player are we, who is current player. Main app window. </para>
+<para>
+Definition at line 14 of file ApplicationWindow.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classfrontend_1_1ApplicationWindow_1aea76d894f40e84cc2357f413edfdf447"/>    <section>
+    <title>ApplicationWindow()</title>
+<indexterm><primary>ApplicationWindow</primary><secondary>frontend.ApplicationWindow</secondary></indexterm>
+<indexterm><primary>frontend.ApplicationWindow</primary><secondary>ApplicationWindow</secondary></indexterm>
+<para><computeroutput>frontend.ApplicationWindow.ApplicationWindow (<link linkend="_enumboard_1_1PlayerColor">PlayerColor</link> playerColor, int currentPlayerID, String JSONBoard)</computeroutput></para>
+<para>Basic Constructor</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>playerColor</entry>
+                                <entry>
+<para>the color of our fields </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>currentPlayerID</entry>
+                                <entry>
+<para>id of a current player </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>JSONBoard</entry>
+                                <entry>
+<para>json board received from server </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 29 of file ApplicationWindow.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classfrontend_1_1ApplicationWindow_aea76d894f40e84cc2357f413edfdf447_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classfrontend_1_1ApplicationWindow_1a53c66dc8d104d123b94facb67fa8c2c7"/>    <section>
+    <title>getBoard()</title>
+<indexterm><primary>getBoard</primary><secondary>frontend.ApplicationWindow</secondary></indexterm>
+<indexterm><primary>frontend.ApplicationWindow</primary><secondary>getBoard</secondary></indexterm>
+<para><computeroutput><link linkend="_classboard_1_1Board">Board</link> frontend.ApplicationWindow.getBoard ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>returns app board </para>
+</formalpara>
+</para>
+<para>
+Definition at line 79 of file ApplicationWindow.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classfrontend_1_1ApplicationWindow_a53c66dc8d104d123b94facb67fa8c2c7_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classfrontend_1_1ApplicationWindow_1a76b6b84520cfbff6392808a4f9f7ebab"/>    <section>
+    <title>ifYouCurrentPlayer()</title>
+<indexterm><primary>ifYouCurrentPlayer</primary><secondary>frontend.ApplicationWindow</secondary></indexterm>
+<indexterm><primary>frontend.ApplicationWindow</primary><secondary>ifYouCurrentPlayer</secondary></indexterm>
+<para><computeroutput>void frontend.ApplicationWindow.ifYouCurrentPlayer (int currPlayer)</computeroutput></para>
+<para>Gives us ability to make a move if we are the current player</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>currPlayer</entry>
+                                <entry>
+<para>id of a current player </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 68 of file ApplicationWindow.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classfrontend_1_1ApplicationWindow_a76b6b84520cfbff6392808a4f9f7ebab_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classfrontend_1_1ApplicationWindow_a76b6b84520cfbff6392808a4f9f7ebab_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classfrontend_1_1ApplicationWindow_1a8ce6ee6143346b6eca7e73661ba38638"/>    <section>
+    <title>setBoard()</title>
+<indexterm><primary>setBoard</primary><secondary>frontend.ApplicationWindow</secondary></indexterm>
+<indexterm><primary>frontend.ApplicationWindow</primary><secondary>setBoard</secondary></indexterm>
+<para><computeroutput>void frontend.ApplicationWindow.setBoard (String jsonBoard)</computeroutput></para>
+<para>Sets and refreshes player board based on information from the server</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>jsonBoard</entry>
+                                <entry>
+<para>json string with board from server </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 90 of file ApplicationWindow.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classfrontend_1_1ApplicationWindow_a8ce6ee6143346b6eca7e73661ba38638_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classfrontend_1_1ApplicationWindow_a8ce6ee6143346b6eca7e73661ba38638_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classfrontend_1_1ApplicationWindow_1a664ad50da7906d6c03c3fb3914a1de18"/>    <section>
+    <title>setCurrPlayer()</title>
+<indexterm><primary>setCurrPlayer</primary><secondary>frontend.ApplicationWindow</secondary></indexterm>
+<indexterm><primary>frontend.ApplicationWindow</primary><secondary>setCurrPlayer</secondary></indexterm>
+<para><computeroutput>void frontend.ApplicationWindow.setCurrPlayer (int currPlayerID)</computeroutput></para>
+<para>Changes data and displayed info about current player</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>currPlayerID</entry>
+                                <entry>
+<para>id of a current player </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 55 of file ApplicationWindow.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classfrontend_1_1ApplicationWindow_a664ad50da7906d6c03c3fb3914a1de18_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classfrontend_1_1ApplicationWindow_a664ad50da7906d6c03c3fb3914a1de18_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classfrontend_1_1ApplicationWindow_1ae37772904c4a6417123e058d57ae5435"/>    <section>
+    <title>board</title>
+<indexterm><primary>board</primary><secondary>frontend.ApplicationWindow</secondary></indexterm>
+<indexterm><primary>frontend.ApplicationWindow</primary><secondary>board</secondary></indexterm>
+<para><computeroutput><link linkend="_classboard_1_1DefaultBoard">DefaultBoard</link> frontend.ApplicationWindow.board</computeroutput></para><para>
+Definition at line 19 of file ApplicationWindow.java.</para>
+    </section><anchor xml:id="_classfrontend_1_1ApplicationWindow_1a52408dc2f7bb745ca2c0442e0d808909"/>    <section>
+    <title>builder</title>
+<indexterm><primary>builder</primary><secondary>frontend.ApplicationWindow</secondary></indexterm>
+<indexterm><primary>frontend.ApplicationWindow</primary><secondary>builder</secondary></indexterm>
+<para><computeroutput><link linkend="_classboard_1_1DefaultBoardBuilder">DefaultBoardBuilder</link> frontend.ApplicationWindow.builder<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file ApplicationWindow.java.</para>
+    </section><anchor xml:id="_classfrontend_1_1ApplicationWindow_1ad5f37cc8d0abc610ceea99568a393561"/>    <section>
+    <title>infoPanel</title>
+<indexterm><primary>infoPanel</primary><secondary>frontend.ApplicationWindow</secondary></indexterm>
+<indexterm><primary>frontend.ApplicationWindow</primary><secondary>infoPanel</secondary></indexterm>
+<para><computeroutput><link linkend="_classfrontend_1_1PlayerInfoPanel">PlayerInfoPanel</link> frontend.ApplicationWindow.infoPanel<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file ApplicationWindow.java.</para>
+    </section><anchor xml:id="_classfrontend_1_1ApplicationWindow_1a4b4922b82d6d5a91ee6cfd21eedf5c7b"/>    <section>
+    <title>playerColor</title>
+<indexterm><primary>playerColor</primary><secondary>frontend.ApplicationWindow</secondary></indexterm>
+<indexterm><primary>frontend.ApplicationWindow</primary><secondary>playerColor</secondary></indexterm>
+<para><computeroutput><link linkend="_enumboard_1_1PlayerColor">PlayerColor</link> frontend.ApplicationWindow.playerColor<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file ApplicationWindow.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaClient/src/main/java/frontend/<link linkend="_ApplicationWindow_8java">ApplicationWindow.java</link></section>
+</section>

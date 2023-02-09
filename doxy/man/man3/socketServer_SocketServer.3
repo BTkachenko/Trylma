@@ -1,0 +1,109 @@
+.TH "socketServer.SocketServer" 3 "Thu Jan 27 2022" "Trylma" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+socketServer.SocketServer
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSocketServer\fP (int \fBport\fP, int \fBnumberOfPlayers\fP, int \fBboardSize\fP)"
+.br
+.ti -1c
+.RI "void \fBlistenSocket\fP ()  throws IOException "
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static List< \fBPlayer\fP > \fBplayers\fP"
+.br
+.in -1c
+.SS "Package Attributes"
+
+.in +1c
+.ti -1c
+.RI "ServerSocket \fBserver\fP = null"
+.br
+.ti -1c
+.RI "\fBGame\fP \fBgame\fP"
+.br
+.ti -1c
+.RI "int \fBnumberOfPlayers\fP"
+.br
+.ti -1c
+.RI "int \fBboardSize\fP"
+.br
+.ti -1c
+.RI "int \fBport\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Defines a server's socket\&. Accepts players\&. 
+.PP
+Definition at line 16 of file SocketServer\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "socketServer\&.SocketServer\&.SocketServer (int port, int numberOfPlayers, int boardSize)"
+Basic constructor 
+.PP
+\fBParameters\fP
+.RS 4
+\fIport\fP server port 
+.br
+\fInumberOfPlayers\fP amount of players 
+.br
+\fIboardSize\fP size of game board 
+.RE
+.PP
+
+.PP
+Definition at line 32 of file SocketServer\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void socketServer\&.SocketServer\&.listenSocket () throws IOException"
+Waits for players to join the server When all joined, starts the game 
+.PP
+\fBExceptions\fP
+.RS 4
+\fIIOException\fP exception 
+.RE
+.PP
+
+.PP
+Definition at line 54 of file SocketServer\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "int socketServer\&.SocketServer\&.boardSize\fC [package]\fP"
+
+.PP
+Definition at line 21 of file SocketServer\&.java\&.
+.SS "\fBGame\fP socketServer\&.SocketServer\&.game\fC [package]\fP"
+
+.PP
+Definition at line 19 of file SocketServer\&.java\&.
+.SS "int socketServer\&.SocketServer\&.numberOfPlayers\fC [package]\fP"
+
+.PP
+Definition at line 20 of file SocketServer\&.java\&.
+.SS "List<\fBPlayer\fP> socketServer\&.SocketServer\&.players\fC [static]\fP"
+
+.PP
+Definition at line 17 of file SocketServer\&.java\&.
+.SS "int socketServer\&.SocketServer\&.port\fC [package]\fP"
+
+.PP
+Definition at line 22 of file SocketServer\&.java\&.
+.SS "ServerSocket socketServer\&.SocketServer\&.server = null\fC [package]\fP"
+
+.PP
+Definition at line 18 of file SocketServer\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Trylma from the source code\&.

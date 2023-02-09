@@ -1,0 +1,79 @@
+.TH "Board.BoardBuilder" 3 "Thu Jan 27 2022" "Trylma" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Board.BoardBuilder
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBBoard\&.DefaultBoardBuilder\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBinitializeBoardFields\fP (int[][] boardShape)"
+.br
+.ti -1c
+.RI "void \fBsetBoardFields\fP (String JSONBoard)  throws JSONException"
+.br
+.ti -1c
+.RI "void \fBassignFields\fP (int numberOfPlayers)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBBoard\fP Builder interface 
+.PP
+\fBSee also\fP
+.RS 4
+\fBDefaultBoardBuilder\fP 
+.RE
+.PP
+
+.PP
+Definition at line 10 of file BoardBuilder\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Board\&.BoardBuilder\&.assignFields (int numberOfPlayers)"
+Assigns board fields to players according to they number
+.PP
+\fBParameters\fP
+.RS 4
+\fInumberOfPlayers\fP number of players in the game 
+.RE
+.PP
+
+.PP
+Implemented in \fBBoard\&.DefaultBoardBuilder\fP\&.
+.SS "void Board\&.BoardBuilder\&.initializeBoardFields (int boardShape[][])"
+Initializes game board (its fields) based on given int[][] array
+.PP
+\fBParameters\fP
+.RS 4
+\fIboardShape\fP an array describing fields positions 
+.RE
+.PP
+
+.PP
+Implemented in \fBBoard\&.DefaultBoardBuilder\fP\&.
+.SS "void Board\&.BoardBuilder\&.setBoardFields (String JSONBoard) throws JSONException"
+builds a board based on String json
+.PP
+\fBParameters\fP
+.RS 4
+\fIJSONBoard\fP json that contains data about the board 
+.RE
+.PP
+\fBExceptions\fP
+.RS 4
+\fIJSONException\fP exception when parsing json 
+.RE
+.PP
+
+.PP
+Implemented in \fBBoard\&.DefaultBoardBuilder\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Trylma from the source code\&.

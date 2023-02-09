@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classsocketClient_1_1SocketClient" kind="class" language="Java" prot="public">
+    <compoundname>socketClient::SocketClient</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsocketClient_1_1SocketClient_1ad7b1337402d71072017839c6421cde14" prot="private" static="no" mutable="no">
+        <type><ref refid="enumboard_1_1PlayerColor" kindref="compound">PlayerColor</ref></type>
+        <definition>PlayerColor socketClient.SocketClient.playerColor</definition>
+        <argsstring></argsstring>
+        <name>playerColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/socketClient/SocketClient.java" line="20" column="25" bodyfile="TrylmaClient/src/main/java/socketClient/SocketClient.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classsocketClient_1_1SocketClient_1a64e02aa77165bfb17581fb4d03c4e925" compoundref="SocketClient_8java" startline="109" endline="111">socketClient.SocketClient.getPlayerColor</referencedby>
+        <referencedby refid="classsocketClient_1_1SocketClient_1a02c5e0a84a2cdc5706e0df95b0955e19" compoundref="SocketClient_8java" startline="43" endline="54">socketClient.SocketClient.listenSocket</referencedby>
+        <referencedby refid="classsocketClient_1_1SocketClient_1ac3dab221a42a4bc20a92b237b10e74d1" compoundref="SocketClient_8java" startline="120" endline="122">socketClient.SocketClient.setPlayerColor</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsocketClient_1_1SocketClient_1abc6483875dba964fec74e8629bc86873" prot="public" static="no" mutable="no">
+        <type>PrintWriter</type>
+        <definition>PrintWriter socketClient.SocketClient.out</definition>
+        <argsstring></argsstring>
+        <name>out</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/socketClient/SocketClient.java" line="21" column="24" bodyfile="TrylmaClient/src/main/java/socketClient/SocketClient.java" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classboard_1_1DefaultBoard_1ad40b5c50f2a3b794d25e07fdb7ab9fe3" compoundref="TrylmaClient_2src_2main_2java_2board_2DefaultBoard_8java" startline="24" endline="67">board.DefaultBoard.DefaultBoard</referencedby>
+        <referencedby refid="classsocketClient_1_1SocketClient_1ab72849b2a72fc1f0082541466525f8b8" compoundref="SocketClient_8java" startline="90" endline="103">socketClient.SocketClient.setUp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketClient_1_1SocketClient_1a6ef963f2c73516e8993d3289934c12c2" prot="public" static="no" mutable="no">
+        <type>Scanner</type>
+        <definition>Scanner socketClient.SocketClient.scanner</definition>
+        <argsstring></argsstring>
+        <name>scanner</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/socketClient/SocketClient.java" line="22" column="20" bodyfile="TrylmaClient/src/main/java/socketClient/SocketClient.java" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classsocketClient_1_1SocketClient_1a02c5e0a84a2cdc5706e0df95b0955e19" compoundref="SocketClient_8java" startline="43" endline="54">socketClient.SocketClient.listenSocket</referencedby>
+        <referencedby refid="classsocketClient_1_1SocketClient_1a150101982a9b659688980044854ec70f" compoundref="SocketClient_8java" startline="61" endline="84">socketClient.SocketClient.play</referencedby>
+        <referencedby refid="classsocketClient_1_1SocketClient_1ab72849b2a72fc1f0082541466525f8b8" compoundref="SocketClient_8java" startline="90" endline="103">socketClient.SocketClient.setUp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketClient_1_1SocketClient_1ab1465257fcdfd2a317b266835c058944" prot="public" static="no" mutable="no">
+        <type>DataInputStream</type>
+        <definition>DataInputStream socketClient.SocketClient.input</definition>
+        <argsstring></argsstring>
+        <name>input</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/socketClient/SocketClient.java" line="23" column="28" bodyfile="TrylmaClient/src/main/java/socketClient/SocketClient.java" bodystart="23" bodyend="-1"/>
+        <referencedby refid="classsocketClient_1_1SocketClient_1ab72849b2a72fc1f0082541466525f8b8" compoundref="SocketClient_8java" startline="90" endline="103">socketClient.SocketClient.setUp</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classsocketClient_1_1SocketClient_1abee91a98ba6e90380729a441ba858e12" prot="package" static="no" mutable="no">
+        <type><ref refid="classfrontend_1_1ApplicationWindow" kindref="compound">ApplicationWindow</ref></type>
+        <definition>ApplicationWindow socketClient.SocketClient.appWindow</definition>
+        <argsstring></argsstring>
+        <name>appWindow</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/socketClient/SocketClient.java" line="24" column="23" bodyfile="TrylmaClient/src/main/java/socketClient/SocketClient.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketClient_1_1SocketClient_1a5042dab560247979acb36ce13d1bd2aa" prot="package" static="no" mutable="no">
+        <type>Socket</type>
+        <definition>Socket socketClient.SocketClient.socket</definition>
+        <argsstring></argsstring>
+        <name>socket</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/socketClient/SocketClient.java" line="25" column="12" bodyfile="TrylmaClient/src/main/java/socketClient/SocketClient.java" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classsocketClient_1_1SocketClient_1ab72849b2a72fc1f0082541466525f8b8" compoundref="SocketClient_8java" startline="90" endline="103">socketClient.SocketClient.setUp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketClient_1_1SocketClient_1ac8ffc981a583f4c48ef0015e63208b2a" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int socketClient.SocketClient.port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/socketClient/SocketClient.java" line="26" column="9" bodyfile="TrylmaClient/src/main/java/socketClient/SocketClient.java" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classsocketClient_1_1SocketClient_1ab72849b2a72fc1f0082541466525f8b8" compoundref="SocketClient_8java" startline="90" endline="103">socketClient.SocketClient.setUp</referencedby>
+        <referencedby refid="classsocketClient_1_1SocketClient_1ac1d236d205b16105258e4eb369df23a0" compoundref="SocketClient_8java" startline="32" endline="36">socketClient.SocketClient.SocketClient</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsocketClient_1_1SocketClient_1ac1d236d205b16105258e4eb369df23a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>socketClient.SocketClient.SocketClient</definition>
+        <argsstring>(int port)</argsstring>
+        <name>SocketClient</name>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Basic constructor. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/socketClient/SocketClient.java" line="32" column="12" bodyfile="TrylmaClient/src/main/java/socketClient/SocketClient.java" bodystart="32" bodyend="36"/>
+        <references refid="classsocketClient_1_1SocketClient_1ac8ffc981a583f4c48ef0015e63208b2a" compoundref="SocketClient_8java" startline="26">socketClient.SocketClient.port</references>
+        <references refid="classsocketClient_1_1SocketClient_1ab72849b2a72fc1f0082541466525f8b8" compoundref="SocketClient_8java" startline="90" endline="103">socketClient.SocketClient.setUp</references>
+      </memberdef>
+      <memberdef kind="function" id="classsocketClient_1_1SocketClient_1a02c5e0a84a2cdc5706e0df95b0955e19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void socketClient.SocketClient.listenSocket</definition>
+        <argsstring>()</argsstring>
+        <name>listenSocket</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Connects to the socket, receives data, that is needed to start the game, from the server. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/socketClient/SocketClient.java" line="43" column="17" bodyfile="TrylmaClient/src/main/java/socketClient/SocketClient.java" bodystart="43" bodyend="54"/>
+        <references refid="classfrontend_1_1ApplicationWindow_1a53c66dc8d104d123b94facb67fa8c2c7" compoundref="ApplicationWindow_8java" startline="79" endline="81">frontend.ApplicationWindow.getBoard</references>
+        <references refid="classsocketClient_1_1SocketClient_1ad7b1337402d71072017839c6421cde14" compoundref="SocketClient_8java" startline="20">socketClient.SocketClient.playerColor</references>
+        <references refid="classsocketClient_1_1SocketClient_1a6ef963f2c73516e8993d3289934c12c2" compoundref="SocketClient_8java" startline="22">socketClient.SocketClient.scanner</references>
+        <references refid="classboard_1_1Board_1aacd25e8a05541132647307c39fad5724" compoundref="TrylmaClient_2src_2main_2java_2board_2Board_8java" startline="37" endline="39">board.Board.setPlayer</references>
+        <references refid="classsocketClient_1_1SocketClient_1ac3dab221a42a4bc20a92b237b10e74d1" compoundref="SocketClient_8java" startline="120" endline="122">socketClient.SocketClient.setPlayerColor</references>
+        <referencedby refid="classsocketClient_1_1TrylmaClient_1a2d705cfc4f8dd80c0156c603feb0d8e7" compoundref="TrylmaClient_8java" startline="17" endline="35">socketClient.TrylmaClient.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsocketClient_1_1SocketClient_1a150101982a9b659688980044854ec70f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void socketClient.SocketClient.play</definition>
+        <argsstring>()</argsstring>
+        <name>play</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Takes suitable actions according to data received from the server </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/socketClient/SocketClient.java" line="61" column="17" bodyfile="TrylmaClient/src/main/java/socketClient/SocketClient.java" bodystart="61" bodyend="84"/>
+        <references refid="classfrontend_1_1ApplicationWindow_1a53c66dc8d104d123b94facb67fa8c2c7" compoundref="ApplicationWindow_8java" startline="79" endline="81">frontend.ApplicationWindow.getBoard</references>
+        <references refid="classsocketClient_1_1SocketClient_1a6ef963f2c73516e8993d3289934c12c2" compoundref="SocketClient_8java" startline="22">socketClient.SocketClient.scanner</references>
+        <references refid="classfrontend_1_1ApplicationWindow_1a8ce6ee6143346b6eca7e73661ba38638" compoundref="ApplicationWindow_8java" startline="90" endline="97">frontend.ApplicationWindow.setBoard</references>
+        <references refid="classfrontend_1_1ApplicationWindow_1a664ad50da7906d6c03c3fb3914a1de18" compoundref="ApplicationWindow_8java" startline="55" endline="59">frontend.ApplicationWindow.setCurrPlayer</references>
+        <referencedby refid="classsocketClient_1_1TrylmaClient_1a2d705cfc4f8dd80c0156c603feb0d8e7" compoundref="TrylmaClient_8java" startline="17" endline="35">socketClient.TrylmaClient.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsocketClient_1_1SocketClient_1ab72849b2a72fc1f0082541466525f8b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void socketClient.SocketClient.setUp</definition>
+        <argsstring>()</argsstring>
+        <name>setUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets up all necessary tools </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/socketClient/SocketClient.java" line="90" column="17" bodyfile="TrylmaClient/src/main/java/socketClient/SocketClient.java" bodystart="90" bodyend="103"/>
+        <references refid="classsocketClient_1_1SocketClient_1ab1465257fcdfd2a317b266835c058944" compoundref="SocketClient_8java" startline="23">socketClient.SocketClient.input</references>
+        <references refid="classsocketClient_1_1SocketClient_1abc6483875dba964fec74e8629bc86873" compoundref="SocketClient_8java" startline="21">socketClient.SocketClient.out</references>
+        <references refid="classsocketClient_1_1SocketClient_1ac8ffc981a583f4c48ef0015e63208b2a" compoundref="SocketClient_8java" startline="26">socketClient.SocketClient.port</references>
+        <references refid="classsocketClient_1_1SocketClient_1a6ef963f2c73516e8993d3289934c12c2" compoundref="SocketClient_8java" startline="22">socketClient.SocketClient.scanner</references>
+        <references refid="classsocketClient_1_1SocketClient_1a5042dab560247979acb36ce13d1bd2aa" compoundref="SocketClient_8java" startline="25">socketClient.SocketClient.socket</references>
+        <referencedby refid="classsocketClient_1_1SocketClient_1ac1d236d205b16105258e4eb369df23a0" compoundref="SocketClient_8java" startline="32" endline="36">socketClient.SocketClient.SocketClient</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsocketClient_1_1SocketClient_1a64e02aa77165bfb17581fb4d03c4e925" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enumboard_1_1PlayerColor" kindref="compound">PlayerColor</ref></type>
+        <definition>PlayerColor socketClient.SocketClient.getPlayerColor</definition>
+        <argsstring>()</argsstring>
+        <name>getPlayerColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns our color </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/socketClient/SocketClient.java" line="109" column="24" bodyfile="TrylmaClient/src/main/java/socketClient/SocketClient.java" bodystart="109" bodyend="111"/>
+        <references refid="classsocketClient_1_1SocketClient_1ad7b1337402d71072017839c6421cde14" compoundref="SocketClient_8java" startline="20">socketClient.SocketClient.playerColor</references>
+        <referencedby refid="classboard_1_1DefaultBoard_1ad40b5c50f2a3b794d25e07fdb7ab9fe3" compoundref="TrylmaClient_2src_2main_2java_2board_2DefaultBoard_8java" startline="24" endline="67">board.DefaultBoard.DefaultBoard</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classsocketClient_1_1SocketClient_1ac3dab221a42a4bc20a92b237b10e74d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void socketClient.SocketClient.setPlayerColor</definition>
+        <argsstring>(int playerColor)</argsstring>
+        <name>setPlayerColor</name>
+        <param>
+          <type>int</type>
+          <declname>playerColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets our color based on data received from the server</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>playerColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of our color </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/socketClient/SocketClient.java" line="120" column="17" bodyfile="TrylmaClient/src/main/java/socketClient/SocketClient.java" bodystart="120" bodyend="122"/>
+        <references refid="enumboard_1_1PlayerColor_1ae75e3c064697bda71a5266d510f9f4bf" compoundref="TrylmaClient_2src_2main_2java_2board_2PlayerColor_8java" startline="33" endline="50">board.PlayerColor.fromInteger</references>
+        <references refid="classsocketClient_1_1SocketClient_1ad7b1337402d71072017839c6421cde14" compoundref="SocketClient_8java" startline="20">socketClient.SocketClient.playerColor</references>
+        <referencedby refid="classsocketClient_1_1SocketClient_1a02c5e0a84a2cdc5706e0df95b0955e19" compoundref="SocketClient_8java" startline="43" endline="54">socketClient.SocketClient.listenSocket</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Socket class that is responsible for communication with the server </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="13">
+        <label>JPanel</label>
+      </node>
+      <node id="5">
+        <label>PrintWriter</label>
+      </node>
+      <node id="7">
+        <label>frontend.ApplicationWindow</label>
+        <link refid="classfrontend_1_1ApplicationWindow"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>~builder</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+board</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>~playerColor</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>~infoPanel</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Scanner</label>
+      </node>
+      <node id="11">
+        <label>board.DefaultBoard</label>
+        <link refid="classboard_1_1DefaultBoard"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>board.BoardBuilder</label>
+        <link refid="interfaceboard_1_1BoardBuilder"/>
+      </node>
+      <node id="8">
+        <label>JFrame</label>
+      </node>
+      <node id="15">
+        <label>frontend.PlayerInfoPanel</label>
+        <link refid="classfrontend_1_1PlayerInfoPanel"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>board.DefaultBoardBuilder</label>
+        <link refid="classboard_1_1DefaultBoardBuilder"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>~board</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>ArrayList&lt; board.BoardField &gt;</label>
+      </node>
+      <node id="6">
+        <label>board.PlayerColor</label>
+        <link refid="enumboard_1_1PlayerColor"/>
+      </node>
+      <node id="1">
+        <label>socketClient.SocketClient</label>
+        <link refid="classsocketClient_1_1SocketClient"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+scanner</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+input</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>~socket</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+out</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>-playerColor</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>~appWindow</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>board.Board</label>
+        <link refid="classboard_1_1Board"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>-player</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Socket</label>
+      </node>
+      <node id="3">
+        <label>DataInputStream</label>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaClient/src/main/java/socketClient/SocketClient.java" line="19" column="7" bodyfile="TrylmaClient/src/main/java/socketClient/SocketClient.java" bodystart="19" bodyend="123"/>
+    <listofallmembers>
+      <member refid="classsocketClient_1_1SocketClient_1abee91a98ba6e90380729a441ba858e12" prot="package" virt="non-virtual"><scope>socketClient::SocketClient</scope><name>appWindow</name></member>
+      <member refid="classsocketClient_1_1SocketClient_1a64e02aa77165bfb17581fb4d03c4e925" prot="public" virt="non-virtual"><scope>socketClient::SocketClient</scope><name>getPlayerColor</name></member>
+      <member refid="classsocketClient_1_1SocketClient_1ab1465257fcdfd2a317b266835c058944" prot="public" virt="non-virtual"><scope>socketClient::SocketClient</scope><name>input</name></member>
+      <member refid="classsocketClient_1_1SocketClient_1a02c5e0a84a2cdc5706e0df95b0955e19" prot="public" virt="non-virtual"><scope>socketClient::SocketClient</scope><name>listenSocket</name></member>
+      <member refid="classsocketClient_1_1SocketClient_1abc6483875dba964fec74e8629bc86873" prot="public" virt="non-virtual"><scope>socketClient::SocketClient</scope><name>out</name></member>
+      <member refid="classsocketClient_1_1SocketClient_1a150101982a9b659688980044854ec70f" prot="public" virt="non-virtual"><scope>socketClient::SocketClient</scope><name>play</name></member>
+      <member refid="classsocketClient_1_1SocketClient_1ad7b1337402d71072017839c6421cde14" prot="private" virt="non-virtual"><scope>socketClient::SocketClient</scope><name>playerColor</name></member>
+      <member refid="classsocketClient_1_1SocketClient_1ac8ffc981a583f4c48ef0015e63208b2a" prot="package" virt="non-virtual"><scope>socketClient::SocketClient</scope><name>port</name></member>
+      <member refid="classsocketClient_1_1SocketClient_1a6ef963f2c73516e8993d3289934c12c2" prot="public" virt="non-virtual"><scope>socketClient::SocketClient</scope><name>scanner</name></member>
+      <member refid="classsocketClient_1_1SocketClient_1ac3dab221a42a4bc20a92b237b10e74d1" prot="public" virt="non-virtual"><scope>socketClient::SocketClient</scope><name>setPlayerColor</name></member>
+      <member refid="classsocketClient_1_1SocketClient_1ab72849b2a72fc1f0082541466525f8b8" prot="public" virt="non-virtual"><scope>socketClient::SocketClient</scope><name>setUp</name></member>
+      <member refid="classsocketClient_1_1SocketClient_1a5042dab560247979acb36ce13d1bd2aa" prot="package" virt="non-virtual"><scope>socketClient::SocketClient</scope><name>socket</name></member>
+      <member refid="classsocketClient_1_1SocketClient_1ac1d236d205b16105258e4eb369df23a0" prot="public" virt="non-virtual"><scope>socketClient::SocketClient</scope><name>SocketClient</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

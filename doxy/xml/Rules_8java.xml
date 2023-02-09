@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="Rules_8java" kind="file" language="Java">
+    <compoundname>Rules.java</compoundname>
+    <innerclass refid="interfaceGame_1_1Rules" prot="public">Game::Rules</innerclass>
+    <innernamespace refid="namespaceGame">Game</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Game;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespaceBoard" kindref="compound">Board</ref>.*;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="interfaceGame_1_1Rules" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfaceGame_1_1Rules" kindref="compound">Rules</ref><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="interfaceGame_1_1Rules_1ada70dae02515a3905cb5651d2ef3236f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="interfaceGame_1_1Rules_1ada70dae02515a3905cb5651d2ef3236f" kindref="member">isWinner</ref>(<ref refid="namespaceGame" kindref="compound">Game</ref><sp/>game,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>playerID);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="interfaceGame_1_1Rules_1adfee9cf337908d6aa926e70a089c5041" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="interfaceGame_1_1Rules_1adfee9cf337908d6aa926e70a089c5041" kindref="member">moveIsCorrect</ref>(<ref refid="namespaceBoard" kindref="compound">Board</ref><sp/><ref refid="namespaceboard" kindref="compound">board</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>endMoveField);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="interfaceGame_1_1Rules_1a1c2f44b6942e772b25cf0b39113b8751" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfaceGame_1_1Rules_1a1c2f44b6942e772b25cf0b39113b8751" kindref="member">setAvailableFields</ref>(<ref refid="namespaceBoard" kindref="compound">Board</ref><sp/><ref refid="namespaceboard" kindref="compound">board</ref>,<sp/><ref refid="classBoard_1_1BoardField" kindref="compound">BoardField</ref><sp/>startField,<sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/>isFirstCheck);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="TrylmaServer/src/main/java/Game/Rules.java"/>
+  </compounddef>
+</doxygen>

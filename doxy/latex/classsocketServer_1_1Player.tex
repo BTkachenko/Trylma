@@ -1,0 +1,280 @@
+\hypertarget{classsocketServer_1_1Player}{}\doxysection{socket\+Server.\+Player Class Reference}
+\label{classsocketServer_1_1Player}\index{socketServer.Player@{socketServer.Player}}
+
+
+Inheritance diagram for socket\+Server.\+Player\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{classsocketServer_1_1Player__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for socket\+Server.\+Player\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classsocketServer_1_1Player__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classsocketServer_1_1Player_ab4e6d3bb1524a1e397d4ac36cb1096d2}{Player}} (Socket \mbox{\hyperlink{classsocketServer_1_1Player_a3c939ab07c19c2c6b9e30027bdacaa92}{socket}}, int \mbox{\hyperlink{classsocketServer_1_1Player_a4d28dd8f883034a890b0fc9ad479e588}{player\+Id}})
+\item 
+void \mbox{\hyperlink{classsocketServer_1_1Player_af55e634d1cd1f215c7cf73024e06b2aa}{run}} ()
+\item 
+void \mbox{\hyperlink{classsocketServer_1_1Player_a2014b638ed67ee82d696a4ff713fdfd3}{set\+Game}} (\mbox{\hyperlink{classGame_1_1Game}{Game}} \mbox{\hyperlink{classsocketServer_1_1Player_aca3eee0ab1c5f44477f1f2a9dbb375ae}{game}})
+\item 
+int \mbox{\hyperlink{classsocketServer_1_1Player_adaef45e9396f4b51bc6b63322c366df2}{get\+Player\+Id}} ()
+\item 
+void \mbox{\hyperlink{classsocketServer_1_1Player_aa90b2a4174fe43cbf80a1651f66d3369}{send\+Message}} (String message)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Print\+Writer \mbox{\hyperlink{classsocketServer_1_1Player_a111a98101b888120fbfdb2f37228f9c7}{output}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGame_1_1Game}{Game}} \mbox{\hyperlink{classsocketServer_1_1Player_aca3eee0ab1c5f44477f1f2a9dbb375ae}{game}}
+\item 
+Socket \mbox{\hyperlink{classsocketServer_1_1Player_a3c939ab07c19c2c6b9e30027bdacaa92}{socket}}
+\item 
+Scanner \mbox{\hyperlink{classsocketServer_1_1Player_af988e56551784b4d6b7da8f5893a1df8}{input}}
+\item 
+Data\+Output\+Stream \mbox{\hyperlink{classsocketServer_1_1Player_a673578fbd6944e55041695ab6f3f1ce5}{output\+Stream}}
+\item 
+int \mbox{\hyperlink{classsocketServer_1_1Player_a4d28dd8f883034a890b0fc9ad479e588}{player\+Id}}
+\item 
+int \mbox{\hyperlink{classsocketServer_1_1Player_a123bf9eb1ec576516b41b3a2c39ed3ec}{start\+Move\+Field}}
+\item 
+int \mbox{\hyperlink{classsocketServer_1_1Player_a66437da23e442513334c8b8d4840b334}{end\+Move\+Field}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classsocketServer_1_1Player_ab5b86acca33e0b32e62a9be6148fbffc}{setup}} ()  throws IOException 
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classsocketServer_1_1Player}{Player}} is associated to a client. It sends and receives information from client and performs suitable actions on server 
+
+Definition at line 17 of file Player.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classsocketServer_1_1Player_ab4e6d3bb1524a1e397d4ac36cb1096d2}\label{classsocketServer_1_1Player_ab4e6d3bb1524a1e397d4ac36cb1096d2}} 
+\index{socketServer.Player@{socketServer.Player}!Player@{Player}}
+\index{Player@{Player}!socketServer.Player@{socketServer.Player}}
+\doxysubsubsection{\texorpdfstring{Player()}{Player()}}
+{\footnotesize\ttfamily socket\+Server.\+Player.\+Player (\begin{DoxyParamCaption}\item[{Socket}]{socket,  }\item[{int}]{player\+Id }\end{DoxyParamCaption})}
+
+Basic constructor 
+\begin{DoxyParams}{Parameters}
+{\em socket} & server socket \\
+\hline
+{\em player\+Id} & this player id \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 33 of file Player.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classsocketServer_1_1Player_ab4e6d3bb1524a1e397d4ac36cb1096d2_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classsocketServer_1_1Player_adaef45e9396f4b51bc6b63322c366df2}\label{classsocketServer_1_1Player_adaef45e9396f4b51bc6b63322c366df2}} 
+\index{socketServer.Player@{socketServer.Player}!getPlayerId@{getPlayerId}}
+\index{getPlayerId@{getPlayerId}!socketServer.Player@{socketServer.Player}}
+\doxysubsubsection{\texorpdfstring{getPlayerId()}{getPlayerId()}}
+{\footnotesize\ttfamily int socket\+Server.\+Player.\+get\+Player\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+returns this player ID 
+\end{DoxyReturn}
+
+
+Definition at line 102 of file Player.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classsocketServer_1_1Player_adaef45e9396f4b51bc6b63322c366df2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classsocketServer_1_1Player_af55e634d1cd1f215c7cf73024e06b2aa}\label{classsocketServer_1_1Player_af55e634d1cd1f215c7cf73024e06b2aa}} 
+\index{socketServer.Player@{socketServer.Player}!run@{run}}
+\index{run@{run}!socketServer.Player@{socketServer.Player}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void socket\+Server.\+Player.\+run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Takes suitable actions according to data received from the client 
+
+Definition at line 50 of file Player.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classsocketServer_1_1Player_af55e634d1cd1f215c7cf73024e06b2aa_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classsocketServer_1_1Player_aa90b2a4174fe43cbf80a1651f66d3369}\label{classsocketServer_1_1Player_aa90b2a4174fe43cbf80a1651f66d3369}} 
+\index{socketServer.Player@{socketServer.Player}!sendMessage@{sendMessage}}
+\index{sendMessage@{sendMessage}!socketServer.Player@{socketServer.Player}}
+\doxysubsubsection{\texorpdfstring{sendMessage()}{sendMessage()}}
+{\footnotesize\ttfamily void socket\+Server.\+Player.\+send\+Message (\begin{DoxyParamCaption}\item[{String}]{message }\end{DoxyParamCaption})}
+
+Sends given message to the player 
+\begin{DoxyParams}{Parameters}
+{\em message} & given message \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 111 of file Player.\+java.
+
+\mbox{\Hypertarget{classsocketServer_1_1Player_a2014b638ed67ee82d696a4ff713fdfd3}\label{classsocketServer_1_1Player_a2014b638ed67ee82d696a4ff713fdfd3}} 
+\index{socketServer.Player@{socketServer.Player}!setGame@{setGame}}
+\index{setGame@{setGame}!socketServer.Player@{socketServer.Player}}
+\doxysubsubsection{\texorpdfstring{setGame()}{setGame()}}
+{\footnotesize\ttfamily void socket\+Server.\+Player.\+set\+Game (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGame_1_1Game}{Game}}}]{game }\end{DoxyParamCaption})}
+
+Assigns game to the player. 
+\begin{DoxyParams}{Parameters}
+{\em game} & the game assigned to this player \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 94 of file Player.\+java.
+
+\mbox{\Hypertarget{classsocketServer_1_1Player_ab5b86acca33e0b32e62a9be6148fbffc}\label{classsocketServer_1_1Player_ab5b86acca33e0b32e62a9be6148fbffc}} 
+\index{socketServer.Player@{socketServer.Player}!setup@{setup}}
+\index{setup@{setup}!socketServer.Player@{socketServer.Player}}
+\doxysubsubsection{\texorpdfstring{setup()}{setup()}}
+{\footnotesize\ttfamily void socket\+Server.\+Player.\+setup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [private]}}
+
+Sets up all necessary tools 
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & exception \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 83 of file Player.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classsocketServer_1_1Player_ab5b86acca33e0b32e62a9be6148fbffc_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classsocketServer_1_1Player_a66437da23e442513334c8b8d4840b334}\label{classsocketServer_1_1Player_a66437da23e442513334c8b8d4840b334}} 
+\index{socketServer.Player@{socketServer.Player}!endMoveField@{endMoveField}}
+\index{endMoveField@{endMoveField}!socketServer.Player@{socketServer.Player}}
+\doxysubsubsection{\texorpdfstring{endMoveField}{endMoveField}}
+{\footnotesize\ttfamily int socket\+Server.\+Player.\+end\+Move\+Field\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line 25 of file Player.\+java.
+
+\mbox{\Hypertarget{classsocketServer_1_1Player_aca3eee0ab1c5f44477f1f2a9dbb375ae}\label{classsocketServer_1_1Player_aca3eee0ab1c5f44477f1f2a9dbb375ae}} 
+\index{socketServer.Player@{socketServer.Player}!game@{game}}
+\index{game@{game}!socketServer.Player@{socketServer.Player}}
+\doxysubsubsection{\texorpdfstring{game}{game}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGame_1_1Game}{Game}} socket\+Server.\+Player.\+game\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line 18 of file Player.\+java.
+
+\mbox{\Hypertarget{classsocketServer_1_1Player_af988e56551784b4d6b7da8f5893a1df8}\label{classsocketServer_1_1Player_af988e56551784b4d6b7da8f5893a1df8}} 
+\index{socketServer.Player@{socketServer.Player}!input@{input}}
+\index{input@{input}!socketServer.Player@{socketServer.Player}}
+\doxysubsubsection{\texorpdfstring{input}{input}}
+{\footnotesize\ttfamily Scanner socket\+Server.\+Player.\+input\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line 20 of file Player.\+java.
+
+\mbox{\Hypertarget{classsocketServer_1_1Player_a111a98101b888120fbfdb2f37228f9c7}\label{classsocketServer_1_1Player_a111a98101b888120fbfdb2f37228f9c7}} 
+\index{socketServer.Player@{socketServer.Player}!output@{output}}
+\index{output@{output}!socketServer.Player@{socketServer.Player}}
+\doxysubsubsection{\texorpdfstring{output}{output}}
+{\footnotesize\ttfamily Print\+Writer socket\+Server.\+Player.\+output}
+
+
+
+Definition at line 22 of file Player.\+java.
+
+\mbox{\Hypertarget{classsocketServer_1_1Player_a673578fbd6944e55041695ab6f3f1ce5}\label{classsocketServer_1_1Player_a673578fbd6944e55041695ab6f3f1ce5}} 
+\index{socketServer.Player@{socketServer.Player}!outputStream@{outputStream}}
+\index{outputStream@{outputStream}!socketServer.Player@{socketServer.Player}}
+\doxysubsubsection{\texorpdfstring{outputStream}{outputStream}}
+{\footnotesize\ttfamily Data\+Output\+Stream socket\+Server.\+Player.\+output\+Stream\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line 21 of file Player.\+java.
+
+\mbox{\Hypertarget{classsocketServer_1_1Player_a4d28dd8f883034a890b0fc9ad479e588}\label{classsocketServer_1_1Player_a4d28dd8f883034a890b0fc9ad479e588}} 
+\index{socketServer.Player@{socketServer.Player}!playerId@{playerId}}
+\index{playerId@{playerId}!socketServer.Player@{socketServer.Player}}
+\doxysubsubsection{\texorpdfstring{playerId}{playerId}}
+{\footnotesize\ttfamily int socket\+Server.\+Player.\+player\+Id\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line 23 of file Player.\+java.
+
+\mbox{\Hypertarget{classsocketServer_1_1Player_a3c939ab07c19c2c6b9e30027bdacaa92}\label{classsocketServer_1_1Player_a3c939ab07c19c2c6b9e30027bdacaa92}} 
+\index{socketServer.Player@{socketServer.Player}!socket@{socket}}
+\index{socket@{socket}!socketServer.Player@{socketServer.Player}}
+\doxysubsubsection{\texorpdfstring{socket}{socket}}
+{\footnotesize\ttfamily Socket socket\+Server.\+Player.\+socket\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line 19 of file Player.\+java.
+
+\mbox{\Hypertarget{classsocketServer_1_1Player_a123bf9eb1ec576516b41b3a2c39ed3ec}\label{classsocketServer_1_1Player_a123bf9eb1ec576516b41b3a2c39ed3ec}} 
+\index{socketServer.Player@{socketServer.Player}!startMoveField@{startMoveField}}
+\index{startMoveField@{startMoveField}!socketServer.Player@{socketServer.Player}}
+\doxysubsubsection{\texorpdfstring{startMoveField}{startMoveField}}
+{\footnotesize\ttfamily int socket\+Server.\+Player.\+start\+Move\+Field\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line 24 of file Player.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Trylma\+Server/src/main/java/socket\+Server/\mbox{\hyperlink{Player_8java}{Player.\+java}}\end{DoxyCompactItemize}

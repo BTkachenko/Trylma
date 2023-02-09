@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classBoard_1_1BoardField" xml:lang="en-US">
+<title>Board.BoardField Class Reference</title>
+<indexterm><primary>Board.BoardField</primary></indexterm>
+Collaboration diagram for Board.BoardField:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1BoardField__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classBoard_1_1BoardField_1ae3a55dc93c5c6fb388cbee46cebd4551">BoardField</link> (int <link linkend="_classBoard_1_1BoardField_1ad9b9e52342f0192a3d56ab63cb7d149a">row</link>, int <link linkend="_classBoard_1_1BoardField_1ab219606a9fcd42e4f00e2711f78f99e9">column</link>, double <link linkend="_classBoard_1_1BoardField_1a2c70faa4920e2d3ee12906a52fcbd0ba">xPosition</link>, double <link linkend="_classBoard_1_1BoardField_1aaebb8f67eb5f41ef8b4810081a0272d5">yPosition</link>, int playerColorID, int statusColorID)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classBoard_1_1BoardField_1aaaa65e9f7b85480bd0f838224c4c60c2">getRow</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classBoard_1_1BoardField_1a41df0e6df452112593a7318e7d52f567">setRow</link> (int <link linkend="_classBoard_1_1BoardField_1ad9b9e52342f0192a3d56ab63cb7d149a">row</link>)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classBoard_1_1BoardField_1a88c6a9aa9373a12036a0abbd1a82ba54">getColumn</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classBoard_1_1BoardField_1abe3af2fdb20361b29ee50703281a3daa">setColumn</link> (int <link linkend="_classBoard_1_1BoardField_1ab219606a9fcd42e4f00e2711f78f99e9">column</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_enumBoard_1_1PlayerColor">PlayerColor</link> <link linkend="_classBoard_1_1BoardField_1a2ac8140fa52b0a3dde51f687be216eee">getPlayerColor</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classBoard_1_1BoardField_1ad9068a400cf1ef191f50b4762d23a86d">setPlayerColor</link> (<link linkend="_enumBoard_1_1PlayerColor">PlayerColor</link> <link linkend="_classBoard_1_1BoardField_1a3a49193fdf3196afb96ff9657bac622f">playerColor</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_enumBoard_1_1StatusColor">StatusColor</link> <link linkend="_classBoard_1_1BoardField_1abb3ff54f22a70f86ccba76cc0550a66f">getStatusColor</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classBoard_1_1BoardField_1a01be54fb150ac721ede16a559a853506">setStatusColor</link> (<link linkend="_enumBoard_1_1StatusColor">StatusColor</link> <link linkend="_classBoard_1_1BoardField_1a50c42f4a616a0280b109985f087e6ead">statusColor</link>)</para>
+</listitem>
+            <listitem><para>double <link linkend="_classBoard_1_1BoardField_1a63cce4a999a6732b19ca6e57468482a7">getXPosition</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classBoard_1_1BoardField_1abca2dd63d11cf5c2c38dc3c438a547d1">setXPosition</link> (double <link linkend="_classBoard_1_1BoardField_1a2c70faa4920e2d3ee12906a52fcbd0ba">xPosition</link>)</para>
+</listitem>
+            <listitem><para>double <link linkend="_classBoard_1_1BoardField_1a25182ff0063167bc18733e2121fea3ee">getYPosition</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classBoard_1_1BoardField_1a6a370f1de8b048a6fa67a8861c19f8ef">setYPosition</link> (double <link linkend="_classBoard_1_1BoardField_1aaebb8f67eb5f41ef8b4810081a0272d5">yPosition</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enumBoard_1_1PlayerColor">PlayerColor</link> <link linkend="_classBoard_1_1BoardField_1a3a49193fdf3196afb96ff9657bac622f">playerColor</link></para>
+</listitem>
+            <listitem><para><link linkend="_enumBoard_1_1StatusColor">StatusColor</link> <link linkend="_classBoard_1_1BoardField_1a50c42f4a616a0280b109985f087e6ead">statusColor</link></para>
+</listitem>
+            <listitem><para>double <link linkend="_classBoard_1_1BoardField_1a2c70faa4920e2d3ee12906a52fcbd0ba">xPosition</link></para>
+</listitem>
+            <listitem><para>double <link linkend="_classBoard_1_1BoardField_1aaebb8f67eb5f41ef8b4810081a0272d5">yPosition</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_classBoard_1_1BoardField_1ad9b9e52342f0192a3d56ab63cb7d149a">row</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_classBoard_1_1BoardField_1ab219606a9fcd42e4f00e2711f78f99e9">column</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>A single field of a board, it stores information about its color, status and position </para>
+<para>
+Definition at line 9 of file BoardField.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classBoard_1_1BoardField_1ae3a55dc93c5c6fb388cbee46cebd4551"/>    <section>
+    <title>BoardField()</title>
+<indexterm><primary>BoardField</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>BoardField</secondary></indexterm>
+<para><computeroutput>Board.BoardField.BoardField (int row, int column, double xPosition, double yPosition, int playerColorID, int statusColorID)</computeroutput></para>
+<para><link linkend="_classBoard_1_1BoardField">BoardField</link> constructor, the board is made based on an int[][] array the field can be identified based on its position in that array</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>row</entry>
+                                <entry>
+<para>- the row of an array associated to this field </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>column</entry>
+                                <entry>
+<para>- the column of an array associated to this field </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>xPosition</entry>
+                                <entry>
+<para>- X axis position on the screen </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>yPosition</entry>
+                                <entry>
+<para>- Y axis position on the screen </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>playerColorID</entry>
+                                <entry>
+<para>- field current color </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>statusColorID</entry>
+                                <entry>
+<para>- field current status </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 30 of file BoardField.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1BoardField_ae3a55dc93c5c6fb388cbee46cebd4551_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classBoard_1_1BoardField_1a88c6a9aa9373a12036a0abbd1a82ba54"/>    <section>
+    <title>getColumn()</title>
+<indexterm><primary>getColumn</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>getColumn</secondary></indexterm>
+<para><computeroutput>int Board.BoardField.getColumn ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>returns field column </para>
+</formalpara>
+</para>
+<para>
+Definition at line 62 of file BoardField.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1BoardField_a88c6a9aa9373a12036a0abbd1a82ba54_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1BoardField_1a2ac8140fa52b0a3dde51f687be216eee"/>    <section>
+    <title>getPlayerColor()</title>
+<indexterm><primary>getPlayerColor</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>getPlayerColor</secondary></indexterm>
+<para><computeroutput><link linkend="_enumBoard_1_1PlayerColor">PlayerColor</link> Board.BoardField.getPlayerColor ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>returns fields current color </para>
+</formalpara>
+</para>
+<para>
+Definition at line 79 of file BoardField.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1BoardField_a2ac8140fa52b0a3dde51f687be216eee_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1BoardField_1aaaa65e9f7b85480bd0f838224c4c60c2"/>    <section>
+    <title>getRow()</title>
+<indexterm><primary>getRow</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>getRow</secondary></indexterm>
+<para><computeroutput>int Board.BoardField.getRow ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>returns field row </para>
+</formalpara>
+</para>
+<para>
+Definition at line 45 of file BoardField.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1BoardField_aaaa65e9f7b85480bd0f838224c4c60c2_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1BoardField_1abb3ff54f22a70f86ccba76cc0550a66f"/>    <section>
+    <title>getStatusColor()</title>
+<indexterm><primary>getStatusColor</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>getStatusColor</secondary></indexterm>
+<para><computeroutput><link linkend="_enumBoard_1_1StatusColor">StatusColor</link> Board.BoardField.getStatusColor ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>returns what is current field status </para>
+</formalpara>
+</para>
+<para>
+Definition at line 96 of file BoardField.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1BoardField_abb3ff54f22a70f86ccba76cc0550a66f_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1BoardField_1a63cce4a999a6732b19ca6e57468482a7"/>    <section>
+    <title>getXPosition()</title>
+<indexterm><primary>getXPosition</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>getXPosition</secondary></indexterm>
+<para><computeroutput>double Board.BoardField.getXPosition ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>returns field X axis position </para>
+</formalpara>
+</para>
+<para>
+Definition at line 113 of file BoardField.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1BoardField_a63cce4a999a6732b19ca6e57468482a7_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1BoardField_1a25182ff0063167bc18733e2121fea3ee"/>    <section>
+    <title>getYPosition()</title>
+<indexterm><primary>getYPosition</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>getYPosition</secondary></indexterm>
+<para><computeroutput>double Board.BoardField.getYPosition ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>returns field Y axis position </para>
+</formalpara>
+</para>
+<para>
+Definition at line 130 of file BoardField.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1BoardField_a25182ff0063167bc18733e2121fea3ee_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1BoardField_1abe3af2fdb20361b29ee50703281a3daa"/>    <section>
+    <title>setColumn()</title>
+<indexterm><primary>setColumn</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>setColumn</secondary></indexterm>
+<para><computeroutput>void Board.BoardField.setColumn (int column)</computeroutput></para>
+<para>Sets field column 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>column</entry>
+                                <entry>
+<para>column that the field is in </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 71 of file BoardField.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1BoardField_abe3af2fdb20361b29ee50703281a3daa_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1BoardField_1ad9068a400cf1ef191f50b4762d23a86d"/>    <section>
+    <title>setPlayerColor()</title>
+<indexterm><primary>setPlayerColor</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>setPlayerColor</secondary></indexterm>
+<para><computeroutput>void Board.BoardField.setPlayerColor (<link linkend="_enumBoard_1_1PlayerColor">PlayerColor</link> playerColor)</computeroutput></para>
+<para>Sets the field color 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>playerColor</entry>
+                                <entry>
+<para>a new player color </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 88 of file BoardField.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1BoardField_ad9068a400cf1ef191f50b4762d23a86d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1BoardField_1a41df0e6df452112593a7318e7d52f567"/>    <section>
+    <title>setRow()</title>
+<indexterm><primary>setRow</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>setRow</secondary></indexterm>
+<para><computeroutput>void Board.BoardField.setRow (int row)</computeroutput></para>
+<para>Sets field row 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>row</entry>
+                                <entry>
+<para>row the field is in </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 54 of file BoardField.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1BoardField_a41df0e6df452112593a7318e7d52f567_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1BoardField_1a01be54fb150ac721ede16a559a853506"/>    <section>
+    <title>setStatusColor()</title>
+<indexterm><primary>setStatusColor</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>setStatusColor</secondary></indexterm>
+<para><computeroutput>void Board.BoardField.setStatusColor (<link linkend="_enumBoard_1_1StatusColor">StatusColor</link> statusColor)</computeroutput></para>
+<para>Sets the field status 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>statusColor</entry>
+                                <entry>
+<para>a new field status </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 105 of file BoardField.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1BoardField_a01be54fb150ac721ede16a559a853506_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1BoardField_1abca2dd63d11cf5c2c38dc3c438a547d1"/>    <section>
+    <title>setXPosition()</title>
+<indexterm><primary>setXPosition</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>setXPosition</secondary></indexterm>
+<para><computeroutput>void Board.BoardField.setXPosition (double xPosition)</computeroutput></para>
+<para>Sets field X axis position 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>xPosition</entry>
+                                <entry>
+<para>field X axis position </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 122 of file BoardField.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1BoardField_abca2dd63d11cf5c2c38dc3c438a547d1_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1BoardField_1a6a370f1de8b048a6fa67a8861c19f8ef"/>    <section>
+    <title>setYPosition()</title>
+<indexterm><primary>setYPosition</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>setYPosition</secondary></indexterm>
+<para><computeroutput>void Board.BoardField.setYPosition (double yPosition)</computeroutput></para>
+<para>Sets field Y axis position 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>yPosition</entry>
+                                <entry>
+<para>field Y axis position </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 139 of file BoardField.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1BoardField_a6a370f1de8b048a6fa67a8861c19f8ef_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classBoard_1_1BoardField_1ab219606a9fcd42e4f00e2711f78f99e9"/>    <section>
+    <title>column</title>
+<indexterm><primary>column</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>column</secondary></indexterm>
+<para><computeroutput>int Board.BoardField.column<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file BoardField.java.</para>
+    </section><anchor xml:id="_classBoard_1_1BoardField_1a3a49193fdf3196afb96ff9657bac622f"/>    <section>
+    <title>playerColor</title>
+<indexterm><primary>playerColor</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>playerColor</secondary></indexterm>
+<para><computeroutput><link linkend="_enumBoard_1_1PlayerColor">PlayerColor</link> Board.BoardField.playerColor<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 10 of file BoardField.java.</para>
+    </section><anchor xml:id="_classBoard_1_1BoardField_1ad9b9e52342f0192a3d56ab63cb7d149a"/>    <section>
+    <title>row</title>
+<indexterm><primary>row</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>row</secondary></indexterm>
+<para><computeroutput>int Board.BoardField.row<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file BoardField.java.</para>
+    </section><anchor xml:id="_classBoard_1_1BoardField_1a50c42f4a616a0280b109985f087e6ead"/>    <section>
+    <title>statusColor</title>
+<indexterm><primary>statusColor</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>statusColor</secondary></indexterm>
+<para><computeroutput><link linkend="_enumBoard_1_1StatusColor">StatusColor</link> Board.BoardField.statusColor<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 11 of file BoardField.java.</para>
+    </section><anchor xml:id="_classBoard_1_1BoardField_1a2c70faa4920e2d3ee12906a52fcbd0ba"/>    <section>
+    <title>xPosition</title>
+<indexterm><primary>xPosition</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>xPosition</secondary></indexterm>
+<para><computeroutput>double Board.BoardField.xPosition<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 12 of file BoardField.java.</para>
+    </section><anchor xml:id="_classBoard_1_1BoardField_1aaebb8f67eb5f41ef8b4810081a0272d5"/>    <section>
+    <title>yPosition</title>
+<indexterm><primary>yPosition</primary><secondary>Board.BoardField</secondary></indexterm>
+<indexterm><primary>Board.BoardField</primary><secondary>yPosition</secondary></indexterm>
+<para><computeroutput>double Board.BoardField.yPosition<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 13 of file BoardField.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaServer/src/main/java/Board/<link linkend="_TrylmaServer_2src_2main_2java_2Board_2BoardField_8java">BoardField.java</link></section>
+</section>

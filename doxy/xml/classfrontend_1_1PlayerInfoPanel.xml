@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classfrontend_1_1PlayerInfoPanel" kind="class" language="Java" prot="public">
+    <compoundname>frontend::PlayerInfoPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JPanel</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfrontend_1_1PlayerInfoPanel_1a68e46f3396a11ecded709d8a76e7300e" prot="package" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel frontend.PlayerInfoPanel.playerColorInfo</definition>
+        <argsstring></argsstring>
+        <name>playerColorInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java" line="14" column="12" bodyfile="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classfrontend_1_1PlayerInfoPanel_1af07c14d4e17006ff96713121899127a1" compoundref="PlayerInfoPanel_8java" startline="26" endline="54">frontend.PlayerInfoPanel.PlayerInfoPanel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classfrontend_1_1PlayerInfoPanel_1a2c8d9a1f28a3540911cec3059f024738" prot="package" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel frontend.PlayerInfoPanel.descriptionPlayer</definition>
+        <argsstring></argsstring>
+        <name>descriptionPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java" line="15" column="12" bodyfile="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classfrontend_1_1PlayerInfoPanel_1af07c14d4e17006ff96713121899127a1" compoundref="PlayerInfoPanel_8java" startline="26" endline="54">frontend.PlayerInfoPanel.PlayerInfoPanel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classfrontend_1_1PlayerInfoPanel_1a9089a6eee3d27b491f20a7d36e0b65d2" prot="package" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel frontend.PlayerInfoPanel.currentPlayerInfo</definition>
+        <argsstring></argsstring>
+        <name>currentPlayerInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java" line="16" column="12" bodyfile="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classfrontend_1_1PlayerInfoPanel_1af07c14d4e17006ff96713121899127a1" compoundref="PlayerInfoPanel_8java" startline="26" endline="54">frontend.PlayerInfoPanel.PlayerInfoPanel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classfrontend_1_1PlayerInfoPanel_1a5fe1386a909461b1ce68711506d1a836" prot="package" static="no" mutable="no">
+        <type>JLabel</type>
+        <definition>JLabel frontend.PlayerInfoPanel.descriptionCurrent</definition>
+        <argsstring></argsstring>
+        <name>descriptionCurrent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java" line="17" column="12" bodyfile="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classfrontend_1_1PlayerInfoPanel_1af07c14d4e17006ff96713121899127a1" compoundref="PlayerInfoPanel_8java" startline="26" endline="54">frontend.PlayerInfoPanel.PlayerInfoPanel</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfrontend_1_1PlayerInfoPanel_1af07c14d4e17006ff96713121899127a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>frontend.PlayerInfoPanel.PlayerInfoPanel</definition>
+        <argsstring>(PlayerColor playerColor)</argsstring>
+        <name>PlayerInfoPanel</name>
+        <param>
+          <type><ref refid="enumboard_1_1PlayerColor" kindref="compound">PlayerColor</ref></type>
+          <declname>playerColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Basic constructor Sets which player are we</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>playerColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>our id </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java" line="26" column="12" bodyfile="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java" bodystart="26" bodyend="54"/>
+        <references refid="classfrontend_1_1PlayerInfoPanel_1a9089a6eee3d27b491f20a7d36e0b65d2" compoundref="PlayerInfoPanel_8java" startline="16">frontend.PlayerInfoPanel.currentPlayerInfo</references>
+        <references refid="classfrontend_1_1PlayerInfoPanel_1a5fe1386a909461b1ce68711506d1a836" compoundref="PlayerInfoPanel_8java" startline="17">frontend.PlayerInfoPanel.descriptionCurrent</references>
+        <references refid="classfrontend_1_1PlayerInfoPanel_1a2c8d9a1f28a3540911cec3059f024738" compoundref="PlayerInfoPanel_8java" startline="15">frontend.PlayerInfoPanel.descriptionPlayer</references>
+        <references refid="classfrontend_1_1PlayerInfoPanel_1aa52cea9dec3ef27f44e10997de6b5b83" compoundref="PlayerInfoPanel_8java" startline="74" endline="91">frontend.PlayerInfoPanel.getColor</references>
+        <references refid="classfrontend_1_1PlayerInfoPanel_1a68e46f3396a11ecded709d8a76e7300e" compoundref="PlayerInfoPanel_8java" startline="14">frontend.PlayerInfoPanel.playerColorInfo</references>
+      </memberdef>
+      <memberdef kind="function" id="classfrontend_1_1PlayerInfoPanel_1abfa2382b10e6fdb75dc8961cd9370eef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void frontend.PlayerInfoPanel.setCurrentPlayerInfo</definition>
+        <argsstring>(PlayerColor currPlayerColor)</argsstring>
+        <name>setCurrentPlayerInfo</name>
+        <param>
+          <type><ref refid="enumboard_1_1PlayerColor" kindref="compound">PlayerColor</ref></type>
+          <declname>currPlayerColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Changes displayed info about current player <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>currPlayerColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>color of a current player </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java" line="61" column="17" bodyfile="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java" bodystart="61" bodyend="66"/>
+        <references refid="classfrontend_1_1PlayerInfoPanel_1aa52cea9dec3ef27f44e10997de6b5b83" compoundref="PlayerInfoPanel_8java" startline="74" endline="91">frontend.PlayerInfoPanel.getColor</references>
+        <referencedby refid="classfrontend_1_1ApplicationWindow_1a664ad50da7906d6c03c3fb3914a1de18" compoundref="ApplicationWindow_8java" startline="55" endline="59">frontend.ApplicationWindow.setCurrPlayer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfrontend_1_1PlayerInfoPanel_1aa52cea9dec3ef27f44e10997de6b5b83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color frontend.PlayerInfoPanel.getColor</definition>
+        <argsstring>(PlayerColor playerColor)</argsstring>
+        <name>getColor</name>
+        <param>
+          <type><ref refid="enumboard_1_1PlayerColor" kindref="compound">PlayerColor</ref></type>
+          <declname>playerColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provides right color based on color enum <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>playerColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>enum of player color </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Color associated with the enum </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java" line="74" column="18" bodyfile="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java" bodystart="74" bodyend="91"/>
+        <referencedby refid="classfrontend_1_1PlayerInfoPanel_1af07c14d4e17006ff96713121899127a1" compoundref="PlayerInfoPanel_8java" startline="26" endline="54">frontend.PlayerInfoPanel.PlayerInfoPanel</referencedby>
+        <referencedby refid="classfrontend_1_1PlayerInfoPanel_1abfa2382b10e6fdb75dc8961cd9370eef" compoundref="PlayerInfoPanel_8java" startline="61" endline="66">frontend.PlayerInfoPanel.setCurrentPlayerInfo</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Panel that displays info about current player, and what player are we </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>JPanel</label>
+      </node>
+      <node id="1">
+        <label>frontend.PlayerInfoPanel</label>
+        <link refid="classfrontend_1_1PlayerInfoPanel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>JPanel</label>
+      </node>
+      <node id="1">
+        <label>frontend.PlayerInfoPanel</label>
+        <link refid="classfrontend_1_1PlayerInfoPanel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java" line="13" column="7" bodyfile="TrylmaClient/src/main/java/frontend/PlayerInfoPanel.java" bodystart="13" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classfrontend_1_1PlayerInfoPanel_1a9089a6eee3d27b491f20a7d36e0b65d2" prot="package" virt="non-virtual"><scope>frontend::PlayerInfoPanel</scope><name>currentPlayerInfo</name></member>
+      <member refid="classfrontend_1_1PlayerInfoPanel_1a5fe1386a909461b1ce68711506d1a836" prot="package" virt="non-virtual"><scope>frontend::PlayerInfoPanel</scope><name>descriptionCurrent</name></member>
+      <member refid="classfrontend_1_1PlayerInfoPanel_1a2c8d9a1f28a3540911cec3059f024738" prot="package" virt="non-virtual"><scope>frontend::PlayerInfoPanel</scope><name>descriptionPlayer</name></member>
+      <member refid="classfrontend_1_1PlayerInfoPanel_1aa52cea9dec3ef27f44e10997de6b5b83" prot="public" virt="non-virtual"><scope>frontend::PlayerInfoPanel</scope><name>getColor</name></member>
+      <member refid="classfrontend_1_1PlayerInfoPanel_1a68e46f3396a11ecded709d8a76e7300e" prot="package" virt="non-virtual"><scope>frontend::PlayerInfoPanel</scope><name>playerColorInfo</name></member>
+      <member refid="classfrontend_1_1PlayerInfoPanel_1af07c14d4e17006ff96713121899127a1" prot="public" virt="non-virtual"><scope>frontend::PlayerInfoPanel</scope><name>PlayerInfoPanel</name></member>
+      <member refid="classfrontend_1_1PlayerInfoPanel_1abfa2382b10e6fdb75dc8961cd9370eef" prot="public" virt="non-virtual"><scope>frontend::PlayerInfoPanel</scope><name>setCurrentPlayerInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

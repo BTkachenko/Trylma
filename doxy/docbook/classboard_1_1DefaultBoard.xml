@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classBoard_1_1DefaultBoard" xml:lang="en-US">
+<title>Board.DefaultBoard Class Reference</title>
+<indexterm><primary>Board.DefaultBoard</primary></indexterm>
+Inheritance diagram for Board.DefaultBoard:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1DefaultBoard__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Board.DefaultBoard:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1DefaultBoard__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classBoard_1_1DefaultBoard_1a0075b96d6bee842a24d225fb537a66cd">setFields</link> (ArrayList&lt; <link linkend="_classBoard_1_1BoardField">BoardField</link> &gt; <link linkend="_classBoard_1_1Board_1aec13d18133935d66bca02bd162e1d1a0">fields</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Package Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classBoard_1_1DefaultBoard_1afc985bf622c2e06941d9b695e7f78f9c">setStartFields</link> (<link linkend="_classBoard_1_1DefaultStartFields">DefaultStartFields</link> <link linkend="_classBoard_1_1Board_1a5b37ec69315b603312e1f979967c98ae">startFields</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The game board stores data about the fields and players positions </para>
+<para>
+Definition at line 10 of file DefaultBoard.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classBoard_1_1DefaultBoard_1a0075b96d6bee842a24d225fb537a66cd"/>    <section>
+    <title>setFields()</title>
+<indexterm><primary>setFields</primary><secondary>Board.DefaultBoard</secondary></indexterm>
+<indexterm><primary>Board.DefaultBoard</primary><secondary>setFields</secondary></indexterm>
+<para><computeroutput>void Board.DefaultBoard.setFields (ArrayList&lt; <link linkend="_classBoard_1_1BoardField">BoardField</link> &gt; fields)</computeroutput></para>
+<para>Sets the array list of board fields 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>fields</entry>
+                                <entry>
+<para>the fields that will replace current ones </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Reimplemented from <link linkend="_classBoard_1_1Board_1af477dd58dcdecf37cc0bddcdabb916f3">Board.Board</link>.</para>
+<para>
+Definition at line 13 of file DefaultBoard.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1DefaultBoard_a0075b96d6bee842a24d225fb537a66cd_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1DefaultBoard_1afc985bf622c2e06941d9b695e7f78f9c"/>    <section>
+    <title>setStartFields()</title>
+<indexterm><primary>setStartFields</primary><secondary>Board.DefaultBoard</secondary></indexterm>
+<indexterm><primary>Board.DefaultBoard</primary><secondary>setStartFields</secondary></indexterm>
+<para><computeroutput>void Board.DefaultBoard.setStartFields (<link linkend="_classBoard_1_1DefaultStartFields">DefaultStartFields</link> startFields)<computeroutput>[package]</computeroutput></computeroutput></para>
+<para>Sets the start fields of the board 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>startFields</entry>
+                                <entry>
+<para>start fields of the board </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Reimplemented from <link linkend="_classBoard_1_1Board_1a3b5d7e7b16cf9f5d395ddf0934b59511">Board.Board</link>.</para>
+<para>
+Definition at line 18 of file DefaultBoard.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1DefaultBoard_afc985bf622c2e06941d9b695e7f78f9c_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaServer/src/main/java/Board/<link linkend="_TrylmaServer_2src_2main_2java_2Board_2DefaultBoard_8java">DefaultBoard.java</link></section>
+</section>

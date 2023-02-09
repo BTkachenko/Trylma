@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classGame_1_1Game" xml:lang="en-US">
+<title>Game.Game Class Reference</title>
+<indexterm><primary>Game.Game</primary></indexterm>
+Collaboration diagram for Game.Game:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1Game__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classGame_1_1Game_1aa46f609ad611296b511b9f53786171e4">Game</link> (List&lt; <link linkend="_classsocketServer_1_1Player">Player</link> &gt; <link linkend="_classGame_1_1Game_1ab43878dd56c2c492a8bca0a1d17da88b">players</link>, int boardSize)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classGame_1_1Game_1a84764f4bdc74e4c2038e2057fdd19259">getInitializationData</link> (int playerID)</para>
+</listitem>
+            <listitem><para>synchronized void <link linkend="_classGame_1_1Game_1a40a0dc857f18efe225d440b8e1da251f">showPossibilities</link> (int startMoveField, int playerId)</para>
+</listitem>
+            <listitem><para>synchronized void <link linkend="_classGame_1_1Game_1a72e34b794ec9b462e79e10e1ea325e3e">move</link> (int startMoveField, int endMoveField, int playerId)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classGame_1_1Game_1a7705e31748eb1a158611209fa76faef5">playerStillPlaying</link> (int playerId)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classGame_1_1Game_1a56851de7cabd60531f6b5ea54e231fe1">resetFieldsStatus</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classGame_1_1Game_1a096123ff82fa2aee7b1173dd4a0b6b08">sendToPlayers</link> (String message)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classGame_1_1Game_1ad3a90fb5ef3c5c06ece9dc637f3c1cdc">sendToPlayer</link> (int id, String message)</para>
+</listitem>
+            <listitem><para><link linkend="_classBoard_1_1Board">Board</link> <link linkend="_classGame_1_1Game_1a1ce050e2e13256e85aee38dbf4f295f2">getBoard</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classGame_1_1Game_1af1a99549a6b14f57a730af91746169ba">setCurrentPlayer</link> (int id)</para>
+</listitem>
+            <listitem><para><link linkend="_classGame_1_1TrylmaRules">TrylmaRules</link> <link linkend="_classGame_1_1Game_1a50ff6cd6f73b8a6f6942e4c1d6397357">getRules</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>List&lt; Integer &gt; <link linkend="_classGame_1_1Game_1a9920bc251b5bfd1d52d9c7762ee7f2c0">winners</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static List&lt; <link linkend="_classsocketServer_1_1Player">Player</link> &gt; <link linkend="_classGame_1_1Game_1ab43878dd56c2c492a8bca0a1d17da88b">players</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Package Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_classGame_1_1Game_1af15bb5b49515c255d0560821f58a5389">playersCount</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_classGame_1_1Game_1a1a057598b680afce8be97cb1ef0c8827">currentPlayer</link></para>
+</listitem>
+            <listitem><para><link linkend="_classGame_1_1TrylmaRules">TrylmaRules</link> <link linkend="_classGame_1_1Game_1a5ba6cb0359cbd9826bbce84d079a3faf">rules</link></para>
+</listitem>
+            <listitem><para><link linkend="_classBoard_1_1Board">Board</link> <link linkend="_classGame_1_1Game_1a23f91fa17059e9f985f184d0748283a0">board</link></para>
+</listitem>
+            <listitem><para><link linkend="_classBoard_1_1JSONBoardConverter">JSONBoardConverter</link> <link linkend="_classGame_1_1Game_1a3b47247e0d8a6bbb0c343c93dcb255a8">converter</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The game class manages the game flow. It determines player queue, sends messages to right players, checks if move is correct, updates the game board </para>
+<para>
+Definition at line 14 of file Game.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classGame_1_1Game_1aa46f609ad611296b511b9f53786171e4"/>    <section>
+    <title>Game()</title>
+<indexterm><primary>Game</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>Game</secondary></indexterm>
+<para><computeroutput>Game.Game.Game (List&lt; <link linkend="_classsocketServer_1_1Player">Player</link> &gt; players, int boardSize)</computeroutput></para>
+<para>Constructor Sets all necessary variables, sends board and other info to players at the start of the game 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>players</entry>
+                                <entry>
+<para>list of players who play this game </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>boardSize</entry>
+                                <entry>
+<para>selected size of a game board </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 32 of file Game.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1Game_aa46f609ad611296b511b9f53786171e4_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classGame_1_1Game_1a1ce050e2e13256e85aee38dbf4f295f2"/>    <section>
+    <title>getBoard()</title>
+<indexterm><primary>getBoard</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>getBoard</secondary></indexterm>
+<para><computeroutput><link linkend="_classBoard_1_1Board">Board</link> Game.Game.getBoard ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>returns this game board </para>
+</formalpara>
+</para>
+<para>
+Definition at line 195 of file Game.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1Game_a1ce050e2e13256e85aee38dbf4f295f2_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classGame_1_1Game_1a84764f4bdc74e4c2038e2057fdd19259"/>    <section>
+    <title>getInitializationData()</title>
+<indexterm><primary>getInitializationData</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>getInitializationData</secondary></indexterm>
+<para><computeroutput>String Game.Game.getInitializationData (int playerID)</computeroutput></para>
+<para>Creates all necessary data that needs to be delivered to player when starting the game</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>playerID</entry>
+                                <entry>
+<para>id of player we are sending the data </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>all the data in form of a String </para>
+</formalpara>
+</para>
+<para>
+Definition at line 60 of file Game.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1Game_a84764f4bdc74e4c2038e2057fdd19259_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1Game_a84764f4bdc74e4c2038e2057fdd19259_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classGame_1_1Game_1a50ff6cd6f73b8a6f6942e4c1d6397357"/>    <section>
+    <title>getRules()</title>
+<indexterm><primary>getRules</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>getRules</secondary></indexterm>
+<para><computeroutput><link linkend="_classGame_1_1TrylmaRules">TrylmaRules</link> Game.Game.getRules ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>returns ruleset of this game </para>
+</formalpara>
+</para>
+<para>
+Definition at line 212 of file Game.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1Game_a50ff6cd6f73b8a6f6942e4c1d6397357_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classGame_1_1Game_1a72e34b794ec9b462e79e10e1ea325e3e"/>    <section>
+    <title>move()</title>
+<indexterm><primary>move</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>move</secondary></indexterm>
+<para><computeroutput>synchronized void Game.Game.move (int startMoveField, int endMoveField, int playerId)</computeroutput></para>
+<para>Method being used after player second click, based on the field he/she selected, it checks if the move is legal and if someone won. After move sends updated board to all players</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>startMoveField</entry>
+                                <entry>
+<para>the field selected on first click </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>endMoveField</entry>
+                                <entry>
+<para>the field selected on second click </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>playerId</entry>
+                                <entry>
+<para>id of a player who is trying to move </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 104 of file Game.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1Game_a72e34b794ec9b462e79e10e1ea325e3e_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1Game_a72e34b794ec9b462e79e10e1ea325e3e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classGame_1_1Game_1a7705e31748eb1a158611209fa76faef5"/>    <section>
+    <title>playerStillPlaying()</title>
+<indexterm><primary>playerStillPlaying</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>playerStillPlaying</secondary></indexterm>
+<para><computeroutput>boolean Game.Game.playerStillPlaying (int playerId)</computeroutput></para>
+<para>Checks if given player is still playing the game 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>playerId</entry>
+                                <entry>
+<para>player we are checking </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true if player is still in the game </para>
+</formalpara>
+</para>
+<para>
+Definition at line 144 of file Game.java.</para>
+    </section><anchor xml:id="_classGame_1_1Game_1a56851de7cabd60531f6b5ea54e231fe1"/>    <section>
+    <title>resetFieldsStatus()</title>
+<indexterm><primary>resetFieldsStatus</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>resetFieldsStatus</secondary></indexterm>
+<para><computeroutput>void Game.Game.resetFieldsStatus ( )</computeroutput></para>
+<para>Resets all board fields status (Sets it to inactive) </para>
+<para>
+Definition at line 161 of file Game.java.</para>
+    </section><anchor xml:id="_classGame_1_1Game_1ad3a90fb5ef3c5c06ece9dc637f3c1cdc"/>    <section>
+    <title>sendToPlayer()</title>
+<indexterm><primary>sendToPlayer</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>sendToPlayer</secondary></indexterm>
+<para><computeroutput>void Game.Game.sendToPlayer (int id, String message)</computeroutput></para>
+<para>Sends message only to given player 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>id</entry>
+                                <entry>
+<para>player id </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>message</entry>
+                                <entry>
+<para>message we want to send </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 183 of file Game.java.</para>
+    </section><anchor xml:id="_classGame_1_1Game_1a096123ff82fa2aee7b1173dd4a0b6b08"/>    <section>
+    <title>sendToPlayers()</title>
+<indexterm><primary>sendToPlayers</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>sendToPlayers</secondary></indexterm>
+<para><computeroutput>void Game.Game.sendToPlayers (String message)</computeroutput></para>
+<para>Sends the message to all players 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>message</entry>
+                                <entry>
+<para>message we want to send </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 172 of file Game.java.</para>
+    </section><anchor xml:id="_classGame_1_1Game_1af1a99549a6b14f57a730af91746169ba"/>    <section>
+    <title>setCurrentPlayer()</title>
+<indexterm><primary>setCurrentPlayer</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>setCurrentPlayer</secondary></indexterm>
+<para><computeroutput>void Game.Game.setCurrentPlayer (int id)</computeroutput></para>
+<para>Sets id of current player to id of given player 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>id</entry>
+                                <entry>
+<para>given player id </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 204 of file Game.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1Game_af1a99549a6b14f57a730af91746169ba_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classGame_1_1Game_1a40a0dc857f18efe225d440b8e1da251f"/>    <section>
+    <title>showPossibilities()</title>
+<indexterm><primary>showPossibilities</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>showPossibilities</secondary></indexterm>
+<para><computeroutput>synchronized void Game.Game.showPossibilities (int startMoveField, int playerId)</computeroutput></para>
+<para>Method being used after player first click, based on the field he/she selected it maps available fields in game rules and sends them to player. 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>startMoveField</entry>
+                                <entry>
+<para>the field selected on first click </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>playerId</entry>
+                                <entry>
+<para>id of a player who is trying to move </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 74 of file Game.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1Game_a40a0dc857f18efe225d440b8e1da251f_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGame_1_1Game_a40a0dc857f18efe225d440b8e1da251f_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classGame_1_1Game_1a23f91fa17059e9f985f184d0748283a0"/>    <section>
+    <title>board</title>
+<indexterm><primary>board</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>board</secondary></indexterm>
+<para><computeroutput><link linkend="_classBoard_1_1Board">Board</link> Game.Game.board<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file Game.java.</para>
+    </section><anchor xml:id="_classGame_1_1Game_1a3b47247e0d8a6bbb0c343c93dcb255a8"/>    <section>
+    <title>converter</title>
+<indexterm><primary>converter</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>converter</secondary></indexterm>
+<para><computeroutput><link linkend="_classBoard_1_1JSONBoardConverter">JSONBoardConverter</link> Game.Game.converter<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 21 of file Game.java.</para>
+    </section><anchor xml:id="_classGame_1_1Game_1a1a057598b680afce8be97cb1ef0c8827"/>    <section>
+    <title>currentPlayer</title>
+<indexterm><primary>currentPlayer</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>currentPlayer</secondary></indexterm>
+<para><computeroutput>int Game.Game.currentPlayer<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file Game.java.</para>
+    </section><anchor xml:id="_classGame_1_1Game_1ab43878dd56c2c492a8bca0a1d17da88b"/>    <section>
+    <title>players</title>
+<indexterm><primary>players</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>players</secondary></indexterm>
+<para><computeroutput>List&lt;<link linkend="_classsocketServer_1_1Player">Player</link>&gt; Game.Game.players<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file Game.java.</para>
+    </section><anchor xml:id="_classGame_1_1Game_1af15bb5b49515c255d0560821f58a5389"/>    <section>
+    <title>playersCount</title>
+<indexterm><primary>playersCount</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>playersCount</secondary></indexterm>
+<para><computeroutput>int Game.Game.playersCount<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file Game.java.</para>
+    </section><anchor xml:id="_classGame_1_1Game_1a5ba6cb0359cbd9826bbce84d079a3faf"/>    <section>
+    <title>rules</title>
+<indexterm><primary>rules</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>rules</secondary></indexterm>
+<para><computeroutput><link linkend="_classGame_1_1TrylmaRules">TrylmaRules</link> Game.Game.rules<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file Game.java.</para>
+    </section><anchor xml:id="_classGame_1_1Game_1a9920bc251b5bfd1d52d9c7762ee7f2c0"/>    <section>
+    <title>winners</title>
+<indexterm><primary>winners</primary><secondary>Game.Game</secondary></indexterm>
+<indexterm><primary>Game.Game</primary><secondary>winners</secondary></indexterm>
+<para><computeroutput>List&lt;Integer&gt; Game.Game.winners</computeroutput></para><para>
+Definition at line 17 of file Game.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaServer/src/main/java/Game/<link linkend="_Game_8java">Game.java</link></section>
+</section>

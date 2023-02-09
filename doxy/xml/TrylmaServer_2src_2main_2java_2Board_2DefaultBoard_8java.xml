@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="TrylmaServer_2src_2main_2java_2Board_2DefaultBoard_8java" kind="file" language="Java">
+    <compoundname>DefaultBoard.java</compoundname>
+    <innerclass refid="classBoard_1_1DefaultBoard" prot="public">Board::DefaultBoard</innerclass>
+    <innernamespace refid="namespaceBoard">Board</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Board;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.ArrayList;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classBoard_1_1DefaultBoard" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classBoard_1_1DefaultBoard" kindref="compound">DefaultBoard</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="namespaceBoard" kindref="compound">Board</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="13" refid="classBoard_1_1DefaultBoard_1a0075b96d6bee842a24d225fb537a66cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classBoard_1_1DefaultBoard_1a0075b96d6bee842a24d225fb537a66cd" kindref="member">setFields</ref>(ArrayList&lt;BoardField&gt;<sp/><ref refid="classBoard_1_1Board_1aec13d18133935d66bca02bd162e1d1a0" kindref="member">fields</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.fields<sp/>=<sp/><ref refid="classBoard_1_1Board_1aec13d18133935d66bca02bd162e1d1a0" kindref="member">fields</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="18" refid="classBoard_1_1DefaultBoard_1afc985bf622c2e06941d9b695e7f78f9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classBoard_1_1DefaultBoard_1afc985bf622c2e06941d9b695e7f78f9c" kindref="member">setStartFields</ref>(<ref refid="classBoard_1_1DefaultStartFields" kindref="compound">DefaultStartFields</ref><sp/><ref refid="classBoard_1_1Board_1a5b37ec69315b603312e1f979967c98ae" kindref="member">startFields</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.startFields<sp/>=<sp/><ref refid="classBoard_1_1Board_1a5b37ec69315b603312e1f979967c98ae" kindref="member">startFields</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="TrylmaServer/src/main/java/Board/DefaultBoard.java"/>
+  </compounddef>
+</doxygen>

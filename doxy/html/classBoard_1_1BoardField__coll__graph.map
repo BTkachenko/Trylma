@@ -1,0 +1,5 @@
+<map id="Board.BoardField" name="Board.BoardField">
+<area shape="rect" id="node1" title=" " alt="" coords="85,263,213,560"/>
+<area shape="rect" id="node2" href="$enumBoard_1_1PlayerColor.html" title=" " alt="" coords="5,5,132,200"/>
+<area shape="rect" id="node3" href="$enumBoard_1_1StatusColor.html" title=" " alt="" coords="156,35,301,171"/>
+</map>

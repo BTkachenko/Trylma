@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="classfrontend_1_1ApplicationWindow" kind="class"><name>frontend::ApplicationWindow</name>
+    <member refid="classfrontend_1_1ApplicationWindow_1a52408dc2f7bb745ca2c0442e0d808909" kind="variable"><name>builder</name></member>
+    <member refid="classfrontend_1_1ApplicationWindow_1ad5f37cc8d0abc610ceea99568a393561" kind="variable"><name>infoPanel</name></member>
+    <member refid="classfrontend_1_1ApplicationWindow_1a4b4922b82d6d5a91ee6cfd21eedf5c7b" kind="variable"><name>playerColor</name></member>
+    <member refid="classfrontend_1_1ApplicationWindow_1ae37772904c4a6417123e058d57ae5435" kind="variable"><name>board</name></member>
+    <member refid="classfrontend_1_1ApplicationWindow_1aea76d894f40e84cc2357f413edfdf447" kind="function"><name>ApplicationWindow</name></member>
+    <member refid="classfrontend_1_1ApplicationWindow_1a664ad50da7906d6c03c3fb3914a1de18" kind="function"><name>setCurrPlayer</name></member>
+    <member refid="classfrontend_1_1ApplicationWindow_1a76b6b84520cfbff6392808a4f9f7ebab" kind="function"><name>ifYouCurrentPlayer</name></member>
+    <member refid="classfrontend_1_1ApplicationWindow_1a53c66dc8d104d123b94facb67fa8c2c7" kind="function"><name>getBoard</name></member>
+    <member refid="classfrontend_1_1ApplicationWindow_1a8ce6ee6143346b6eca7e73661ba38638" kind="function"><name>setBoard</name></member>
+  </compound>
+  <compound refid="classclientServer_1_1AppTest" kind="class"><name>clientServer::AppTest</name>
+    <member refid="classclientServer_1_1AppTest_1a4b514bd1270c14b15e125fdcedb16886" kind="function"><name>shouldAnswerWithTrue</name></member>
+  </compound>
+  <compound refid="classGames_1_1Trylma_1_1AppTest" kind="class"><name>Games::Trylma::AppTest</name>
+    <member refid="classGames_1_1Trylma_1_1AppTest_1a0336faa50f251fd2bbbb426573c80fdc" kind="function"><name>shouldAnswerWithTrue</name></member>
+  </compound>
+  <compound refid="classboard_1_1Board" kind="class"><name>board::Board</name>
+    <member refid="classboard_1_1Board_1a761d596571436c8db206ad1dfe017008" kind="variable"><name>fields</name></member>
+    <member refid="classboard_1_1Board_1a1d193c60fc820cb4e0827632d9db12aa" kind="variable"><name>player</name></member>
+    <member refid="classboard_1_1Board_1a02d3b6120c9315a9262d4ca4fa3e421e" kind="function"><name>paint</name></member>
+    <member refid="classboard_1_1Board_1aacd25e8a05541132647307c39fad5724" kind="function"><name>setPlayer</name></member>
+    <member refid="classboard_1_1Board_1a1854c2921dfc04de726c341626a20aa0" kind="function"><name>getPlayer</name></member>
+    <member refid="classboard_1_1Board_1ad85aea648e711ddd875edf0b232d1237" kind="function"><name>setFields</name></member>
+  </compound>
+  <compound refid="classBoard_1_1Board" kind="class"><name>Board::Board</name>
+    <member refid="classBoard_1_1Board_1aec13d18133935d66bca02bd162e1d1a0" kind="variable"><name>fields</name></member>
+    <member refid="classBoard_1_1Board_1a5b37ec69315b603312e1f979967c98ae" kind="variable"><name>startFields</name></member>
+    <member refid="classBoard_1_1Board_1af477dd58dcdecf37cc0bddcdabb916f3" kind="function"><name>setFields</name></member>
+    <member refid="classBoard_1_1Board_1a3b5d7e7b16cf9f5d395ddf0934b59511" kind="function"><name>setStartFields</name></member>
+  </compound>
+  <compound refid="interfaceboard_1_1BoardBuilder" kind="interface"><name>board::BoardBuilder</name>
+    <member refid="interfaceboard_1_1BoardBuilder_1a715ad75adf6242db5d7fc7054d02f6ae" kind="function"><name>setBoardFields</name></member>
+  </compound>
+  <compound refid="interfaceBoard_1_1BoardBuilder" kind="interface"><name>Board::BoardBuilder</name>
+    <member refid="interfaceBoard_1_1BoardBuilder_1a579e552d426f471bffafe025a6853150" kind="function"><name>initializeBoardFields</name></member>
+    <member refid="interfaceBoard_1_1BoardBuilder_1a184cf1d0acf9ebcd7739f1cba048de1e" kind="function"><name>setBoardFields</name></member>
+    <member refid="interfaceBoard_1_1BoardBuilder_1a4ce73aab949398a70102084f6c5f3bf4" kind="function"><name>assignFields</name></member>
+  </compound>
+  <compound refid="classboard_1_1BoardField" kind="class"><name>board::BoardField</name>
+    <member refid="classboard_1_1BoardField_1a327303b2987ff95a298653571834811e" kind="variable"><name>playerColor_</name></member>
+    <member refid="classboard_1_1BoardField_1a773a6cd07068947c8215977ef5d98708" kind="variable"><name>statusColor_</name></member>
+    <member refid="classboard_1_1BoardField_1ac986fff33a5474b51025dcebe4c5cba2" kind="variable"><name>playerColor</name></member>
+    <member refid="classboard_1_1BoardField_1acad3e0c903ee128aba50ee5ad3e3b4f4" kind="variable"><name>statusColor</name></member>
+    <member refid="classboard_1_1BoardField_1af2318035c1d9986aae04c0b3f017834a" kind="variable"><name>row</name></member>
+    <member refid="classboard_1_1BoardField_1a4ecdf168c2af9de0fc7141591e2d1015" kind="variable"><name>column</name></member>
+    <member refid="classboard_1_1BoardField_1a5c82e7dc0ec8b05fee255b9d783a49c7" kind="function"><name>BoardField</name></member>
+    <member refid="classboard_1_1BoardField_1a3a500a22198365232ea111cadfbb6958" kind="function"><name>isHit</name></member>
+    <member refid="classboard_1_1BoardField_1ac656cac83cebf6cf4ca862fc5d00f007" kind="function"><name>getPlayerColor_</name></member>
+    <member refid="classboard_1_1BoardField_1a16ab4dc03e3eb64f9c6406b38c0b3851" kind="function"><name>setPlayerColor_</name></member>
+    <member refid="classboard_1_1BoardField_1a676a951884b07f1ea8e7b76aa1f1db3c" kind="function"><name>getStatusColor_</name></member>
+    <member refid="classboard_1_1BoardField_1a75f132f8fc9c7d1d0963c88b88da922f" kind="function"><name>setStatusColor_</name></member>
+    <member refid="classboard_1_1BoardField_1af83cb194e108e3eb60986fd3660261f3" kind="function"><name>getRow</name></member>
+    <member refid="classboard_1_1BoardField_1a51cbed9530dbe9b8cdaedc00907f44bc" kind="function"><name>setRow</name></member>
+    <member refid="classboard_1_1BoardField_1a2097426a3602e0f6bd8abf8a7dbfa0aa" kind="function"><name>getColumn</name></member>
+    <member refid="classboard_1_1BoardField_1a01aa4087c0fc18621099a4f527e3dea0" kind="function"><name>setColumn</name></member>
+    <member refid="classboard_1_1BoardField_1a53d2fe8c77fbc8ecf042f647bafc128b" kind="function"><name>getPlayerColor</name></member>
+    <member refid="classboard_1_1BoardField_1aa90a8716b2949ca420ee4daf93e72ec7" kind="function"><name>getStatusColor</name></member>
+  </compound>
+  <compound refid="classBoard_1_1BoardField" kind="class"><name>Board::BoardField</name>
+    <member refid="classBoard_1_1BoardField_1a3a49193fdf3196afb96ff9657bac622f" kind="variable"><name>playerColor</name></member>
+    <member refid="classBoard_1_1BoardField_1a50c42f4a616a0280b109985f087e6ead" kind="variable"><name>statusColor</name></member>
+    <member refid="classBoard_1_1BoardField_1a2c70faa4920e2d3ee12906a52fcbd0ba" kind="variable"><name>xPosition</name></member>
+    <member refid="classBoard_1_1BoardField_1aaebb8f67eb5f41ef8b4810081a0272d5" kind="variable"><name>yPosition</name></member>
+    <member refid="classBoard_1_1BoardField_1ad9b9e52342f0192a3d56ab63cb7d149a" kind="variable"><name>row</name></member>
+    <member refid="classBoard_1_1BoardField_1ab219606a9fcd42e4f00e2711f78f99e9" kind="variable"><name>column</name></member>
+    <member refid="classBoard_1_1BoardField_1ae3a55dc93c5c6fb388cbee46cebd4551" kind="function"><name>BoardField</name></member>
+    <member refid="classBoard_1_1BoardField_1aaaa65e9f7b85480bd0f838224c4c60c2" kind="function"><name>getRow</name></member>
+    <member refid="classBoard_1_1BoardField_1a41df0e6df452112593a7318e7d52f567" kind="function"><name>setRow</name></member>
+    <member refid="classBoard_1_1BoardField_1a88c6a9aa9373a12036a0abbd1a82ba54" kind="function"><name>getColumn</name></member>
+    <member refid="classBoard_1_1BoardField_1abe3af2fdb20361b29ee50703281a3daa" kind="function"><name>setColumn</name></member>
+    <member refid="classBoard_1_1BoardField_1a2ac8140fa52b0a3dde51f687be216eee" kind="function"><name>getPlayerColor</name></member>
+    <member refid="classBoard_1_1BoardField_1ad9068a400cf1ef191f50b4762d23a86d" kind="function"><name>setPlayerColor</name></member>
+    <member refid="classBoard_1_1BoardField_1abb3ff54f22a70f86ccba76cc0550a66f" kind="function"><name>getStatusColor</name></member>
+    <member refid="classBoard_1_1BoardField_1a01be54fb150ac721ede16a559a853506" kind="function"><name>setStatusColor</name></member>
+    <member refid="classBoard_1_1BoardField_1a63cce4a999a6732b19ca6e57468482a7" kind="function"><name>getXPosition</name></member>
+    <member refid="classBoard_1_1BoardField_1abca2dd63d11cf5c2c38dc3c438a547d1" kind="function"><name>setXPosition</name></member>
+    <member refid="classBoard_1_1BoardField_1a25182ff0063167bc18733e2121fea3ee" kind="function"><name>getYPosition</name></member>
+    <member refid="classBoard_1_1BoardField_1a6a370f1de8b048a6fa67a8861c19f8ef" kind="function"><name>setYPosition</name></member>
+  </compound>
+  <compound refid="classBoard_1_1BoardShapes" kind="class"><name>Board::BoardShapes</name>
+    <member refid="classBoard_1_1BoardShapes_1a24de80544813204e89d8fde30cb8b072" kind="variable"><name>selectedBoardId</name></member>
+    <member refid="classBoard_1_1BoardShapes_1a2e2a623d2f87989686efef968704f077" kind="variable"><name>BIG_BOARD</name></member>
+    <member refid="classBoard_1_1BoardShapes_1add3350fa9dbca2948e47454c95d48ea9" kind="variable"><name>DEFAULT_BOARD</name></member>
+    <member refid="classBoard_1_1BoardShapes_1a22340aab0a679b8afde0e0646d1a2dde" kind="variable"><name>SMALL_BOARD</name></member>
+    <member refid="classBoard_1_1BoardShapes_1a2f644153ca5d2aa1e86fa40bdd13fa12" kind="variable"><name>MINI_BOARD</name></member>
+    <member refid="classBoard_1_1BoardShapes_1a794157ec719666a2cb5cbe519a80ad3f" kind="function"><name>BoardShapes</name></member>
+    <member refid="classBoard_1_1BoardShapes_1acb743bffabf17515838f9f7cf4702b1e" kind="function"><name>getSelectedBoard</name></member>
+  </compound>
+  <compound refid="classclientServer_1_1ClientTest" kind="class"><name>clientServer::ClientTest</name>
+    <member refid="classclientServer_1_1ClientTest_1a21a7f962af68a6258952a2a6fcdf40a9" kind="function"><name>checkPlayMethod</name></member>
+  </compound>
+  <compound refid="classboard_1_1DefaultBoard" kind="class"><name>board::DefaultBoard</name>
+    <member refid="classboard_1_1DefaultBoard_1ab6804a9d70c1e5947f7bf6b3965885bf" kind="variable"><name>mouseFlag</name></member>
+    <member refid="classboard_1_1DefaultBoard_1a6ee920828a80e2b32d1df87971febddd" kind="variable"><name>active</name></member>
+    <member refid="classboard_1_1DefaultBoard_1ad40b5c50f2a3b794d25e07fdb7ab9fe3" kind="function"><name>DefaultBoard</name></member>
+    <member refid="classboard_1_1DefaultBoard_1a6a40cb8d4a94264c3ecfc0e1c3d0a712" kind="function"><name>setFields</name></member>
+    <member refid="classboard_1_1DefaultBoard_1aa0ef3c40a401e209d81baf796b960588" kind="function"><name>setActive</name></member>
+    <member refid="classboard_1_1DefaultBoard_1a8adb81dad61b1ccc43b8d5bad465518c" kind="function"><name>getMouseFlag</name></member>
+    <member refid="classboard_1_1DefaultBoard_1a32a51fcb6bfcf62c40cdef0fa0cb9ec1" kind="function"><name>setMouseFlag</name></member>
+  </compound>
+  <compound refid="classBoard_1_1DefaultBoard" kind="class"><name>Board::DefaultBoard</name>
+    <member refid="classBoard_1_1DefaultBoard_1a0075b96d6bee842a24d225fb537a66cd" kind="function"><name>setFields</name></member>
+    <member refid="classBoard_1_1DefaultBoard_1afc985bf622c2e06941d9b695e7f78f9c" kind="function"><name>setStartFields</name></member>
+  </compound>
+  <compound refid="classboard_1_1DefaultBoardBuilder" kind="class"><name>board::DefaultBoardBuilder</name>
+    <member refid="classboard_1_1DefaultBoardBuilder_1ad544ab23cfe80ec8a9f19f44a2a2ce3f" kind="variable"><name>board</name></member>
+    <member refid="classboard_1_1DefaultBoardBuilder_1acb76c72f177b8cb19e188b981e97ef5f" kind="function"><name>setBoardFields</name></member>
+    <member refid="classboard_1_1DefaultBoardBuilder_1acaf94bffaa020b14cf34083a8df22409" kind="function"><name>getDefaultBoard</name></member>
+  </compound>
+  <compound refid="classBoard_1_1DefaultBoardBuilder" kind="class"><name>Board::DefaultBoardBuilder</name>
+    <member refid="classBoard_1_1DefaultBoardBuilder_1ac98c1a3fe4ae68724c3bdc4f410ce3f5" kind="variable"><name>board</name></member>
+    <member refid="classBoard_1_1DefaultBoardBuilder_1a692703ff83daba5d45552532254bf8ce" kind="function"><name>initializeBoardFields</name></member>
+    <member refid="classBoard_1_1DefaultBoardBuilder_1a2c9e73e23fd12000bf1be9c76fa00b39" kind="function"><name>setBoardFields</name></member>
+    <member refid="classBoard_1_1DefaultBoardBuilder_1a08e35f755f48f1e9cc5276c113f1b3de" kind="function"><name>assignFields</name></member>
+    <member refid="classBoard_1_1DefaultBoardBuilder_1a505ceac6a855457fb75b9e676943a4f3" kind="function"><name>getDefaultBoard</name></member>
+  </compound>
+  <compound refid="classBoard_1_1DefaultStartFields" kind="class"><name>Board::DefaultStartFields</name>
+    <member refid="classBoard_1_1DefaultStartFields_1a635e8a61c81542e6a7b3feed2009ce23" kind="variable"><name>topFields</name></member>
+    <member refid="classBoard_1_1DefaultStartFields_1a17e29928af74160b918a67cab28c6d3a" kind="variable"><name>topLeftFields</name></member>
+    <member refid="classBoard_1_1DefaultStartFields_1aae2a4cdb0d025bad21c20802158f4b56" kind="variable"><name>topRightFields</name></member>
+    <member refid="classBoard_1_1DefaultStartFields_1ae81255a93da375690e5641b957c093dd" kind="variable"><name>bottomFields</name></member>
+    <member refid="classBoard_1_1DefaultStartFields_1a179df601f450014ee162e171a2caf0d8" kind="variable"><name>bottomLeftFields</name></member>
+    <member refid="classBoard_1_1DefaultStartFields_1a4aaccb31b635677f00516a1f5c3440b3" kind="variable"><name>bottomRightFields</name></member>
+    <member refid="classBoard_1_1DefaultStartFields_1a1872ee413f78e7d003d9058e50cf3c8e" kind="function"><name>addField</name></member>
+    <member refid="classBoard_1_1DefaultStartFields_1ae9ebe6303061b355b1ad05f5611db237" kind="function"><name>setPlayerColors</name></member>
+  </compound>
+  <compound refid="classGame_1_1Game" kind="class"><name>Game::Game</name>
+    <member refid="classGame_1_1Game_1af15bb5b49515c255d0560821f58a5389" kind="variable"><name>playersCount</name></member>
+    <member refid="classGame_1_1Game_1a1a057598b680afce8be97cb1ef0c8827" kind="variable"><name>currentPlayer</name></member>
+    <member refid="classGame_1_1Game_1a5ba6cb0359cbd9826bbce84d079a3faf" kind="variable"><name>rules</name></member>
+    <member refid="classGame_1_1Game_1a23f91fa17059e9f985f184d0748283a0" kind="variable"><name>board</name></member>
+    <member refid="classGame_1_1Game_1a3b47247e0d8a6bbb0c343c93dcb255a8" kind="variable"><name>converter</name></member>
+    <member refid="classGame_1_1Game_1a9920bc251b5bfd1d52d9c7762ee7f2c0" kind="variable"><name>winners</name></member>
+    <member refid="classGame_1_1Game_1ab43878dd56c2c492a8bca0a1d17da88b" kind="variable"><name>players</name></member>
+    <member refid="classGame_1_1Game_1aa46f609ad611296b511b9f53786171e4" kind="function"><name>Game</name></member>
+    <member refid="classGame_1_1Game_1a84764f4bdc74e4c2038e2057fdd19259" kind="function"><name>getInitializationData</name></member>
+    <member refid="classGame_1_1Game_1a40a0dc857f18efe225d440b8e1da251f" kind="function"><name>showPossibilities</name></member>
+    <member refid="classGame_1_1Game_1a72e34b794ec9b462e79e10e1ea325e3e" kind="function"><name>move</name></member>
+    <member refid="classGame_1_1Game_1a7705e31748eb1a158611209fa76faef5" kind="function"><name>playerStillPlaying</name></member>
+    <member refid="classGame_1_1Game_1a56851de7cabd60531f6b5ea54e231fe1" kind="function"><name>resetFieldsStatus</name></member>
+    <member refid="classGame_1_1Game_1a096123ff82fa2aee7b1173dd4a0b6b08" kind="function"><name>sendToPlayers</name></member>
+    <member refid="classGame_1_1Game_1ad3a90fb5ef3c5c06ece9dc637f3c1cdc" kind="function"><name>sendToPlayer</name></member>
+    <member refid="classGame_1_1Game_1a1ce050e2e13256e85aee38dbf4f295f2" kind="function"><name>getBoard</name></member>
+    <member refid="classGame_1_1Game_1af1a99549a6b14f57a730af91746169ba" kind="function"><name>setCurrentPlayer</name></member>
+    <member refid="classGame_1_1Game_1a50ff6cd6f73b8a6f6942e4c1d6397357" kind="function"><name>getRules</name></member>
+  </compound>
+  <compound refid="classboard_1_1JSONBoardConverter" kind="class"><name>board::JSONBoardConverter</name>
+    <member refid="classboard_1_1JSONBoardConverter_1a61fd4817772733d9bdaf732cee6485f2" kind="variable"><name>jsonBuilder</name></member>
+    <member refid="classboard_1_1JSONBoardConverter_1a9688ac1f33e20784a891030b431706c5" kind="function"><name>buildJSONBoard</name></member>
+    <member refid="classboard_1_1JSONBoardConverter_1a3656ac5e50dd2790b74f3f0fc9335916" kind="function"><name>addContent</name></member>
+  </compound>
+  <compound refid="classBoard_1_1JSONBoardConverter" kind="class"><name>Board::JSONBoardConverter</name>
+    <member refid="classBoard_1_1JSONBoardConverter_1a8be0f98f60cb305bab26c69c0d31e007" kind="variable"><name>jsonBuilder</name></member>
+    <member refid="classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108" kind="function"><name>buildJSONBoard</name></member>
+    <member refid="classBoard_1_1JSONBoardConverter_1aebf37df2fbd903e07e8edb9349976e0a" kind="function"><name>addContent</name></member>
+  </compound>
+  <compound refid="classsocketServer_1_1Player" kind="class"><name>socketServer::Player</name>
+    <member refid="classsocketServer_1_1Player_1aca3eee0ab1c5f44477f1f2a9dbb375ae" kind="variable"><name>game</name></member>
+    <member refid="classsocketServer_1_1Player_1a3c939ab07c19c2c6b9e30027bdacaa92" kind="variable"><name>socket</name></member>
+    <member refid="classsocketServer_1_1Player_1af988e56551784b4d6b7da8f5893a1df8" kind="variable"><name>input</name></member>
+    <member refid="classsocketServer_1_1Player_1a673578fbd6944e55041695ab6f3f1ce5" kind="variable"><name>outputStream</name></member>
+    <member refid="classsocketServer_1_1Player_1a4d28dd8f883034a890b0fc9ad479e588" kind="variable"><name>playerId</name></member>
+    <member refid="classsocketServer_1_1Player_1a123bf9eb1ec576516b41b3a2c39ed3ec" kind="variable"><name>startMoveField</name></member>
+    <member refid="classsocketServer_1_1Player_1a66437da23e442513334c8b8d4840b334" kind="variable"><name>endMoveField</name></member>
+    <member refid="classsocketServer_1_1Player_1a111a98101b888120fbfdb2f37228f9c7" kind="variable"><name>output</name></member>
+    <member refid="classsocketServer_1_1Player_1ab4e6d3bb1524a1e397d4ac36cb1096d2" kind="function"><name>Player</name></member>
+    <member refid="classsocketServer_1_1Player_1af55e634d1cd1f215c7cf73024e06b2aa" kind="function"><name>run</name></member>
+    <member refid="classsocketServer_1_1Player_1a2014b638ed67ee82d696a4ff713fdfd3" kind="function"><name>setGame</name></member>
+    <member refid="classsocketServer_1_1Player_1adaef45e9396f4b51bc6b63322c366df2" kind="function"><name>getPlayerId</name></member>
+    <member refid="classsocketServer_1_1Player_1aa90b2a4174fe43cbf80a1651f66d3369" kind="function"><name>sendMessage</name></member>
+    <member refid="classsocketServer_1_1Player_1ab5b86acca33e0b32e62a9be6148fbffc" kind="function"><name>setup</name></member>
+  </compound>
+  <compound refid="enumboard_1_1PlayerColor" kind="enum"><name>board::PlayerColor</name>
+    <member refid="enumboard_1_1PlayerColor_1a4cd8982e5e921a274efc1cd533354653" kind="variable"><name>BLUE</name></member>
+    <member refid="enumboard_1_1PlayerColor_1ae0498132f9196ee8c2cc1a1fb0585f58" kind="variable"><name>GREEN</name></member>
+    <member refid="enumboard_1_1PlayerColor_1a9ea42142f33f8645340f5ee16fdeed95" kind="variable"><name>YELLOW</name></member>
+    <member refid="enumboard_1_1PlayerColor_1ab959e309615ffa054e5b03b8ba4736bb" kind="variable"><name>ORANGE</name></member>
+    <member refid="enumboard_1_1PlayerColor_1ac554c51bf316c4301a5aaf4c61a27d91" kind="variable"><name>PINK</name></member>
+    <member refid="enumboard_1_1PlayerColor_1ad952edad701014b6fb1661631f086309" kind="variable"><name>CYAN</name></member>
+    <member refid="enumboard_1_1PlayerColor_1ab7b99da16b7886451066083be9a856a8" kind="variable"><name>NO_PLAYER</name></member>
+    <member refid="enumboard_1_1PlayerColor_1a071476aefce7152223261112e154c668" kind="variable"><name>playerColorID</name></member>
+    <member refid="enumboard_1_1PlayerColor_1a691a4a6307460d3b3d660b572b91d04c" kind="function"><name>PlayerColor</name></member>
+    <member refid="enumboard_1_1PlayerColor_1ae75e3c064697bda71a5266d510f9f4bf" kind="function"><name>fromInteger</name></member>
+  </compound>
+  <compound refid="enumBoard_1_1PlayerColor" kind="enum"><name>Board::PlayerColor</name>
+    <member refid="enumBoard_1_1PlayerColor_1a5b9b17d03d7e8d72e49536da09cec047" kind="variable"><name>BLUE</name></member>
+    <member refid="enumBoard_1_1PlayerColor_1a8c3ed928ca81302192b825ba25a6dfce" kind="variable"><name>GREEN</name></member>
+    <member refid="enumBoard_1_1PlayerColor_1a817aedcf5f1d4dea2443b490341dd39b" kind="variable"><name>YELLOW</name></member>
+    <member refid="enumBoard_1_1PlayerColor_1a0d776fc98195559a3fc10f2689391cd7" kind="variable"><name>ORANGE</name></member>
+    <member refid="enumBoard_1_1PlayerColor_1a9f63d4f0ddaf258e594aedb8f904d294" kind="variable"><name>PINK</name></member>
+    <member refid="enumBoard_1_1PlayerColor_1a8b96a94c4eb4fb934bb2178bedd6021f" kind="variable"><name>PURPLE</name></member>
+    <member refid="enumBoard_1_1PlayerColor_1a0855ad5b9620cfccc6d946f5faeb8cb2" kind="variable"><name>NO_PLAYER</name></member>
+    <member refid="enumBoard_1_1PlayerColor_1a52a214c4cfed04049920c3a3003d23e1" kind="variable"><name>playerColorID</name></member>
+    <member refid="enumBoard_1_1PlayerColor_1af8df92b85ef0abdb0e5e223ffec9c7f2" kind="function"><name>PlayerColor</name></member>
+    <member refid="enumBoard_1_1PlayerColor_1a88ebe864711719896c9ae253c09950c9" kind="function"><name>fromInteger</name></member>
+  </compound>
+  <compound refid="classfrontend_1_1PlayerInfoPanel" kind="class"><name>frontend::PlayerInfoPanel</name>
+    <member refid="classfrontend_1_1PlayerInfoPanel_1a68e46f3396a11ecded709d8a76e7300e" kind="variable"><name>playerColorInfo</name></member>
+    <member refid="classfrontend_1_1PlayerInfoPanel_1a2c8d9a1f28a3540911cec3059f024738" kind="variable"><name>descriptionPlayer</name></member>
+    <member refid="classfrontend_1_1PlayerInfoPanel_1a9089a6eee3d27b491f20a7d36e0b65d2" kind="variable"><name>currentPlayerInfo</name></member>
+    <member refid="classfrontend_1_1PlayerInfoPanel_1a5fe1386a909461b1ce68711506d1a836" kind="variable"><name>descriptionCurrent</name></member>
+    <member refid="classfrontend_1_1PlayerInfoPanel_1af07c14d4e17006ff96713121899127a1" kind="function"><name>PlayerInfoPanel</name></member>
+    <member refid="classfrontend_1_1PlayerInfoPanel_1abfa2382b10e6fdb75dc8961cd9370eef" kind="function"><name>setCurrentPlayerInfo</name></member>
+    <member refid="classfrontend_1_1PlayerInfoPanel_1aa52cea9dec3ef27f44e10997de6b5b83" kind="function"><name>getColor</name></member>
+  </compound>
+  <compound refid="interfaceGame_1_1Rules" kind="interface"><name>Game::Rules</name>
+    <member refid="interfaceGame_1_1Rules_1ada70dae02515a3905cb5651d2ef3236f" kind="function"><name>isWinner</name></member>
+    <member refid="interfaceGame_1_1Rules_1adfee9cf337908d6aa926e70a089c5041" kind="function"><name>moveIsCorrect</name></member>
+    <member refid="interfaceGame_1_1Rules_1a1c2f44b6942e772b25cf0b39113b8751" kind="function"><name>setAvailableFields</name></member>
+  </compound>
+  <compound refid="classGames_1_1Trylma_1_1ServerTest" kind="class"><name>Games::Trylma::ServerTest</name>
+    <member refid="classGames_1_1Trylma_1_1ServerTest_1a44d1b2cd6d8610631d04748a5ef0da6a" kind="function"><name>calculatingMove</name></member>
+    <member refid="classGames_1_1Trylma_1_1ServerTest_1a3a8928b2ac890edb5b41bc819bfb472c" kind="function"><name>whoWinTheGame</name></member>
+    <member refid="classGames_1_1Trylma_1_1ServerTest_1a65cab29b4063681f2b35d536ade65be2" kind="function"><name>ifPlayerCouldMove</name></member>
+    <member refid="classGames_1_1Trylma_1_1ServerTest_1a91aaad205da873a8f85219b216469303" kind="function"><name>setAvailableFields</name></member>
+    <member refid="classGames_1_1Trylma_1_1ServerTest_1a7553c8a0ee1f8b55410108b329217296" kind="function"><name>createMockedPlayer</name></member>
+  </compound>
+  <compound refid="classsocketClient_1_1SocketClient" kind="class"><name>socketClient::SocketClient</name>
+    <member refid="classsocketClient_1_1SocketClient_1ad7b1337402d71072017839c6421cde14" kind="variable"><name>playerColor</name></member>
+    <member refid="classsocketClient_1_1SocketClient_1abc6483875dba964fec74e8629bc86873" kind="variable"><name>out</name></member>
+    <member refid="classsocketClient_1_1SocketClient_1a6ef963f2c73516e8993d3289934c12c2" kind="variable"><name>scanner</name></member>
+    <member refid="classsocketClient_1_1SocketClient_1ab1465257fcdfd2a317b266835c058944" kind="variable"><name>input</name></member>
+    <member refid="classsocketClient_1_1SocketClient_1abee91a98ba6e90380729a441ba858e12" kind="variable"><name>appWindow</name></member>
+    <member refid="classsocketClient_1_1SocketClient_1a5042dab560247979acb36ce13d1bd2aa" kind="variable"><name>socket</name></member>
+    <member refid="classsocketClient_1_1SocketClient_1ac8ffc981a583f4c48ef0015e63208b2a" kind="variable"><name>port</name></member>
+    <member refid="classsocketClient_1_1SocketClient_1ac1d236d205b16105258e4eb369df23a0" kind="function"><name>SocketClient</name></member>
+    <member refid="classsocketClient_1_1SocketClient_1a02c5e0a84a2cdc5706e0df95b0955e19" kind="function"><name>listenSocket</name></member>
+    <member refid="classsocketClient_1_1SocketClient_1a150101982a9b659688980044854ec70f" kind="function"><name>play</name></member>
+    <member refid="classsocketClient_1_1SocketClient_1ab72849b2a72fc1f0082541466525f8b8" kind="function"><name>setUp</name></member>
+    <member refid="classsocketClient_1_1SocketClient_1a64e02aa77165bfb17581fb4d03c4e925" kind="function"><name>getPlayerColor</name></member>
+    <member refid="classsocketClient_1_1SocketClient_1ac3dab221a42a4bc20a92b237b10e74d1" kind="function"><name>setPlayerColor</name></member>
+  </compound>
+  <compound refid="classsocketServer_1_1SocketServer" kind="class"><name>socketServer::SocketServer</name>
+    <member refid="classsocketServer_1_1SocketServer_1ad9d5b293c7e725755942c574be5eb1eb" kind="variable"><name>players</name></member>
+    <member refid="classsocketServer_1_1SocketServer_1a19d0104b8a07cbcb0159005a989bd0aa" kind="variable"><name>server</name></member>
+    <member refid="classsocketServer_1_1SocketServer_1aa41315dc288bef33ea1beb6eaf0b7c36" kind="variable"><name>game</name></member>
+    <member refid="classsocketServer_1_1SocketServer_1afcb5c0fbff2c0b288698a396fb93e6d1" kind="variable"><name>numberOfPlayers</name></member>
+    <member refid="classsocketServer_1_1SocketServer_1a587cb69e28cb277680cf2a2ec46a0c30" kind="variable"><name>boardSize</name></member>
+    <member refid="classsocketServer_1_1SocketServer_1aa26a4b6dfae0ad6b5437e2e972382401" kind="variable"><name>port</name></member>
+    <member refid="classsocketServer_1_1SocketServer_1aebd8750360e677755382d4a728e7a16c" kind="function"><name>SocketServer</name></member>
+    <member refid="classsocketServer_1_1SocketServer_1a295f34460cb984812549c0990a2ff512" kind="function"><name>listenSocket</name></member>
+  </compound>
+  <compound refid="enumBoard_1_1StatusColor" kind="enum"><name>Board::StatusColor</name>
+    <member refid="enumBoard_1_1StatusColor_1abd3b82d11f8e52197668f94e5c325d7e" kind="variable"><name>ACTIVE</name></member>
+    <member refid="enumBoard_1_1StatusColor_1ab9df24d30d5d0b5ea52891a9fdf84340" kind="variable"><name>INACTIVE</name></member>
+    <member refid="enumBoard_1_1StatusColor_1af5e9181f7eb06d510bd4988082477619" kind="variable"><name>POSSIBLE_MOVE</name></member>
+    <member refid="enumBoard_1_1StatusColor_1a9507e39ee2584d4843346cf3743f8806" kind="variable"><name>statusColorID</name></member>
+    <member refid="enumBoard_1_1StatusColor_1a4d365b008b74f7d8ca4793bd219b8955" kind="function"><name>StatusColor</name></member>
+    <member refid="enumBoard_1_1StatusColor_1a175dcc331ec76dbf74aeecd565f50d2d" kind="function"><name>fromInteger</name></member>
+  </compound>
+  <compound refid="enumboard_1_1StatusColor" kind="enum"><name>board::StatusColor</name>
+    <member refid="enumboard_1_1StatusColor_1a24f12f1aad4d996319f6b495dfe0f155" kind="variable"><name>ACTIVE</name></member>
+    <member refid="enumboard_1_1StatusColor_1aa934697172e0024e1570542cde149285" kind="variable"><name>INACTIVE</name></member>
+    <member refid="enumboard_1_1StatusColor_1ab9a7facdd0a76d024d45fb9e02369c32" kind="variable"><name>POSSIBLE_MOVE</name></member>
+    <member refid="enumboard_1_1StatusColor_1a24a2a5bd2a57d7ef7f1b12b907f37b3d" kind="variable"><name>statusColorID</name></member>
+    <member refid="enumboard_1_1StatusColor_1a2f8d0bd97c218b6f9d2a3c9d7db7da9e" kind="function"><name>StatusColor</name></member>
+    <member refid="enumboard_1_1StatusColor_1a83c0929bcbe571d9cab9c67d2c0418ae" kind="function"><name>fromInteger</name></member>
+  </compound>
+  <compound refid="classsocketServer_1_1Trylma" kind="class"><name>socketServer::Trylma</name>
+    <member refid="classsocketServer_1_1Trylma_1a92e9e14a7ea583b5bf444449285823b5" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="classsocketClient_1_1TrylmaClient" kind="class"><name>socketClient::TrylmaClient</name>
+    <member refid="classsocketClient_1_1TrylmaClient_1a2d705cfc4f8dd80c0156c603feb0d8e7" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="classGame_1_1TrylmaRules" kind="class"><name>Game::TrylmaRules</name>
+    <member refid="classGame_1_1TrylmaRules_1a9f93a67dc38f15837ddec9bb62f79bcb" kind="variable"><name>availableFields</name></member>
+    <member refid="classGame_1_1TrylmaRules_1a01fcb15500f8ba6355afe9ee380ca77f" kind="variable"><name>playersCount</name></member>
+    <member refid="classGame_1_1TrylmaRules_1a233a6e53fd28bee0847a7299dfa3a7b5" kind="function"><name>TrylmaRules</name></member>
+    <member refid="classGame_1_1TrylmaRules_1af71efc71f4bddcdf6b0c6f57ac2428c7" kind="function"><name>isStartingFieldInTargetTriangle</name></member>
+    <member refid="classGame_1_1TrylmaRules_1a55879e1618908a076e85a070f0e663ee" kind="function"><name>isWinner</name></member>
+    <member refid="classGame_1_1TrylmaRules_1a4d577a2fab20ea399e0fc4d841ed7368" kind="function"><name>moveIsCorrect</name></member>
+    <member refid="classGame_1_1TrylmaRules_1a32f46dac6ee73fa063f7dfc5764c560b" kind="function"><name>setAvailableFields</name></member>
+    <member refid="classGame_1_1TrylmaRules_1a23fb6382701182dc68e46b1e95e35c2a" kind="function"><name>tryToJump</name></member>
+    <member refid="classGame_1_1TrylmaRules_1a078d521001938827f20ed77c37fd7214" kind="function"><name>findNeighbors</name></member>
+    <member refid="classGame_1_1TrylmaRules_1abfde316b36c770c3a87e4fd1ea3106b1" kind="function"><name>getAvailableFields</name></member>
+    <member refid="classGame_1_1TrylmaRules_1aae5899212a0543a4b13af4da2f7b3ad3" kind="function"><name>resetAvailableFields</name></member>
+  </compound>
+  <compound refid="classsocketServer_1_1TrylmaServerWindow" kind="class"><name>socketServer::TrylmaServerWindow</name>
+    <member refid="classsocketServer_1_1TrylmaServerWindow_1a3e12bb72b333a65b7e61619be0dff370" kind="variable"><name>server</name></member>
+    <member refid="classsocketServer_1_1TrylmaServerWindow_1a8a11043bb72c821d15af4a34c4aa174d" kind="variable"><name>container</name></member>
+    <member refid="classsocketServer_1_1TrylmaServerWindow_1a6cb46ae15f130ebd89cf6b6c0c3f61f2" kind="variable"><name>startTheServer</name></member>
+    <member refid="classsocketServer_1_1TrylmaServerWindow_1a147ee0a1022178940c57df82ff040cf9" kind="variable"><name>portSetter</name></member>
+    <member refid="classsocketServer_1_1TrylmaServerWindow_1ae360bfc61897442de200efdfd19655d9" kind="variable"><name>port</name></member>
+    <member refid="classsocketServer_1_1TrylmaServerWindow_1a05195438340005258e57a4544b833dbf" kind="variable"><name>numOfPlayers</name></member>
+    <member refid="classsocketServer_1_1TrylmaServerWindow_1aa4461d7eca92be41266d6449105c96cb" kind="variable"><name>players2</name></member>
+    <member refid="classsocketServer_1_1TrylmaServerWindow_1ae0d20962451057d6624b2ec05b2b112a" kind="variable"><name>players3</name></member>
+    <member refid="classsocketServer_1_1TrylmaServerWindow_1a304428aa6865a085ae494d3ec9825228" kind="variable"><name>players4</name></member>
+    <member refid="classsocketServer_1_1TrylmaServerWindow_1ae92703780bbcca388833b2110d066190" kind="variable"><name>players6</name></member>
+    <member refid="classsocketServer_1_1TrylmaServerWindow_1a21558b2099d96caaace5634cf88b4a0c" kind="variable"><name>numberOfPlayers</name></member>
+    <member refid="classsocketServer_1_1TrylmaServerWindow_1aa01fd7014c8ce60824fe46b8dc6a0714" kind="function"><name>TrylmaServerWindow</name></member>
+    <member refid="classsocketServer_1_1TrylmaServerWindow_1a60342d9a2135f789ed53bcec2e8327c4" kind="function"><name>actionPerformed</name></member>
+  </compound>
+  <compound refid="namespaceboard" kind="namespace"><name>board</name>
+  </compound>
+  <compound refid="namespaceBoard" kind="namespace"><name>Board</name>
+  </compound>
+  <compound refid="namespaceclientServer" kind="namespace"><name>clientServer</name>
+  </compound>
+  <compound refid="namespaceEllipse2D" kind="namespace"><name>Ellipse2D</name>
+  </compound>
+  <compound refid="namespacefrontend" kind="namespace"><name>frontend</name>
+  </compound>
+  <compound refid="namespaceGame" kind="namespace"><name>Game</name>
+  </compound>
+  <compound refid="namespaceGames" kind="namespace"><name>Games</name>
+  </compound>
+  <compound refid="namespaceGames_1_1Trylma" kind="namespace"><name>Games::Trylma</name>
+  </compound>
+  <compound refid="namespacejava_1_1awt" kind="namespace"><name>java::awt</name>
+  </compound>
+  <compound refid="namespacejavax_1_1swing" kind="namespace"><name>javax::swing</name>
+  </compound>
+  <compound refid="namespaceorg_1_1mockito_1_1Mockito" kind="namespace"><name>org::mockito::Mockito</name>
+  </compound>
+  <compound refid="namespacesocketClient" kind="namespace"><name>socketClient</name>
+  </compound>
+  <compound refid="namespacesocketServer" kind="namespace"><name>socketServer</name>
+  </compound>
+  <compound refid="TrylmaClient_2src_2main_2java_2board_2Board_8java" kind="file"><name>Board.java</name>
+  </compound>
+  <compound refid="TrylmaServer_2src_2main_2java_2Board_2Board_8java" kind="file"><name>Board.java</name>
+  </compound>
+  <compound refid="TrylmaClient_2src_2main_2java_2board_2BoardBuilder_8java" kind="file"><name>BoardBuilder.java</name>
+  </compound>
+  <compound refid="TrylmaServer_2src_2main_2java_2Board_2BoardBuilder_8java" kind="file"><name>BoardBuilder.java</name>
+  </compound>
+  <compound refid="TrylmaClient_2src_2main_2java_2board_2BoardField_8java" kind="file"><name>BoardField.java</name>
+  </compound>
+  <compound refid="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" kind="file"><name>BoardField.java</name>
+  </compound>
+  <compound refid="TrylmaClient_2src_2main_2java_2board_2DefaultBoard_8java" kind="file"><name>DefaultBoard.java</name>
+  </compound>
+  <compound refid="TrylmaServer_2src_2main_2java_2Board_2DefaultBoard_8java" kind="file"><name>DefaultBoard.java</name>
+  </compound>
+  <compound refid="TrylmaClient_2src_2main_2java_2board_2DefaultBoardBuilder_8java" kind="file"><name>DefaultBoardBuilder.java</name>
+  </compound>
+  <compound refid="TrylmaServer_2src_2main_2java_2Board_2DefaultBoardBuilder_8java" kind="file"><name>DefaultBoardBuilder.java</name>
+  </compound>
+  <compound refid="TrylmaClient_2src_2main_2java_2board_2JSONBoardConverter_8java" kind="file"><name>JSONBoardConverter.java</name>
+  </compound>
+  <compound refid="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java" kind="file"><name>JSONBoardConverter.java</name>
+  </compound>
+  <compound refid="TrylmaClient_2src_2main_2java_2board_2PlayerColor_8java" kind="file"><name>PlayerColor.java</name>
+  </compound>
+  <compound refid="TrylmaServer_2src_2main_2java_2Board_2PlayerColor_8java" kind="file"><name>PlayerColor.java</name>
+  </compound>
+  <compound refid="TrylmaClient_2src_2main_2java_2board_2StatusColor_8java" kind="file"><name>StatusColor.java</name>
+  </compound>
+  <compound refid="TrylmaServer_2src_2main_2java_2Board_2StatusColor_8java" kind="file"><name>StatusColor.java</name>
+  </compound>
+  <compound refid="ApplicationWindow_8java" kind="file"><name>ApplicationWindow.java</name>
+  </compound>
+  <compound refid="PlayerInfoPanel_8java" kind="file"><name>PlayerInfoPanel.java</name>
+  </compound>
+  <compound refid="SocketClient_8java" kind="file"><name>SocketClient.java</name>
+  </compound>
+  <compound refid="TrylmaClient_8java" kind="file"><name>TrylmaClient.java</name>
+  </compound>
+  <compound refid="TrylmaClient_2src_2test_2java_2clientServer_2AppTest_8java" kind="file"><name>AppTest.java</name>
+  </compound>
+  <compound refid="TrylmaServer_2src_2test_2java_2Games_2Trylma_2AppTest_8java" kind="file"><name>AppTest.java</name>
+  </compound>
+  <compound refid="ClientTest_8java" kind="file"><name>ClientTest.java</name>
+  </compound>
+  <compound refid="BoardShapes_8java" kind="file"><name>BoardShapes.java</name>
+  </compound>
+  <compound refid="DefaultStartFields_8java" kind="file"><name>DefaultStartFields.java</name>
+  </compound>
+  <compound refid="Game_8java" kind="file"><name>Game.java</name>
+  </compound>
+  <compound refid="Rules_8java" kind="file"><name>Rules.java</name>
+  </compound>
+  <compound refid="TrylmaRules_8java" kind="file"><name>TrylmaRules.java</name>
+  </compound>
+  <compound refid="Player_8java" kind="file"><name>Player.java</name>
+  </compound>
+  <compound refid="SocketServer_8java" kind="file"><name>SocketServer.java</name>
+  </compound>
+  <compound refid="Trylma_8java" kind="file"><name>Trylma.java</name>
+  </compound>
+  <compound refid="TrylmaServerWindow_8java" kind="file"><name>TrylmaServerWindow.java</name>
+  </compound>
+  <compound refid="ServerTest_8java" kind="file"><name>ServerTest.java</name>
+  </compound>
+  <compound refid="dir_8b9a349ad13800ba900fbb7168e4e300" kind="dir"><name>TrylmaClient/src/main/java/board</name>
+  </compound>
+  <compound refid="dir_3f8b0ff6cc9a92770e113a2a59d611a2" kind="dir"><name>TrylmaServer/src/main/java/Board</name>
+  </compound>
+  <compound refid="dir_7669c2b95242554b1e0a6bf8c3cfb572" kind="dir"><name>TrylmaClient/src/test/java/clientServer</name>
+  </compound>
+  <compound refid="dir_3848edbc5394863872eca0bfa68f5739" kind="dir"><name>TrylmaClient/src/main/java/frontend</name>
+  </compound>
+  <compound refid="dir_3c8899f1b3564031444ee937deb49eb0" kind="dir"><name>TrylmaServer/src/main/java/Game</name>
+  </compound>
+  <compound refid="dir_2949d27216f43a873ea55e423563c0cc" kind="dir"><name>TrylmaServer/src/test/java/Games</name>
+  </compound>
+  <compound refid="dir_59ff4f7784c9bdfee8e492c9258422fb" kind="dir"><name>TrylmaClient/src/main/java</name>
+  </compound>
+  <compound refid="dir_35da4833580aee4ccb2a07bc3a878fbd" kind="dir"><name>TrylmaServer/src/main/java</name>
+  </compound>
+  <compound refid="dir_6fcce7889d90f2c9152cb7cdd28e1b94" kind="dir"><name>TrylmaClient/src/test/java</name>
+  </compound>
+  <compound refid="dir_e3ed27a03e552567b23aa8efda4f5e97" kind="dir"><name>TrylmaServer/src/test/java</name>
+  </compound>
+  <compound refid="dir_75d1f9a8cd83566baa743228fbbf630b" kind="dir"><name>TrylmaClient/src/main</name>
+  </compound>
+  <compound refid="dir_af0fb6d93bf19ab0f82d5254e8a6aab5" kind="dir"><name>TrylmaServer/src/main</name>
+  </compound>
+  <compound refid="dir_a9214360f13cd9d6809c66b36935b36a" kind="dir"><name>TrylmaClient/src/main/java/socketClient</name>
+  </compound>
+  <compound refid="dir_391453534974e7df5f02a750f9ddeefa" kind="dir"><name>TrylmaServer/src/main/java/socketServer</name>
+  </compound>
+  <compound refid="dir_139bd72341d8197d4323ff4b1483fb5f" kind="dir"><name>TrylmaClient/src</name>
+  </compound>
+  <compound refid="dir_b5684d15a2c94423b21230d2686b9dc0" kind="dir"><name>TrylmaServer/src</name>
+  </compound>
+  <compound refid="dir_bc43ea5b608d4c45634a4b7cde685832" kind="dir"><name>TrylmaClient/src/test</name>
+  </compound>
+  <compound refid="dir_657b7b6f282381c1a8879689e65de69f" kind="dir"><name>TrylmaServer/src/test</name>
+  </compound>
+  <compound refid="dir_065f9430e6e781a277436e007fa32cc3" kind="dir"><name>TrylmaServer/src/test/java/Games/Trylma</name>
+  </compound>
+  <compound refid="dir_1090bcb3d60e9f406df43f828bc9201f" kind="dir"><name>TrylmaClient</name>
+  </compound>
+  <compound refid="dir_43d709f99091969006e0af0a38572e97" kind="dir"><name>TrylmaServer</name>
+  </compound>
+</doxygenindex>

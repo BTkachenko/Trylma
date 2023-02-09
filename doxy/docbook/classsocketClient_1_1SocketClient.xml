@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classsocketClient_1_1SocketClient" xml:lang="en-US">
+<title>socketClient.SocketClient Class Reference</title>
+<indexterm><primary>socketClient.SocketClient</primary></indexterm>
+Collaboration diagram for socketClient.SocketClient:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classsocketClient_1_1SocketClient__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classsocketClient_1_1SocketClient_1ac1d236d205b16105258e4eb369df23a0">SocketClient</link> (int <link linkend="_classsocketClient_1_1SocketClient_1ac8ffc981a583f4c48ef0015e63208b2a">port</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classsocketClient_1_1SocketClient_1a02c5e0a84a2cdc5706e0df95b0955e19">listenSocket</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classsocketClient_1_1SocketClient_1a150101982a9b659688980044854ec70f">play</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classsocketClient_1_1SocketClient_1ab72849b2a72fc1f0082541466525f8b8">setUp</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_enumboard_1_1PlayerColor">PlayerColor</link> <link linkend="_classsocketClient_1_1SocketClient_1a64e02aa77165bfb17581fb4d03c4e925">getPlayerColor</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classsocketClient_1_1SocketClient_1ac3dab221a42a4bc20a92b237b10e74d1">setPlayerColor</link> (int <link linkend="_classsocketClient_1_1SocketClient_1ad7b1337402d71072017839c6421cde14">playerColor</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>PrintWriter <link linkend="_classsocketClient_1_1SocketClient_1abc6483875dba964fec74e8629bc86873">out</link> = null</para>
+</listitem>
+            <listitem><para>Scanner <link linkend="_classsocketClient_1_1SocketClient_1a6ef963f2c73516e8993d3289934c12c2">scanner</link> = null</para>
+</listitem>
+            <listitem><para>DataInputStream <link linkend="_classsocketClient_1_1SocketClient_1ab1465257fcdfd2a317b266835c058944">input</link> = null</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Package Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classfrontend_1_1ApplicationWindow">ApplicationWindow</link> <link linkend="_classsocketClient_1_1SocketClient_1abee91a98ba6e90380729a441ba858e12">appWindow</link> = null</para>
+</listitem>
+            <listitem><para>Socket <link linkend="_classsocketClient_1_1SocketClient_1a5042dab560247979acb36ce13d1bd2aa">socket</link> = null</para>
+</listitem>
+            <listitem><para>int <link linkend="_classsocketClient_1_1SocketClient_1ac8ffc981a583f4c48ef0015e63208b2a">port</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enumboard_1_1PlayerColor">PlayerColor</link> <link linkend="_classsocketClient_1_1SocketClient_1ad7b1337402d71072017839c6421cde14">playerColor</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Socket class that is responsible for communication with the server </para>
+<para>
+Definition at line 19 of file SocketClient.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classsocketClient_1_1SocketClient_1ac1d236d205b16105258e4eb369df23a0"/>    <section>
+    <title>SocketClient()</title>
+<indexterm><primary>SocketClient</primary><secondary>socketClient.SocketClient</secondary></indexterm>
+<indexterm><primary>socketClient.SocketClient</primary><secondary>SocketClient</secondary></indexterm>
+<para><computeroutput>socketClient.SocketClient.SocketClient (int port)</computeroutput></para>
+<para>Basic constructor. </para>
+<para>
+Definition at line 32 of file SocketClient.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classsocketClient_1_1SocketClient_ac1d236d205b16105258e4eb369df23a0_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classsocketClient_1_1SocketClient_1a64e02aa77165bfb17581fb4d03c4e925"/>    <section>
+    <title>getPlayerColor()</title>
+<indexterm><primary>getPlayerColor</primary><secondary>socketClient.SocketClient</secondary></indexterm>
+<indexterm><primary>socketClient.SocketClient</primary><secondary>getPlayerColor</secondary></indexterm>
+<para><computeroutput><link linkend="_enumboard_1_1PlayerColor">PlayerColor</link> socketClient.SocketClient.getPlayerColor ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>returns our color </para>
+</formalpara>
+</para>
+<para>
+Definition at line 109 of file SocketClient.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classsocketClient_1_1SocketClient_a64e02aa77165bfb17581fb4d03c4e925_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classsocketClient_1_1SocketClient_1a02c5e0a84a2cdc5706e0df95b0955e19"/>    <section>
+    <title>listenSocket()</title>
+<indexterm><primary>listenSocket</primary><secondary>socketClient.SocketClient</secondary></indexterm>
+<indexterm><primary>socketClient.SocketClient</primary><secondary>listenSocket</secondary></indexterm>
+<para><computeroutput>void socketClient.SocketClient.listenSocket ( )</computeroutput></para>
+<para>Connects to the socket, receives data, that is needed to start the game, from the server. </para>
+<para>
+Definition at line 43 of file SocketClient.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classsocketClient_1_1SocketClient_a02c5e0a84a2cdc5706e0df95b0955e19_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classsocketClient_1_1SocketClient_a02c5e0a84a2cdc5706e0df95b0955e19_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classsocketClient_1_1SocketClient_1a150101982a9b659688980044854ec70f"/>    <section>
+    <title>play()</title>
+<indexterm><primary>play</primary><secondary>socketClient.SocketClient</secondary></indexterm>
+<indexterm><primary>socketClient.SocketClient</primary><secondary>play</secondary></indexterm>
+<para><computeroutput>void socketClient.SocketClient.play ( )</computeroutput></para>
+<para>Takes suitable actions according to data received from the server </para>
+<para>
+Definition at line 61 of file SocketClient.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classsocketClient_1_1SocketClient_a150101982a9b659688980044854ec70f_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classsocketClient_1_1SocketClient_a150101982a9b659688980044854ec70f_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classsocketClient_1_1SocketClient_1ac3dab221a42a4bc20a92b237b10e74d1"/>    <section>
+    <title>setPlayerColor()</title>
+<indexterm><primary>setPlayerColor</primary><secondary>socketClient.SocketClient</secondary></indexterm>
+<indexterm><primary>socketClient.SocketClient</primary><secondary>setPlayerColor</secondary></indexterm>
+<para><computeroutput>void socketClient.SocketClient.setPlayerColor (int playerColor)</computeroutput></para>
+<para>Sets our color based on data received from the server</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>playerColor</entry>
+                                <entry>
+<para>id of our color </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 120 of file SocketClient.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classsocketClient_1_1SocketClient_ac3dab221a42a4bc20a92b237b10e74d1_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classsocketClient_1_1SocketClient_ac3dab221a42a4bc20a92b237b10e74d1_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classsocketClient_1_1SocketClient_1ab72849b2a72fc1f0082541466525f8b8"/>    <section>
+    <title>setUp()</title>
+<indexterm><primary>setUp</primary><secondary>socketClient.SocketClient</secondary></indexterm>
+<indexterm><primary>socketClient.SocketClient</primary><secondary>setUp</secondary></indexterm>
+<para><computeroutput>void socketClient.SocketClient.setUp ( )</computeroutput></para>
+<para>Sets up all necessary tools </para>
+<para>
+Definition at line 90 of file SocketClient.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classsocketClient_1_1SocketClient_ab72849b2a72fc1f0082541466525f8b8_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classsocketClient_1_1SocketClient_1abee91a98ba6e90380729a441ba858e12"/>    <section>
+    <title>appWindow</title>
+<indexterm><primary>appWindow</primary><secondary>socketClient.SocketClient</secondary></indexterm>
+<indexterm><primary>socketClient.SocketClient</primary><secondary>appWindow</secondary></indexterm>
+<para><computeroutput><link linkend="_classfrontend_1_1ApplicationWindow">ApplicationWindow</link> socketClient.SocketClient.appWindow = null<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 24 of file SocketClient.java.</para>
+    </section><anchor xml:id="_classsocketClient_1_1SocketClient_1ab1465257fcdfd2a317b266835c058944"/>    <section>
+    <title>input</title>
+<indexterm><primary>input</primary><secondary>socketClient.SocketClient</secondary></indexterm>
+<indexterm><primary>socketClient.SocketClient</primary><secondary>input</secondary></indexterm>
+<para><computeroutput>DataInputStream socketClient.SocketClient.input = null</computeroutput></para><para>
+Definition at line 23 of file SocketClient.java.</para>
+    </section><anchor xml:id="_classsocketClient_1_1SocketClient_1abc6483875dba964fec74e8629bc86873"/>    <section>
+    <title>out</title>
+<indexterm><primary>out</primary><secondary>socketClient.SocketClient</secondary></indexterm>
+<indexterm><primary>socketClient.SocketClient</primary><secondary>out</secondary></indexterm>
+<para><computeroutput>PrintWriter socketClient.SocketClient.out = null</computeroutput></para><para>
+Definition at line 21 of file SocketClient.java.</para>
+    </section><anchor xml:id="_classsocketClient_1_1SocketClient_1ad7b1337402d71072017839c6421cde14"/>    <section>
+    <title>playerColor</title>
+<indexterm><primary>playerColor</primary><secondary>socketClient.SocketClient</secondary></indexterm>
+<indexterm><primary>socketClient.SocketClient</primary><secondary>playerColor</secondary></indexterm>
+<para><computeroutput><link linkend="_enumboard_1_1PlayerColor">PlayerColor</link> socketClient.SocketClient.playerColor<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file SocketClient.java.</para>
+    </section><anchor xml:id="_classsocketClient_1_1SocketClient_1ac8ffc981a583f4c48ef0015e63208b2a"/>    <section>
+    <title>port</title>
+<indexterm><primary>port</primary><secondary>socketClient.SocketClient</secondary></indexterm>
+<indexterm><primary>socketClient.SocketClient</primary><secondary>port</secondary></indexterm>
+<para><computeroutput>int socketClient.SocketClient.port<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 26 of file SocketClient.java.</para>
+    </section><anchor xml:id="_classsocketClient_1_1SocketClient_1a6ef963f2c73516e8993d3289934c12c2"/>    <section>
+    <title>scanner</title>
+<indexterm><primary>scanner</primary><secondary>socketClient.SocketClient</secondary></indexterm>
+<indexterm><primary>socketClient.SocketClient</primary><secondary>scanner</secondary></indexterm>
+<para><computeroutput>Scanner socketClient.SocketClient.scanner = null</computeroutput></para><para>
+Definition at line 22 of file SocketClient.java.</para>
+    </section><anchor xml:id="_classsocketClient_1_1SocketClient_1a5042dab560247979acb36ce13d1bd2aa"/>    <section>
+    <title>socket</title>
+<indexterm><primary>socket</primary><secondary>socketClient.SocketClient</secondary></indexterm>
+<indexterm><primary>socketClient.SocketClient</primary><secondary>socket</secondary></indexterm>
+<para><computeroutput>Socket socketClient.SocketClient.socket = null<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 25 of file SocketClient.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaClient/src/main/java/socketClient/<link linkend="_SocketClient_8java">SocketClient.java</link></section>
+</section>

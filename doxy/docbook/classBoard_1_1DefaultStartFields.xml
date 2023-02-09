@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classBoard_1_1DefaultStartFields" xml:lang="en-US">
+<title>Board.DefaultStartFields Class Reference</title>
+<indexterm><primary>Board.DefaultStartFields</primary></indexterm>
+Collaboration diagram for Board.DefaultStartFields:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1DefaultStartFields__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classBoard_1_1DefaultStartFields_1a1872ee413f78e7d003d9058e50cf3c8e">addField</link> (<link linkend="_classBoard_1_1BoardField">BoardField</link> field, int fieldCharacteristic)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classBoard_1_1DefaultStartFields_1ae9ebe6303061b355b1ad05f5611db237">setPlayerColors</link> (int numOfPlayers)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>ArrayList&lt; <link linkend="_classBoard_1_1BoardField">BoardField</link> &gt; <link linkend="_classBoard_1_1DefaultStartFields_1a635e8a61c81542e6a7b3feed2009ce23">topFields</link> = new ArrayList&lt;&gt;()</para>
+</listitem>
+            <listitem><para>ArrayList&lt; <link linkend="_classBoard_1_1BoardField">BoardField</link> &gt; <link linkend="_classBoard_1_1DefaultStartFields_1a17e29928af74160b918a67cab28c6d3a">topLeftFields</link> = new ArrayList&lt;&gt;()</para>
+</listitem>
+            <listitem><para>ArrayList&lt; <link linkend="_classBoard_1_1BoardField">BoardField</link> &gt; <link linkend="_classBoard_1_1DefaultStartFields_1aae2a4cdb0d025bad21c20802158f4b56">topRightFields</link> = new ArrayList&lt;&gt;()</para>
+</listitem>
+            <listitem><para>ArrayList&lt; <link linkend="_classBoard_1_1BoardField">BoardField</link> &gt; <link linkend="_classBoard_1_1DefaultStartFields_1ae81255a93da375690e5641b957c093dd">bottomFields</link> = new ArrayList&lt;&gt;()</para>
+</listitem>
+            <listitem><para>ArrayList&lt; <link linkend="_classBoard_1_1BoardField">BoardField</link> &gt; <link linkend="_classBoard_1_1DefaultStartFields_1a179df601f450014ee162e171a2caf0d8">bottomLeftFields</link> = new ArrayList&lt;&gt;()</para>
+</listitem>
+            <listitem><para>ArrayList&lt; <link linkend="_classBoard_1_1BoardField">BoardField</link> &gt; <link linkend="_classBoard_1_1DefaultStartFields_1a4aaccb31b635677f00516a1f5c3440b3">bottomRightFields</link> = new ArrayList&lt;&gt;()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Stores references to start fields. Start fields are important part of the <link linkend="_classBoard_1_1Board">Board</link>, they determine where players start their games and allow checking if one of the players won. </para>
+<para>
+Definition at line 12 of file DefaultStartFields.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classBoard_1_1DefaultStartFields_1a1872ee413f78e7d003d9058e50cf3c8e"/>    <section>
+    <title>addField()</title>
+<indexterm><primary>addField</primary><secondary>Board.DefaultStartFields</secondary></indexterm>
+<indexterm><primary>Board.DefaultStartFields</primary><secondary>addField</secondary></indexterm>
+<para><computeroutput>void Board.DefaultStartFields.addField (<link linkend="_classBoard_1_1BoardField">BoardField</link> field, int fieldCharacteristic)</computeroutput></para>
+<para>Adds field to the right starting fields</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>field</entry>
+                                <entry>
+<para>the field we are adding </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>fieldCharacteristic</entry>
+                                <entry>
+<para>field characteristic number in int[][] array </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 27 of file DefaultStartFields.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1DefaultStartFields_a1872ee413f78e7d003d9058e50cf3c8e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classBoard_1_1DefaultStartFields_1ae9ebe6303061b355b1ad05f5611db237"/>    <section>
+    <title>setPlayerColors()</title>
+<indexterm><primary>setPlayerColors</primary><secondary>Board.DefaultStartFields</secondary></indexterm>
+<indexterm><primary>Board.DefaultStartFields</primary><secondary>setPlayerColors</secondary></indexterm>
+<para><computeroutput>void Board.DefaultStartFields.setPlayerColors (int numOfPlayers)</computeroutput></para>
+<para>Assigns start fields to players at the start of the game 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>numOfPlayers</entry>
+                                <entry>
+<para>number of players in the game </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 62 of file DefaultStartFields.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1DefaultStartFields_ae9ebe6303061b355b1ad05f5611db237_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classBoard_1_1DefaultStartFields_1ae81255a93da375690e5641b957c093dd"/>    <section>
+    <title>bottomFields</title>
+<indexterm><primary>bottomFields</primary><secondary>Board.DefaultStartFields</secondary></indexterm>
+<indexterm><primary>Board.DefaultStartFields</primary><secondary>bottomFields</secondary></indexterm>
+<para><computeroutput>ArrayList&lt;<link linkend="_classBoard_1_1BoardField">BoardField</link>&gt; Board.DefaultStartFields.bottomFields = new ArrayList&lt;&gt;()</computeroutput></para><para>
+Definition at line 16 of file DefaultStartFields.java.</para>
+    </section><anchor xml:id="_classBoard_1_1DefaultStartFields_1a179df601f450014ee162e171a2caf0d8"/>    <section>
+    <title>bottomLeftFields</title>
+<indexterm><primary>bottomLeftFields</primary><secondary>Board.DefaultStartFields</secondary></indexterm>
+<indexterm><primary>Board.DefaultStartFields</primary><secondary>bottomLeftFields</secondary></indexterm>
+<para><computeroutput>ArrayList&lt;<link linkend="_classBoard_1_1BoardField">BoardField</link>&gt; Board.DefaultStartFields.bottomLeftFields = new ArrayList&lt;&gt;()</computeroutput></para><para>
+Definition at line 17 of file DefaultStartFields.java.</para>
+    </section><anchor xml:id="_classBoard_1_1DefaultStartFields_1a4aaccb31b635677f00516a1f5c3440b3"/>    <section>
+    <title>bottomRightFields</title>
+<indexterm><primary>bottomRightFields</primary><secondary>Board.DefaultStartFields</secondary></indexterm>
+<indexterm><primary>Board.DefaultStartFields</primary><secondary>bottomRightFields</secondary></indexterm>
+<para><computeroutput>ArrayList&lt;<link linkend="_classBoard_1_1BoardField">BoardField</link>&gt; Board.DefaultStartFields.bottomRightFields = new ArrayList&lt;&gt;()</computeroutput></para><para>
+Definition at line 18 of file DefaultStartFields.java.</para>
+    </section><anchor xml:id="_classBoard_1_1DefaultStartFields_1a635e8a61c81542e6a7b3feed2009ce23"/>    <section>
+    <title>topFields</title>
+<indexterm><primary>topFields</primary><secondary>Board.DefaultStartFields</secondary></indexterm>
+<indexterm><primary>Board.DefaultStartFields</primary><secondary>topFields</secondary></indexterm>
+<para><computeroutput>ArrayList&lt;<link linkend="_classBoard_1_1BoardField">BoardField</link>&gt; Board.DefaultStartFields.topFields = new ArrayList&lt;&gt;()</computeroutput></para><para>
+Definition at line 13 of file DefaultStartFields.java.</para>
+    </section><anchor xml:id="_classBoard_1_1DefaultStartFields_1a17e29928af74160b918a67cab28c6d3a"/>    <section>
+    <title>topLeftFields</title>
+<indexterm><primary>topLeftFields</primary><secondary>Board.DefaultStartFields</secondary></indexterm>
+<indexterm><primary>Board.DefaultStartFields</primary><secondary>topLeftFields</secondary></indexterm>
+<para><computeroutput>ArrayList&lt;<link linkend="_classBoard_1_1BoardField">BoardField</link>&gt; Board.DefaultStartFields.topLeftFields = new ArrayList&lt;&gt;()</computeroutput></para><para>
+Definition at line 14 of file DefaultStartFields.java.</para>
+    </section><anchor xml:id="_classBoard_1_1DefaultStartFields_1aae2a4cdb0d025bad21c20802158f4b56"/>    <section>
+    <title>topRightFields</title>
+<indexterm><primary>topRightFields</primary><secondary>Board.DefaultStartFields</secondary></indexterm>
+<indexterm><primary>Board.DefaultStartFields</primary><secondary>topRightFields</secondary></indexterm>
+<para><computeroutput>ArrayList&lt;<link linkend="_classBoard_1_1BoardField">BoardField</link>&gt; Board.DefaultStartFields.topRightFields = new ArrayList&lt;&gt;()</computeroutput></para><para>
+Definition at line 15 of file DefaultStartFields.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaServer/src/main/java/Board/<link linkend="_DefaultStartFields_8java">DefaultStartFields.java</link></section>
+</section>

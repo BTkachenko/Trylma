@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="enumboard_1_1StatusColor" kind="enum" language="Java" prot="public">
+    <compoundname>board::StatusColor</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumboard_1_1StatusColor_1a24f12f1aad4d996319f6b495dfe0f155" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>board.StatusColor.ACTIVE</definition>
+        <argsstring></argsstring>
+        <name>ACTIVE</name>
+        <initializer>=(1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/board/StatusColor.java" line="8" column="1" bodyfile="TrylmaClient/src/main/java/board/StatusColor.java" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classboard_1_1DefaultBoard_1ad40b5c50f2a3b794d25e07fdb7ab9fe3" compoundref="TrylmaClient_2src_2main_2java_2board_2DefaultBoard_8java" startline="24" endline="67">board.DefaultBoard.DefaultBoard</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumboard_1_1StatusColor_1aa934697172e0024e1570542cde149285" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>board.StatusColor.INACTIVE</definition>
+        <argsstring></argsstring>
+        <name>INACTIVE</name>
+        <initializer>=(2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/board/StatusColor.java" line="9" column="1" bodyfile="TrylmaClient/src/main/java/board/StatusColor.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumboard_1_1StatusColor_1ab9a7facdd0a76d024d45fb9e02369c32" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>board.StatusColor.POSSIBLE_MOVE</definition>
+        <argsstring></argsstring>
+        <name>POSSIBLE_MOVE</name>
+        <initializer>=(3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/board/StatusColor.java" line="10" column="1" bodyfile="TrylmaClient/src/main/java/board/StatusColor.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enumboard_1_1StatusColor_1a24a2a5bd2a57d7ef7f1b12b907f37b3d" prot="public" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int board.StatusColor.statusColorID</definition>
+        <argsstring></argsstring>
+        <name>statusColorID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/board/StatusColor.java" line="12" column="22" bodyfile="TrylmaClient/src/main/java/board/StatusColor.java" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classboard_1_1JSONBoardConverter_1a9688ac1f33e20784a891030b431706c5" compoundref="TrylmaClient_2src_2main_2java_2board_2JSONBoardConverter_8java" startline="19" endline="37">board.JSONBoardConverter.buildJSONBoard</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="enumboard_1_1StatusColor_1a2f8d0bd97c218b6f9d2a3c9d7db7da9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>board.StatusColor.StatusColor</definition>
+        <argsstring>(int statusColorID)</argsstring>
+        <name>StatusColor</name>
+        <param>
+          <type>int</type>
+          <declname>statusColorID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Each status is associated with a number (id) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>statusColorID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>status id </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/board/StatusColor.java" line="19" column="5" bodyfile="TrylmaClient/src/main/java/board/StatusColor.java" bodystart="19" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="enumboard_1_1StatusColor_1a83c0929bcbe571d9cab9c67d2c0418ae" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enumboard_1_1StatusColor" kindref="compound">StatusColor</ref></type>
+        <definition>static StatusColor board.StatusColor.fromInteger</definition>
+        <argsstring>(int x)</argsstring>
+        <name>fromInteger</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts a number to a status <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number given to convert </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>status associated with a given number </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/main/java/board/StatusColor.java" line="29" column="31" bodyfile="TrylmaClient/src/main/java/board/StatusColor.java" bodystart="29" bodyend="39"/>
+        <referencedby refid="classboard_1_1BoardField_1a5c82e7dc0ec8b05fee255b9d783a49c7" compoundref="TrylmaClient_2src_2main_2java_2board_2BoardField_8java" startline="33" endline="43">board.BoardField.BoardField</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Enum with possible status colors </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>board.StatusColor</label>
+        <link refid="enumboard_1_1StatusColor"/>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaClient/src/main/java/board/StatusColor.java" line="7" column="7" bodyfile="TrylmaClient/src/main/java/board/StatusColor.java" bodystart="7" bodyend="40"/>
+    <listofallmembers>
+      <member refid="enumboard_1_1StatusColor_1a24f12f1aad4d996319f6b495dfe0f155" prot="public" virt="non-virtual"><scope>board::StatusColor</scope><name>ACTIVE</name></member>
+      <member refid="enumboard_1_1StatusColor_1a83c0929bcbe571d9cab9c67d2c0418ae" prot="public" virt="non-virtual"><scope>board::StatusColor</scope><name>fromInteger</name></member>
+      <member refid="enumboard_1_1StatusColor_1aa934697172e0024e1570542cde149285" prot="public" virt="non-virtual"><scope>board::StatusColor</scope><name>INACTIVE</name></member>
+      <member refid="enumboard_1_1StatusColor_1ab9a7facdd0a76d024d45fb9e02369c32" prot="public" virt="non-virtual"><scope>board::StatusColor</scope><name>POSSIBLE_MOVE</name></member>
+      <member refid="enumboard_1_1StatusColor_1a2f8d0bd97c218b6f9d2a3c9d7db7da9e" prot="public" virt="non-virtual"><scope>board::StatusColor</scope><name>StatusColor</name></member>
+      <member refid="enumboard_1_1StatusColor_1a24a2a5bd2a57d7ef7f1b12b907f37b3d" prot="public" virt="non-virtual"><scope>board::StatusColor</scope><name>statusColorID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

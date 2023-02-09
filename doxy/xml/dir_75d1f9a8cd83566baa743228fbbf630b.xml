@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_75d1f9a8cd83566baa743228fbbf630b" kind="dir">
+    <compoundname>TrylmaClient/src/main</compoundname>
+    <innerdir refid="dir_59ff4f7784c9bdfee8e492c9258422fb">TrylmaClient/src/main/java</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TrylmaClient/src/main/"/>
+  </compounddef>
+</doxygen>

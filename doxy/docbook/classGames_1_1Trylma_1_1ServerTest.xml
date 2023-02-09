@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classGames_1_1Trylma_1_1ServerTest" xml:lang="en-US">
+<title>Games.Trylma.ServerTest Class Reference</title>
+<indexterm><primary>Games.Trylma.ServerTest</primary></indexterm>
+Collaboration diagram for Games.Trylma.ServerTest:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGames_1_1Trylma_1_1ServerTest__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classGames_1_1Trylma_1_1ServerTest_1a44d1b2cd6d8610631d04748a5ef0da6a">calculatingMove</link> ()  throws IOException </para>
+</listitem>
+            <listitem><para>void <link linkend="_classGames_1_1Trylma_1_1ServerTest_1a3a8928b2ac890edb5b41bc819bfb472c">whoWinTheGame</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classGames_1_1Trylma_1_1ServerTest_1a65cab29b4063681f2b35d536ade65be2">ifPlayerCouldMove</link> ()  throws IOException </para>
+</listitem>
+            <listitem><para>void <link linkend="_classGames_1_1Trylma_1_1ServerTest_1a91aaad205da873a8f85219b216469303">setAvailableFields</link> ()  throws IOException </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classsocketServer_1_1Player">Player</link> <link linkend="_classGames_1_1Trylma_1_1ServerTest_1a7553c8a0ee1f8b55410108b329217296">createMockedPlayer</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 21 of file ServerTest.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classGames_1_1Trylma_1_1ServerTest_1a44d1b2cd6d8610631d04748a5ef0da6a"/>    <section>
+    <title>calculatingMove()</title>
+<indexterm><primary>calculatingMove</primary><secondary>Games.Trylma.ServerTest</secondary></indexterm>
+<indexterm><primary>Games.Trylma.ServerTest</primary><secondary>calculatingMove</secondary></indexterm>
+<para><computeroutput>void Games.Trylma.ServerTest.calculatingMove ( ) throws IOException</computeroutput></para><para>
+Definition at line 23 of file ServerTest.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGames_1_1Trylma_1_1ServerTest_a44d1b2cd6d8610631d04748a5ef0da6a_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classGames_1_1Trylma_1_1ServerTest_1a7553c8a0ee1f8b55410108b329217296"/>    <section>
+    <title>createMockedPlayer()</title>
+<indexterm><primary>createMockedPlayer</primary><secondary>Games.Trylma.ServerTest</secondary></indexterm>
+<indexterm><primary>Games.Trylma.ServerTest</primary><secondary>createMockedPlayer</secondary></indexterm>
+<para><computeroutput><link linkend="_classsocketServer_1_1Player">Player</link> Games.Trylma.ServerTest.createMockedPlayer ( )<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+Definition at line 144 of file ServerTest.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGames_1_1Trylma_1_1ServerTest_a7553c8a0ee1f8b55410108b329217296_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classGames_1_1Trylma_1_1ServerTest_1a65cab29b4063681f2b35d536ade65be2"/>    <section>
+    <title>ifPlayerCouldMove()</title>
+<indexterm><primary>ifPlayerCouldMove</primary><secondary>Games.Trylma.ServerTest</secondary></indexterm>
+<indexterm><primary>Games.Trylma.ServerTest</primary><secondary>ifPlayerCouldMove</secondary></indexterm>
+<para><computeroutput>void Games.Trylma.ServerTest.ifPlayerCouldMove ( ) throws IOException</computeroutput></para><para>
+Definition at line 88 of file ServerTest.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGames_1_1Trylma_1_1ServerTest_a65cab29b4063681f2b35d536ade65be2_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classGames_1_1Trylma_1_1ServerTest_1a91aaad205da873a8f85219b216469303"/>    <section>
+    <title>setAvailableFields()</title>
+<indexterm><primary>setAvailableFields</primary><secondary>Games.Trylma.ServerTest</secondary></indexterm>
+<indexterm><primary>Games.Trylma.ServerTest</primary><secondary>setAvailableFields</secondary></indexterm>
+<para><computeroutput>void Games.Trylma.ServerTest.setAvailableFields ( ) throws IOException</computeroutput></para><para>
+Definition at line 115 of file ServerTest.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGames_1_1Trylma_1_1ServerTest_a91aaad205da873a8f85219b216469303_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classGames_1_1Trylma_1_1ServerTest_1a3a8928b2ac890edb5b41bc819bfb472c"/>    <section>
+    <title>whoWinTheGame()</title>
+<indexterm><primary>whoWinTheGame</primary><secondary>Games.Trylma.ServerTest</secondary></indexterm>
+<indexterm><primary>Games.Trylma.ServerTest</primary><secondary>whoWinTheGame</secondary></indexterm>
+<para><computeroutput>void Games.Trylma.ServerTest.whoWinTheGame ( )</computeroutput></para><para>
+Definition at line 50 of file ServerTest.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGames_1_1Trylma_1_1ServerTest_a3a8928b2ac890edb5b41bc819bfb472c_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaServer/src/test/java/Games/Trylma/<link linkend="_ServerTest_8java">ServerTest.java</link></section>
+</section>

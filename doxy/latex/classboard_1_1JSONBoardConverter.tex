@@ -1,0 +1,111 @@
+\hypertarget{classBoard_1_1JSONBoardConverter}{}\doxysection{Board.\+JSONBoard\+Converter Class Reference}
+\label{classBoard_1_1JSONBoardConverter}\index{Board.JSONBoardConverter@{Board.JSONBoardConverter}}
+
+
+Collaboration diagram for Board.\+JSONBoard\+Converter\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{classBoard_1_1JSONBoardConverter__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classBoard_1_1JSONBoardConverter_a98038a40196e2a072ca99710b877a108}{build\+JSONBoard}} (\mbox{\hyperlink{classBoard_1_1Board}{Board}} board)
+\item 
+void \mbox{\hyperlink{classBoard_1_1JSONBoardConverter_aebf37df2fbd903e07e8edb9349976e0a}{add\+Content}} (String content)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final String\+Builder \mbox{\hyperlink{classBoard_1_1JSONBoardConverter_a8be0f98f60cb305bab26c69c0d31e007}{json\+Builder}} = new String\+Builder()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Converts a board to a JSON String which can be sent to clients by the server. Can be turned back to \mbox{\hyperlink{classBoard_1_1Board}{Board}} by \mbox{\hyperlink{classBoard_1_1JSONBoardConverter}{JSONBoard\+Converter}}. 
+
+Definition at line 10 of file JSONBoard\+Converter.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBoard_1_1JSONBoardConverter_aebf37df2fbd903e07e8edb9349976e0a}\label{classBoard_1_1JSONBoardConverter_aebf37df2fbd903e07e8edb9349976e0a}} 
+\index{Board.JSONBoardConverter@{Board.JSONBoardConverter}!addContent@{addContent}}
+\index{addContent@{addContent}!Board.JSONBoardConverter@{Board.JSONBoardConverter}}
+\doxysubsubsection{\texorpdfstring{addContent()}{addContent()}}
+{\footnotesize\ttfamily void Board.\+JSONBoard\+Converter.\+add\+Content (\begin{DoxyParamCaption}\item[{String}]{content }\end{DoxyParamCaption})}
+
+Ads data to the JSON String 
+\begin{DoxyParams}{Parameters}
+{\em content} & data to add \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 45 of file JSONBoard\+Converter.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1JSONBoardConverter_aebf37df2fbd903e07e8edb9349976e0a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBoard_1_1JSONBoardConverter_a98038a40196e2a072ca99710b877a108}\label{classBoard_1_1JSONBoardConverter_a98038a40196e2a072ca99710b877a108}} 
+\index{Board.JSONBoardConverter@{Board.JSONBoardConverter}!buildJSONBoard@{buildJSONBoard}}
+\index{buildJSONBoard@{buildJSONBoard}!Board.JSONBoardConverter@{Board.JSONBoardConverter}}
+\doxysubsubsection{\texorpdfstring{buildJSONBoard()}{buildJSONBoard()}}
+{\footnotesize\ttfamily String Board.\+JSONBoard\+Converter.\+build\+JSONBoard (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBoard_1_1Board}{Board}}}]{board }\end{DoxyParamCaption})}
+
+Converts a board to a JSON String
+
+
+\begin{DoxyParams}{Parameters}
+{\em board} & board we want to convert \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+JSON String that stores board data 
+\end{DoxyReturn}
+
+
+Definition at line 20 of file JSONBoard\+Converter.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1JSONBoardConverter_a98038a40196e2a072ca99710b877a108_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBoard_1_1JSONBoardConverter_a98038a40196e2a072ca99710b877a108_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classBoard_1_1JSONBoardConverter_a8be0f98f60cb305bab26c69c0d31e007}\label{classBoard_1_1JSONBoardConverter_a8be0f98f60cb305bab26c69c0d31e007}} 
+\index{Board.JSONBoardConverter@{Board.JSONBoardConverter}!jsonBuilder@{jsonBuilder}}
+\index{jsonBuilder@{jsonBuilder}!Board.JSONBoardConverter@{Board.JSONBoardConverter}}
+\doxysubsubsection{\texorpdfstring{jsonBuilder}{jsonBuilder}}
+{\footnotesize\ttfamily final String\+Builder Board.\+JSONBoard\+Converter.\+json\+Builder = new String\+Builder()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 11 of file JSONBoard\+Converter.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Trylma\+Server/src/main/java/\+Board/\mbox{\hyperlink{TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java}{JSONBoard\+Converter.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,111 @@
+\hypertarget{interfaceGame_1_1Rules}{}\doxysection{Game.\+Rules Interface Reference}
+\label{interfaceGame_1_1Rules}\index{Game.Rules@{Game.Rules}}
+
+
+Inheritance diagram for Game.\+Rules\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{interfaceGame_1_1Rules__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Game.\+Rules\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{interfaceGame_1_1Rules__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{interfaceGame_1_1Rules_ada70dae02515a3905cb5651d2ef3236f}{is\+Winner}} (\mbox{\hyperlink{classGame_1_1Game}{Game}} game, int player\+ID)
+\item 
+boolean \mbox{\hyperlink{interfaceGame_1_1Rules_adfee9cf337908d6aa926e70a089c5041}{move\+Is\+Correct}} (\mbox{\hyperlink{classBoard_1_1Board}{Board}} board, int end\+Move\+Field)
+\item 
+void \mbox{\hyperlink{interfaceGame_1_1Rules_a1c2f44b6942e772b25cf0b39113b8751}{set\+Available\+Fields}} (\mbox{\hyperlink{classBoard_1_1Board}{Board}} board, \mbox{\hyperlink{classBoard_1_1BoardField}{Board\+Field}} start\+Field, boolean is\+First\+Check)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface of game rules 
+
+Definition at line 9 of file Rules.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceGame_1_1Rules_ada70dae02515a3905cb5651d2ef3236f}\label{interfaceGame_1_1Rules_ada70dae02515a3905cb5651d2ef3236f}} 
+\index{Game.Rules@{Game.Rules}!isWinner@{isWinner}}
+\index{isWinner@{isWinner}!Game.Rules@{Game.Rules}}
+\doxysubsubsection{\texorpdfstring{isWinner()}{isWinner()}}
+{\footnotesize\ttfamily boolean Game.\+Rules.\+is\+Winner (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classGame_1_1Game}{Game}}}]{game,  }\item[{int}]{player\+ID }\end{DoxyParamCaption})}
+
+Rule set that determines if given player won the game
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & the game that is being played \\
+\hline
+{\em player\+ID} & id of player being checked \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if player won the game 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classGame_1_1TrylmaRules_a55879e1618908a076e85a070f0e663ee}{Game.\+Trylma\+Rules}}.
+
+\mbox{\Hypertarget{interfaceGame_1_1Rules_adfee9cf337908d6aa926e70a089c5041}\label{interfaceGame_1_1Rules_adfee9cf337908d6aa926e70a089c5041}} 
+\index{Game.Rules@{Game.Rules}!moveIsCorrect@{moveIsCorrect}}
+\index{moveIsCorrect@{moveIsCorrect}!Game.Rules@{Game.Rules}}
+\doxysubsubsection{\texorpdfstring{moveIsCorrect()}{moveIsCorrect()}}
+{\footnotesize\ttfamily boolean Game.\+Rules.\+move\+Is\+Correct (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBoard_1_1Board}{Board}}}]{board,  }\item[{int}]{end\+Move\+Field }\end{DoxyParamCaption})}
+
+Rule set that determines if given move is correct. Checks if selected field is in Available fields. It is checked after second click by current player.
+
+
+\begin{DoxyParams}{Parameters}
+{\em board} & the game board in current state \\
+\hline
+{\em end\+Move\+Field} & the field player is trying to move to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if move is correct 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classGame_1_1TrylmaRules_a4d577a2fab20ea399e0fc4d841ed7368}{Game.\+Trylma\+Rules}}.
+
+\mbox{\Hypertarget{interfaceGame_1_1Rules_a1c2f44b6942e772b25cf0b39113b8751}\label{interfaceGame_1_1Rules_a1c2f44b6942e772b25cf0b39113b8751}} 
+\index{Game.Rules@{Game.Rules}!setAvailableFields@{setAvailableFields}}
+\index{setAvailableFields@{setAvailableFields}!Game.Rules@{Game.Rules}}
+\doxysubsubsection{\texorpdfstring{setAvailableFields()}{setAvailableFields()}}
+{\footnotesize\ttfamily void Game.\+Rules.\+set\+Available\+Fields (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBoard_1_1Board}{Board}}}]{board,  }\item[{\mbox{\hyperlink{classBoard_1_1BoardField}{Board\+Field}}}]{start\+Field,  }\item[{boolean}]{is\+First\+Check }\end{DoxyParamCaption})}
+
+Rule set that maps legal fields that you can move to from selected field. It is checked after first click by current player.
+
+
+\begin{DoxyParams}{Parameters}
+{\em board} & \\
+\hline
+{\em start\+Field} & \\
+\hline
+{\em is\+First\+Check} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classGame_1_1TrylmaRules_a32f46dac6ee73fa063f7dfc5764c560b}{Game.\+Trylma\+Rules}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Trylma\+Server/src/main/java/\+Game/\mbox{\hyperlink{Rules_8java}{Rules.\+java}}\end{DoxyCompactItemize}

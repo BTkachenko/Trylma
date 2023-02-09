@@ -1,0 +1,259 @@
+\hypertarget{classfrontend_1_1ApplicationWindow}{}\doxysection{frontend.\+Application\+Window Class Reference}
+\label{classfrontend_1_1ApplicationWindow}\index{frontend.ApplicationWindow@{frontend.ApplicationWindow}}
+
+
+Inheritance diagram for frontend.\+Application\+Window\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{classfrontend_1_1ApplicationWindow__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for frontend.\+Application\+Window\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfrontend_1_1ApplicationWindow__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classfrontend_1_1ApplicationWindow_aea76d894f40e84cc2357f413edfdf447}{Application\+Window}} (\mbox{\hyperlink{enumboard_1_1PlayerColor}{Player\+Color}} \mbox{\hyperlink{classfrontend_1_1ApplicationWindow_a4b4922b82d6d5a91ee6cfd21eedf5c7b}{player\+Color}}, int current\+Player\+ID, String JSONBoard)
+\item 
+void \mbox{\hyperlink{classfrontend_1_1ApplicationWindow_a664ad50da7906d6c03c3fb3914a1de18}{set\+Curr\+Player}} (int curr\+Player\+ID)
+\item 
+void \mbox{\hyperlink{classfrontend_1_1ApplicationWindow_a76b6b84520cfbff6392808a4f9f7ebab}{if\+You\+Current\+Player}} (int curr\+Player)
+\item 
+\mbox{\hyperlink{classboard_1_1Board}{Board}} \mbox{\hyperlink{classfrontend_1_1ApplicationWindow_a53c66dc8d104d123b94facb67fa8c2c7}{get\+Board}} ()
+\item 
+void \mbox{\hyperlink{classfrontend_1_1ApplicationWindow_a8ce6ee6143346b6eca7e73661ba38638}{set\+Board}} (String json\+Board)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboard_1_1DefaultBoard}{Default\+Board}} \mbox{\hyperlink{classfrontend_1_1ApplicationWindow_ae37772904c4a6417123e058d57ae5435}{board}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboard_1_1DefaultBoardBuilder}{Default\+Board\+Builder}} \mbox{\hyperlink{classfrontend_1_1ApplicationWindow_a52408dc2f7bb745ca2c0442e0d808909}{builder}}
+\item 
+\mbox{\hyperlink{classfrontend_1_1PlayerInfoPanel}{Player\+Info\+Panel}} \mbox{\hyperlink{classfrontend_1_1ApplicationWindow_ad5f37cc8d0abc610ceea99568a393561}{info\+Panel}}
+\item 
+\mbox{\hyperlink{enumboard_1_1PlayerColor}{Player\+Color}} \mbox{\hyperlink{classfrontend_1_1ApplicationWindow_a4b4922b82d6d5a91ee6cfd21eedf5c7b}{player\+Color}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Displays and stores information about board, which player are we, who is current player. Main app window. 
+
+Definition at line 14 of file Application\+Window.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classfrontend_1_1ApplicationWindow_aea76d894f40e84cc2357f413edfdf447}\label{classfrontend_1_1ApplicationWindow_aea76d894f40e84cc2357f413edfdf447}} 
+\index{frontend.ApplicationWindow@{frontend.ApplicationWindow}!ApplicationWindow@{ApplicationWindow}}
+\index{ApplicationWindow@{ApplicationWindow}!frontend.ApplicationWindow@{frontend.ApplicationWindow}}
+\doxysubsubsection{\texorpdfstring{ApplicationWindow()}{ApplicationWindow()}}
+{\footnotesize\ttfamily frontend.\+Application\+Window.\+Application\+Window (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{enumboard_1_1PlayerColor}{Player\+Color}}}]{player\+Color,  }\item[{int}]{current\+Player\+ID,  }\item[{String}]{JSONBoard }\end{DoxyParamCaption})}
+
+Basic Constructor
+
+
+\begin{DoxyParams}{Parameters}
+{\em player\+Color} & the color of our fields \\
+\hline
+{\em current\+Player\+ID} & id of a current player \\
+\hline
+{\em JSONBoard} & json board received from server \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 29 of file Application\+Window.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfrontend_1_1ApplicationWindow_aea76d894f40e84cc2357f413edfdf447_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classfrontend_1_1ApplicationWindow_a53c66dc8d104d123b94facb67fa8c2c7}\label{classfrontend_1_1ApplicationWindow_a53c66dc8d104d123b94facb67fa8c2c7}} 
+\index{frontend.ApplicationWindow@{frontend.ApplicationWindow}!getBoard@{getBoard}}
+\index{getBoard@{getBoard}!frontend.ApplicationWindow@{frontend.ApplicationWindow}}
+\doxysubsubsection{\texorpdfstring{getBoard()}{getBoard()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classboard_1_1Board}{Board}} frontend.\+Application\+Window.\+get\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+returns app board 
+\end{DoxyReturn}
+
+
+Definition at line 79 of file Application\+Window.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfrontend_1_1ApplicationWindow_a53c66dc8d104d123b94facb67fa8c2c7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classfrontend_1_1ApplicationWindow_a76b6b84520cfbff6392808a4f9f7ebab}\label{classfrontend_1_1ApplicationWindow_a76b6b84520cfbff6392808a4f9f7ebab}} 
+\index{frontend.ApplicationWindow@{frontend.ApplicationWindow}!ifYouCurrentPlayer@{ifYouCurrentPlayer}}
+\index{ifYouCurrentPlayer@{ifYouCurrentPlayer}!frontend.ApplicationWindow@{frontend.ApplicationWindow}}
+\doxysubsubsection{\texorpdfstring{ifYouCurrentPlayer()}{ifYouCurrentPlayer()}}
+{\footnotesize\ttfamily void frontend.\+Application\+Window.\+if\+You\+Current\+Player (\begin{DoxyParamCaption}\item[{int}]{curr\+Player }\end{DoxyParamCaption})}
+
+Gives us ability to make a move if we are the current player
+
+
+\begin{DoxyParams}{Parameters}
+{\em curr\+Player} & id of a current player \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 68 of file Application\+Window.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfrontend_1_1ApplicationWindow_a76b6b84520cfbff6392808a4f9f7ebab_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfrontend_1_1ApplicationWindow_a76b6b84520cfbff6392808a4f9f7ebab_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classfrontend_1_1ApplicationWindow_a8ce6ee6143346b6eca7e73661ba38638}\label{classfrontend_1_1ApplicationWindow_a8ce6ee6143346b6eca7e73661ba38638}} 
+\index{frontend.ApplicationWindow@{frontend.ApplicationWindow}!setBoard@{setBoard}}
+\index{setBoard@{setBoard}!frontend.ApplicationWindow@{frontend.ApplicationWindow}}
+\doxysubsubsection{\texorpdfstring{setBoard()}{setBoard()}}
+{\footnotesize\ttfamily void frontend.\+Application\+Window.\+set\+Board (\begin{DoxyParamCaption}\item[{String}]{json\+Board }\end{DoxyParamCaption})}
+
+Sets and refreshes player board based on information from the server
+
+
+\begin{DoxyParams}{Parameters}
+{\em json\+Board} & json string with board from server \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 90 of file Application\+Window.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfrontend_1_1ApplicationWindow_a8ce6ee6143346b6eca7e73661ba38638_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfrontend_1_1ApplicationWindow_a8ce6ee6143346b6eca7e73661ba38638_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classfrontend_1_1ApplicationWindow_a664ad50da7906d6c03c3fb3914a1de18}\label{classfrontend_1_1ApplicationWindow_a664ad50da7906d6c03c3fb3914a1de18}} 
+\index{frontend.ApplicationWindow@{frontend.ApplicationWindow}!setCurrPlayer@{setCurrPlayer}}
+\index{setCurrPlayer@{setCurrPlayer}!frontend.ApplicationWindow@{frontend.ApplicationWindow}}
+\doxysubsubsection{\texorpdfstring{setCurrPlayer()}{setCurrPlayer()}}
+{\footnotesize\ttfamily void frontend.\+Application\+Window.\+set\+Curr\+Player (\begin{DoxyParamCaption}\item[{int}]{curr\+Player\+ID }\end{DoxyParamCaption})}
+
+Changes data and displayed info about current player
+
+
+\begin{DoxyParams}{Parameters}
+{\em curr\+Player\+ID} & id of a current player \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 55 of file Application\+Window.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfrontend_1_1ApplicationWindow_a664ad50da7906d6c03c3fb3914a1de18_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classfrontend_1_1ApplicationWindow_a664ad50da7906d6c03c3fb3914a1de18_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classfrontend_1_1ApplicationWindow_ae37772904c4a6417123e058d57ae5435}\label{classfrontend_1_1ApplicationWindow_ae37772904c4a6417123e058d57ae5435}} 
+\index{frontend.ApplicationWindow@{frontend.ApplicationWindow}!board@{board}}
+\index{board@{board}!frontend.ApplicationWindow@{frontend.ApplicationWindow}}
+\doxysubsubsection{\texorpdfstring{board}{board}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classboard_1_1DefaultBoard}{Default\+Board}} frontend.\+Application\+Window.\+board}
+
+
+
+Definition at line 19 of file Application\+Window.\+java.
+
+\mbox{\Hypertarget{classfrontend_1_1ApplicationWindow_a52408dc2f7bb745ca2c0442e0d808909}\label{classfrontend_1_1ApplicationWindow_a52408dc2f7bb745ca2c0442e0d808909}} 
+\index{frontend.ApplicationWindow@{frontend.ApplicationWindow}!builder@{builder}}
+\index{builder@{builder}!frontend.ApplicationWindow@{frontend.ApplicationWindow}}
+\doxysubsubsection{\texorpdfstring{builder}{builder}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classboard_1_1DefaultBoardBuilder}{Default\+Board\+Builder}} frontend.\+Application\+Window.\+builder\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line 16 of file Application\+Window.\+java.
+
+\mbox{\Hypertarget{classfrontend_1_1ApplicationWindow_ad5f37cc8d0abc610ceea99568a393561}\label{classfrontend_1_1ApplicationWindow_ad5f37cc8d0abc610ceea99568a393561}} 
+\index{frontend.ApplicationWindow@{frontend.ApplicationWindow}!infoPanel@{infoPanel}}
+\index{infoPanel@{infoPanel}!frontend.ApplicationWindow@{frontend.ApplicationWindow}}
+\doxysubsubsection{\texorpdfstring{infoPanel}{infoPanel}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classfrontend_1_1PlayerInfoPanel}{Player\+Info\+Panel}} frontend.\+Application\+Window.\+info\+Panel\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line 17 of file Application\+Window.\+java.
+
+\mbox{\Hypertarget{classfrontend_1_1ApplicationWindow_a4b4922b82d6d5a91ee6cfd21eedf5c7b}\label{classfrontend_1_1ApplicationWindow_a4b4922b82d6d5a91ee6cfd21eedf5c7b}} 
+\index{frontend.ApplicationWindow@{frontend.ApplicationWindow}!playerColor@{playerColor}}
+\index{playerColor@{playerColor}!frontend.ApplicationWindow@{frontend.ApplicationWindow}}
+\doxysubsubsection{\texorpdfstring{playerColor}{playerColor}}
+{\footnotesize\ttfamily \mbox{\hyperlink{enumboard_1_1PlayerColor}{Player\+Color}} frontend.\+Application\+Window.\+player\+Color\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line 18 of file Application\+Window.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Trylma\+Client/src/main/java/frontend/\mbox{\hyperlink{ApplicationWindow_8java}{Application\+Window.\+java}}\end{DoxyCompactItemize}

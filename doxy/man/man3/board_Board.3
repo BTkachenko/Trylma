@@ -1,0 +1,73 @@
+.TH "Board.Board" 3 "Thu Jan 27 2022" "Trylma" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Board.Board
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBBoard\&.DefaultBoard\fP\&.
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "ArrayList< \fBBoardField\fP > \fBfields\fP = new ArrayList<>()"
+.br
+.ti -1c
+.RI "\fBDefaultStartFields\fP \fBstartFields\fP"
+.br
+.in -1c
+.SS "Package Functions"
+
+.in +1c
+.ti -1c
+.RI "abstract void \fBsetFields\fP (ArrayList< \fBBoardField\fP > \fBfields\fP)"
+.br
+.ti -1c
+.RI "abstract void \fBsetStartFields\fP (\fBDefaultStartFields\fP \fBstartFields\fP)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Abstract class, stores data about board - fields and players positions 
+.PP
+Definition at line 10 of file Board\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "abstract void Board\&.Board\&.setFields (ArrayList< \fBBoardField\fP > fields)\fC [abstract]\fP, \fC [package]\fP"
+Sets the array list of board fields 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfields\fP the fields that will replace current ones 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBBoard\&.DefaultBoard\fP\&.
+.SS "abstract void Board\&.Board\&.setStartFields (\fBDefaultStartFields\fP startFields)\fC [abstract]\fP, \fC [package]\fP"
+Sets the start fields of the board 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstartFields\fP start fields of the board 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBBoard\&.DefaultBoard\fP\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "ArrayList<\fBBoardField\fP> Board\&.Board\&.fields = new ArrayList<>()"
+
+.PP
+Definition at line 11 of file Board\&.java\&.
+.SS "\fBDefaultStartFields\fP Board\&.Board\&.startFields"
+
+.PP
+Definition at line 12 of file Board\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Trylma from the source code\&.

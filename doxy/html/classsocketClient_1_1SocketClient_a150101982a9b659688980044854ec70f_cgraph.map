@@ -1,0 +1,14 @@
+<map id="socketClient.SocketClient.play" name="socketClient.SocketClient.play">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,205,105"/>
+<area shape="rect" id="node2" href="$classfrontend_1_1ApplicationWindow.html#a53c66dc8d104d123b94facb67fa8c2c7" title=" " alt="" coords="253,5,457,47"/>
+<area shape="rect" id="node3" href="$classfrontend_1_1ApplicationWindow.html#a8ce6ee6143346b6eca7e73661ba38638" title=" " alt="" coords="253,71,457,112"/>
+<area shape="rect" id="node7" href="$classfrontend_1_1ApplicationWindow.html#a664ad50da7906d6c03c3fb3914a1de18" title=" " alt="" coords="253,161,457,203"/>
+<area shape="rect" id="node4" href="$classboard_1_1DefaultBoardBuilder.html#acaf94bffaa020b14cf34083a8df22409" title=" " alt="" coords="505,5,700,47"/>
+<area shape="rect" id="node5" href="$classboard_1_1DefaultBoardBuilder.html#acb76c72f177b8cb19e188b981e97ef5f" title=" " alt="" coords="505,71,700,112"/>
+<area shape="rect" id="node6" href="$classboard_1_1DefaultBoard.html#a6a40cb8d4a94264c3ecfc0e1c3d0a712" title=" " alt="" coords="750,78,939,105"/>
+<area shape="rect" id="node8" href="$enumboard_1_1PlayerColor.html#ae75e3c064697bda71a5266d510f9f4bf" title=" " alt="" coords="748,141,941,167"/>
+<area shape="rect" id="node9" href="$classfrontend_1_1ApplicationWindow.html#a76b6b84520cfbff6392808a4f9f7ebab" title=" " alt="" coords="507,188,699,229"/>
+<area shape="rect" id="node11" href="$classfrontend_1_1PlayerInfoPanel.html#abfa2382b10e6fdb75dc8961cd9370eef" title=" " alt="" coords="511,253,695,295"/>
+<area shape="rect" id="node10" href="$classboard_1_1DefaultBoard.html#aa0ef3c40a401e209d81baf796b960588" title=" " alt="" coords="750,195,939,222"/>
+<area shape="rect" id="node12" href="$classfrontend_1_1PlayerInfoPanel.html#aa52cea9dec3ef27f44e10997de6b5b83" title=" " alt="" coords="753,253,937,295"/>
+</map>

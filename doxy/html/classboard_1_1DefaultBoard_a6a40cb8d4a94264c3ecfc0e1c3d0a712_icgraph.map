@@ -1,0 +1,8 @@
+<map id="board.DefaultBoard.setFields" name="board.DefaultBoard.setFields">
+<area shape="rect" id="node1" title=" " alt="" coords="999,42,1188,69"/>
+<area shape="rect" id="node2" href="$classboard_1_1DefaultBoardBuilder.html#acb76c72f177b8cb19e188b981e97ef5f" title=" " alt="" coords="756,35,951,76"/>
+<area shape="rect" id="node3" href="$classfrontend_1_1ApplicationWindow.html#a8ce6ee6143346b6eca7e73661ba38638" title=" " alt="" coords="504,35,708,76"/>
+<area shape="rect" id="node4" href="$classfrontend_1_1ApplicationWindow.html#aea76d894f40e84cc2357f413edfdf447" title=" " alt="" coords="263,5,449,47"/>
+<area shape="rect" id="node5" href="$classsocketClient_1_1SocketClient.html#a150101982a9b659688980044854ec70f" title=" " alt="" coords="256,71,456,98"/>
+<area shape="rect" id="node6" href="$classsocketClient_1_1TrylmaClient.html#a2d705cfc4f8dd80c0156c603feb0d8e7" title=" " alt="" coords="5,71,208,98"/>
+</map>

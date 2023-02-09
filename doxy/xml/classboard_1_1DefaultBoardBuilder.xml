@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classBoard_1_1DefaultBoardBuilder" kind="class" language="Java" prot="public">
+    <compoundname>Board::DefaultBoardBuilder</compoundname>
+    <basecompoundref refid="interfaceBoard_1_1BoardBuilder" prot="public" virt="non-virtual">Board.BoardBuilder</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classBoard_1_1DefaultBoardBuilder_1ac98c1a3fe4ae68724c3bdc4f410ce3f5" prot="package" static="no" mutable="no">
+        <type><ref refid="classBoard_1_1DefaultBoard" kindref="compound">DefaultBoard</ref></type>
+        <definition>DefaultBoard Board.DefaultBoardBuilder.board</definition>
+        <argsstring></argsstring>
+        <name>board</name>
+        <initializer>= new <ref refid="classBoard_1_1DefaultBoard" kindref="compound">DefaultBoard</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/DefaultBoardBuilder.java" line="14" column="18" bodyfile="TrylmaServer/src/main/java/Board/DefaultBoardBuilder.java" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1DefaultBoardBuilder_1a505ceac6a855457fb75b9e676943a4f3" compoundref="TrylmaServer_2src_2main_2java_2Board_2DefaultBoardBuilder_8java" startline="75" endline="77">Board.DefaultBoardBuilder.getDefaultBoard</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classBoard_1_1DefaultBoardBuilder_1a692703ff83daba5d45552532254bf8ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Board.DefaultBoardBuilder.initializeBoardFields</definition>
+        <argsstring>(int[][] boardShape)</argsstring>
+        <name>initializeBoardFields</name>
+        <reimplements refid="interfaceBoard_1_1BoardBuilder_1a579e552d426f471bffafe025a6853150">initializeBoardFields</reimplements>
+        <param>
+          <type>int</type>
+          <declname>boardShape</declname>
+          <array>[][]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes game board (its fields) based on given int[][] array</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>boardShape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an array describing fields positions </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/DefaultBoardBuilder.java" line="17" column="17" bodyfile="TrylmaServer/src/main/java/Board/DefaultBoardBuilder.java" bodystart="17" bodyend="45"/>
+        <references refid="classBoard_1_1DefaultStartFields_1a1872ee413f78e7d003d9058e50cf3c8e" compoundref="DefaultStartFields_8java" startline="27" endline="54">Board.DefaultStartFields.addField</references>
+        <references refid="enumBoard_1_1StatusColor_1ab9df24d30d5d0b5ea52891a9fdf84340" compoundref="TrylmaServer_2src_2main_2java_2Board_2StatusColor_8java" startline="9">Board.StatusColor.INACTIVE</references>
+        <references refid="enumBoard_1_1PlayerColor_1a0855ad5b9620cfccc6d946f5faeb8cb2" compoundref="TrylmaServer_2src_2main_2java_2Board_2PlayerColor_8java" startline="14">Board.PlayerColor.NO_PLAYER</references>
+        <references refid="classBoard_1_1DefaultBoard_1a0075b96d6bee842a24d225fb537a66cd" compoundref="TrylmaServer_2src_2main_2java_2Board_2DefaultBoard_8java" startline="13" endline="15">Board.DefaultBoard.setFields</references>
+        <references refid="classBoard_1_1DefaultBoard_1afc985bf622c2e06941d9b695e7f78f9c" compoundref="TrylmaServer_2src_2main_2java_2Board_2DefaultBoard_8java" startline="18" endline="20">Board.DefaultBoard.setStartFields</references>
+        <referencedby refid="classGame_1_1Game_1aa46f609ad611296b511b9f53786171e4" compoundref="Game_8java" startline="32" endline="50">Game.Game.Game</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1DefaultBoardBuilder_1a2c9e73e23fd12000bf1be9c76fa00b39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Board.DefaultBoardBuilder.setBoardFields</definition>
+        <argsstring>(String JSONBoard)</argsstring>
+        <name>setBoardFields</name>
+        <reimplements refid="interfaceBoard_1_1BoardBuilder_1a184cf1d0acf9ebcd7739f1cba048de1e">setBoardFields</reimplements>
+        <param>
+          <type>String</type>
+          <declname>JSONBoard</declname>
+        </param>
+        <exceptions> throws JSONException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>builds a board based on String json</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>JSONBoard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>json that contains data about the board </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>JSONException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>exception when parsing json </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/DefaultBoardBuilder.java" line="48" column="17" bodyfile="TrylmaServer/src/main/java/Board/DefaultBoardBuilder.java" bodystart="48" bodyend="64"/>
+        <references refid="classBoard_1_1DefaultBoard_1a0075b96d6bee842a24d225fb537a66cd" compoundref="TrylmaServer_2src_2main_2java_2Board_2DefaultBoard_8java" startline="13" endline="15">Board.DefaultBoard.setFields</references>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1DefaultBoardBuilder_1a08e35f755f48f1e9cc5276c113f1b3de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Board.DefaultBoardBuilder.assignFields</definition>
+        <argsstring>(int numberOfPlayers)</argsstring>
+        <name>assignFields</name>
+        <reimplements refid="interfaceBoard_1_1BoardBuilder_1a4ce73aab949398a70102084f6c5f3bf4">assignFields</reimplements>
+        <param>
+          <type>int</type>
+          <declname>numberOfPlayers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns board fields to players according to they number</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>numberOfPlayers</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of players in the game </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/DefaultBoardBuilder.java" line="67" column="17" bodyfile="TrylmaServer/src/main/java/Board/DefaultBoardBuilder.java" bodystart="67" bodyend="69"/>
+        <references refid="classBoard_1_1DefaultStartFields_1ae9ebe6303061b355b1ad05f5611db237" compoundref="DefaultStartFields_8java" startline="62" endline="122">Board.DefaultStartFields.setPlayerColors</references>
+        <references refid="classBoard_1_1Board_1a5b37ec69315b603312e1f979967c98ae" compoundref="TrylmaServer_2src_2main_2java_2Board_2Board_8java" startline="12">Board.Board.startFields</references>
+        <referencedby refid="classGame_1_1Game_1aa46f609ad611296b511b9f53786171e4" compoundref="Game_8java" startline="32" endline="50">Game.Game.Game</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1DefaultBoardBuilder_1a505ceac6a855457fb75b9e676943a4f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classBoard_1_1DefaultBoard" kindref="compound">DefaultBoard</ref></type>
+        <definition>DefaultBoard Board.DefaultBoardBuilder.getDefaultBoard</definition>
+        <argsstring>()</argsstring>
+        <name>getDefaultBoard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns a board created by the builder </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/DefaultBoardBuilder.java" line="75" column="25" bodyfile="TrylmaServer/src/main/java/Board/DefaultBoardBuilder.java" bodystart="75" bodyend="77"/>
+        <references refid="classBoard_1_1DefaultBoardBuilder_1ac98c1a3fe4ae68724c3bdc4f410ce3f5" compoundref="TrylmaServer_2src_2main_2java_2Board_2DefaultBoardBuilder_8java" startline="14">Board.DefaultBoardBuilder.board</references>
+        <referencedby refid="classGame_1_1Game_1aa46f609ad611296b511b9f53786171e4" compoundref="Game_8java" startline="32" endline="50">Game.Game.Game</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Builds board based on one of int[][] arrays that are stored in <ref refid="classBoard_1_1BoardShapes" kindref="compound">BoardShapes</ref> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Board.BoardBuilder</label>
+        <link refid="interfaceBoard_1_1BoardBuilder"/>
+      </node>
+      <node id="1">
+        <label>Board.DefaultBoardBuilder</label>
+        <link refid="classBoard_1_1DefaultBoardBuilder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Board.DefaultBoard</label>
+        <link refid="classBoard_1_1DefaultBoard"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Board.Board</label>
+        <link refid="classBoard_1_1Board"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+startFields</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Board.DefaultStartFields</label>
+        <link refid="classBoard_1_1DefaultStartFields"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+bottomFields</edgelabel>
+          <edgelabel>+bottomLeftFields</edgelabel>
+          <edgelabel>+bottomRightFields</edgelabel>
+          <edgelabel>+topFields</edgelabel>
+          <edgelabel>+topLeftFields</edgelabel>
+          <edgelabel>+topRightFields</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Board.BoardBuilder</label>
+        <link refid="interfaceBoard_1_1BoardBuilder"/>
+      </node>
+      <node id="5">
+        <label>ArrayList&lt; Board.BoardField &gt;</label>
+      </node>
+      <node id="1">
+        <label>Board.DefaultBoardBuilder</label>
+        <link refid="classBoard_1_1DefaultBoardBuilder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>~board</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaServer/src/main/java/Board/DefaultBoardBuilder.java" line="13" column="7" bodyfile="TrylmaServer/src/main/java/Board/DefaultBoardBuilder.java" bodystart="13" bodyend="78"/>
+    <listofallmembers>
+      <member refid="classBoard_1_1DefaultBoardBuilder_1a08e35f755f48f1e9cc5276c113f1b3de" prot="public" virt="non-virtual"><scope>Board::DefaultBoardBuilder</scope><name>assignFields</name></member>
+      <member refid="classBoard_1_1DefaultBoardBuilder_1ac98c1a3fe4ae68724c3bdc4f410ce3f5" prot="package" virt="non-virtual"><scope>Board::DefaultBoardBuilder</scope><name>board</name></member>
+      <member refid="classBoard_1_1DefaultBoardBuilder_1a505ceac6a855457fb75b9e676943a4f3" prot="public" virt="non-virtual"><scope>Board::DefaultBoardBuilder</scope><name>getDefaultBoard</name></member>
+      <member refid="classBoard_1_1DefaultBoardBuilder_1a692703ff83daba5d45552532254bf8ce" prot="public" virt="non-virtual"><scope>Board::DefaultBoardBuilder</scope><name>initializeBoardFields</name></member>
+      <member refid="classBoard_1_1DefaultBoardBuilder_1a2c9e73e23fd12000bf1be9c76fa00b39" prot="public" virt="non-virtual"><scope>Board::DefaultBoardBuilder</scope><name>setBoardFields</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

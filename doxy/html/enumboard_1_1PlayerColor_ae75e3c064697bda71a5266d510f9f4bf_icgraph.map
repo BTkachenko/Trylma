@@ -1,0 +1,11 @@
+<map id="board.PlayerColor.fromInteger" name="board.PlayerColor.fromInteger">
+<area shape="rect" id="node1" title=" " alt="" coords="1001,93,1195,120"/>
+<area shape="rect" id="node2" href="$classboard_1_1BoardField.html#a5c82e7dc0ec8b05fee255b9d783a49c7" title=" " alt="" coords="763,5,949,32"/>
+<area shape="rect" id="node3" href="$classfrontend_1_1ApplicationWindow.html#a76b6b84520cfbff6392808a4f9f7ebab" title=" " alt="" coords="760,57,952,98"/>
+<area shape="rect" id="node4" href="$classfrontend_1_1ApplicationWindow.html#a664ad50da7906d6c03c3fb3914a1de18" title=" " alt="" coords="505,87,709,129"/>
+<area shape="rect" id="node8" href="$classsocketClient_1_1SocketClient.html#ac3dab221a42a4bc20a92b237b10e74d1" title=" " alt="" coords="759,174,953,215"/>
+<area shape="rect" id="node5" href="$classfrontend_1_1ApplicationWindow.html#aea76d894f40e84cc2357f413edfdf447" title=" " alt="" coords="263,65,449,106"/>
+<area shape="rect" id="node6" href="$classsocketClient_1_1SocketClient.html#a150101982a9b659688980044854ec70f" title=" " alt="" coords="256,131,456,157"/>
+<area shape="rect" id="node7" href="$classsocketClient_1_1TrylmaClient.html#a2d705cfc4f8dd80c0156c603feb0d8e7" title=" " alt="" coords="5,156,208,183"/>
+<area shape="rect" id="node9" href="$classsocketClient_1_1SocketClient.html#a02c5e0a84a2cdc5706e0df95b0955e19" title=" " alt="" coords="504,174,711,215"/>
+</map>

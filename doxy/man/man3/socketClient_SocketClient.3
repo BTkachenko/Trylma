@@ -1,0 +1,144 @@
+.TH "socketClient.SocketClient" 3 "Thu Jan 27 2022" "Trylma" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+socketClient.SocketClient
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSocketClient\fP (int \fBport\fP)"
+.br
+.ti -1c
+.RI "void \fBlistenSocket\fP ()"
+.br
+.ti -1c
+.RI "void \fBplay\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetUp\fP ()"
+.br
+.ti -1c
+.RI "\fBPlayerColor\fP \fBgetPlayerColor\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetPlayerColor\fP (int \fBplayerColor\fP)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "PrintWriter \fBout\fP = null"
+.br
+.ti -1c
+.RI "Scanner \fBscanner\fP = null"
+.br
+.ti -1c
+.RI "DataInputStream \fBinput\fP = null"
+.br
+.in -1c
+.SS "Package Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBApplicationWindow\fP \fBappWindow\fP = null"
+.br
+.ti -1c
+.RI "Socket \fBsocket\fP = null"
+.br
+.ti -1c
+.RI "int \fBport\fP"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBPlayerColor\fP \fBplayerColor\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Socket class that is responsible for communication with the server 
+.PP
+Definition at line 19 of file SocketClient\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "socketClient\&.SocketClient\&.SocketClient (int port)"
+Basic constructor\&. 
+.PP
+Definition at line 32 of file SocketClient\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBPlayerColor\fP socketClient\&.SocketClient\&.getPlayerColor ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+returns our color 
+.RE
+.PP
+
+.PP
+Definition at line 109 of file SocketClient\&.java\&.
+.SS "void socketClient\&.SocketClient\&.listenSocket ()"
+Connects to the socket, receives data, that is needed to start the game, from the server\&. 
+.PP
+Definition at line 43 of file SocketClient\&.java\&.
+.SS "void socketClient\&.SocketClient\&.play ()"
+Takes suitable actions according to data received from the server 
+.PP
+Definition at line 61 of file SocketClient\&.java\&.
+.SS "void socketClient\&.SocketClient\&.setPlayerColor (int playerColor)"
+Sets our color based on data received from the server
+.PP
+\fBParameters\fP
+.RS 4
+\fIplayerColor\fP id of our color 
+.RE
+.PP
+
+.PP
+Definition at line 120 of file SocketClient\&.java\&.
+.SS "void socketClient\&.SocketClient\&.setUp ()"
+Sets up all necessary tools 
+.PP
+Definition at line 90 of file SocketClient\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBApplicationWindow\fP socketClient\&.SocketClient\&.appWindow = null\fC [package]\fP"
+
+.PP
+Definition at line 24 of file SocketClient\&.java\&.
+.SS "DataInputStream socketClient\&.SocketClient\&.input = null"
+
+.PP
+Definition at line 23 of file SocketClient\&.java\&.
+.SS "PrintWriter socketClient\&.SocketClient\&.out = null"
+
+.PP
+Definition at line 21 of file SocketClient\&.java\&.
+.SS "\fBPlayerColor\fP socketClient\&.SocketClient\&.playerColor\fC [private]\fP"
+
+.PP
+Definition at line 20 of file SocketClient\&.java\&.
+.SS "int socketClient\&.SocketClient\&.port\fC [package]\fP"
+
+.PP
+Definition at line 26 of file SocketClient\&.java\&.
+.SS "Scanner socketClient\&.SocketClient\&.scanner = null"
+
+.PP
+Definition at line 22 of file SocketClient\&.java\&.
+.SS "Socket socketClient\&.SocketClient\&.socket = null\fC [package]\fP"
+
+.PP
+Definition at line 25 of file SocketClient\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Trylma from the source code\&.

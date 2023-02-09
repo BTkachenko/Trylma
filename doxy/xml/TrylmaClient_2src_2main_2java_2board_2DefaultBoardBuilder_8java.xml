@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="TrylmaClient_2src_2main_2java_2board_2DefaultBoardBuilder_8java" kind="file" language="Java">
+    <compoundname>DefaultBoardBuilder.java</compoundname>
+    <innerclass refid="classboard_1_1DefaultBoardBuilder" prot="public">board::DefaultBoardBuilder</innerclass>
+    <innernamespace refid="namespaceboard">board</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">board;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.json.JSONArray;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.json.JSONException;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>org.json.JSONObject;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.ArrayList;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classboard_1_1DefaultBoardBuilder" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classboard_1_1DefaultBoardBuilder" kindref="compound">DefaultBoardBuilder</ref><sp/></highlight><highlight class="keyword">implements</highlight><highlight class="normal"><sp/><ref refid="interfaceboard_1_1BoardBuilder" kindref="compound">BoardBuilder</ref><sp/>{</highlight></codeline>
+<codeline lineno="15" refid="classboard_1_1DefaultBoardBuilder_1ad544ab23cfe80ec8a9f19f44a2a2ce3f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classboard_1_1DefaultBoard" kindref="compound">DefaultBoard</ref><sp/><ref refid="namespaceboard" kindref="compound">board</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classboard_1_1DefaultBoard" kindref="compound">DefaultBoard</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="18" refid="classboard_1_1DefaultBoardBuilder_1acb76c72f177b8cb19e188b981e97ef5f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classboard_1_1DefaultBoardBuilder_1acb76c72f177b8cb19e188b981e97ef5f" kindref="member">setBoardFields</ref>(String<sp/>JSONBoard)<sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/>JSONException<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ArrayList&lt;BoardField&gt;<sp/>fields<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ArrayList&lt;&gt;();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>JSONObject<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>JSONObject(JSONBoard);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>JSONArray<sp/>fieldsArray<sp/>=<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">.getJSONArray(</highlight><highlight class="stringliteral">&quot;fields&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>fieldsArray.length();<sp/>i++){</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>JSONObject<sp/>field<sp/>=<sp/>fieldsArray.getJSONObject(i);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row<sp/>=<sp/>field.getInt(</highlight><highlight class="stringliteral">&quot;row&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>column<sp/>=<sp/>field.getInt(</highlight><highlight class="stringliteral">&quot;column&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xPosition<sp/>=<sp/>field.getDouble(</highlight><highlight class="stringliteral">&quot;xFramePosition&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>yPosition<sp/>=<sp/>field.getDouble(</highlight><highlight class="stringliteral">&quot;yFramePosition&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>playerColorID<sp/>=<sp/>field.getInt(</highlight><highlight class="stringliteral">&quot;playerColorID&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>statusColorID<sp/>=<sp/>field.getInt(</highlight><highlight class="stringliteral">&quot;statusColorID&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classboard_1_1BoardField" kindref="compound">BoardField</ref><sp/>boardField<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classboard_1_1BoardField" kindref="compound">BoardField</ref>(row,<sp/>column,<sp/>xPosition,<sp/>yPosition,<sp/>playerColorID,<sp/>statusColorID);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fields.add(boardField);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.board.<ref refid="classboard_1_1DefaultBoard_1a6a40cb8d4a94264c3ecfc0e1c3d0a712" kindref="member">setFields</ref>(fields);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="classboard_1_1DefaultBoardBuilder_1acaf94bffaa020b14cf34083a8df22409" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classboard_1_1DefaultBoard" kindref="compound">DefaultBoard</ref><sp/><ref refid="classboard_1_1DefaultBoardBuilder_1acaf94bffaa020b14cf34083a8df22409" kindref="member">getDefaultBoard</ref>(){</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this.<ref refid="classboard_1_1DefaultBoardBuilder_1ad544ab23cfe80ec8a9f19f44a2a2ce3f" kindref="member">board</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="TrylmaClient/src/main/java/board/DefaultBoardBuilder.java"/>
+  </compounddef>
+</doxygen>

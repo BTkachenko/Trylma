@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classBoard_1_1Board" xml:lang="en-US">
+<title>Board.Board Class Reference</title>
+<indexterm><primary>Board.Board</primary></indexterm>
+Inheritance diagram for Board.Board:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1Board__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Board.Board:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classBoard_1_1Board__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>ArrayList&lt; <link linkend="_classBoard_1_1BoardField">BoardField</link> &gt; <link linkend="_classBoard_1_1Board_1aec13d18133935d66bca02bd162e1d1a0">fields</link> = new ArrayList&lt;&gt;()</para>
+</listitem>
+            <listitem><para><link linkend="_classBoard_1_1DefaultStartFields">DefaultStartFields</link> <link linkend="_classBoard_1_1Board_1a5b37ec69315b603312e1f979967c98ae">startFields</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Package Functions    </title>
+        <itemizedlist>
+            <listitem><para>abstract void <link linkend="_classBoard_1_1Board_1af477dd58dcdecf37cc0bddcdabb916f3">setFields</link> (ArrayList&lt; <link linkend="_classBoard_1_1BoardField">BoardField</link> &gt; <link linkend="_classBoard_1_1Board_1aec13d18133935d66bca02bd162e1d1a0">fields</link>)</para>
+</listitem>
+            <listitem><para>abstract void <link linkend="_classBoard_1_1Board_1a3b5d7e7b16cf9f5d395ddf0934b59511">setStartFields</link> (<link linkend="_classBoard_1_1DefaultStartFields">DefaultStartFields</link> <link linkend="_classBoard_1_1Board_1a5b37ec69315b603312e1f979967c98ae">startFields</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Abstract class, stores data about board - fields and players positions </para>
+<para>
+Definition at line 10 of file Board.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classBoard_1_1Board_1af477dd58dcdecf37cc0bddcdabb916f3"/>    <section>
+    <title>setFields()</title>
+<indexterm><primary>setFields</primary><secondary>Board.Board</secondary></indexterm>
+<indexterm><primary>Board.Board</primary><secondary>setFields</secondary></indexterm>
+<para><computeroutput>abstract void Board.Board.setFields (ArrayList&lt; <link linkend="_classBoard_1_1BoardField">BoardField</link> &gt; fields)<computeroutput>[abstract]</computeroutput>, <computeroutput>[package]</computeroutput></computeroutput></para>
+<para>Sets the array list of board fields 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>fields</entry>
+                                <entry>
+<para>the fields that will replace current ones </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Reimplemented in <link linkend="_classBoard_1_1DefaultBoard_1a0075b96d6bee842a24d225fb537a66cd">Board.DefaultBoard</link>.</para>
+    </section><anchor xml:id="_classBoard_1_1Board_1a3b5d7e7b16cf9f5d395ddf0934b59511"/>    <section>
+    <title>setStartFields()</title>
+<indexterm><primary>setStartFields</primary><secondary>Board.Board</secondary></indexterm>
+<indexterm><primary>Board.Board</primary><secondary>setStartFields</secondary></indexterm>
+<para><computeroutput>abstract void Board.Board.setStartFields (<link linkend="_classBoard_1_1DefaultStartFields">DefaultStartFields</link> startFields)<computeroutput>[abstract]</computeroutput>, <computeroutput>[package]</computeroutput></computeroutput></para>
+<para>Sets the start fields of the board 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>startFields</entry>
+                                <entry>
+<para>start fields of the board </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Reimplemented in <link linkend="_classBoard_1_1DefaultBoard_1afc985bf622c2e06941d9b695e7f78f9c">Board.DefaultBoard</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classBoard_1_1Board_1aec13d18133935d66bca02bd162e1d1a0"/>    <section>
+    <title>fields</title>
+<indexterm><primary>fields</primary><secondary>Board.Board</secondary></indexterm>
+<indexterm><primary>Board.Board</primary><secondary>fields</secondary></indexterm>
+<para><computeroutput>ArrayList&lt;<link linkend="_classBoard_1_1BoardField">BoardField</link>&gt; Board.Board.fields = new ArrayList&lt;&gt;()</computeroutput></para><para>
+Definition at line 11 of file Board.java.</para>
+    </section><anchor xml:id="_classBoard_1_1Board_1a5b37ec69315b603312e1f979967c98ae"/>    <section>
+    <title>startFields</title>
+<indexterm><primary>startFields</primary><secondary>Board.Board</secondary></indexterm>
+<indexterm><primary>Board.Board</primary><secondary>startFields</secondary></indexterm>
+<para><computeroutput><link linkend="_classBoard_1_1DefaultStartFields">DefaultStartFields</link> Board.Board.startFields</computeroutput></para><para>
+Definition at line 12 of file Board.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaServer/src/main/java/Board/<link linkend="_TrylmaServer_2src_2main_2java_2Board_2Board_8java">Board.java</link></section>
+</section>

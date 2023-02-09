@@ -1,0 +1,105 @@
+\hypertarget{interfaceBoard_1_1BoardBuilder}{}\doxysection{Board.\+Board\+Builder Interface Reference}
+\label{interfaceBoard_1_1BoardBuilder}\index{Board.BoardBuilder@{Board.BoardBuilder}}
+
+
+Inheritance diagram for Board.\+Board\+Builder\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=211pt]{interfaceBoard_1_1BoardBuilder__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Board.\+Board\+Builder\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{interfaceBoard_1_1BoardBuilder__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interfaceBoard_1_1BoardBuilder_a579e552d426f471bffafe025a6853150}{initialize\+Board\+Fields}} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} board\+Shape)
+\item 
+void \mbox{\hyperlink{interfaceBoard_1_1BoardBuilder_a184cf1d0acf9ebcd7739f1cba048de1e}{set\+Board\+Fields}} (String JSONBoard)  throws JSONException
+\item 
+void \mbox{\hyperlink{interfaceBoard_1_1BoardBuilder_a4ce73aab949398a70102084f6c5f3bf4}{assign\+Fields}} (int number\+Of\+Players)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classBoard_1_1Board}{Board}} Builder interface \begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classBoard_1_1DefaultBoardBuilder}{Default\+Board\+Builder}} 
+\end{DoxySeeAlso}
+
+
+Definition at line 10 of file Board\+Builder.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interfaceBoard_1_1BoardBuilder_a4ce73aab949398a70102084f6c5f3bf4}\label{interfaceBoard_1_1BoardBuilder_a4ce73aab949398a70102084f6c5f3bf4}} 
+\index{Board.BoardBuilder@{Board.BoardBuilder}!assignFields@{assignFields}}
+\index{assignFields@{assignFields}!Board.BoardBuilder@{Board.BoardBuilder}}
+\doxysubsubsection{\texorpdfstring{assignFields()}{assignFields()}}
+{\footnotesize\ttfamily void Board.\+Board\+Builder.\+assign\+Fields (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Players }\end{DoxyParamCaption})}
+
+Assigns board fields to players according to they number
+
+
+\begin{DoxyParams}{Parameters}
+{\em number\+Of\+Players} & number of players in the game \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classBoard_1_1DefaultBoardBuilder_a08e35f755f48f1e9cc5276c113f1b3de}{Board.\+Default\+Board\+Builder}}.
+
+\mbox{\Hypertarget{interfaceBoard_1_1BoardBuilder_a579e552d426f471bffafe025a6853150}\label{interfaceBoard_1_1BoardBuilder_a579e552d426f471bffafe025a6853150}} 
+\index{Board.BoardBuilder@{Board.BoardBuilder}!initializeBoardFields@{initializeBoardFields}}
+\index{initializeBoardFields@{initializeBoardFields}!Board.BoardBuilder@{Board.BoardBuilder}}
+\doxysubsubsection{\texorpdfstring{initializeBoardFields()}{initializeBoardFields()}}
+{\footnotesize\ttfamily void Board.\+Board\+Builder.\+initialize\+Board\+Fields (\begin{DoxyParamCaption}\item[{int}]{board\+Shape\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Initializes game board (its fields) based on given int\mbox{[}\mbox{]}\mbox{[}\mbox{]} array
+
+
+\begin{DoxyParams}{Parameters}
+{\em board\+Shape} & an array describing fields positions \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classBoard_1_1DefaultBoardBuilder_a692703ff83daba5d45552532254bf8ce}{Board.\+Default\+Board\+Builder}}.
+
+\mbox{\Hypertarget{interfaceBoard_1_1BoardBuilder_a184cf1d0acf9ebcd7739f1cba048de1e}\label{interfaceBoard_1_1BoardBuilder_a184cf1d0acf9ebcd7739f1cba048de1e}} 
+\index{Board.BoardBuilder@{Board.BoardBuilder}!setBoardFields@{setBoardFields}}
+\index{setBoardFields@{setBoardFields}!Board.BoardBuilder@{Board.BoardBuilder}}
+\doxysubsubsection{\texorpdfstring{setBoardFields()}{setBoardFields()}}
+{\footnotesize\ttfamily void Board.\+Board\+Builder.\+set\+Board\+Fields (\begin{DoxyParamCaption}\item[{String}]{JSONBoard }\end{DoxyParamCaption}) throws JSONException}
+
+builds a board based on String json
+
+
+\begin{DoxyParams}{Parameters}
+{\em JSONBoard} & json that contains data about the board \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em JSONException} & exception when parsing json \\
+\hline
+\end{DoxyExceptions}
+
+
+Implemented in \mbox{\hyperlink{classBoard_1_1DefaultBoardBuilder_a2c9e73e23fd12000bf1be9c76fa00b39}{Board.\+Default\+Board\+Builder}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Trylma\+Server/src/main/java/\+Board/\mbox{\hyperlink{TrylmaServer_2src_2main_2java_2Board_2BoardBuilder_8java}{Board\+Builder.\+java}}\end{DoxyCompactItemize}

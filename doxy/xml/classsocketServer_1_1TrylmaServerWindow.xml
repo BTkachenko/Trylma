@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classsocketServer_1_1TrylmaServerWindow" kind="class" language="Java" prot="public">
+    <compoundname>socketServer::TrylmaServerWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">ActionListener</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classsocketServer_1_1TrylmaServerWindow_1a3e12bb72b333a65b7e61619be0dff370" prot="package" static="no" mutable="no">
+        <type><ref refid="classsocketServer_1_1SocketServer" kindref="compound">SocketServer</ref></type>
+        <definition>SocketServer socketServer.TrylmaServerWindow.server</definition>
+        <argsstring></argsstring>
+        <name>server</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" line="17" column="14" bodyfile="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1TrylmaServerWindow_1a8a11043bb72c821d15af4a34c4aa174d" prot="package" static="no" mutable="no">
+        <type>JPanel</type>
+        <definition>JPanel socketServer.TrylmaServerWindow.container</definition>
+        <argsstring></argsstring>
+        <name>container</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" line="18" column="8" bodyfile="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1TrylmaServerWindow_1aa01fd7014c8ce60824fe46b8dc6a0714" compoundref="TrylmaServerWindow_8java" startline="40" endline="94">socketServer.TrylmaServerWindow.TrylmaServerWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1TrylmaServerWindow_1a6cb46ae15f130ebd89cf6b6c0c3f61f2" prot="package" static="no" mutable="no">
+        <type>JButton</type>
+        <definition>JButton socketServer.TrylmaServerWindow.startTheServer</definition>
+        <argsstring></argsstring>
+        <name>startTheServer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" line="19" column="9" bodyfile="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1TrylmaServerWindow_1a60342d9a2135f789ed53bcec2e8327c4" compoundref="TrylmaServerWindow_8java" startline="97" endline="128">socketServer.TrylmaServerWindow.actionPerformed</referencedby>
+        <referencedby refid="classsocketServer_1_1TrylmaServerWindow_1aa01fd7014c8ce60824fe46b8dc6a0714" compoundref="TrylmaServerWindow_8java" startline="40" endline="94">socketServer.TrylmaServerWindow.TrylmaServerWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1TrylmaServerWindow_1a147ee0a1022178940c57df82ff040cf9" prot="package" static="no" mutable="no">
+        <type>JTextField</type>
+        <definition>JTextField socketServer.TrylmaServerWindow.portSetter</definition>
+        <argsstring></argsstring>
+        <name>portSetter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" line="21" column="12" bodyfile="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1TrylmaServerWindow_1aa01fd7014c8ce60824fe46b8dc6a0714" compoundref="TrylmaServerWindow_8java" startline="40" endline="94">socketServer.TrylmaServerWindow.TrylmaServerWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1TrylmaServerWindow_1ae360bfc61897442de200efdfd19655d9" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int socketServer.TrylmaServerWindow.port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <initializer>= 1111</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" line="22" column="5" bodyfile="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1TrylmaServerWindow_1a05195438340005258e57a4544b833dbf" prot="package" static="no" mutable="no">
+        <type>ButtonGroup</type>
+        <definition>ButtonGroup socketServer.TrylmaServerWindow.numOfPlayers</definition>
+        <argsstring></argsstring>
+        <name>numOfPlayers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" line="24" column="13" bodyfile="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1TrylmaServerWindow_1aa01fd7014c8ce60824fe46b8dc6a0714" compoundref="TrylmaServerWindow_8java" startline="40" endline="94">socketServer.TrylmaServerWindow.TrylmaServerWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1TrylmaServerWindow_1aa4461d7eca92be41266d6449105c96cb" prot="package" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton socketServer.TrylmaServerWindow.players2</definition>
+        <argsstring></argsstring>
+        <name>players2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" line="25" column="14" bodyfile="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1TrylmaServerWindow_1a60342d9a2135f789ed53bcec2e8327c4" compoundref="TrylmaServerWindow_8java" startline="97" endline="128">socketServer.TrylmaServerWindow.actionPerformed</referencedby>
+        <referencedby refid="classsocketServer_1_1TrylmaServerWindow_1aa01fd7014c8ce60824fe46b8dc6a0714" compoundref="TrylmaServerWindow_8java" startline="40" endline="94">socketServer.TrylmaServerWindow.TrylmaServerWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1TrylmaServerWindow_1ae0d20962451057d6624b2ec05b2b112a" prot="package" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton socketServer.TrylmaServerWindow.players3</definition>
+        <argsstring></argsstring>
+        <name>players3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" line="26" column="14" bodyfile="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1TrylmaServerWindow_1a60342d9a2135f789ed53bcec2e8327c4" compoundref="TrylmaServerWindow_8java" startline="97" endline="128">socketServer.TrylmaServerWindow.actionPerformed</referencedby>
+        <referencedby refid="classsocketServer_1_1TrylmaServerWindow_1aa01fd7014c8ce60824fe46b8dc6a0714" compoundref="TrylmaServerWindow_8java" startline="40" endline="94">socketServer.TrylmaServerWindow.TrylmaServerWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1TrylmaServerWindow_1a304428aa6865a085ae494d3ec9825228" prot="package" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton socketServer.TrylmaServerWindow.players4</definition>
+        <argsstring></argsstring>
+        <name>players4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" line="27" column="14" bodyfile="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1TrylmaServerWindow_1a60342d9a2135f789ed53bcec2e8327c4" compoundref="TrylmaServerWindow_8java" startline="97" endline="128">socketServer.TrylmaServerWindow.actionPerformed</referencedby>
+        <referencedby refid="classsocketServer_1_1TrylmaServerWindow_1aa01fd7014c8ce60824fe46b8dc6a0714" compoundref="TrylmaServerWindow_8java" startline="40" endline="94">socketServer.TrylmaServerWindow.TrylmaServerWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1TrylmaServerWindow_1ae92703780bbcca388833b2110d066190" prot="package" static="no" mutable="no">
+        <type>JRadioButton</type>
+        <definition>JRadioButton socketServer.TrylmaServerWindow.players6</definition>
+        <argsstring></argsstring>
+        <name>players6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" line="28" column="14" bodyfile="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classsocketServer_1_1TrylmaServerWindow_1a60342d9a2135f789ed53bcec2e8327c4" compoundref="TrylmaServerWindow_8java" startline="97" endline="128">socketServer.TrylmaServerWindow.actionPerformed</referencedby>
+        <referencedby refid="classsocketServer_1_1TrylmaServerWindow_1aa01fd7014c8ce60824fe46b8dc6a0714" compoundref="TrylmaServerWindow_8java" startline="40" endline="94">socketServer.TrylmaServerWindow.TrylmaServerWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classsocketServer_1_1TrylmaServerWindow_1a21558b2099d96caaace5634cf88b4a0c" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int socketServer.TrylmaServerWindow.numberOfPlayers</definition>
+        <argsstring></argsstring>
+        <name>numberOfPlayers</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" line="29" column="5" bodyfile="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classsocketServer_1_1TrylmaServerWindow_1aa01fd7014c8ce60824fe46b8dc6a0714" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>socketServer.TrylmaServerWindow.TrylmaServerWindow</definition>
+        <argsstring>()</argsstring>
+        <name>TrylmaServerWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Basic constructor. Sets all components and adds listener to them. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" line="40" column="1" bodyfile="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" bodystart="40" bodyend="94"/>
+        <references refid="classsocketServer_1_1TrylmaServerWindow_1a8a11043bb72c821d15af4a34c4aa174d" compoundref="TrylmaServerWindow_8java" startline="18">socketServer.TrylmaServerWindow.container</references>
+        <references refid="classsocketServer_1_1TrylmaServerWindow_1a05195438340005258e57a4544b833dbf" compoundref="TrylmaServerWindow_8java" startline="24">socketServer.TrylmaServerWindow.numOfPlayers</references>
+        <references refid="classsocketServer_1_1TrylmaServerWindow_1aa4461d7eca92be41266d6449105c96cb" compoundref="TrylmaServerWindow_8java" startline="25">socketServer.TrylmaServerWindow.players2</references>
+        <references refid="classsocketServer_1_1TrylmaServerWindow_1ae0d20962451057d6624b2ec05b2b112a" compoundref="TrylmaServerWindow_8java" startline="26">socketServer.TrylmaServerWindow.players3</references>
+        <references refid="classsocketServer_1_1TrylmaServerWindow_1a304428aa6865a085ae494d3ec9825228" compoundref="TrylmaServerWindow_8java" startline="27">socketServer.TrylmaServerWindow.players4</references>
+        <references refid="classsocketServer_1_1TrylmaServerWindow_1ae92703780bbcca388833b2110d066190" compoundref="TrylmaServerWindow_8java" startline="28">socketServer.TrylmaServerWindow.players6</references>
+        <references refid="classsocketServer_1_1TrylmaServerWindow_1a147ee0a1022178940c57df82ff040cf9" compoundref="TrylmaServerWindow_8java" startline="21">socketServer.TrylmaServerWindow.portSetter</references>
+        <references refid="classsocketServer_1_1TrylmaServerWindow_1a6cb46ae15f130ebd89cf6b6c0c3f61f2" compoundref="TrylmaServerWindow_8java" startline="19">socketServer.TrylmaServerWindow.startTheServer</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsocketServer_1_1TrylmaServerWindow_1a60342d9a2135f789ed53bcec2e8327c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void socketServer.TrylmaServerWindow.actionPerformed</definition>
+        <argsstring>(ActionEvent e)</argsstring>
+        <name>actionPerformed</name>
+        <param>
+          <type>ActionEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" line="97" column="13" bodyfile="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" bodystart="97" bodyend="128"/>
+        <references refid="classsocketServer_1_1SocketServer_1a295f34460cb984812549c0990a2ff512" compoundref="SocketServer_8java" startline="54" endline="67">socketServer.SocketServer.listenSocket</references>
+        <references refid="classsocketServer_1_1TrylmaServerWindow_1aa4461d7eca92be41266d6449105c96cb" compoundref="TrylmaServerWindow_8java" startline="25">socketServer.TrylmaServerWindow.players2</references>
+        <references refid="classsocketServer_1_1TrylmaServerWindow_1ae0d20962451057d6624b2ec05b2b112a" compoundref="TrylmaServerWindow_8java" startline="26">socketServer.TrylmaServerWindow.players3</references>
+        <references refid="classsocketServer_1_1TrylmaServerWindow_1a304428aa6865a085ae494d3ec9825228" compoundref="TrylmaServerWindow_8java" startline="27">socketServer.TrylmaServerWindow.players4</references>
+        <references refid="classsocketServer_1_1TrylmaServerWindow_1ae92703780bbcca388833b2110d066190" compoundref="TrylmaServerWindow_8java" startline="28">socketServer.TrylmaServerWindow.players6</references>
+        <references refid="classsocketServer_1_1TrylmaServerWindow_1a6cb46ae15f130ebd89cf6b6c0c3f61f2" compoundref="TrylmaServerWindow_8java" startline="19">socketServer.TrylmaServerWindow.startTheServer</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Server GUI Gathers information necessary to run the socket server such as server port, amount of players, size of the board. After that it runs socket server. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ActionListener</label>
+      </node>
+      <node id="2">
+        <label>JFrame</label>
+      </node>
+      <node id="1">
+        <label>socketServer.TrylmaServerWindow</label>
+        <link refid="classsocketServer_1_1TrylmaServerWindow"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>ActionListener</label>
+      </node>
+      <node id="9">
+        <label>Board.Board</label>
+        <link refid="classBoard_1_1Board"/>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+startFields</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>List&lt; socketServer.Player &gt;</label>
+      </node>
+      <node id="6">
+        <label>ServerSocket</label>
+      </node>
+      <node id="2">
+        <label>JFrame</label>
+      </node>
+      <node id="11">
+        <label>Board.DefaultStartFields</label>
+        <link refid="classBoard_1_1DefaultStartFields"/>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+bottomFields</edgelabel>
+          <edgelabel>+bottomLeftFields</edgelabel>
+          <edgelabel>+bottomRightFields</edgelabel>
+          <edgelabel>+topFields</edgelabel>
+          <edgelabel>+topLeftFields</edgelabel>
+          <edgelabel>+topRightFields</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>ArrayList&lt; Integer &gt;</label>
+      </node>
+      <node id="10">
+        <label>ArrayList&lt; Board.BoardField &gt;</label>
+      </node>
+      <node id="4">
+        <label>socketServer.SocketServer</label>
+        <link refid="classsocketServer_1_1SocketServer"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+players</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>~server</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>~game</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>List&lt; Integer &gt;</label>
+      </node>
+      <node id="8">
+        <label>Board.JSONBoardConverter</label>
+        <link refid="classBoard_1_1JSONBoardConverter"/>
+      </node>
+      <node id="14">
+        <label>Game.Rules</label>
+        <link refid="interfaceGame_1_1Rules"/>
+      </node>
+      <node id="13">
+        <label>Game.TrylmaRules</label>
+        <link refid="classGame_1_1TrylmaRules"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>-availableFields</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>socketServer.TrylmaServerWindow</label>
+        <link refid="classsocketServer_1_1TrylmaServerWindow"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>~server</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Game.Game</label>
+        <link refid="classGame_1_1Game"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+players</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>~converter</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>~board</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>+winners</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>~rules</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" line="16" column="7" bodyfile="TrylmaServer/src/main/java/socketServer/TrylmaServerWindow.java" bodystart="16" bodyend="129"/>
+    <listofallmembers>
+      <member refid="classsocketServer_1_1TrylmaServerWindow_1a60342d9a2135f789ed53bcec2e8327c4" prot="public" virt="non-virtual"><scope>socketServer::TrylmaServerWindow</scope><name>actionPerformed</name></member>
+      <member refid="classsocketServer_1_1TrylmaServerWindow_1a8a11043bb72c821d15af4a34c4aa174d" prot="package" virt="non-virtual"><scope>socketServer::TrylmaServerWindow</scope><name>container</name></member>
+      <member refid="classsocketServer_1_1TrylmaServerWindow_1a21558b2099d96caaace5634cf88b4a0c" prot="package" virt="non-virtual"><scope>socketServer::TrylmaServerWindow</scope><name>numberOfPlayers</name></member>
+      <member refid="classsocketServer_1_1TrylmaServerWindow_1a05195438340005258e57a4544b833dbf" prot="package" virt="non-virtual"><scope>socketServer::TrylmaServerWindow</scope><name>numOfPlayers</name></member>
+      <member refid="classsocketServer_1_1TrylmaServerWindow_1aa4461d7eca92be41266d6449105c96cb" prot="package" virt="non-virtual"><scope>socketServer::TrylmaServerWindow</scope><name>players2</name></member>
+      <member refid="classsocketServer_1_1TrylmaServerWindow_1ae0d20962451057d6624b2ec05b2b112a" prot="package" virt="non-virtual"><scope>socketServer::TrylmaServerWindow</scope><name>players3</name></member>
+      <member refid="classsocketServer_1_1TrylmaServerWindow_1a304428aa6865a085ae494d3ec9825228" prot="package" virt="non-virtual"><scope>socketServer::TrylmaServerWindow</scope><name>players4</name></member>
+      <member refid="classsocketServer_1_1TrylmaServerWindow_1ae92703780bbcca388833b2110d066190" prot="package" virt="non-virtual"><scope>socketServer::TrylmaServerWindow</scope><name>players6</name></member>
+      <member refid="classsocketServer_1_1TrylmaServerWindow_1ae360bfc61897442de200efdfd19655d9" prot="package" virt="non-virtual"><scope>socketServer::TrylmaServerWindow</scope><name>port</name></member>
+      <member refid="classsocketServer_1_1TrylmaServerWindow_1a147ee0a1022178940c57df82ff040cf9" prot="package" virt="non-virtual"><scope>socketServer::TrylmaServerWindow</scope><name>portSetter</name></member>
+      <member refid="classsocketServer_1_1TrylmaServerWindow_1a3e12bb72b333a65b7e61619be0dff370" prot="package" virt="non-virtual"><scope>socketServer::TrylmaServerWindow</scope><name>server</name></member>
+      <member refid="classsocketServer_1_1TrylmaServerWindow_1a6cb46ae15f130ebd89cf6b6c0c3f61f2" prot="package" virt="non-virtual"><scope>socketServer::TrylmaServerWindow</scope><name>startTheServer</name></member>
+      <member refid="classsocketServer_1_1TrylmaServerWindow_1aa01fd7014c8ce60824fe46b8dc6a0714" prot="package" virt="non-virtual"><scope>socketServer::TrylmaServerWindow</scope><name>TrylmaServerWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

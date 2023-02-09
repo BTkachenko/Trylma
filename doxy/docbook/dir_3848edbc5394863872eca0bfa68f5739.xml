@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_3848edbc5394863872eca0bfa68f5739" xml:lang="en-US">
+<title>TrylmaClient/src/main/java/frontend Directory Reference</title>
+<indexterm><primary>TrylmaClient/src/main/java/frontend Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_ApplicationWindow_8java">ApplicationWindow.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_PlayerInfoPanel_8java">PlayerInfoPanel.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

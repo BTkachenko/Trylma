@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacefrontend" kind="namespace" language="Java">
+    <compoundname>frontend</compoundname>
+    <innerclass refid="classfrontend_1_1ApplicationWindow" prot="public">frontend::ApplicationWindow</innerclass>
+    <innerclass refid="classfrontend_1_1PlayerInfoPanel" prot="public">frontend::PlayerInfoPanel</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TrylmaClient/src/main/java/frontend/ApplicationWindow.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

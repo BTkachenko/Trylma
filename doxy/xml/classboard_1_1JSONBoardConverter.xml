@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classBoard_1_1JSONBoardConverter" kind="class" language="Java" prot="public">
+    <compoundname>Board::JSONBoardConverter</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classBoard_1_1JSONBoardConverter_1a8be0f98f60cb305bab26c69c0d31e007" prot="private" static="no" mutable="no">
+        <type>final StringBuilder</type>
+        <definition>final StringBuilder Board.JSONBoardConverter.jsonBuilder</definition>
+        <argsstring></argsstring>
+        <name>jsonBuilder</name>
+        <initializer>= new StringBuilder()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/JSONBoardConverter.java" line="11" column="33" bodyfile="TrylmaServer/src/main/java/Board/JSONBoardConverter.java" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1JSONBoardConverter_1aebf37df2fbd903e07e8edb9349976e0a" compoundref="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java" startline="45" endline="47">Board.JSONBoardConverter.addContent</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Board.JSONBoardConverter.buildJSONBoard</definition>
+        <argsstring>(Board board)</argsstring>
+        <name>buildJSONBoard</name>
+        <param>
+          <type><ref refid="classBoard_1_1Board" kindref="compound">Board</ref></type>
+          <declname>board</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts a board to a JSON String</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>board</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>board we want to convert </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>JSON String that stores board data </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/JSONBoardConverter.java" line="20" column="19" bodyfile="TrylmaServer/src/main/java/Board/JSONBoardConverter.java" bodystart="20" bodyend="38"/>
+        <references refid="classBoard_1_1JSONBoardConverter_1aebf37df2fbd903e07e8edb9349976e0a" compoundref="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java" startline="45" endline="47">Board.JSONBoardConverter.addContent</references>
+        <references refid="classBoard_1_1BoardField_1a88c6a9aa9373a12036a0abbd1a82ba54" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="62" endline="64">Board.BoardField.getColumn</references>
+        <references refid="classBoard_1_1BoardField_1a2ac8140fa52b0a3dde51f687be216eee" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="79" endline="81">Board.BoardField.getPlayerColor</references>
+        <references refid="classBoard_1_1BoardField_1aaaa65e9f7b85480bd0f838224c4c60c2" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="45" endline="47">Board.BoardField.getRow</references>
+        <references refid="classBoard_1_1BoardField_1abb3ff54f22a70f86ccba76cc0550a66f" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="96" endline="98">Board.BoardField.getStatusColor</references>
+        <references refid="classBoard_1_1BoardField_1a63cce4a999a6732b19ca6e57468482a7" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="113" endline="115">Board.BoardField.getXPosition</references>
+        <references refid="classBoard_1_1BoardField_1a25182ff0063167bc18733e2121fea3ee" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="130" endline="132">Board.BoardField.getYPosition</references>
+        <references refid="enumBoard_1_1PlayerColor_1a52a214c4cfed04049920c3a3003d23e1" compoundref="TrylmaServer_2src_2main_2java_2Board_2PlayerColor_8java" startline="16">Board.PlayerColor.playerColorID</references>
+        <references refid="enumBoard_1_1StatusColor_1a9507e39ee2584d4843346cf3743f8806" compoundref="TrylmaServer_2src_2main_2java_2Board_2StatusColor_8java" startline="12">Board.StatusColor.statusColorID</references>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a44d1b2cd6d8610631d04748a5ef0da6a" compoundref="ServerTest_8java" startline="23" endline="48">Games.Trylma.ServerTest.calculatingMove</referencedby>
+        <referencedby refid="classGame_1_1Game_1a84764f4bdc74e4c2038e2057fdd19259" compoundref="Game_8java" startline="60" endline="63">Game.Game.getInitializationData</referencedby>
+        <referencedby refid="classGame_1_1Game_1a72e34b794ec9b462e79e10e1ea325e3e" compoundref="Game_8java" startline="104" endline="136">Game.Game.move</referencedby>
+        <referencedby refid="classGame_1_1Game_1a40a0dc857f18efe225d440b8e1da251f" compoundref="Game_8java" startline="74" endline="92">Game.Game.showPossibilities</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1JSONBoardConverter_1aebf37df2fbd903e07e8edb9349976e0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Board.JSONBoardConverter.addContent</definition>
+        <argsstring>(String content)</argsstring>
+        <name>addContent</name>
+        <param>
+          <type>String</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ads data to the JSON String <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>content</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data to add </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/JSONBoardConverter.java" line="45" column="17" bodyfile="TrylmaServer/src/main/java/Board/JSONBoardConverter.java" bodystart="45" bodyend="47"/>
+        <references refid="classBoard_1_1JSONBoardConverter_1a8be0f98f60cb305bab26c69c0d31e007" compoundref="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java" startline="11">Board.JSONBoardConverter.jsonBuilder</references>
+        <referencedby refid="classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108" compoundref="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java" startline="20" endline="38">Board.JSONBoardConverter.buildJSONBoard</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Converts a board to a JSON String which can be sent to clients by the server. Can be turned back to <ref refid="classBoard_1_1Board" kindref="compound">Board</ref> by <ref refid="classBoard_1_1JSONBoardConverter" kindref="compound">JSONBoardConverter</ref>. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Board.JSONBoardConverter</label>
+        <link refid="classBoard_1_1JSONBoardConverter"/>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaServer/src/main/java/Board/JSONBoardConverter.java" line="10" column="7" bodyfile="TrylmaServer/src/main/java/Board/JSONBoardConverter.java" bodystart="10" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classBoard_1_1JSONBoardConverter_1aebf37df2fbd903e07e8edb9349976e0a" prot="public" virt="non-virtual"><scope>Board::JSONBoardConverter</scope><name>addContent</name></member>
+      <member refid="classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108" prot="public" virt="non-virtual"><scope>Board::JSONBoardConverter</scope><name>buildJSONBoard</name></member>
+      <member refid="classBoard_1_1JSONBoardConverter_1a8be0f98f60cb305bab26c69c0d31e007" prot="private" virt="non-virtual"><scope>Board::JSONBoardConverter</scope><name>jsonBuilder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

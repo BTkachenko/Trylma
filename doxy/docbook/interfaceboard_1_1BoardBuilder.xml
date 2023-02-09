@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfaceBoard_1_1BoardBuilder" xml:lang="en-US">
+<title>Board.BoardBuilder Interface Reference</title>
+<indexterm><primary>Board.BoardBuilder</primary></indexterm>
+Inheritance diagram for Board.BoardBuilder:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfaceBoard_1_1BoardBuilder__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Board.BoardBuilder:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfaceBoard_1_1BoardBuilder__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interfaceBoard_1_1BoardBuilder_1a579e552d426f471bffafe025a6853150">initializeBoardFields</link> (int[][] boardShape)</para>
+</listitem>
+            <listitem><para>void <link linkend="_interfaceBoard_1_1BoardBuilder_1a184cf1d0acf9ebcd7739f1cba048de1e">setBoardFields</link> (String JSONBoard)  throws JSONException</para>
+</listitem>
+            <listitem><para>void <link linkend="_interfaceBoard_1_1BoardBuilder_1a4ce73aab949398a70102084f6c5f3bf4">assignFields</link> (int numberOfPlayers)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classBoard_1_1Board">Board</link> Builder interface <formalpara><title>See also</title>
+
+<para><link linkend="_classBoard_1_1DefaultBoardBuilder">DefaultBoardBuilder</link> </para>
+</formalpara>
+</para>
+<para>
+Definition at line 10 of file BoardBuilder.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interfaceBoard_1_1BoardBuilder_1a4ce73aab949398a70102084f6c5f3bf4"/>    <section>
+    <title>assignFields()</title>
+<indexterm><primary>assignFields</primary><secondary>Board.BoardBuilder</secondary></indexterm>
+<indexterm><primary>Board.BoardBuilder</primary><secondary>assignFields</secondary></indexterm>
+<para><computeroutput>void Board.BoardBuilder.assignFields (int numberOfPlayers)</computeroutput></para>
+<para>Assigns board fields to players according to they number</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>numberOfPlayers</entry>
+                                <entry>
+<para>number of players in the game </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implemented in <link linkend="_classBoard_1_1DefaultBoardBuilder_1a08e35f755f48f1e9cc5276c113f1b3de">Board.DefaultBoardBuilder</link>.</para>
+    </section><anchor xml:id="_interfaceBoard_1_1BoardBuilder_1a579e552d426f471bffafe025a6853150"/>    <section>
+    <title>initializeBoardFields()</title>
+<indexterm><primary>initializeBoardFields</primary><secondary>Board.BoardBuilder</secondary></indexterm>
+<indexterm><primary>Board.BoardBuilder</primary><secondary>initializeBoardFields</secondary></indexterm>
+<para><computeroutput>void Board.BoardBuilder.initializeBoardFields (int boardShape[][])</computeroutput></para>
+<para>Initializes game board (its fields) based on given int[][] array</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>boardShape</entry>
+                                <entry>
+<para>an array describing fields positions </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implemented in <link linkend="_classBoard_1_1DefaultBoardBuilder_1a692703ff83daba5d45552532254bf8ce">Board.DefaultBoardBuilder</link>.</para>
+    </section><anchor xml:id="_interfaceBoard_1_1BoardBuilder_1a184cf1d0acf9ebcd7739f1cba048de1e"/>    <section>
+    <title>setBoardFields()</title>
+<indexterm><primary>setBoardFields</primary><secondary>Board.BoardBuilder</secondary></indexterm>
+<indexterm><primary>Board.BoardBuilder</primary><secondary>setBoardFields</secondary></indexterm>
+<para><computeroutput>void Board.BoardBuilder.setBoardFields (String JSONBoard) throws JSONException</computeroutput></para>
+<para>builds a board based on String json</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>JSONBoard</entry>
+                                <entry>
+<para>json that contains data about the board </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Exceptions                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>JSONException</entry>
+                                <entry>
+<para>exception when parsing json </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implemented in <link linkend="_classBoard_1_1DefaultBoardBuilder_1a2c9e73e23fd12000bf1be9c76fa00b39">Board.DefaultBoardBuilder</link>.</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+TrylmaServer/src/main/java/Board/<link linkend="_TrylmaServer_2src_2main_2java_2Board_2BoardBuilder_8java">BoardBuilder.java</link></section>
+</section>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="Trylma_8java" kind="file" language="Java">
+    <compoundname>Trylma.java</compoundname>
+    <innerclass refid="classsocketServer_1_1Trylma" prot="public">socketServer::Trylma</innerclass>
+    <innernamespace refid="namespacesocketServer">socketServer</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">socketServer;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classsocketServer_1_1Trylma" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsocketServer_1_1Trylma" kindref="compound">Trylma</ref><sp/>{</highlight></codeline>
+<codeline lineno="4" refid="classsocketServer_1_1Trylma_1a92e9e14a7ea583b5bf444449285823b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classsocketServer_1_1Trylma_1a92e9e14a7ea583b5bf444449285823b5" kindref="member">main</ref>(<sp/>String[]<sp/>args<sp/>)<sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/>Exception<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classsocketServer_1_1TrylmaServerWindow" kindref="compound">TrylmaServerWindow</ref>();</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="TrylmaServer/src/main/java/socketServer/Trylma.java"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_391453534974e7df5f02a750f9ddeefa" kind="dir">
+    <compoundname>TrylmaServer/src/main/java/socketServer</compoundname>
+    <innerfile refid="Player_8java">Player.java</innerfile>
+    <innerfile refid="SocketServer_8java">SocketServer.java</innerfile>
+    <innerfile refid="Trylma_8java">Trylma.java</innerfile>
+    <innerfile refid="TrylmaServerWindow_8java">TrylmaServerWindow.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TrylmaServer/src/main/java/socketServer/"/>
+  </compounddef>
+</doxygen>

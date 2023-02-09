@@ -1,0 +1,407 @@
+\hypertarget{classGame_1_1Game}{}\doxysection{Game.\+Game Class Reference}
+\label{classGame_1_1Game}\index{Game.Game@{Game.Game}}
+
+
+Collaboration diagram for Game.\+Game\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGame_1_1Game__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGame_1_1Game_aa46f609ad611296b511b9f53786171e4}{Game}} (List$<$ \mbox{\hyperlink{classsocketServer_1_1Player}{Player}} $>$ \mbox{\hyperlink{classGame_1_1Game_ab43878dd56c2c492a8bca0a1d17da88b}{players}}, int board\+Size)
+\item 
+String \mbox{\hyperlink{classGame_1_1Game_a84764f4bdc74e4c2038e2057fdd19259}{get\+Initialization\+Data}} (int player\+ID)
+\item 
+synchronized void \mbox{\hyperlink{classGame_1_1Game_a40a0dc857f18efe225d440b8e1da251f}{show\+Possibilities}} (int start\+Move\+Field, int player\+Id)
+\item 
+synchronized void \mbox{\hyperlink{classGame_1_1Game_a72e34b794ec9b462e79e10e1ea325e3e}{move}} (int start\+Move\+Field, int end\+Move\+Field, int player\+Id)
+\item 
+boolean \mbox{\hyperlink{classGame_1_1Game_a7705e31748eb1a158611209fa76faef5}{player\+Still\+Playing}} (int player\+Id)
+\item 
+void \mbox{\hyperlink{classGame_1_1Game_a56851de7cabd60531f6b5ea54e231fe1}{reset\+Fields\+Status}} ()
+\item 
+void \mbox{\hyperlink{classGame_1_1Game_a096123ff82fa2aee7b1173dd4a0b6b08}{send\+To\+Players}} (String message)
+\item 
+void \mbox{\hyperlink{classGame_1_1Game_ad3a90fb5ef3c5c06ece9dc637f3c1cdc}{send\+To\+Player}} (int id, String message)
+\item 
+\mbox{\hyperlink{classBoard_1_1Board}{Board}} \mbox{\hyperlink{classGame_1_1Game_a1ce050e2e13256e85aee38dbf4f295f2}{get\+Board}} ()
+\item 
+void \mbox{\hyperlink{classGame_1_1Game_af1a99549a6b14f57a730af91746169ba}{set\+Current\+Player}} (int id)
+\item 
+\mbox{\hyperlink{classGame_1_1TrylmaRules}{Trylma\+Rules}} \mbox{\hyperlink{classGame_1_1Game_a50ff6cd6f73b8a6f6942e4c1d6397357}{get\+Rules}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Integer $>$ \mbox{\hyperlink{classGame_1_1Game_a9920bc251b5bfd1d52d9c7762ee7f2c0}{winners}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static List$<$ \mbox{\hyperlink{classsocketServer_1_1Player}{Player}} $>$ \mbox{\hyperlink{classGame_1_1Game_ab43878dd56c2c492a8bca0a1d17da88b}{players}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classGame_1_1Game_af15bb5b49515c255d0560821f58a5389}{players\+Count}}
+\item 
+int \mbox{\hyperlink{classGame_1_1Game_a1a057598b680afce8be97cb1ef0c8827}{current\+Player}}
+\item 
+\mbox{\hyperlink{classGame_1_1TrylmaRules}{Trylma\+Rules}} \mbox{\hyperlink{classGame_1_1Game_a5ba6cb0359cbd9826bbce84d079a3faf}{rules}}
+\item 
+\mbox{\hyperlink{classBoard_1_1Board}{Board}} \mbox{\hyperlink{classGame_1_1Game_a23f91fa17059e9f985f184d0748283a0}{board}}
+\item 
+\mbox{\hyperlink{classBoard_1_1JSONBoardConverter}{JSONBoard\+Converter}} \mbox{\hyperlink{classGame_1_1Game_a3b47247e0d8a6bbb0c343c93dcb255a8}{converter}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The game class manages the game flow. It determines player queue, sends messages to right players, checks if move is correct, updates the game board 
+
+Definition at line 14 of file Game.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classGame_1_1Game_aa46f609ad611296b511b9f53786171e4}\label{classGame_1_1Game_aa46f609ad611296b511b9f53786171e4}} 
+\index{Game.Game@{Game.Game}!Game@{Game}}
+\index{Game@{Game}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{Game()}{Game()}}
+{\footnotesize\ttfamily Game.\+Game.\+Game (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classsocketServer_1_1Player}{Player}} $>$}]{players,  }\item[{int}]{board\+Size }\end{DoxyParamCaption})}
+
+Constructor Sets all necessary variables, sends board and other info to players at the start of the game 
+\begin{DoxyParams}{Parameters}
+{\em players} & list of players who play this game \\
+\hline
+{\em board\+Size} & selected size of a game board \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 32 of file Game.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGame_1_1Game_aa46f609ad611296b511b9f53786171e4_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGame_1_1Game_a1ce050e2e13256e85aee38dbf4f295f2}\label{classGame_1_1Game_a1ce050e2e13256e85aee38dbf4f295f2}} 
+\index{Game.Game@{Game.Game}!getBoard@{getBoard}}
+\index{getBoard@{getBoard}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{getBoard()}{getBoard()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classBoard_1_1Board}{Board}} Game.\+Game.\+get\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+returns this game board 
+\end{DoxyReturn}
+
+
+Definition at line 195 of file Game.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGame_1_1Game_a1ce050e2e13256e85aee38dbf4f295f2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGame_1_1Game_a84764f4bdc74e4c2038e2057fdd19259}\label{classGame_1_1Game_a84764f4bdc74e4c2038e2057fdd19259}} 
+\index{Game.Game@{Game.Game}!getInitializationData@{getInitializationData}}
+\index{getInitializationData@{getInitializationData}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{getInitializationData()}{getInitializationData()}}
+{\footnotesize\ttfamily String Game.\+Game.\+get\+Initialization\+Data (\begin{DoxyParamCaption}\item[{int}]{player\+ID }\end{DoxyParamCaption})}
+
+Creates all necessary data that needs to be delivered to player when starting the game
+
+
+\begin{DoxyParams}{Parameters}
+{\em player\+ID} & id of player we are sending the data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+all the data in form of a String 
+\end{DoxyReturn}
+
+
+Definition at line 60 of file Game.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGame_1_1Game_a84764f4bdc74e4c2038e2057fdd19259_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGame_1_1Game_a84764f4bdc74e4c2038e2057fdd19259_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGame_1_1Game_a50ff6cd6f73b8a6f6942e4c1d6397357}\label{classGame_1_1Game_a50ff6cd6f73b8a6f6942e4c1d6397357}} 
+\index{Game.Game@{Game.Game}!getRules@{getRules}}
+\index{getRules@{getRules}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{getRules()}{getRules()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGame_1_1TrylmaRules}{Trylma\+Rules}} Game.\+Game.\+get\+Rules (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+returns ruleset of this game 
+\end{DoxyReturn}
+
+
+Definition at line 212 of file Game.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGame_1_1Game_a50ff6cd6f73b8a6f6942e4c1d6397357_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGame_1_1Game_a72e34b794ec9b462e79e10e1ea325e3e}\label{classGame_1_1Game_a72e34b794ec9b462e79e10e1ea325e3e}} 
+\index{Game.Game@{Game.Game}!move@{move}}
+\index{move@{move}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily synchronized void Game.\+Game.\+move (\begin{DoxyParamCaption}\item[{int}]{start\+Move\+Field,  }\item[{int}]{end\+Move\+Field,  }\item[{int}]{player\+Id }\end{DoxyParamCaption})}
+
+Method being used after player second click, based on the field he/she selected, it checks if the move is legal and if someone won. After move sends updated board to all players
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\+Move\+Field} & the field selected on first click \\
+\hline
+{\em end\+Move\+Field} & the field selected on second click \\
+\hline
+{\em player\+Id} & id of a player who is trying to move \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 104 of file Game.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGame_1_1Game_a72e34b794ec9b462e79e10e1ea325e3e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGame_1_1Game_a72e34b794ec9b462e79e10e1ea325e3e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGame_1_1Game_a7705e31748eb1a158611209fa76faef5}\label{classGame_1_1Game_a7705e31748eb1a158611209fa76faef5}} 
+\index{Game.Game@{Game.Game}!playerStillPlaying@{playerStillPlaying}}
+\index{playerStillPlaying@{playerStillPlaying}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{playerStillPlaying()}{playerStillPlaying()}}
+{\footnotesize\ttfamily boolean Game.\+Game.\+player\+Still\+Playing (\begin{DoxyParamCaption}\item[{int}]{player\+Id }\end{DoxyParamCaption})}
+
+Checks if given player is still playing the game 
+\begin{DoxyParams}{Parameters}
+{\em player\+Id} & player we are checking \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if player is still in the game 
+\end{DoxyReturn}
+
+
+Definition at line 144 of file Game.\+java.
+
+\mbox{\Hypertarget{classGame_1_1Game_a56851de7cabd60531f6b5ea54e231fe1}\label{classGame_1_1Game_a56851de7cabd60531f6b5ea54e231fe1}} 
+\index{Game.Game@{Game.Game}!resetFieldsStatus@{resetFieldsStatus}}
+\index{resetFieldsStatus@{resetFieldsStatus}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{resetFieldsStatus()}{resetFieldsStatus()}}
+{\footnotesize\ttfamily void Game.\+Game.\+reset\+Fields\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Resets all board fields status (Sets it to inactive) 
+
+Definition at line 161 of file Game.\+java.
+
+\mbox{\Hypertarget{classGame_1_1Game_ad3a90fb5ef3c5c06ece9dc637f3c1cdc}\label{classGame_1_1Game_ad3a90fb5ef3c5c06ece9dc637f3c1cdc}} 
+\index{Game.Game@{Game.Game}!sendToPlayer@{sendToPlayer}}
+\index{sendToPlayer@{sendToPlayer}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{sendToPlayer()}{sendToPlayer()}}
+{\footnotesize\ttfamily void Game.\+Game.\+send\+To\+Player (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{String}]{message }\end{DoxyParamCaption})}
+
+Sends message only to given player 
+\begin{DoxyParams}{Parameters}
+{\em id} & player id \\
+\hline
+{\em message} & message we want to send \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 183 of file Game.\+java.
+
+\mbox{\Hypertarget{classGame_1_1Game_a096123ff82fa2aee7b1173dd4a0b6b08}\label{classGame_1_1Game_a096123ff82fa2aee7b1173dd4a0b6b08}} 
+\index{Game.Game@{Game.Game}!sendToPlayers@{sendToPlayers}}
+\index{sendToPlayers@{sendToPlayers}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{sendToPlayers()}{sendToPlayers()}}
+{\footnotesize\ttfamily void Game.\+Game.\+send\+To\+Players (\begin{DoxyParamCaption}\item[{String}]{message }\end{DoxyParamCaption})}
+
+Sends the message to all players 
+\begin{DoxyParams}{Parameters}
+{\em message} & message we want to send \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 172 of file Game.\+java.
+
+\mbox{\Hypertarget{classGame_1_1Game_af1a99549a6b14f57a730af91746169ba}\label{classGame_1_1Game_af1a99549a6b14f57a730af91746169ba}} 
+\index{Game.Game@{Game.Game}!setCurrentPlayer@{setCurrentPlayer}}
+\index{setCurrentPlayer@{setCurrentPlayer}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{setCurrentPlayer()}{setCurrentPlayer()}}
+{\footnotesize\ttfamily void Game.\+Game.\+set\+Current\+Player (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+Sets id of current player to id of given player 
+\begin{DoxyParams}{Parameters}
+{\em id} & given player id \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 204 of file Game.\+java.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGame_1_1Game_af1a99549a6b14f57a730af91746169ba_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGame_1_1Game_a40a0dc857f18efe225d440b8e1da251f}\label{classGame_1_1Game_a40a0dc857f18efe225d440b8e1da251f}} 
+\index{Game.Game@{Game.Game}!showPossibilities@{showPossibilities}}
+\index{showPossibilities@{showPossibilities}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{showPossibilities()}{showPossibilities()}}
+{\footnotesize\ttfamily synchronized void Game.\+Game.\+show\+Possibilities (\begin{DoxyParamCaption}\item[{int}]{start\+Move\+Field,  }\item[{int}]{player\+Id }\end{DoxyParamCaption})}
+
+Method being used after player first click, based on the field he/she selected it maps available fields in game rules and sends them to player. 
+\begin{DoxyParams}{Parameters}
+{\em start\+Move\+Field} & the field selected on first click \\
+\hline
+{\em player\+Id} & id of a player who is trying to move \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 74 of file Game.\+java.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGame_1_1Game_a40a0dc857f18efe225d440b8e1da251f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGame_1_1Game_a40a0dc857f18efe225d440b8e1da251f_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classGame_1_1Game_a23f91fa17059e9f985f184d0748283a0}\label{classGame_1_1Game_a23f91fa17059e9f985f184d0748283a0}} 
+\index{Game.Game@{Game.Game}!board@{board}}
+\index{board@{board}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{board}{board}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classBoard_1_1Board}{Board}} Game.\+Game.\+board\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line 20 of file Game.\+java.
+
+\mbox{\Hypertarget{classGame_1_1Game_a3b47247e0d8a6bbb0c343c93dcb255a8}\label{classGame_1_1Game_a3b47247e0d8a6bbb0c343c93dcb255a8}} 
+\index{Game.Game@{Game.Game}!converter@{converter}}
+\index{converter@{converter}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{converter}{converter}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classBoard_1_1JSONBoardConverter}{JSONBoard\+Converter}} Game.\+Game.\+converter\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line 21 of file Game.\+java.
+
+\mbox{\Hypertarget{classGame_1_1Game_a1a057598b680afce8be97cb1ef0c8827}\label{classGame_1_1Game_a1a057598b680afce8be97cb1ef0c8827}} 
+\index{Game.Game@{Game.Game}!currentPlayer@{currentPlayer}}
+\index{currentPlayer@{currentPlayer}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{currentPlayer}{currentPlayer}}
+{\footnotesize\ttfamily int Game.\+Game.\+current\+Player\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line 16 of file Game.\+java.
+
+\mbox{\Hypertarget{classGame_1_1Game_ab43878dd56c2c492a8bca0a1d17da88b}\label{classGame_1_1Game_ab43878dd56c2c492a8bca0a1d17da88b}} 
+\index{Game.Game@{Game.Game}!players@{players}}
+\index{players@{players}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{players}{players}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classsocketServer_1_1Player}{Player}}$>$ Game.\+Game.\+players\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 18 of file Game.\+java.
+
+\mbox{\Hypertarget{classGame_1_1Game_af15bb5b49515c255d0560821f58a5389}\label{classGame_1_1Game_af15bb5b49515c255d0560821f58a5389}} 
+\index{Game.Game@{Game.Game}!playersCount@{playersCount}}
+\index{playersCount@{playersCount}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{playersCount}{playersCount}}
+{\footnotesize\ttfamily int Game.\+Game.\+players\+Count\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line 15 of file Game.\+java.
+
+\mbox{\Hypertarget{classGame_1_1Game_a5ba6cb0359cbd9826bbce84d079a3faf}\label{classGame_1_1Game_a5ba6cb0359cbd9826bbce84d079a3faf}} 
+\index{Game.Game@{Game.Game}!rules@{rules}}
+\index{rules@{rules}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{rules}{rules}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGame_1_1TrylmaRules}{Trylma\+Rules}} Game.\+Game.\+rules\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Definition at line 19 of file Game.\+java.
+
+\mbox{\Hypertarget{classGame_1_1Game_a9920bc251b5bfd1d52d9c7762ee7f2c0}\label{classGame_1_1Game_a9920bc251b5bfd1d52d9c7762ee7f2c0}} 
+\index{Game.Game@{Game.Game}!winners@{winners}}
+\index{winners@{winners}!Game.Game@{Game.Game}}
+\doxysubsubsection{\texorpdfstring{winners}{winners}}
+{\footnotesize\ttfamily List$<$Integer$>$ Game.\+Game.\+winners}
+
+
+
+Definition at line 17 of file Game.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Trylma\+Server/src/main/java/\+Game/\mbox{\hyperlink{Game_8java}{Game.\+java}}\end{DoxyCompactItemize}

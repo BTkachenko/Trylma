@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classclientServer_1_1AppTest" xml:lang="en-US">
+<title>clientServer.AppTest Class Reference</title>
+<indexterm><primary>clientServer.AppTest</primary></indexterm>
+Collaboration diagram for clientServer.AppTest:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classclientServer_1_1AppTest__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classclientServer_1_1AppTest_1a4b514bd1270c14b15e125fdcedb16886">shouldAnswerWithTrue</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Unit test for simple App. </para>
+<para>
+Definition at line 10 of file AppTest.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classclientServer_1_1AppTest_1a4b514bd1270c14b15e125fdcedb16886"/>    <section>
+    <title>shouldAnswerWithTrue()</title>
+<indexterm><primary>shouldAnswerWithTrue</primary><secondary>clientServer.AppTest</secondary></indexterm>
+<indexterm><primary>clientServer.AppTest</primary><secondary>shouldAnswerWithTrue</secondary></indexterm>
+<para><computeroutput>void clientServer.AppTest.shouldAnswerWithTrue ( )</computeroutput></para>
+<para>Rigorous Test :-) </para>
+<para>
+Definition at line 16 of file AppTest.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaClient/src/test/java/clientServer/<link linkend="_TrylmaClient_2src_2test_2java_2clientServer_2AppTest_8java">AppTest.java</link></section>
+</section>

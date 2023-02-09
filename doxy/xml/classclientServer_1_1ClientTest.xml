@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classclientServer_1_1ClientTest" kind="class" language="Java" prot="public">
+    <compoundname>clientServer::ClientTest</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classclientServer_1_1ClientTest_1a21a7f962af68a6258952a2a6fcdf40a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void clientServer.ClientTest.checkPlayMethod</definition>
+        <argsstring>()</argsstring>
+        <name>checkPlayMethod</name>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaClient/src/test/java/clientServer/ClientTest.java" line="20" column="17" bodyfile="TrylmaClient/src/test/java/clientServer/ClientTest.java" bodystart="20" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>clientServer.ClientTest</label>
+        <link refid="classclientServer_1_1ClientTest"/>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaClient/src/test/java/clientServer/ClientTest.java" line="17" column="7" bodyfile="TrylmaClient/src/test/java/clientServer/ClientTest.java" bodystart="17" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classclientServer_1_1ClientTest_1a21a7f962af68a6258952a2a6fcdf40a9" prot="public" virt="non-virtual"><scope>clientServer::ClientTest</scope><name>checkPlayMethod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

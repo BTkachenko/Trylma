@@ -1,0 +1,108 @@
+.TH "frontend.PlayerInfoPanel" 3 "Thu Jan 27 2022" "Trylma" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+frontend.PlayerInfoPanel
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits JPanel\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPlayerInfoPanel\fP (\fBPlayerColor\fP playerColor)"
+.br
+.ti -1c
+.RI "void \fBsetCurrentPlayerInfo\fP (\fBPlayerColor\fP currPlayerColor)"
+.br
+.ti -1c
+.RI "Color \fBgetColor\fP (\fBPlayerColor\fP playerColor)"
+.br
+.in -1c
+.SS "Package Attributes"
+
+.in +1c
+.ti -1c
+.RI "JLabel \fBplayerColorInfo\fP"
+.br
+.ti -1c
+.RI "JLabel \fBdescriptionPlayer\fP"
+.br
+.ti -1c
+.RI "JLabel \fBcurrentPlayerInfo\fP"
+.br
+.ti -1c
+.RI "JLabel \fBdescriptionCurrent\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Panel that displays info about current player, and what player are we 
+.PP
+Definition at line 13 of file PlayerInfoPanel\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "frontend\&.PlayerInfoPanel\&.PlayerInfoPanel (\fBPlayerColor\fP playerColor)"
+Basic constructor Sets which player are we
+.PP
+\fBParameters\fP
+.RS 4
+\fIplayerColor\fP our id 
+.RE
+.PP
+
+.PP
+Definition at line 26 of file PlayerInfoPanel\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "Color frontend\&.PlayerInfoPanel\&.getColor (\fBPlayerColor\fP playerColor)"
+Provides right color based on color enum 
+.PP
+\fBParameters\fP
+.RS 4
+\fIplayerColor\fP enum of player color 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Color associated with the enum 
+.RE
+.PP
+
+.PP
+Definition at line 74 of file PlayerInfoPanel\&.java\&.
+.SS "void frontend\&.PlayerInfoPanel\&.setCurrentPlayerInfo (\fBPlayerColor\fP currPlayerColor)"
+Changes displayed info about current player 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcurrPlayerColor\fP color of a current player 
+.RE
+.PP
+
+.PP
+Definition at line 61 of file PlayerInfoPanel\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "JLabel frontend\&.PlayerInfoPanel\&.currentPlayerInfo\fC [package]\fP"
+
+.PP
+Definition at line 16 of file PlayerInfoPanel\&.java\&.
+.SS "JLabel frontend\&.PlayerInfoPanel\&.descriptionCurrent\fC [package]\fP"
+
+.PP
+Definition at line 17 of file PlayerInfoPanel\&.java\&.
+.SS "JLabel frontend\&.PlayerInfoPanel\&.descriptionPlayer\fC [package]\fP"
+
+.PP
+Definition at line 15 of file PlayerInfoPanel\&.java\&.
+.SS "JLabel frontend\&.PlayerInfoPanel\&.playerColorInfo\fC [package]\fP"
+
+.PP
+Definition at line 14 of file PlayerInfoPanel\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Trylma from the source code\&.

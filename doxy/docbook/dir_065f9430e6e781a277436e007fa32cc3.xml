@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_065f9430e6e781a277436e007fa32cc3" xml:lang="en-US">
+<title>TrylmaServer/src/test/java/Games/Trylma Directory Reference</title>
+<indexterm><primary>TrylmaServer/src/test/java/Games/Trylma Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_TrylmaServer_2src_2test_2java_2Games_2Trylma_2AppTest_8java">AppTest.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_ServerTest_8java">ServerTest.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classGames_1_1Trylma_1_1ServerTest" kind="class" language="Java" prot="public">
+    <compoundname>Games::Trylma::ServerTest</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGames_1_1Trylma_1_1ServerTest_1a44d1b2cd6d8610631d04748a5ef0da6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Games.Trylma.ServerTest.calculatingMove</definition>
+        <argsstring>()</argsstring>
+        <name>calculatingMove</name>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/test/java/Games/Trylma/ServerTest.java" line="23" column="17" bodyfile="TrylmaServer/src/test/java/Games/Trylma/ServerTest.java" bodystart="23" bodyend="48"/>
+        <references refid="classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108" compoundref="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java" startline="20" endline="38">Board.JSONBoardConverter.buildJSONBoard</references>
+        <references refid="classGames_1_1Trylma_1_1ServerTest_1a7553c8a0ee1f8b55410108b329217296" compoundref="ServerTest_8java" startline="144" endline="146">Games.Trylma.ServerTest.createMockedPlayer</references>
+        <references refid="classGame_1_1Game_1a1ce050e2e13256e85aee38dbf4f295f2" compoundref="Game_8java" startline="195" endline="197">Game.Game.getBoard</references>
+        <references refid="classGame_1_1Game_1a84764f4bdc74e4c2038e2057fdd19259" compoundref="Game_8java" startline="60" endline="63">Game.Game.getInitializationData</references>
+        <references refid="classGame_1_1Game_1a72e34b794ec9b462e79e10e1ea325e3e" compoundref="Game_8java" startline="104" endline="136">Game.Game.move</references>
+      </memberdef>
+      <memberdef kind="function" id="classGames_1_1Trylma_1_1ServerTest_1a3a8928b2ac890edb5b41bc819bfb472c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Games.Trylma.ServerTest.whoWinTheGame</definition>
+        <argsstring>()</argsstring>
+        <name>whoWinTheGame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/test/java/Games/Trylma/ServerTest.java" line="50" column="17" bodyfile="TrylmaServer/src/test/java/Games/Trylma/ServerTest.java" bodystart="50" bodyend="85"/>
+        <references refid="classGames_1_1Trylma_1_1ServerTest_1a7553c8a0ee1f8b55410108b329217296" compoundref="ServerTest_8java" startline="144" endline="146">Games.Trylma.ServerTest.createMockedPlayer</references>
+        <references refid="enumBoard_1_1PlayerColor_1a88ebe864711719896c9ae253c09950c9" compoundref="TrylmaServer_2src_2main_2java_2Board_2PlayerColor_8java" startline="33" endline="50">Board.PlayerColor.fromInteger</references>
+        <references refid="classGame_1_1Game_1a1ce050e2e13256e85aee38dbf4f295f2" compoundref="Game_8java" startline="195" endline="197">Game.Game.getBoard</references>
+        <references refid="classsocketServer_1_1Player_1adaef45e9396f4b51bc6b63322c366df2" compoundref="Player_8java" startline="102" endline="104">socketServer.Player.getPlayerId</references>
+        <references refid="classGame_1_1Game_1a50ff6cd6f73b8a6f6942e4c1d6397357" compoundref="Game_8java" startline="212" endline="214">Game.Game.getRules</references>
+        <references refid="classGame_1_1TrylmaRules_1a55879e1618908a076e85a070f0e663ee" compoundref="TrylmaRules_8java" startline="126" endline="210">Game.TrylmaRules.isWinner</references>
+      </memberdef>
+      <memberdef kind="function" id="classGames_1_1Trylma_1_1ServerTest_1a65cab29b4063681f2b35d536ade65be2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Games.Trylma.ServerTest.ifPlayerCouldMove</definition>
+        <argsstring>()</argsstring>
+        <name>ifPlayerCouldMove</name>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/test/java/Games/Trylma/ServerTest.java" line="88" column="17" bodyfile="TrylmaServer/src/test/java/Games/Trylma/ServerTest.java" bodystart="88" bodyend="112"/>
+        <references refid="classGames_1_1Trylma_1_1ServerTest_1a7553c8a0ee1f8b55410108b329217296" compoundref="ServerTest_8java" startline="144" endline="146">Games.Trylma.ServerTest.createMockedPlayer</references>
+        <references refid="classsocketServer_1_1Player_1adaef45e9396f4b51bc6b63322c366df2" compoundref="Player_8java" startline="102" endline="104">socketServer.Player.getPlayerId</references>
+        <references refid="classGame_1_1Game_1a72e34b794ec9b462e79e10e1ea325e3e" compoundref="Game_8java" startline="104" endline="136">Game.Game.move</references>
+        <references refid="classGame_1_1Game_1af1a99549a6b14f57a730af91746169ba" compoundref="Game_8java" startline="204" endline="206">Game.Game.setCurrentPlayer</references>
+      </memberdef>
+      <memberdef kind="function" id="classGames_1_1Trylma_1_1ServerTest_1a91aaad205da873a8f85219b216469303" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Games.Trylma.ServerTest.setAvailableFields</definition>
+        <argsstring>()</argsstring>
+        <name>setAvailableFields</name>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/test/java/Games/Trylma/ServerTest.java" line="115" column="17" bodyfile="TrylmaServer/src/test/java/Games/Trylma/ServerTest.java" bodystart="115" bodyend="141"/>
+        <references refid="classGames_1_1Trylma_1_1ServerTest_1a7553c8a0ee1f8b55410108b329217296" compoundref="ServerTest_8java" startline="144" endline="146">Games.Trylma.ServerTest.createMockedPlayer</references>
+        <references refid="classGame_1_1TrylmaRules_1abfde316b36c770c3a87e4fd1ea3106b1" compoundref="TrylmaRules_8java" startline="324" endline="326">Game.TrylmaRules.getAvailableFields</references>
+        <references refid="classsocketServer_1_1Player_1adaef45e9396f4b51bc6b63322c366df2" compoundref="Player_8java" startline="102" endline="104">socketServer.Player.getPlayerId</references>
+        <references refid="classGame_1_1Game_1a50ff6cd6f73b8a6f6942e4c1d6397357" compoundref="Game_8java" startline="212" endline="214">Game.Game.getRules</references>
+        <references refid="classGame_1_1Game_1af1a99549a6b14f57a730af91746169ba" compoundref="Game_8java" startline="204" endline="206">Game.Game.setCurrentPlayer</references>
+        <references refid="classGame_1_1Game_1a40a0dc857f18efe225d440b8e1da251f" compoundref="Game_8java" startline="74" endline="92">Game.Game.showPossibilities</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classGames_1_1Trylma_1_1ServerTest_1a7553c8a0ee1f8b55410108b329217296" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsocketServer_1_1Player" kindref="compound">Player</ref></type>
+        <definition>Player Games.Trylma.ServerTest.createMockedPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>createMockedPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/test/java/Games/Trylma/ServerTest.java" line="144" column="22" bodyfile="TrylmaServer/src/test/java/Games/Trylma/ServerTest.java" bodystart="144" bodyend="146"/>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a44d1b2cd6d8610631d04748a5ef0da6a" compoundref="ServerTest_8java" startline="23" endline="48">Games.Trylma.ServerTest.calculatingMove</referencedby>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a65cab29b4063681f2b35d536ade65be2" compoundref="ServerTest_8java" startline="88" endline="112">Games.Trylma.ServerTest.ifPlayerCouldMove</referencedby>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a91aaad205da873a8f85219b216469303" compoundref="ServerTest_8java" startline="115" endline="141">Games.Trylma.ServerTest.setAvailableFields</referencedby>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a3a8928b2ac890edb5b41bc819bfb472c" compoundref="ServerTest_8java" startline="50" endline="85">Games.Trylma.ServerTest.whoWinTheGame</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Games.Trylma.ServerTest</label>
+        <link refid="classGames_1_1Trylma_1_1ServerTest"/>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaServer/src/test/java/Games/Trylma/ServerTest.java" line="21" column="7" bodyfile="TrylmaServer/src/test/java/Games/Trylma/ServerTest.java" bodystart="21" bodyend="147"/>
+    <listofallmembers>
+      <member refid="classGames_1_1Trylma_1_1ServerTest_1a44d1b2cd6d8610631d04748a5ef0da6a" prot="public" virt="non-virtual"><scope>Games::Trylma::ServerTest</scope><name>calculatingMove</name></member>
+      <member refid="classGames_1_1Trylma_1_1ServerTest_1a7553c8a0ee1f8b55410108b329217296" prot="protected" virt="non-virtual"><scope>Games::Trylma::ServerTest</scope><name>createMockedPlayer</name></member>
+      <member refid="classGames_1_1Trylma_1_1ServerTest_1a65cab29b4063681f2b35d536ade65be2" prot="public" virt="non-virtual"><scope>Games::Trylma::ServerTest</scope><name>ifPlayerCouldMove</name></member>
+      <member refid="classGames_1_1Trylma_1_1ServerTest_1a91aaad205da873a8f85219b216469303" prot="public" virt="non-virtual"><scope>Games::Trylma::ServerTest</scope><name>setAvailableFields</name></member>
+      <member refid="classGames_1_1Trylma_1_1ServerTest_1a3a8928b2ac890edb5b41bc819bfb472c" prot="public" virt="non-virtual"><scope>Games::Trylma::ServerTest</scope><name>whoWinTheGame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

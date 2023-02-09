@@ -1,0 +1,139 @@
+.TH "frontend.ApplicationWindow" 3 "Thu Jan 27 2022" "Trylma" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+frontend.ApplicationWindow
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits JFrame\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBApplicationWindow\fP (\fBPlayerColor\fP \fBplayerColor\fP, int currentPlayerID, String JSONBoard)"
+.br
+.ti -1c
+.RI "void \fBsetCurrPlayer\fP (int currPlayerID)"
+.br
+.ti -1c
+.RI "void \fBifYouCurrentPlayer\fP (int currPlayer)"
+.br
+.ti -1c
+.RI "\fBBoard\fP \fBgetBoard\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetBoard\fP (String jsonBoard)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBDefaultBoard\fP \fBboard\fP"
+.br
+.in -1c
+.SS "Package Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBDefaultBoardBuilder\fP \fBbuilder\fP"
+.br
+.ti -1c
+.RI "\fBPlayerInfoPanel\fP \fBinfoPanel\fP"
+.br
+.ti -1c
+.RI "\fBPlayerColor\fP \fBplayerColor\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Displays and stores information about board, which player are we, who is current player\&. Main app window\&. 
+.PP
+Definition at line 14 of file ApplicationWindow\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "frontend\&.ApplicationWindow\&.ApplicationWindow (\fBPlayerColor\fP playerColor, int currentPlayerID, String JSONBoard)"
+Basic Constructor
+.PP
+\fBParameters\fP
+.RS 4
+\fIplayerColor\fP the color of our fields 
+.br
+\fIcurrentPlayerID\fP id of a current player 
+.br
+\fIJSONBoard\fP json board received from server 
+.RE
+.PP
+
+.PP
+Definition at line 29 of file ApplicationWindow\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBBoard\fP frontend\&.ApplicationWindow\&.getBoard ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+returns app board 
+.RE
+.PP
+
+.PP
+Definition at line 79 of file ApplicationWindow\&.java\&.
+.SS "void frontend\&.ApplicationWindow\&.ifYouCurrentPlayer (int currPlayer)"
+Gives us ability to make a move if we are the current player
+.PP
+\fBParameters\fP
+.RS 4
+\fIcurrPlayer\fP id of a current player 
+.RE
+.PP
+
+.PP
+Definition at line 68 of file ApplicationWindow\&.java\&.
+.SS "void frontend\&.ApplicationWindow\&.setBoard (String jsonBoard)"
+Sets and refreshes player board based on information from the server
+.PP
+\fBParameters\fP
+.RS 4
+\fIjsonBoard\fP json string with board from server 
+.RE
+.PP
+
+.PP
+Definition at line 90 of file ApplicationWindow\&.java\&.
+.SS "void frontend\&.ApplicationWindow\&.setCurrPlayer (int currPlayerID)"
+Changes data and displayed info about current player
+.PP
+\fBParameters\fP
+.RS 4
+\fIcurrPlayerID\fP id of a current player 
+.RE
+.PP
+
+.PP
+Definition at line 55 of file ApplicationWindow\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBDefaultBoard\fP frontend\&.ApplicationWindow\&.board"
+
+.PP
+Definition at line 19 of file ApplicationWindow\&.java\&.
+.SS "\fBDefaultBoardBuilder\fP frontend\&.ApplicationWindow\&.builder\fC [package]\fP"
+
+.PP
+Definition at line 16 of file ApplicationWindow\&.java\&.
+.SS "\fBPlayerInfoPanel\fP frontend\&.ApplicationWindow\&.infoPanel\fC [package]\fP"
+
+.PP
+Definition at line 17 of file ApplicationWindow\&.java\&.
+.SS "\fBPlayerColor\fP frontend\&.ApplicationWindow\&.playerColor\fC [package]\fP"
+
+.PP
+Definition at line 18 of file ApplicationWindow\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Trylma from the source code\&.

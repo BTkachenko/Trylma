@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classclientServer_1_1ClientTest" xml:lang="en-US">
+<title>clientServer.ClientTest Class Reference</title>
+<indexterm><primary>clientServer.ClientTest</primary></indexterm>
+Collaboration diagram for clientServer.ClientTest:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classclientServer_1_1ClientTest__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classclientServer_1_1ClientTest_1a21a7f962af68a6258952a2a6fcdf40a9">checkPlayMethod</link> ()  throws IOException </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 17 of file ClientTest.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classclientServer_1_1ClientTest_1a21a7f962af68a6258952a2a6fcdf40a9"/>    <section>
+    <title>checkPlayMethod()</title>
+<indexterm><primary>checkPlayMethod</primary><secondary>clientServer.ClientTest</secondary></indexterm>
+<indexterm><primary>clientServer.ClientTest</primary><secondary>checkPlayMethod</secondary></indexterm>
+<para><computeroutput>void clientServer.ClientTest.checkPlayMethod ( ) throws IOException</computeroutput></para><para>
+Definition at line 20 of file ClientTest.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TrylmaClient/src/test/java/clientServer/<link linkend="_ClientTest_8java">ClientTest.java</link></section>
+</section>

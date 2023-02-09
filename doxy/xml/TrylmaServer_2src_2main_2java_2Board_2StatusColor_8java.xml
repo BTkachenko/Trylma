@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="TrylmaServer_2src_2main_2java_2Board_2StatusColor_8java" kind="file" language="Java">
+    <compoundname>StatusColor.java</compoundname>
+    <innerclass refid="enumBoard_1_1StatusColor" prot="public">Board::StatusColor</innerclass>
+    <innernamespace refid="namespaceBoard">Board</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Board;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="enumBoard_1_1StatusColor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enumBoard_1_1StatusColor" kindref="compound">StatusColor</ref><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="enumBoard_1_1StatusColor_1abd3b82d11f8e52197668f94e5c325d7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumBoard_1_1StatusColor_1abd3b82d11f8e52197668f94e5c325d7e" kindref="member">ACTIVE</ref>(1),</highlight></codeline>
+<codeline lineno="9" refid="enumBoard_1_1StatusColor_1ab9df24d30d5d0b5ea52891a9fdf84340" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumBoard_1_1StatusColor_1ab9df24d30d5d0b5ea52891a9fdf84340" kindref="member">INACTIVE</ref>(2),</highlight></codeline>
+<codeline lineno="10" refid="enumBoard_1_1StatusColor_1af5e9181f7eb06d510bd4988082477619" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumBoard_1_1StatusColor_1af5e9181f7eb06d510bd4988082477619" kindref="member">POSSIBLE_MOVE</ref>(3);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="enumBoard_1_1StatusColor_1a9507e39ee2584d4843346cf3743f8806" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="enumBoard_1_1StatusColor_1a9507e39ee2584d4843346cf3743f8806" kindref="member">statusColorID</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="enumBoard_1_1StatusColor_1a4d365b008b74f7d8ca4793bd219b8955" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enumBoard_1_1StatusColor_1a4d365b008b74f7d8ca4793bd219b8955" kindref="member">StatusColor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>statusColorID)<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.statusColorID<sp/>=<sp/>statusColorID;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="enumBoard_1_1StatusColor_1a175dcc331ec76dbf74aeecd565f50d2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="enumBoard_1_1StatusColor" kindref="compound">StatusColor</ref><sp/><ref refid="enumBoard_1_1StatusColor_1a175dcc331ec76dbf74aeecd565f50d2d" kindref="member">fromInteger</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x)<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x<sp/>==<sp/>1)<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ACTIVE;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x<sp/>==<sp/>2)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>INACTIVE;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>POSSIBLE_MOVE;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="TrylmaServer/src/main/java/Board/StatusColor.java"/>
+  </compounddef>
+</doxygen>

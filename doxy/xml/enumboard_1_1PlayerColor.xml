@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="enumBoard_1_1PlayerColor" kind="enum" language="Java" prot="public">
+    <compoundname>Board::PlayerColor</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enumBoard_1_1PlayerColor_1a5b9b17d03d7e8d72e49536da09cec047" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Board.PlayerColor.BLUE</definition>
+        <argsstring></argsstring>
+        <name>BLUE</name>
+        <initializer>=(1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/PlayerColor.java" line="8" column="1" bodyfile="TrylmaServer/src/main/java/Board/PlayerColor.java" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classGame_1_1Game_1aa46f609ad611296b511b9f53786171e4" compoundref="Game_8java" startline="32" endline="50">Game.Game.Game</referencedby>
+        <referencedby refid="classBoard_1_1DefaultStartFields_1ae9ebe6303061b355b1ad05f5611db237" compoundref="DefaultStartFields_8java" startline="62" endline="122">Board.DefaultStartFields.setPlayerColors</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumBoard_1_1PlayerColor_1a8c3ed928ca81302192b825ba25a6dfce" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Board.PlayerColor.GREEN</definition>
+        <argsstring></argsstring>
+        <name>GREEN</name>
+        <initializer>=(2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/PlayerColor.java" line="9" column="1" bodyfile="TrylmaServer/src/main/java/Board/PlayerColor.java" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1DefaultStartFields_1ae9ebe6303061b355b1ad05f5611db237" compoundref="DefaultStartFields_8java" startline="62" endline="122">Board.DefaultStartFields.setPlayerColors</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumBoard_1_1PlayerColor_1a817aedcf5f1d4dea2443b490341dd39b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Board.PlayerColor.YELLOW</definition>
+        <argsstring></argsstring>
+        <name>YELLOW</name>
+        <initializer>=(3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/PlayerColor.java" line="10" column="1" bodyfile="TrylmaServer/src/main/java/Board/PlayerColor.java" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1DefaultStartFields_1ae9ebe6303061b355b1ad05f5611db237" compoundref="DefaultStartFields_8java" startline="62" endline="122">Board.DefaultStartFields.setPlayerColors</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumBoard_1_1PlayerColor_1a0d776fc98195559a3fc10f2689391cd7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Board.PlayerColor.ORANGE</definition>
+        <argsstring></argsstring>
+        <name>ORANGE</name>
+        <initializer>=(4)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/PlayerColor.java" line="11" column="1" bodyfile="TrylmaServer/src/main/java/Board/PlayerColor.java" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1DefaultStartFields_1ae9ebe6303061b355b1ad05f5611db237" compoundref="DefaultStartFields_8java" startline="62" endline="122">Board.DefaultStartFields.setPlayerColors</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumBoard_1_1PlayerColor_1a9f63d4f0ddaf258e594aedb8f904d294" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Board.PlayerColor.PINK</definition>
+        <argsstring></argsstring>
+        <name>PINK</name>
+        <initializer>=(5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/PlayerColor.java" line="12" column="1" bodyfile="TrylmaServer/src/main/java/Board/PlayerColor.java" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1DefaultStartFields_1ae9ebe6303061b355b1ad05f5611db237" compoundref="DefaultStartFields_8java" startline="62" endline="122">Board.DefaultStartFields.setPlayerColors</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumBoard_1_1PlayerColor_1a8b96a94c4eb4fb934bb2178bedd6021f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Board.PlayerColor.PURPLE</definition>
+        <argsstring></argsstring>
+        <name>PURPLE</name>
+        <initializer>=(6)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/PlayerColor.java" line="13" column="1" bodyfile="TrylmaServer/src/main/java/Board/PlayerColor.java" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1DefaultStartFields_1ae9ebe6303061b355b1ad05f5611db237" compoundref="DefaultStartFields_8java" startline="62" endline="122">Board.DefaultStartFields.setPlayerColors</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumBoard_1_1PlayerColor_1a0855ad5b9620cfccc6d946f5faeb8cb2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Board.PlayerColor.NO_PLAYER</definition>
+        <argsstring></argsstring>
+        <name>NO_PLAYER</name>
+        <initializer>=(7)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/PlayerColor.java" line="14" column="1" bodyfile="TrylmaServer/src/main/java/Board/PlayerColor.java" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1DefaultBoardBuilder_1a692703ff83daba5d45552532254bf8ce" compoundref="TrylmaServer_2src_2main_2java_2Board_2DefaultBoardBuilder_8java" startline="17" endline="45">Board.DefaultBoardBuilder.initializeBoardFields</referencedby>
+        <referencedby refid="classGame_1_1Game_1a72e34b794ec9b462e79e10e1ea325e3e" compoundref="Game_8java" startline="104" endline="136">Game.Game.move</referencedby>
+        <referencedby refid="classGame_1_1TrylmaRules_1a32f46dac6ee73fa063f7dfc5764c560b" compoundref="TrylmaRules_8java" startline="218" endline="240">Game.TrylmaRules.setAvailableFields</referencedby>
+        <referencedby refid="classGame_1_1TrylmaRules_1a23fb6382701182dc68e46b1e95e35c2a" compoundref="TrylmaRules_8java" startline="251" endline="277">Game.TrylmaRules.tryToJump</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enumBoard_1_1PlayerColor_1a52a214c4cfed04049920c3a3003d23e1" prot="public" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int Board.PlayerColor.playerColorID</definition>
+        <argsstring></argsstring>
+        <name>playerColorID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/PlayerColor.java" line="16" column="22" bodyfile="TrylmaServer/src/main/java/Board/PlayerColor.java" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108" compoundref="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java" startline="20" endline="38">Board.JSONBoardConverter.buildJSONBoard</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="enumBoard_1_1PlayerColor_1af8df92b85ef0abdb0e5e223ffec9c7f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Board.PlayerColor.PlayerColor</definition>
+        <argsstring>(int playerColorID)</argsstring>
+        <name>PlayerColor</name>
+        <param>
+          <type>int</type>
+          <declname>playerColorID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Each color is associated with a number (id) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>playerColorID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>color id </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/PlayerColor.java" line="23" column="5" bodyfile="TrylmaServer/src/main/java/Board/PlayerColor.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="enumBoard_1_1PlayerColor_1a88ebe864711719896c9ae253c09950c9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enumBoard_1_1PlayerColor" kindref="compound">PlayerColor</ref></type>
+        <definition>static PlayerColor Board.PlayerColor.fromInteger</definition>
+        <argsstring>(int x)</argsstring>
+        <name>fromInteger</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts a number to a color <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number given to convert </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>color associated with a given number </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/PlayerColor.java" line="33" column="31" bodyfile="TrylmaServer/src/main/java/Board/PlayerColor.java" bodystart="33" bodyend="50"/>
+        <referencedby refid="classBoard_1_1BoardField_1ae3a55dc93c5c6fb388cbee46cebd4551" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="30" endline="39">Board.BoardField.BoardField</referencedby>
+        <referencedby refid="classGame_1_1TrylmaRules_1a55879e1618908a076e85a070f0e663ee" compoundref="TrylmaRules_8java" startline="126" endline="210">Game.TrylmaRules.isWinner</referencedby>
+        <referencedby refid="classGame_1_1Game_1a72e34b794ec9b462e79e10e1ea325e3e" compoundref="Game_8java" startline="104" endline="136">Game.Game.move</referencedby>
+        <referencedby refid="classGames_1_1Trylma_1_1ServerTest_1a3a8928b2ac890edb5b41bc819bfb472c" compoundref="ServerTest_8java" startline="50" endline="85">Games.Trylma.ServerTest.whoWinTheGame</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Enum with possible player colors </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Board.PlayerColor</label>
+        <link refid="enumBoard_1_1PlayerColor"/>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaServer/src/main/java/Board/PlayerColor.java" line="7" column="7" bodyfile="TrylmaServer/src/main/java/Board/PlayerColor.java" bodystart="7" bodyend="51"/>
+    <listofallmembers>
+      <member refid="enumBoard_1_1PlayerColor_1a5b9b17d03d7e8d72e49536da09cec047" prot="public" virt="non-virtual"><scope>Board::PlayerColor</scope><name>BLUE</name></member>
+      <member refid="enumBoard_1_1PlayerColor_1a88ebe864711719896c9ae253c09950c9" prot="public" virt="non-virtual"><scope>Board::PlayerColor</scope><name>fromInteger</name></member>
+      <member refid="enumBoard_1_1PlayerColor_1a8c3ed928ca81302192b825ba25a6dfce" prot="public" virt="non-virtual"><scope>Board::PlayerColor</scope><name>GREEN</name></member>
+      <member refid="enumBoard_1_1PlayerColor_1a0855ad5b9620cfccc6d946f5faeb8cb2" prot="public" virt="non-virtual"><scope>Board::PlayerColor</scope><name>NO_PLAYER</name></member>
+      <member refid="enumBoard_1_1PlayerColor_1a0d776fc98195559a3fc10f2689391cd7" prot="public" virt="non-virtual"><scope>Board::PlayerColor</scope><name>ORANGE</name></member>
+      <member refid="enumBoard_1_1PlayerColor_1a9f63d4f0ddaf258e594aedb8f904d294" prot="public" virt="non-virtual"><scope>Board::PlayerColor</scope><name>PINK</name></member>
+      <member refid="enumBoard_1_1PlayerColor_1af8df92b85ef0abdb0e5e223ffec9c7f2" prot="public" virt="non-virtual"><scope>Board::PlayerColor</scope><name>PlayerColor</name></member>
+      <member refid="enumBoard_1_1PlayerColor_1a52a214c4cfed04049920c3a3003d23e1" prot="public" virt="non-virtual"><scope>Board::PlayerColor</scope><name>playerColorID</name></member>
+      <member refid="enumBoard_1_1PlayerColor_1a8b96a94c4eb4fb934bb2178bedd6021f" prot="public" virt="non-virtual"><scope>Board::PlayerColor</scope><name>PURPLE</name></member>
+      <member refid="enumBoard_1_1PlayerColor_1a817aedcf5f1d4dea2443b490341dd39b" prot="public" virt="non-virtual"><scope>Board::PlayerColor</scope><name>YELLOW</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

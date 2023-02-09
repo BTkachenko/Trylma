@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_43d709f99091969006e0af0a38572e97" kind="dir">
+    <compoundname>TrylmaServer</compoundname>
+    <innerdir refid="dir_b5684d15a2c94423b21230d2686b9dc0">TrylmaServer/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TrylmaServer/"/>
+  </compounddef>
+</doxygen>

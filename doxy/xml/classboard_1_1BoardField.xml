@@ -1,0 +1,532 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classBoard_1_1BoardField" kind="class" language="Java" prot="public">
+    <compoundname>Board::BoardField</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classBoard_1_1BoardField_1a3a49193fdf3196afb96ff9657bac622f" prot="private" static="no" mutable="no">
+        <type><ref refid="enumBoard_1_1PlayerColor" kindref="compound">PlayerColor</ref></type>
+        <definition>PlayerColor Board.BoardField.playerColor</definition>
+        <argsstring></argsstring>
+        <name>playerColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="10" column="25" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1BoardField_1a2ac8140fa52b0a3dde51f687be216eee" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="79" endline="81">Board.BoardField.getPlayerColor</referencedby>
+        <referencedby refid="classBoard_1_1BoardField_1ad9068a400cf1ef191f50b4762d23a86d" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="88" endline="90">Board.BoardField.setPlayerColor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classBoard_1_1BoardField_1a50c42f4a616a0280b109985f087e6ead" prot="private" static="no" mutable="no">
+        <type><ref refid="enumBoard_1_1StatusColor" kindref="compound">StatusColor</ref></type>
+        <definition>StatusColor Board.BoardField.statusColor</definition>
+        <argsstring></argsstring>
+        <name>statusColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="11" column="25" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1BoardField_1abb3ff54f22a70f86ccba76cc0550a66f" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="96" endline="98">Board.BoardField.getStatusColor</referencedby>
+        <referencedby refid="classBoard_1_1BoardField_1a01be54fb150ac721ede16a559a853506" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="105" endline="107">Board.BoardField.setStatusColor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classBoard_1_1BoardField_1a2c70faa4920e2d3ee12906a52fcbd0ba" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Board.BoardField.xPosition</definition>
+        <argsstring></argsstring>
+        <name>xPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="12" column="20" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1BoardField_1a63cce4a999a6732b19ca6e57468482a7" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="113" endline="115">Board.BoardField.getXPosition</referencedby>
+        <referencedby refid="classBoard_1_1BoardField_1abca2dd63d11cf5c2c38dc3c438a547d1" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="122" endline="124">Board.BoardField.setXPosition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classBoard_1_1BoardField_1aaebb8f67eb5f41ef8b4810081a0272d5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Board.BoardField.yPosition</definition>
+        <argsstring></argsstring>
+        <name>yPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="13" column="20" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1BoardField_1a25182ff0063167bc18733e2121fea3ee" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="130" endline="132">Board.BoardField.getYPosition</referencedby>
+        <referencedby refid="classBoard_1_1BoardField_1a6a370f1de8b048a6fa67a8861c19f8ef" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="139" endline="141">Board.BoardField.setYPosition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classBoard_1_1BoardField_1ad9b9e52342f0192a3d56ab63cb7d149a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Board.BoardField.row</definition>
+        <argsstring></argsstring>
+        <name>row</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="14" column="17" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1BoardField_1aaaa65e9f7b85480bd0f838224c4c60c2" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="45" endline="47">Board.BoardField.getRow</referencedby>
+        <referencedby refid="classBoard_1_1BoardField_1a41df0e6df452112593a7318e7d52f567" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="54" endline="56">Board.BoardField.setRow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classBoard_1_1BoardField_1ab219606a9fcd42e4f00e2711f78f99e9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Board.BoardField.column</definition>
+        <argsstring></argsstring>
+        <name>column</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="15" column="17" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classBoard_1_1BoardField_1a88c6a9aa9373a12036a0abbd1a82ba54" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="62" endline="64">Board.BoardField.getColumn</referencedby>
+        <referencedby refid="classBoard_1_1BoardField_1abe3af2fdb20361b29ee50703281a3daa" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="71" endline="73">Board.BoardField.setColumn</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classBoard_1_1BoardField_1ae3a55dc93c5c6fb388cbee46cebd4551" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Board.BoardField.BoardField</definition>
+        <argsstring>(int row, int column, double xPosition, double yPosition, int playerColorID, int statusColorID)</argsstring>
+        <name>BoardField</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xPosition</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yPosition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>playerColorID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>statusColorID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classBoard_1_1BoardField" kindref="compound">BoardField</ref> constructor, the board is made based on an int[][] array the field can be identified based on its position in that array</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the row of an array associated to this field </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>column</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the column of an array associated to this field </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xPosition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- X axis position on the screen </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>yPosition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Y axis position on the screen </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>playerColorID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- field current color </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>statusColorID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- field current status </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="30" column="12" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="30" bodyend="39"/>
+        <references refid="enumBoard_1_1PlayerColor_1a88ebe864711719896c9ae253c09950c9" compoundref="TrylmaServer_2src_2main_2java_2Board_2PlayerColor_8java" startline="33" endline="50">Board.PlayerColor.fromInteger</references>
+        <references refid="enumBoard_1_1StatusColor_1a175dcc331ec76dbf74aeecd565f50d2d" compoundref="TrylmaServer_2src_2main_2java_2Board_2StatusColor_8java" startline="29" endline="39">Board.StatusColor.fromInteger</references>
+        <references refid="classBoard_1_1BoardField_1abe3af2fdb20361b29ee50703281a3daa" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="71" endline="73">Board.BoardField.setColumn</references>
+        <references refid="classBoard_1_1BoardField_1ad9068a400cf1ef191f50b4762d23a86d" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="88" endline="90">Board.BoardField.setPlayerColor</references>
+        <references refid="classBoard_1_1BoardField_1a41df0e6df452112593a7318e7d52f567" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="54" endline="56">Board.BoardField.setRow</references>
+        <references refid="classBoard_1_1BoardField_1a01be54fb150ac721ede16a559a853506" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="105" endline="107">Board.BoardField.setStatusColor</references>
+        <references refid="classBoard_1_1BoardField_1abca2dd63d11cf5c2c38dc3c438a547d1" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="122" endline="124">Board.BoardField.setXPosition</references>
+        <references refid="classBoard_1_1BoardField_1a6a370f1de8b048a6fa67a8861c19f8ef" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="139" endline="141">Board.BoardField.setYPosition</references>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1BoardField_1aaaa65e9f7b85480bd0f838224c4c60c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Board.BoardField.getRow</definition>
+        <argsstring>()</argsstring>
+        <name>getRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns field row </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="45" column="16" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="45" bodyend="47"/>
+        <references refid="classBoard_1_1BoardField_1ad9b9e52342f0192a3d56ab63cb7d149a" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="14">Board.BoardField.row</references>
+        <referencedby refid="classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108" compoundref="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java" startline="20" endline="38">Board.JSONBoardConverter.buildJSONBoard</referencedby>
+        <referencedby refid="classGame_1_1TrylmaRules_1a078d521001938827f20ed77c37fd7214" compoundref="TrylmaRules_8java" startline="288" endline="318">Game.TrylmaRules.findNeighbors</referencedby>
+        <referencedby refid="classGame_1_1TrylmaRules_1af71efc71f4bddcdf6b0c6f57ac2428c7" compoundref="TrylmaRules_8java" startline="37" endline="123">Game.TrylmaRules.isStartingFieldInTargetTriangle</referencedby>
+        <referencedby refid="classGame_1_1TrylmaRules_1a23fb6382701182dc68e46b1e95e35c2a" compoundref="TrylmaRules_8java" startline="251" endline="277">Game.TrylmaRules.tryToJump</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1BoardField_1a41df0e6df452112593a7318e7d52f567" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Board.BoardField.setRow</definition>
+        <argsstring>(int row)</argsstring>
+        <name>setRow</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets field row <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>row the field is in </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="54" column="17" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="54" bodyend="56"/>
+        <references refid="classBoard_1_1BoardField_1ad9b9e52342f0192a3d56ab63cb7d149a" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="14">Board.BoardField.row</references>
+        <referencedby refid="classBoard_1_1BoardField_1ae3a55dc93c5c6fb388cbee46cebd4551" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="30" endline="39">Board.BoardField.BoardField</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1BoardField_1a88c6a9aa9373a12036a0abbd1a82ba54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Board.BoardField.getColumn</definition>
+        <argsstring>()</argsstring>
+        <name>getColumn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns field column </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="62" column="16" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="62" bodyend="64"/>
+        <references refid="classBoard_1_1BoardField_1ab219606a9fcd42e4f00e2711f78f99e9" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="15">Board.BoardField.column</references>
+        <referencedby refid="classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108" compoundref="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java" startline="20" endline="38">Board.JSONBoardConverter.buildJSONBoard</referencedby>
+        <referencedby refid="classGame_1_1TrylmaRules_1a078d521001938827f20ed77c37fd7214" compoundref="TrylmaRules_8java" startline="288" endline="318">Game.TrylmaRules.findNeighbors</referencedby>
+        <referencedby refid="classGame_1_1TrylmaRules_1af71efc71f4bddcdf6b0c6f57ac2428c7" compoundref="TrylmaRules_8java" startline="37" endline="123">Game.TrylmaRules.isStartingFieldInTargetTriangle</referencedby>
+        <referencedby refid="classGame_1_1TrylmaRules_1a23fb6382701182dc68e46b1e95e35c2a" compoundref="TrylmaRules_8java" startline="251" endline="277">Game.TrylmaRules.tryToJump</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1BoardField_1abe3af2fdb20361b29ee50703281a3daa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Board.BoardField.setColumn</definition>
+        <argsstring>(int column)</argsstring>
+        <name>setColumn</name>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets field column <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>column</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>column that the field is in </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="71" column="17" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="71" bodyend="73"/>
+        <references refid="classBoard_1_1BoardField_1ab219606a9fcd42e4f00e2711f78f99e9" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="15">Board.BoardField.column</references>
+        <referencedby refid="classBoard_1_1BoardField_1ae3a55dc93c5c6fb388cbee46cebd4551" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="30" endline="39">Board.BoardField.BoardField</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1BoardField_1a2ac8140fa52b0a3dde51f687be216eee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enumBoard_1_1PlayerColor" kindref="compound">PlayerColor</ref></type>
+        <definition>PlayerColor Board.BoardField.getPlayerColor</definition>
+        <argsstring>()</argsstring>
+        <name>getPlayerColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns fields current color </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="79" column="24" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="79" bodyend="81"/>
+        <references refid="classBoard_1_1BoardField_1a3a49193fdf3196afb96ff9657bac622f" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="10">Board.BoardField.playerColor</references>
+        <referencedby refid="classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108" compoundref="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java" startline="20" endline="38">Board.JSONBoardConverter.buildJSONBoard</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1BoardField_1ad9068a400cf1ef191f50b4762d23a86d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Board.BoardField.setPlayerColor</definition>
+        <argsstring>(PlayerColor playerColor)</argsstring>
+        <name>setPlayerColor</name>
+        <param>
+          <type><ref refid="enumBoard_1_1PlayerColor" kindref="compound">PlayerColor</ref></type>
+          <declname>playerColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the field color <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>playerColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a new player color </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="88" column="17" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="88" bodyend="90"/>
+        <references refid="classBoard_1_1BoardField_1a3a49193fdf3196afb96ff9657bac622f" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="10">Board.BoardField.playerColor</references>
+        <referencedby refid="classBoard_1_1BoardField_1ae3a55dc93c5c6fb388cbee46cebd4551" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="30" endline="39">Board.BoardField.BoardField</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1BoardField_1abb3ff54f22a70f86ccba76cc0550a66f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enumBoard_1_1StatusColor" kindref="compound">StatusColor</ref></type>
+        <definition>StatusColor Board.BoardField.getStatusColor</definition>
+        <argsstring>()</argsstring>
+        <name>getStatusColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns what is current field status </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="96" column="24" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="96" bodyend="98"/>
+        <references refid="classBoard_1_1BoardField_1a50c42f4a616a0280b109985f087e6ead" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="11">Board.BoardField.statusColor</references>
+        <referencedby refid="classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108" compoundref="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java" startline="20" endline="38">Board.JSONBoardConverter.buildJSONBoard</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1BoardField_1a01be54fb150ac721ede16a559a853506" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Board.BoardField.setStatusColor</definition>
+        <argsstring>(StatusColor statusColor)</argsstring>
+        <name>setStatusColor</name>
+        <param>
+          <type><ref refid="enumBoard_1_1StatusColor" kindref="compound">StatusColor</ref></type>
+          <declname>statusColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the field status <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>statusColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a new field status </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="105" column="17" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="105" bodyend="107"/>
+        <references refid="classBoard_1_1BoardField_1a50c42f4a616a0280b109985f087e6ead" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="11">Board.BoardField.statusColor</references>
+        <referencedby refid="classBoard_1_1BoardField_1ae3a55dc93c5c6fb388cbee46cebd4551" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="30" endline="39">Board.BoardField.BoardField</referencedby>
+        <referencedby refid="classGame_1_1Game_1a40a0dc857f18efe225d440b8e1da251f" compoundref="Game_8java" startline="74" endline="92">Game.Game.showPossibilities</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1BoardField_1a63cce4a999a6732b19ca6e57468482a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Board.BoardField.getXPosition</definition>
+        <argsstring>()</argsstring>
+        <name>getXPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns field X axis position </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="113" column="19" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="113" bodyend="115"/>
+        <references refid="classBoard_1_1BoardField_1a2c70faa4920e2d3ee12906a52fcbd0ba" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="12">Board.BoardField.xPosition</references>
+        <referencedby refid="classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108" compoundref="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java" startline="20" endline="38">Board.JSONBoardConverter.buildJSONBoard</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1BoardField_1abca2dd63d11cf5c2c38dc3c438a547d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Board.BoardField.setXPosition</definition>
+        <argsstring>(double xPosition)</argsstring>
+        <name>setXPosition</name>
+        <param>
+          <type>double</type>
+          <declname>xPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets field X axis position <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>xPosition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>field X axis position </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="122" column="17" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="122" bodyend="124"/>
+        <references refid="classBoard_1_1BoardField_1a2c70faa4920e2d3ee12906a52fcbd0ba" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="12">Board.BoardField.xPosition</references>
+        <referencedby refid="classBoard_1_1BoardField_1ae3a55dc93c5c6fb388cbee46cebd4551" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="30" endline="39">Board.BoardField.BoardField</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1BoardField_1a25182ff0063167bc18733e2121fea3ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Board.BoardField.getYPosition</definition>
+        <argsstring>()</argsstring>
+        <name>getYPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>returns field Y axis position </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="130" column="19" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="130" bodyend="132"/>
+        <references refid="classBoard_1_1BoardField_1aaebb8f67eb5f41ef8b4810081a0272d5" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="13">Board.BoardField.yPosition</references>
+        <referencedby refid="classBoard_1_1JSONBoardConverter_1a98038a40196e2a072ca99710b877a108" compoundref="TrylmaServer_2src_2main_2java_2Board_2JSONBoardConverter_8java" startline="20" endline="38">Board.JSONBoardConverter.buildJSONBoard</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classBoard_1_1BoardField_1a6a370f1de8b048a6fa67a8861c19f8ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Board.BoardField.setYPosition</definition>
+        <argsstring>(double yPosition)</argsstring>
+        <name>setYPosition</name>
+        <param>
+          <type>double</type>
+          <declname>yPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets field Y axis position <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>yPosition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>field Y axis position </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="139" column="17" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="139" bodyend="141"/>
+        <references refid="classBoard_1_1BoardField_1aaebb8f67eb5f41ef8b4810081a0272d5" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="13">Board.BoardField.yPosition</references>
+        <referencedby refid="classBoard_1_1BoardField_1ae3a55dc93c5c6fb388cbee46cebd4551" compoundref="TrylmaServer_2src_2main_2java_2Board_2BoardField_8java" startline="30" endline="39">Board.BoardField.BoardField</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A single field of a board, it stores information about its color, status and position </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>Board.StatusColor</label>
+        <link refid="enumBoard_1_1StatusColor"/>
+      </node>
+      <node id="1">
+        <label>Board.BoardField</label>
+        <link refid="classBoard_1_1BoardField"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-playerColor</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-statusColor</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Board.PlayerColor</label>
+        <link refid="enumBoard_1_1PlayerColor"/>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaServer/src/main/java/Board/BoardField.java" line="9" column="7" bodyfile="TrylmaServer/src/main/java/Board/BoardField.java" bodystart="9" bodyend="142"/>
+    <listofallmembers>
+      <member refid="classBoard_1_1BoardField_1ae3a55dc93c5c6fb388cbee46cebd4551" prot="public" virt="non-virtual"><scope>Board::BoardField</scope><name>BoardField</name></member>
+      <member refid="classBoard_1_1BoardField_1ab219606a9fcd42e4f00e2711f78f99e9" prot="private" virt="non-virtual"><scope>Board::BoardField</scope><name>column</name></member>
+      <member refid="classBoard_1_1BoardField_1a88c6a9aa9373a12036a0abbd1a82ba54" prot="public" virt="non-virtual"><scope>Board::BoardField</scope><name>getColumn</name></member>
+      <member refid="classBoard_1_1BoardField_1a2ac8140fa52b0a3dde51f687be216eee" prot="public" virt="non-virtual"><scope>Board::BoardField</scope><name>getPlayerColor</name></member>
+      <member refid="classBoard_1_1BoardField_1aaaa65e9f7b85480bd0f838224c4c60c2" prot="public" virt="non-virtual"><scope>Board::BoardField</scope><name>getRow</name></member>
+      <member refid="classBoard_1_1BoardField_1abb3ff54f22a70f86ccba76cc0550a66f" prot="public" virt="non-virtual"><scope>Board::BoardField</scope><name>getStatusColor</name></member>
+      <member refid="classBoard_1_1BoardField_1a63cce4a999a6732b19ca6e57468482a7" prot="public" virt="non-virtual"><scope>Board::BoardField</scope><name>getXPosition</name></member>
+      <member refid="classBoard_1_1BoardField_1a25182ff0063167bc18733e2121fea3ee" prot="public" virt="non-virtual"><scope>Board::BoardField</scope><name>getYPosition</name></member>
+      <member refid="classBoard_1_1BoardField_1a3a49193fdf3196afb96ff9657bac622f" prot="private" virt="non-virtual"><scope>Board::BoardField</scope><name>playerColor</name></member>
+      <member refid="classBoard_1_1BoardField_1ad9b9e52342f0192a3d56ab63cb7d149a" prot="private" virt="non-virtual"><scope>Board::BoardField</scope><name>row</name></member>
+      <member refid="classBoard_1_1BoardField_1abe3af2fdb20361b29ee50703281a3daa" prot="public" virt="non-virtual"><scope>Board::BoardField</scope><name>setColumn</name></member>
+      <member refid="classBoard_1_1BoardField_1ad9068a400cf1ef191f50b4762d23a86d" prot="public" virt="non-virtual"><scope>Board::BoardField</scope><name>setPlayerColor</name></member>
+      <member refid="classBoard_1_1BoardField_1a41df0e6df452112593a7318e7d52f567" prot="public" virt="non-virtual"><scope>Board::BoardField</scope><name>setRow</name></member>
+      <member refid="classBoard_1_1BoardField_1a01be54fb150ac721ede16a559a853506" prot="public" virt="non-virtual"><scope>Board::BoardField</scope><name>setStatusColor</name></member>
+      <member refid="classBoard_1_1BoardField_1abca2dd63d11cf5c2c38dc3c438a547d1" prot="public" virt="non-virtual"><scope>Board::BoardField</scope><name>setXPosition</name></member>
+      <member refid="classBoard_1_1BoardField_1a6a370f1de8b048a6fa67a8861c19f8ef" prot="public" virt="non-virtual"><scope>Board::BoardField</scope><name>setYPosition</name></member>
+      <member refid="classBoard_1_1BoardField_1a50c42f4a616a0280b109985f087e6ead" prot="private" virt="non-virtual"><scope>Board::BoardField</scope><name>statusColor</name></member>
+      <member refid="classBoard_1_1BoardField_1a2c70faa4920e2d3ee12906a52fcbd0ba" prot="private" virt="non-virtual"><scope>Board::BoardField</scope><name>xPosition</name></member>
+      <member refid="classBoard_1_1BoardField_1aaebb8f67eb5f41ef8b4810081a0272d5" prot="private" virt="non-virtual"><scope>Board::BoardField</scope><name>yPosition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

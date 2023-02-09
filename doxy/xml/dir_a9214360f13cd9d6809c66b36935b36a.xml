@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_a9214360f13cd9d6809c66b36935b36a" kind="dir">
+    <compoundname>TrylmaClient/src/main/java/socketClient</compoundname>
+    <innerfile refid="SocketClient_8java">SocketClient.java</innerfile>
+    <innerfile refid="TrylmaClient_8java">TrylmaClient.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="TrylmaClient/src/main/java/socketClient/"/>
+  </compounddef>
+</doxygen>

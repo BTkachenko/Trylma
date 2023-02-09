@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="interfaceBoard_1_1BoardBuilder" kind="interface" language="Java" prot="public">
+    <compoundname>Board::BoardBuilder</compoundname>
+    <derivedcompoundref refid="classBoard_1_1DefaultBoardBuilder" prot="public" virt="non-virtual">Board.DefaultBoardBuilder</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfaceBoard_1_1BoardBuilder_1a579e552d426f471bffafe025a6853150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Board.BoardBuilder.initializeBoardFields</definition>
+        <argsstring>(int[][] boardShape)</argsstring>
+        <name>initializeBoardFields</name>
+        <reimplementedby refid="classBoard_1_1DefaultBoardBuilder_1a692703ff83daba5d45552532254bf8ce">initializeBoardFields</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>boardShape</declname>
+          <array>[][]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes game board (its fields) based on given int[][] array</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>boardShape</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an array describing fields positions </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardBuilder.java" line="19" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interfaceBoard_1_1BoardBuilder_1a184cf1d0acf9ebcd7739f1cba048de1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Board.BoardBuilder.setBoardFields</definition>
+        <argsstring>(String JSONBoard)</argsstring>
+        <name>setBoardFields</name>
+        <reimplementedby refid="classBoard_1_1DefaultBoardBuilder_1a2c9e73e23fd12000bf1be9c76fa00b39">setBoardFields</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>JSONBoard</declname>
+        </param>
+        <exceptions> throws JSONException</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>builds a board based on String json</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>JSONBoard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>json that contains data about the board </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>JSONException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>exception when parsing json </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardBuilder.java" line="28" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interfaceBoard_1_1BoardBuilder_1a4ce73aab949398a70102084f6c5f3bf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Board.BoardBuilder.assignFields</definition>
+        <argsstring>(int numberOfPlayers)</argsstring>
+        <name>assignFields</name>
+        <reimplementedby refid="classBoard_1_1DefaultBoardBuilder_1a08e35f755f48f1e9cc5276c113f1b3de">assignFields</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>numberOfPlayers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns board fields to players according to they number</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>numberOfPlayers</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of players in the game </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/main/java/Board/BoardBuilder.java" line="36" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classBoard_1_1Board" kindref="compound">Board</ref> Builder interface <simplesect kind="see"><para><ref refid="classBoard_1_1DefaultBoardBuilder" kindref="compound">DefaultBoardBuilder</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Board.BoardBuilder</label>
+        <link refid="interfaceBoard_1_1BoardBuilder"/>
+      </node>
+      <node id="2">
+        <label>Board.DefaultBoardBuilder</label>
+        <link refid="classBoard_1_1DefaultBoardBuilder"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Board.BoardBuilder</label>
+        <link refid="interfaceBoard_1_1BoardBuilder"/>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaServer/src/main/java/Board/BoardBuilder.java" line="10" column="18" bodyfile="TrylmaServer/src/main/java/Board/BoardBuilder.java" bodystart="10" bodyend="37"/>
+    <listofallmembers>
+      <member refid="interfaceBoard_1_1BoardBuilder_1a4ce73aab949398a70102084f6c5f3bf4" prot="public" virt="non-virtual"><scope>Board::BoardBuilder</scope><name>assignFields</name></member>
+      <member refid="interfaceBoard_1_1BoardBuilder_1a579e552d426f471bffafe025a6853150" prot="public" virt="non-virtual"><scope>Board::BoardBuilder</scope><name>initializeBoardFields</name></member>
+      <member refid="interfaceBoard_1_1BoardBuilder_1a184cf1d0acf9ebcd7739f1cba048de1e" prot="public" virt="non-virtual"><scope>Board::BoardBuilder</scope><name>setBoardFields</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

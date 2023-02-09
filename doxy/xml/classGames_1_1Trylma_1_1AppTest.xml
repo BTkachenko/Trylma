@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classGames_1_1Trylma_1_1AppTest" kind="class" language="Java" prot="public">
+    <compoundname>Games::Trylma::AppTest</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGames_1_1Trylma_1_1AppTest_1a0336faa50f251fd2bbbb426573c80fdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Games.Trylma.AppTest.shouldAnswerWithTrue</definition>
+        <argsstring>()</argsstring>
+        <name>shouldAnswerWithTrue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rigorous Test :-) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TrylmaServer/src/test/java/Games/Trylma/AppTest.java" line="16" column="17" bodyfile="TrylmaServer/src/test/java/Games/Trylma/AppTest.java" bodystart="16" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Unit test for simple App. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Games.Trylma.AppTest</label>
+        <link refid="classGames_1_1Trylma_1_1AppTest"/>
+      </node>
+    </collaborationgraph>
+    <location file="TrylmaServer/src/test/java/Games/Trylma/AppTest.java" line="10" column="7" bodyfile="TrylmaServer/src/test/java/Games/Trylma/AppTest.java" bodystart="11" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classGames_1_1Trylma_1_1AppTest_1a0336faa50f251fd2bbbb426573c80fdc" prot="public" virt="non-virtual"><scope>Games::Trylma::AppTest</scope><name>shouldAnswerWithTrue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

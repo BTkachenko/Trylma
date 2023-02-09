@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_Rules_8java" xml:lang="en-US">
+<title>TrylmaServer/src/main/java/Game/Rules.java File Reference</title>
+<indexterm><primary>TrylmaServer/src/main/java/Game/Rules.java</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>interface <link linkend="_interfaceGame_1_1Rules">Game.Rules</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespaceGame">Game</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>
